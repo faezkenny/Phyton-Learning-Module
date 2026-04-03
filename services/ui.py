@@ -60,17 +60,6 @@ def render_kpis(kpis: list[tuple[str, str, str]]) -> None:
         )
 
 
-    progress = st.session_state.get("progress") or load_progress()
-    required_index = MODULE_UNLOCK_INDEX[module_key]
-    unlocked_index = progress.get("unlocked_module_index", 1)
-    if unlocked_index < required_index:
-        previous_module = MODULE_SEQUENCE[required_index - 2]
-        st.warning(
-            f"This sprint is locked. Complete {MODULE_LABELS[previous_module]} and pass its quiz to unlock this page."
-        )
-        st.stop()
-
-
 def sync_sources_if_needed(gemini_service) -> None:
     if st.session_state.get("source_sync_bootstrapped"):
         return
