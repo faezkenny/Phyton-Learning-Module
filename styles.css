@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 :root {
-  --background: #F8FAFC;
+  --background: #FFFFFF;
   --surface: #FFFFFF;
   --surface-tool: #FEF7F2;
-  --surface-tutorial: #F8FAFC;
+  --surface-tutorial: #FFFFFF;
   --text: #1E293B;
   --muted: #64748B;
   --accent: #F97316;
   --border: #E2E8F0;
   --btn-bg: #1E293B;
   --btn-text: #FFFFFF;
-  --header-bg: rgba(248, 250, 252, 0.92);
+  --header-bg: rgba(255, 255, 255, 0.92);
 }
 
 @media (prefers-color-scheme: dark) {
