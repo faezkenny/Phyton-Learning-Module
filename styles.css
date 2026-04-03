@@ -10,7 +10,7 @@
   --muted: #64748B;
   --accent: #F97316;
   --border: #E2E8F0;
-  --btn-bg: #1E293B;
+  --btn-bg: #F97316;
   --btn-text: #FFFFFF;
   --header-bg: rgba(255, 255, 255, 0.96);
 }
@@ -195,6 +195,12 @@ section[data-testid="stSidebar"] div {
   border: 1px solid var(--border) !important;
   background: var(--surface) !important;
   color: var(--text) !important;
+}
+
+[data-testid="stChatInput"] {
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03) !important;
 }
 
 .stSlider [data-baseweb="slider"] div[role="slider"] {
