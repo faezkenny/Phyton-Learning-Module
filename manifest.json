@@ -1,0 +1,10 @@
+{
+  "store": {
+    "name": null,
+    "display_name": "nebulous-core-sources"
+  },
+  "files": {},
+  "last_synced_at": null,
+  "status": "empty_sources",
+  "message": "The /sources folder is empty. Add PDFs or CSVs to sources/shared and any module folder such as sources/storage_bins, sources/warehouse_manager, or sources/intuition_engine to enable retrieval."
+}

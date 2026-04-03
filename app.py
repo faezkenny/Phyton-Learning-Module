@@ -1,0 +1,252 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+import streamlit as st
+
+from services.config import FIRST_TIME_TUTORIAL_PATH, MODULE_LABELS, MODULE_SEQUENCE, SOURCES_DIR, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
+from services.kimi_tutor import KimiTutorService
+from services.storage import initialize_session_state, load_manifest, save_progress
+from services.ui import (
+    bootstrap_app,
+    configure_page,
+    handle_tutor_interaction,
+    inject_styles,
+    render_kpis,
+    render_last_tutor_response,
+    render_plain_note,
+    render_section_heading,
+    render_sidebar,
+    render_study_notes_panel,
+    sync_sources_if_needed,
+)
+
+
+def render_learning_sprint_card(module_key: str, description: str, unlocked: bool) -> None:
+    destination = {
+        "storage_bins": "pages/01_Storage_Bins.py",
+        "shipping_manifest": "pages/02_Shipping_Manifest.py",
+        "quality_gate": "pages/03_Quality_Gate.py",
+        "warehouse_manager": "pages/04_Warehouse_Manager.py",
+        "intuition_engine": "pages/05_Intuition_Engine.py",
+        "quality_inspector": "pages/06_Quality_Inspector.py",
+        "future_predictor": "pages/07_Future_Predictor.py",
+    }[module_key]
+    status_text = "Unlocked" if unlocked else "Locked"
+    st.markdown(
+        (
+            "<div class='info-card'>"
+            f"<div class='card-label'>{status_text}</div>"
+            f"<div class='card-value'>{MODULE_LABELS[module_key]}</div>"
+            f"<div class='card-copy'>{description}</div>"
+            "</div>"
+        ),
+        unsafe_allow_html=True,
+    )
+    st.page_link(destination, label=f"Open {MODULE_LABELS[module_key]}", icon=":material/arrow_forward:")
+
+
+@st.dialog("First-Time Guide", width="large")
+def render_first_time_tutorial(progress: dict, source_count: int) -> None:
+    st.markdown(
+        "Start here if this is Ain's first time inside the dashboard. The goal is to reduce anxiety and make the first session feel obvious."
+    )
+    tutorial_steps = [
+        (
+            "1",
+            "Launch And Relax",
+            "Open the app and remember that missing API keys or source files do not break the dashboard. Demo data is already built in.",
+        ),
+        (
+            "2",
+            "Start With Module 1",
+            "Open Module 1 directly, which is the foundational learning module.",
+        ),
+        (
+            "3",
+            "Add Real Sources Later",
+            "If you already have PDFs or CSVs, drop them into sources/. If not, keep going with the demo dataset and come back later.",
+        ),
+        (
+            "4",
+            "Use The Sidebar",
+            "Ask Kimi why a chart changed, upload a shipment CSV if needed, and refresh Gemini indexing once source files exist.",
+        ),
+    ]
+    tutorial_columns = st.columns(4, gap="medium")
+    for column, (step_number, title, description) in zip(tutorial_columns, tutorial_steps):
+        with column:
+            st.markdown(
+                (
+                    "<div class='tutorial-card'>"
+                    f"<div class='tutorial-step'>{step_number}</div>"
+                    f"<div class='card-value'>{title}</div>"
+                    f"<div class='card-copy'>{description}</div>"
+                    "</div>"
+                ),
+                unsafe_allow_html=True,
+            )
+
+    start_column, status_column = st.columns([0.75, 1.25], gap="large")
+    with start_column:
+        st.page_link(
+            "pages/01_Storage_Bins.py",
+            label="Start Module 1",
+            icon=":material/play_circle:",
+        )
+    with status_column:
+        if source_count == 0:
+            render_plain_note(
+                "No local sources are indexed yet, which is completely fine for a first session. Ain can still learn the workflow with the built-in shipment demo."
+            )
+        elif not progress.get("completed_modules"):
+            render_plain_note(
+                f"{source_count} local source files are already indexed, so Ain can use the tutor with grounded retrieval from the beginning."
+            )
+
+    if FIRST_TIME_TUTORIAL_PATH.exists():
+        with st.expander("Open the full first-time tutorial", expanded=not progress.get("completed_modules")):
+            st.markdown(FIRST_TIME_TUTORIAL_PATH.read_text(encoding="utf-8"))
+
+    st.divider()
+    if not st.session_state["progress"].get("tutorial_shown", False):
+        if st.button("Got It, Let's Start! 🚀", type="primary"):
+            st.session_state["progress"]["tutorial_shown"] = True
+            save_progress(st.session_state["progress"])
+            st.rerun()
+
+
+def main() -> None:
+    configure_page("NEBULOUS-CORE | Mission Control")
+    inject_styles()
+    ensure_project_directories()
+    initialize_session_state(st.session_state)
+
+    gemini_service = GeminiRAGService()
+    kimi_service = KimiTutorService()
+    sync_sources_if_needed(gemini_service)
+    sidebar_payload = render_sidebar("home", gemini_service, kimi_service)
+
+    bootstrap_app("home")
+
+    progress = st.session_state["progress"]
+    manifest = load_manifest()
+    source_count = len(manifest.get("files", {}))
+    dataset_bundle = sidebar_payload["dataset_bundle"]
+    render_kpis(
+        [
+            ("Certification", progress["certification_level"], "Your current dashboard mastery tier."),
+            ("Sources Indexed", str(source_count), "Gemini-ready local PDFs and CSVs in /sources."),
+            ("Data Feed", dataset_bundle.source_label, "The shipment dataset currently powering the live demos."),
+        ]
+    )
+
+    for warning in dataset_bundle.warnings:
+        st.info(warning)
+
+    left_column, right_column = st.columns([1.3, 0.9], gap="large")
+    with left_column:
+        if not progress.get("tutorial_shown", False):
+            render_first_time_tutorial(progress, source_count)
+        render_section_heading(
+            "Curriculum Path",
+            "Seven stages from basic Python variables all the way to ARIMA forecasting. Complete each quiz to unlock the next stage and raise your certification level.",
+        )
+        render_plain_note(
+            "Start with Module 1 and work through each stage in order. The Analyst Toolbox is available after Module 3 as a practical reference for the tools used in later stages."
+        )
+        sprint_descriptions = {
+            "storage_bins": "Variables and types for single shipment facts like supplier name, coil weight, and confirmation status.",
+            "shipping_manifest": "Lists and dictionaries for storing several coils and their attributes like a logistics manifest.",
+            "quality_gate": "If/else logic and functions for repeatable safety-stock rules and shipping SOPs.",
+            "warehouse_manager": "Pandas loading, cleaning, and filtering of raw shipment tables.",
+            "intuition_engine": "Interactive fuzzy membership controls with a confidence cloud and symbolic math.",
+            "quality_inspector": "OLS versus Huber-weighted robust fitting on noisy steel-coil shipment data.",
+            "future_predictor": "ARIMA forecasting over quantity discrepancy with disruption scenario sliders.",
+        }
+        for module_key in MODULE_SEQUENCE:
+            unlocked = progress.get("unlocked_module_index", 1) >= MODULE_SEQUENCE.index(module_key) + 1
+            render_learning_sprint_card(module_key, sprint_descriptions[module_key], unlocked)
+
+        render_section_heading(
+            "Tutor Workflow",
+            "Use the sidebar as a blended copilot: Gemini pulls grounded evidence from local files, then Kimi turns it into a Socratic explanation that also teaches the Python behind the charts.",
+        )
+        render_plain_note(
+            "Recommended flow: keep the dashboard open in one tab, add PDFs or CSVs into /sources, then ask the tutor both why the chart moved and how the Python code caused that change."
+        )
+
+    with right_column:
+        render_section_heading(
+            "Architecture At A Glance",
+            "The dashboard is intentionally split into retrieval, reasoning, and live math so Ain can see both the evidence and the model behavior.",
+        )
+        st.markdown(
+            (
+                "<div class='info-card'>"
+                "<div class='card-label'>Gemini RAG</div>"
+                "<div class='card-copy'>Indexes local PDFs and CSVs from /sources, keeps them in sync through manifest hashing, and returns cited evidence snippets.</div>"
+                "</div>"
+                "<div class='info-card'>"
+                "<div class='card-label'>Kimi k2.5</div>"
+                "<div class='card-copy'>Acts as a Socratic tutor that reasons over the visible formulas, chart state, and Gemini evidence without exposing raw reasoning traces.</div>"
+                "</div>"
+                "<div class='info-card'>"
+                "<div class='card-label'>Learning Engine</div>"
+                "<div class='card-copy'>Streamlit pages, Plotly white-theme visuals, live code blocks, syntax breakdowns, quizzes, and local progress persistence keep the experience portfolio-ready and beginner-friendly.</div>"
+                "</div>"
+            ),
+            unsafe_allow_html=True,
+        )
+        render_section_heading(
+            "Source Library",
+            "Drop files into these folders to focus retrieval.",
+        )
+        st.code(
+            "\n".join(
+                [
+                    f"{Path(SOURCES_DIR).name}/shared",
+                    f"{Path(SOURCES_DIR).name}/toolbox",
+                    f"{Path(SOURCES_DIR).name}/storage_bins",
+                    f"{Path(SOURCES_DIR).name}/shipping_manifest",
+                    f"{Path(SOURCES_DIR).name}/quality_gate",
+                    f"{Path(SOURCES_DIR).name}/warehouse_manager",
+                    f"{Path(SOURCES_DIR).name}/intuition_engine",
+                    f"{Path(SOURCES_DIR).name}/quality_inspector",
+                    f"{Path(SOURCES_DIR).name}/future_predictor",
+                    f"{Path(SOURCES_DIR).name}/fuzzy",
+                    f"{Path(SOURCES_DIR).name}/robust",
+                    f"{Path(SOURCES_DIR).name}/forecast",
+                ]
+            )
+        )
+
+    render_study_notes_panel("home", gemini_service)
+
+    module_state = {
+        "certification_level": progress["certification_level"],
+        "unlocked_module_index": progress["unlocked_module_index"],
+        "indexed_source_files": source_count,
+        "dataset_source": dataset_bundle.source_label,
+    }
+    handle_tutor_interaction("home", module_state, sidebar_payload, gemini_service, kimi_service)
+    render_last_tutor_response()
+
+
+def __boot__() -> None:
+    pg = st.navigation([
+        st.Page(main, title="Home", icon="🏠", default=True),
+        st.Page("pages/01_Storage_Bins.py", title="Module 1: Storage bins"),
+        st.Page("pages/02_Shipping_Manifest.py", title="Module 2: Shipping Manifest"),
+        st.Page("pages/03_Quality_Gate.py", title="Module 3: Quality Gate"),
+        st.Page("pages/00_Analysts_Toolbox.py", title="Analyst Toolbox"),
+        st.Page("pages/04_Warehouse_Manager.py", title="Module 4: Warehouse Manager"),
+        st.Page("pages/05_Intuition_Engine.py", title="Module 5: Intuition Engine"),
+        st.Page("pages/06_Quality_Inspector.py", title="Module 6: Quality Inspector"),
+        st.Page("pages/07_Future_Predictor.py", title="Module 7: Future Predictor"),
+    ])
+    pg.run()
+
+
+__boot__()

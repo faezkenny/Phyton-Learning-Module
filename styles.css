@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --background: #F8FAFC;
+  --surface: #FFFFFF;
+  --text: #1E293B;
+  --muted: #64748B;
+  --accent: #F97316;
+  --border: #E2E8F0;
+}
+
+html, body, [class*="css"] {
+  font-family: "Inter", sans-serif;
+}
+
+.stApp {
+  background: var(--background);
+  color: var(--text);
+}
+
+section[data-testid="stSidebar"] {
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+}
+
+[data-testid="stHeader"] {
+  background: rgba(248, 250, 252, 0.92);
+}
+
+.eyebrow {
+  color: var(--accent);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.hero-title {
+  color: var(--text);
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 0.98;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+.hero-copy {
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 58rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: var(--text);
+  font-size: 1.45rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.section-copy {
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.info-card, .study-card, .tutor-card, .sidebar-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1.2rem 1.3rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.04);
+}
+
+.tool-card {
+  background: linear-gradient(180deg, #ffffff 0%, #fef7f2 100%);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1.1rem 1.1rem 1rem 1.1rem;
+  margin-bottom: 0.8rem;
+  min-height: 240px;
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.04);
+}
+
+.tutorial-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1.1rem 1.1rem 1rem 1.1rem;
+  margin-bottom: 0.8rem;
+  min-height: 220px;
+}
+
+.tutorial-step {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--text);
+  color: white;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.tool-icon {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(249, 115, 22, 0.12);
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.9rem;
+}
+
+.card-label {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 0.55rem;
+}
+
+.card-value {
+  color: var(--text);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+.card-copy {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.sidebar-title {
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.study-card, .tutor-card {
+  white-space: pre-wrap;
+}
+
+.stButton > button, .stDownloadButton > button {
+  border-radius: 999px;
+  border: 1px solid var(--text);
+  background: var(--text);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+}
+
+.stButton > button:hover, .stDownloadButton > button:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.stTextArea textarea, .stTextInput input, .stNumberInput input {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.stSlider [data-baseweb="slider"] div[role="slider"] {
+  background-color: var(--accent);
+}
+
+[data-testid="stForm"] {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1.2rem;
+}
+
+.stCodeBlock {
+  border-radius: 18px;
+}
+
+div[data-testid="stPopover"] {
+  position: fixed !important;
+  bottom: 2rem !important;
+  right: 2rem !important;
+  z-index: 999999 !important;
+  width: 65px !important;
+  height: 65px !important;
+  display: flex !important;
+  pointer-events: auto !important;
+}
+
+div[data-testid="stPopover"] button {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 65px !important;
+  min-height: 65px !important;
+  border-radius: 999px !important;
+  font-size: 2rem !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: var(--text) !important;
+  color: white !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[data-testid="stPopover"] button p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  display: block !important;
+}
+
+div[data-testid="stPopover"] button:hover {
+  background-color: var(--accent) !important;
+  color: white !important;
+}
+
+div[data-testid="stPopoverBody"] {
+  width: 420px !important;
+  max-width: 90vw !important;
+  max-height: 72vh !important;
+  min-height: 480px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  overscroll-behavior: contain !important;
+  padding-bottom: 1rem !important;
+}
