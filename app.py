@@ -145,6 +145,10 @@ def main() -> None:
     with left_column:
         if not progress.get("tutorial_shown", False):
             render_first_time_tutorial(progress, source_count)
+
+        if st.button("🗺️ Open Navigation Guide"):
+            render_first_time_tutorial(progress, source_count)
+
         render_section_heading(
             "Curriculum Path",
             "Seven stages from basic Python variables all the way to ARIMA forecasting. Complete each quiz to unlock the next stage and raise your certification level.",
