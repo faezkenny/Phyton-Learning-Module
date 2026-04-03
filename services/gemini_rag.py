@@ -143,7 +143,18 @@ class GeminiRAGService:
         client = self._get_client()
         store_name = manifest.get("store", {}).get("name")
         if not store_name:
-            store = client.file_search_stores.create(config={"display_name": "nebulous-core-sources"})
+            try:
+                store = client.file_search_stores.create(config={"display_name": "nebulous-core-sources"})
+            except Exception as exc:
+                message = self._friendly_error_message(
+                    exc,
+                    "Gemini could not create the source index right now.",
+                    "Gemini is temporarily rate-limited while creating the source index. Try again later; the dashboard can still run without RAG.",
+                )
+                manifest["status"] = "rate_limited" if self._is_resource_exhausted(exc) else "sync_error"
+                manifest["message"] = message
+                save_manifest(manifest)
+                return SyncResult(False, manifest["status"], message, None, len(source_records), 0, 0)
             store_name = store.name
             manifest["store"] = {"name": store_name, "display_name": getattr(store, "display_name", "nebulous-core-sources")}
 
@@ -192,8 +203,14 @@ class GeminiRAGService:
                 )
                 self._wait_for_operation(client, operation)
                 uploaded_files += 1
-            except Exception as e:
-                manifest.setdefault("warnings", []).append(f"Upload failed for {raw_display_name}: {e}")
+            except Exception as exc:
+                manifest.setdefault("warnings", []).append(
+                    self._friendly_error_message(
+                        exc,
+                        f"Upload failed for {raw_display_name}.",
+                        f"Upload skipped for {raw_display_name} because Gemini is temporarily rate-limited.",
+                    )
+                )
                 continue
 
         refreshed_documents = self._list_documents(store_name)
@@ -208,11 +225,32 @@ class GeminiRAGService:
                 "indexed_at": utc_now_iso(),
             }
 
-        manifest["status"] = "ready"
-        manifest["message"] = f"Gemini RAG is ready. {len(source_records)} source files indexed."
+        indexed_count = sum(1 for item in tracked_files.values() if item.get("document_name"))
+        warning_count = len(manifest.get("warnings", []))
+        if indexed_count == 0 and warning_count:
+            manifest["status"] = "rate_limited"
+            manifest["message"] = (
+                "Gemini could not index the local sources right now, likely due to quota limits. "
+                "The dashboard will keep working with local math demos and Kimi-only explanations."
+            )
+        else:
+            manifest["status"] = "ready"
+            manifest["message"] = (
+                f"Gemini RAG is ready. {indexed_count} source files indexed."
+                if warning_count == 0
+                else f"Gemini RAG indexed {indexed_count} files with {warning_count} warning(s)."
+            )
         manifest["last_synced_at"] = utc_now_iso()
         save_manifest(manifest)
-        return SyncResult(True, "ready", manifest["message"], store_name, len(source_records), uploaded_files, deleted_files)
+        return SyncResult(
+            manifest["status"] == "ready",
+            manifest["status"],
+            manifest["message"],
+            store_name,
+            len(source_records),
+            uploaded_files,
+            deleted_files,
+        )
 
     def retrieve_grounded_notes(self, query: str, module_key: str, prompt_prefix: str | None = None) -> dict[str, Any]:
         manifest = load_manifest()
@@ -251,20 +289,32 @@ class GeminiRAGService:
             metadata_filter = f'module="{module_key}" OR module="shared"'
 
         contents = query if not prompt_prefix else f"{prompt_prefix}\n\nUser task: {query}"
-        response = client.models.generate_content(
-            model=_GEMINI_MODEL,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                tools=[
-                    types.Tool(
-                        file_search=types.FileSearch(
-                            file_search_store_names=[store_name],
-                            metadata_filter=metadata_filter,
+        try:
+            response = client.models.generate_content(
+                model=_GEMINI_MODEL,
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    tools=[
+                        types.Tool(
+                            file_search=types.FileSearch(
+                                file_search_store_names=[store_name],
+                                metadata_filter=metadata_filter,
+                            )
                         )
-                    )
-                ]
-            ),
-        )
+                    ]
+                ),
+            )
+        except Exception as exc:
+            return {
+                "ok": False,
+                "message": self._friendly_error_message(
+                    exc,
+                    "Gemini retrieval is unavailable right now.",
+                    "Gemini retrieval is temporarily rate-limited. The tutor can still explain the visible code and math without local citations for now.",
+                ),
+                "answer": None,
+                "citations": [],
+            }
 
         answer_text = getattr(response, "text", "") or ""
         citations = self._normalize_citations(response)
@@ -298,7 +348,10 @@ class GeminiRAGService:
     def _wait_for_operation(self, client, operation) -> None:
         while not operation.done:
             time.sleep(2)
-            operation = client.operations.get(operation)
+            try:
+                operation = client.operations.get(operation)
+            except Exception:
+                break
 
     def _delete_document(self, document_name: str) -> None:
         client = self._get_client()
@@ -365,6 +418,16 @@ class GeminiRAGService:
                 }
             )
         return citations
+
+    def _is_resource_exhausted(self, exc: Exception) -> bool:
+        status_code = getattr(exc, "status_code", None)
+        message = str(exc).lower()
+        return status_code == 429 or "resource_exhausted" in message or "rate limit" in message or "quota" in message
+
+    def _friendly_error_message(self, exc: Exception, default_message: str, quota_message: str) -> str:
+        if self._is_resource_exhausted(exc):
+            return quota_message
+        return f"{default_message} {exc}"
 
     @staticmethod
     def _sha256_for_path(path: Path) -> str:
