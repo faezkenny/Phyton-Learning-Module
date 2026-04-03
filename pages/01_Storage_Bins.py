@@ -4,7 +4,6 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, TEXT_COLOR, ensure_project_directories
-from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import storage_bins_breakdown, storage_bins_live_code
 from services.storage import initialize_session_state
@@ -24,7 +23,6 @@ from services.ui import (
     render_sidebar,
     render_study_notes_panel,
     render_what_you_will_learn,
-    sync_sources_if_needed,
 )
 
 
@@ -35,10 +33,8 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("storage_bins")
 
-    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sync_sources_if_needed(gemini_service)
-    sidebar_payload = render_sidebar("storage_bins", gemini_service, kimi_service)
+    sidebar_payload = render_sidebar("storage_bins", kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
 
     bootstrap_app("storage_bins")
@@ -115,7 +111,7 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("storage_bins", gemini_service)
+    render_study_notes_panel("storage_bins", None)
     module_state = {
         "supplier_name": supplier_name,
         "coil_weight": float(coil_weight),
@@ -123,7 +119,7 @@ def main() -> None:
         "value_types": value_types,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("storage_bins", module_state, sidebar_payload, gemini_service, kimi_service)
+    handle_tutor_interaction("storage_bins", module_state, sidebar_payload, None, kimi_service)
     render_last_tutor_response()
     render_quiz("storage_bins")
 

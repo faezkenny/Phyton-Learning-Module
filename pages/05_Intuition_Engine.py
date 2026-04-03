@@ -6,7 +6,6 @@ import skfuzzy as fuzz
 import streamlit as st
 
 from services.config import PLOTLY_TEMPLATE, TEXT_COLOR, ACCENT_COLOR, ensure_project_directories
-from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import fuzzy_breakdown, fuzzy_live_code
 from services.storage import initialize_session_state
@@ -27,7 +26,6 @@ from services.ui import (
     render_sidebar,
     render_study_notes_panel,
     render_what_you_will_learn,
-    sync_sources_if_needed,
 )
 
 
@@ -48,10 +46,8 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("intuition_engine")
 
-    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sync_sources_if_needed(gemini_service)
-    sidebar_payload = render_sidebar("intuition_engine", gemini_service, kimi_service)
+    sidebar_payload = render_sidebar("intuition_engine", kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
 
     bootstrap_app("intuition_engine")
@@ -186,7 +182,7 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("intuition_engine", gemini_service)
+    render_study_notes_panel("intuition_engine", None)
     module_state = {
         "linguistic_label": linguistic_label,
         "a": round(a, 2),
@@ -198,7 +194,7 @@ def main() -> None:
         "dataset_source": dataset_bundle.source_label,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("intuition_engine", module_state, sidebar_payload, gemini_service, kimi_service)
+    handle_tutor_interaction("intuition_engine", module_state, sidebar_payload, None, kimi_service)
     render_last_tutor_response()
     render_quiz("intuition_engine")
 

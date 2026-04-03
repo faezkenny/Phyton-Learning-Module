@@ -89,11 +89,11 @@ def sync_sources_if_needed(gemini_service) -> None:
     st.session_state["source_sync_bootstrapped"] = True
 
 
-def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, Any]:
+def render_sidebar(module_key: str, kimi_service) -> dict[str, Any]:
     sidebar_payload: dict[str, Any] = {}
     with st.sidebar:
         st.markdown("<div class='sidebar-title'>Ain's Copilot</div>", unsafe_allow_html=True)
-        st.caption("Gemini retrieves evidence from local sources. Kimi turns it into a Socratic tutoring flow with Python-first explanations.")
+        st.caption("Ask questions about the Python code and data models on each page. The Kimi AI tutor will guide you using the Socratic method.")
 
         uploaded_file = st.file_uploader(
             "Optional shipment CSV",
@@ -117,27 +117,13 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
                 st.session_state["uploaded_dataset_status"] = "No uploaded dataset"
                 st.rerun()
 
-        manifest = load_manifest()
-        st.markdown("### Source Sync")
-        sync_status = manifest.get("status", "not_started")
-        source_count = len(manifest.get("files", {}))
-        st.markdown(
-            (
-                "<div class='sidebar-card'>"
-                f"<strong>Status:</strong> {sync_status}<br>"
-                f"<strong>Tracked files:</strong> {source_count}<br>"
-                f"<strong>Message:</strong> {manifest.get('message', 'Waiting for first sync.')}"
-                "</div>"
-            ),
-            unsafe_allow_html=True,
+        st.markdown("### 📚 Research Sources")
+        st.link_button(
+            "Open NotebookLM Notebook",
+            url="https://notebooklm.google.com/notebook/8f8d78ee-75f3-4306-a89f-911a6924c79e",
+            use_container_width=True,
         )
-        if st.button("Refresh Gemini Index", width="stretch"):
-            result = gemini_service.sync_sources(force=True)
-            st.session_state["manifest"] = load_manifest()
-            st.session_state["last_source_sync"] = st.session_state["manifest"].get("last_synced_at")
-            st.session_state["source_sync_message"] = result.message
-            sidebar_payload["sync_result"] = result
-            st.rerun()
+        st.caption("36 papers on fuzzy logic, robust regression, forecasting, and Python.")
 
     sidebar_payload["dataset_bundle"] = load_shipment_dataset(
         uploaded_csv_bytes=st.session_state.get("uploaded_csv_bytes"),
@@ -148,8 +134,6 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
         st.markdown("### Socratic Tutor")
         if not kimi_service.available:
             st.info("Add `MOONSHOT_API_KEY` to activate the Kimi tutor.")
-        if not gemini_service.available:
-            st.info("Add `GEMINI_API_KEY` to activate local PDF/CSV retrieval.")
 
         col_title, col_clear = st.columns([3, 1])
         with col_clear:

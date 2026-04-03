@@ -5,7 +5,6 @@ import streamlit as st
 
 from services.config import ensure_project_directories
 from services.data import load_shipment_dataset
-from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import warehouse_manager_breakdown, warehouse_manager_live_code
 from services.storage import initialize_session_state
@@ -25,7 +24,6 @@ from services.ui import (
     render_sidebar,
     render_study_notes_panel,
     render_what_you_will_learn,
-    sync_sources_if_needed,
 )
 
 
@@ -58,10 +56,8 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("warehouse_manager")
 
-    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sync_sources_if_needed(gemini_service)
-    sidebar_payload = render_sidebar("warehouse_manager", gemini_service, kimi_service)
+    sidebar_payload = render_sidebar("warehouse_manager", kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
     shipment_frame = dataset_bundle.dataframe.copy()
 
@@ -107,14 +103,14 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("warehouse_manager", gemini_service)
+    render_study_notes_panel("warehouse_manager", None)
     module_state = {
         "messy_rows": len(messy_frame),
         "clean_rows": len(cleaned_frame),
         "dataset_source": dataset_bundle.source_label,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("warehouse_manager", module_state, sidebar_payload, gemini_service, kimi_service)
+    handle_tutor_interaction("warehouse_manager", module_state, sidebar_payload, None, kimi_service)
     render_last_tutor_response()
     render_quiz("warehouse_manager")
 

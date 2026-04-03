@@ -5,7 +5,6 @@ from pathlib import Path
 import streamlit as st
 
 from services.config import FIRST_TIME_TUTORIAL_PATH, MODULE_LABELS, MODULE_SEQUENCE, SOURCES_DIR, ensure_project_directories
-from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.storage import initialize_session_state, load_manifest, save_progress
 from services.ui import (
@@ -19,7 +18,6 @@ from services.ui import (
     render_section_heading,
     render_sidebar,
     render_study_notes_panel,
-    sync_sources_if_needed,
 )
 
 
@@ -119,10 +117,8 @@ def main() -> None:
     ensure_project_directories()
     initialize_session_state(st.session_state)
 
-    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sync_sources_if_needed(gemini_service)
-    sidebar_payload = render_sidebar("home", gemini_service, kimi_service)
+    sidebar_payload = render_sidebar("home", kimi_service)
 
     bootstrap_app("home")
 
@@ -141,13 +137,11 @@ def main() -> None:
 
 
     progress = st.session_state["progress"]
-    manifest = load_manifest()
-    source_count = len(manifest.get("files", {}))
     dataset_bundle = sidebar_payload["dataset_bundle"]
     render_kpis(
         [
             ("Certification", progress["certification_level"], "Your current dashboard mastery tier."),
-            ("Sources Indexed", str(source_count), "Gemini-ready local PDFs and CSVs in /sources."),
+            ("Modules", f"{progress.get('unlocked_module_index', 1)} / 7", "Stages unlocked so far."),
             ("Data Feed", dataset_bundle.source_label, "The shipment dataset currently powering the live demos."),
         ]
     )
@@ -158,10 +152,10 @@ def main() -> None:
     left_column, right_column = st.columns([1.3, 0.9], gap="large")
     with left_column:
         if not progress.get("tutorial_shown", False):
-            render_first_time_tutorial(progress, source_count)
+            render_first_time_tutorial(progress, 0)
 
         if st.button("🗺️ Open Navigation Guide"):
-            render_first_time_tutorial(progress, source_count)
+            render_first_time_tutorial(progress, 0)
 
         render_section_heading(
             "Curriculum Path",
@@ -185,10 +179,10 @@ def main() -> None:
 
         render_section_heading(
             "Tutor Workflow",
-            "Use the sidebar as a blended copilot: Gemini pulls grounded evidence from local files, then Kimi turns it into a Socratic explanation that also teaches the Python behind the charts.",
+            "Use the AI Copilot in the sidebar to ask questions about the Python code and the models on each page. The tutor uses Socratic reasoning to guide you through concepts step by step.",
         )
         render_plain_note(
-            "Recommended flow: keep the dashboard open in one tab, add PDFs or CSVs into /sources, then ask the tutor both why the chart moved and how the Python code caused that change."
+            "Click the 💬 button or use the sidebar Ask box. Try asking: 'Why did the chart change when I moved the slider?' or 'Explain the Python loop on this page.'"
         )
 
     with right_column:
@@ -214,37 +208,33 @@ def main() -> None:
             unsafe_allow_html=True,
         )
         render_section_heading(
-            "Source Library",
-            "Drop files into these folders to focus retrieval.",
+            "Research Sources",
+            "All reference documents, papers, and reports used to build this dashboard are indexed in the NotebookLM notebook.",
         )
-        st.code(
-            "\n".join(
-                [
-                    f"{Path(SOURCES_DIR).name}/shared",
-                    f"{Path(SOURCES_DIR).name}/toolbox",
-                    f"{Path(SOURCES_DIR).name}/storage_bins",
-                    f"{Path(SOURCES_DIR).name}/shipping_manifest",
-                    f"{Path(SOURCES_DIR).name}/quality_gate",
-                    f"{Path(SOURCES_DIR).name}/warehouse_manager",
-                    f"{Path(SOURCES_DIR).name}/intuition_engine",
-                    f"{Path(SOURCES_DIR).name}/quality_inspector",
-                    f"{Path(SOURCES_DIR).name}/future_predictor",
-                    f"{Path(SOURCES_DIR).name}/fuzzy",
-                    f"{Path(SOURCES_DIR).name}/robust",
-                    f"{Path(SOURCES_DIR).name}/forecast",
-                ]
-            )
+        st.markdown(
+            (
+                "<div class='info-card'>"
+                "<div class='card-label'>📚 NotebookLM Notebook</div>"
+                "<div class='card-copy'>36 research documents — academic papers on fuzzy logic, robust regression, ARIMA forecasting, Python data science, and steel logistics — indexed and searchable.</div>"
+                "</div>"
+            ),
+            unsafe_allow_html=True,
+        )
+        st.link_button(
+            "🔗 Open Research Notebook",
+            url="https://notebooklm.google.com/notebook/8f8d78ee-75f3-4306-a89f-911a6924c79e",
+            use_container_width=True,
         )
 
-    render_study_notes_panel("home", gemini_service)
+    render_study_notes_panel("home", None)
 
     module_state = {
         "certification_level": progress["certification_level"],
         "unlocked_module_index": progress["unlocked_module_index"],
-        "indexed_source_files": source_count,
+        "indexed_source_files": 0,
         "dataset_source": dataset_bundle.source_label,
     }
-    handle_tutor_interaction("home", module_state, sidebar_payload, gemini_service, kimi_service)
+    handle_tutor_interaction("home", module_state, sidebar_payload, None, kimi_service)
     render_last_tutor_response()
 
 

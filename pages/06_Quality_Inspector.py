@@ -6,7 +6,6 @@ import statsmodels.api as sm
 import streamlit as st
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, TEXT_COLOR, ensure_project_directories
-from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import robust_breakdown, robust_live_code
 from services.storage import initialize_session_state
@@ -27,7 +26,6 @@ from services.ui import (
     render_sidebar,
     render_study_notes_panel,
     render_what_you_will_learn,
-    sync_sources_if_needed,
 )
 
 
@@ -38,10 +36,8 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("quality_inspector")
 
-    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sync_sources_if_needed(gemini_service)
-    sidebar_payload = render_sidebar("quality_inspector", gemini_service, kimi_service)
+    sidebar_payload = render_sidebar("quality_inspector", kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
     shipment_frame = dataset_bundle.dataframe.copy()
 
@@ -191,7 +187,7 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("quality_inspector", gemini_service)
+    render_study_notes_panel("quality_inspector", None)
     module_state = {
         "engage_robust_mode": engage_robust_mode,
         "huber_threshold": round(huber_threshold, 2),
@@ -201,7 +197,7 @@ def main() -> None:
         "dataset_source": dataset_bundle.source_label,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("quality_inspector", module_state, sidebar_payload, gemini_service, kimi_service)
+    handle_tutor_interaction("quality_inspector", module_state, sidebar_payload, None, kimi_service)
     render_last_tutor_response()
     render_quiz("quality_inspector")
 
