@@ -71,6 +71,15 @@ class GeminiRAGService:
         for path in sorted(SOURCES_DIR.rglob("*")):
             if not path.is_file() or path.name.startswith("."):
                 continue
+            
+            # WIPE ghost non-ASCII files left behind by Streamlit Cloud's `git pull` weirdness
+            if not path.name.isascii():
+                try:
+                    path.unlink()
+                except Exception:
+                    pass
+                continue
+
             if path.suffix.lower() not in SUPPORTED_SOURCE_SUFFIXES:
                 continue
             relative_path = path.relative_to(SOURCES_DIR.parent).as_posix()
