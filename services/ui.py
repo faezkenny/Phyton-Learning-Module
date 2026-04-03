@@ -226,9 +226,19 @@ def handle_tutor_interaction(
         )
         return g_notes, t_resp
 
-    # We remove the custom bulky spinner to rely purely on Streamlit's 
-    # native chat_input spinner and disabling mechanics, as requested by the user.
-    grounded_notes, tutor_response = process_tutor()
+    spinner_container = sidebar_payload.get("spinner_container")
+    
+    if spinner_container is not None:
+        with spinner_container:
+            with st.chat_message("user"):
+                st.markdown(submitted_prompt)
+            with st.chat_message("assistant"):
+                with st.spinner("Kimi and Gemini are analyzing the dashboard..."):
+                    grounded_notes, tutor_response = process_tutor()
+    else:
+        with st.spinner("Kimi and Gemini are analyzing the dashboard..."):
+            grounded_notes, tutor_response = process_tutor()
+            
     st.session_state["chat_messages"].append({"role": "user", "content": submitted_prompt})
 
     if not tutor_response.get("ok"):
