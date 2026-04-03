@@ -1,3 +1,4 @@
+"""Gemini RAG service — grounded evidence retrieval for the Socratic tutor."""
 from __future__ import annotations
 
 import hashlib
@@ -9,7 +10,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from .config import GEMINI_MODEL, ROOT_DIR, SOURCES_DIR, SUPPORTED_SOURCE_SUFFIXES
+from .config import GEMINI_MODEL, SOURCES_DIR, SUPPORTED_SOURCE_SUFFIXES
 from .storage import load_manifest, save_manifest, utc_now_iso
 
 # Allow override via environment variable for deployment flexibility (#3)
@@ -72,7 +73,7 @@ class GeminiRAGService:
                 continue
             if path.suffix.lower() not in SUPPORTED_SOURCE_SUFFIXES:
                 continue
-            relative_path = path.relative_to(ROOT_DIR).as_posix()
+            relative_path = path.relative_to(SOURCES_DIR.parent).as_posix()
             path_parts = path.relative_to(SOURCES_DIR).parts
             module_tag = "shared"
             if len(path_parts) > 1:
