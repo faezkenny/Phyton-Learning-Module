@@ -25,7 +25,15 @@ def enrich_shipment_data(dataframe: pd.DataFrame) -> pd.DataFrame:
     enriched = enriched.sort_values("shipment_date").reset_index(drop=True)
     enriched["ordered_quantity"] = pd.to_numeric(enriched["ordered_quantity"], errors="coerce")
     enriched["received_quantity"] = pd.to_numeric(enriched["received_quantity"], errors="coerce")
-    enriched["delay_days"] = pd.to_numeric(enriched["delay_days"], errors="coerce").fillna(0.0)
+    enriched["delay_days"] = pd.to_numeric(enriched["delay_days"], errors="coerce")
+    nan_delay_count = enriched["delay_days"].isna().sum()
+    if nan_delay_count > 0:  # Fix #7: warn instead of silently filling
+        import streamlit as _st
+        try:
+            _st.warning(f"{nan_delay_count} rows have missing delay_days and were filled with 0. Fuzzy and Huber models may be affected.")
+        except Exception:
+            pass  # safety guard if called outside Streamlit context
+    enriched["delay_days"] = enriched["delay_days"].fillna(0.0)
 
     if "war_disruption_index" not in enriched:
         enriched["war_disruption_index"] = np.clip(enriched["delay_days"] / 10.0, 0.0, 1.0)
@@ -110,14 +118,9 @@ def _read_csv(csv_bytes: bytes | None = None, path: Path | None = None) -> pd.Da
 
 
 def discover_local_csv_paths() -> Iterable[Path]:
-    preferred_locations = [
-        *(DATA_DIR.glob("*.csv")),
-        *(SOURCES_DIR.glob("*.csv")),
-        *(SOURCES_DIR.joinpath("forecast").glob("*.csv")),
-        *(SOURCES_DIR.rglob("*.csv")),
-    ]
     seen_paths: set[Path] = set()
-    for path in preferred_locations:
+    # Fix #6: consolidated rglob to avoid duplicate discovery
+    for path in [*DATA_DIR.glob("*.csv"), *SOURCES_DIR.rglob("*.csv")]:
         if path.is_file() and path not in seen_paths:
             seen_paths.add(path)
             yield path

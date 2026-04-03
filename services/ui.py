@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html as _html
 from pathlib import Path
 from typing import Any
 
@@ -44,12 +45,15 @@ def bootstrap_app(module_key: str) -> None:
 def render_kpis(kpis: list[tuple[str, str, str]]) -> None:
     columns = st.columns(len(kpis))
     for column, (label, value, description) in zip(columns, kpis):
+        safe_label = _html.escape(str(label))
+        safe_value = _html.escape(str(value))
+        safe_description = _html.escape(str(description))
         column.markdown(
             (
                 "<div class='info-card'>"
-                f"<div class='card-label'>{label}</div>"
-                f"<div class='card-value'>{value}</div>"
-                f"<div class='card-copy'>{description}</div>"
+                f"<div class='card-label'>{safe_label}</div>"
+                f"<div class='card-value'>{safe_value}</div>"
+                f"<div class='card-copy'>{safe_description}</div>"
                 "</div>"
             ),
             unsafe_allow_html=True,
@@ -71,10 +75,17 @@ def enforce_unlock(module_key: str) -> None:
 def sync_sources_if_needed(gemini_service) -> None:
     if st.session_state.get("source_sync_bootstrapped"):
         return
-    result = gemini_service.sync_sources(force=False)
+    manifest = load_manifest()
+    # #2: Only auto-sync on cold boot if manifest is absent (no store yet).
+    # Otherwise let users trigger manually to avoid blocking cold boot.
+    has_store = bool(manifest.get("store", {}).get("name"))
+    if not has_store:
+        result = gemini_service.sync_sources(force=False)
+    else:
+        result = type("_R", (), {"message": manifest.get("message", "Sources loaded from manifest.")})()  # type: ignore[misc]
     st.session_state["manifest"] = load_manifest()
     st.session_state["last_source_sync"] = st.session_state["manifest"].get("last_synced_at")
-    st.session_state["source_sync_message"] = result.message
+    st.session_state["source_sync_message"] = getattr(result, "message", "")
     st.session_state["source_sync_bootstrapped"] = True
 
 
@@ -90,10 +101,14 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
             key="shared_csv_uploader",
             help="If you upload a valid shipment CSV, the pages will use it instead of the synthetic demo dataset.",
         )
+        _MAX_CSV_BYTES = 5 * 1024 * 1024  # 5 MB #5
         if uploaded_file is not None:
-            st.session_state["uploaded_csv_name"] = uploaded_file.name
-            st.session_state["uploaded_csv_bytes"] = uploaded_file.getvalue()
-            st.session_state["uploaded_dataset_status"] = f"Using uploaded CSV: {uploaded_file.name}"
+            if uploaded_file.size > _MAX_CSV_BYTES:
+                st.warning(f"CSV too large ({uploaded_file.size // 1024} KB). Maximum size is 5 MB.")
+            else:
+                st.session_state["uploaded_csv_name"] = uploaded_file.name
+                st.session_state["uploaded_csv_bytes"] = uploaded_file.getvalue()
+                st.session_state["uploaded_dataset_status"] = f"Using uploaded CSV: {uploaded_file.name}"
         if st.session_state.get("uploaded_csv_name"):
             st.success(st.session_state["uploaded_dataset_status"])
             if st.button("Clear uploaded CSV", width="stretch"):

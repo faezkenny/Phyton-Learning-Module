@@ -8,6 +8,9 @@ from openai import OpenAI
 from .config import KIMI_MODEL, MOONSHOT_BASE_URL
 from .content import SOCRATIC_SEEDS
 
+# Allow override via environment variable for deployment flexibility
+_KIMI_MODEL = os.getenv("KIMI_MODEL", KIMI_MODEL)
+
 
 class KimiTutorService:
     def __init__(self, api_key: str | None = None, base_url: str = MOONSHOT_BASE_URL) -> None:
@@ -80,20 +83,28 @@ class KimiTutorService:
 
         try:
             completion = client.chat.completions.create(
-                model=KIMI_MODEL,
+                model=_KIMI_MODEL,
                 messages=messages,
                 temperature=0.6,
                 max_tokens=4096,
                 extra_body={"thinking": {"type": "disabled"}},
             )
-        except Exception as exc:
-            return {
-                "ok": False,
-                "message": f"Kimi could not answer right now: {exc}",
-                "content": None,
-                "next_question": None,
-                "assistant_message": None,
-            }
+        except Exception:
+            try:  # #10: Retry without non-standard extra_body on failure
+                completion = client.chat.completions.create(
+                    model=_KIMI_MODEL,
+                    messages=messages,
+                    temperature=0.6,
+                    max_tokens=4096,
+                )
+            except Exception:
+                return {
+                    "ok": False,
+                    "message": "The AI tutor is temporarily unavailable. Please try again shortly.",
+                    "content": None,
+                    "next_question": None,
+                    "assistant_message": None,
+                }
         message = completion.choices[0].message
         raw_content = message.content or ""
         next_question = self._extract_next_question(raw_content, module_key)
@@ -144,18 +155,26 @@ class KimiTutorService:
 
         try:
             completion = client.chat.completions.create(
-                model=KIMI_MODEL,
+                model=_KIMI_MODEL,
                 messages=messages,
                 temperature=0.6,
                 max_tokens=500,
                 extra_body={"thinking": {"type": "disabled"}},
             )
-        except Exception as exc:
-            return {
-                "ok": False,
-                "message": f"Kimi could not classify the problem right now: {exc}",
-                "content": None,
-            }
+        except Exception:
+            try:  # #10: Retry without non-standard extra_body on failure
+                completion = client.chat.completions.create(
+                    model=_KIMI_MODEL,
+                    messages=messages,
+                    temperature=0.6,
+                    max_tokens=500,
+                )
+            except Exception:
+                return {
+                    "ok": False,
+                    "message": "The department recommender is temporarily unavailable.",
+                    "content": None,
+                }
 
         message = completion.choices[0].message
         return {

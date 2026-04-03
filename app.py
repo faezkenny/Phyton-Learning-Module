@@ -126,17 +126,18 @@ def main() -> None:
 
     bootstrap_app("home")
 
-    import json
-    try:
-        with open('knowledge_base.json', 'r') as f:
-            kb = json.load(f)
-        st.markdown("<h2 class='section-title'>Fuzzy Logic Masterclass (NotebookLM Extraction)</h2>", unsafe_allow_html=True)
-        
-        fuzzy_module = kb["curriculum"]["intuition_engine"]
-        st.latex(fuzzy_module["math_latex"])
-        st.info(f"Thesis Insight: {fuzzy_module['viva_point']}")
-    except Exception as e:
-        st.error(f"Failed to load knowledge base: {e}")
+    import json as _json
+    _kb_path = Path(__file__).parent / "knowledge_base.json"
+    if _kb_path.exists():
+        try:
+            with _kb_path.open("r", encoding="utf-8") as _kb_file:
+                _kb = _json.load(_kb_file)
+            st.markdown("<h2 class='section-title'>Fuzzy Logic Masterclass (NotebookLM Extraction)</h2>", unsafe_allow_html=True)
+            _fuzzy_module = _kb["curriculum"]["intuition_engine"]
+            st.latex(_fuzzy_module["math_latex"])
+            st.info(f"Thesis Insight: {_fuzzy_module['viva_point']}")
+        except Exception:
+            pass  # Knowledge base unavailable — silently skip the panel
 
 
     progress = st.session_state["progress"]

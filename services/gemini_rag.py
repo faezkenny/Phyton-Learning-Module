@@ -4,12 +4,16 @@ import hashlib
 import mimetypes
 import os
 import time
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from .config import GEMINI_MODEL, ROOT_DIR, SOURCES_DIR, SUPPORTED_SOURCE_SUFFIXES
 from .storage import load_manifest, save_manifest, utc_now_iso
+
+# Allow override via environment variable for deployment flexibility (#3)
+_GEMINI_MODEL = os.getenv("GEMINI_MODEL", GEMINI_MODEL)
 
 
 @dataclass
@@ -163,7 +167,6 @@ class GeminiRAGService:
                 self._delete_document(existing_document_name)
                 deleted_files += 1
 
-            import unicodedata
             raw_display_name = Path(record.relative_path).name
             ascii_display_name = unicodedata.normalize("NFKD", raw_display_name).encode("ascii", "ignore").decode("ascii")
             operation = client.file_search_stores.upload_to_file_search_store(
@@ -231,7 +234,7 @@ class GeminiRAGService:
 
         contents = query if not prompt_prefix else f"{prompt_prefix}\n\nUser task: {query}"
         response = client.models.generate_content(
-            model=GEMINI_MODEL,
+            model=_GEMINI_MODEL,
             contents=contents,
             config=types.GenerateContentConfig(
                 tools=[
