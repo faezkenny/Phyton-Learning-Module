@@ -35,7 +35,7 @@ def main() -> None:
     kimi_service = KimiTutorService()
     sidebar_payload = render_sidebar("command_center", gemini_service, kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
-    df = dataset_bundle.frame
+    df = dataset_bundle.dataframe
 
     bootstrap_app("command_center")
     render_kpis(
