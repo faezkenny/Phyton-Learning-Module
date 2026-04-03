@@ -3,20 +3,30 @@
 :root {
   --background: #F8FAFC;
   --surface: #FFFFFF;
+  --surface-tool: #FEF7F2;
+  --surface-tutorial: #F8FAFC;
   --text: #1E293B;
   --muted: #64748B;
   --accent: #F97316;
   --border: #E2E8F0;
+  --btn-bg: #1E293B;
+  --btn-text: #FFFFFF;
+  --header-bg: rgba(248, 250, 252, 0.92);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0F172A;
     --surface: #1E293B;
+    --surface-tool: #1E293B;
+    --surface-tutorial: #0F172A;
     --text: #F8FAFC;
     --muted: #94A3B8;
     --accent: #F97316;
     --border: #334155;
+    --btn-bg: #F8FAFC;
+    --btn-text: #0F172A;
+    --header-bg: rgba(15, 23, 42, 0.92);
   }
 }
 
@@ -35,7 +45,7 @@ section[data-testid="stSidebar"] {
 }
 
 [data-testid="stHeader"] {
-  background: rgba(248, 250, 252, 0.92);
+  background: var(--header-bg);
 }
 
 .eyebrow {
@@ -84,7 +94,7 @@ section[data-testid="stSidebar"] {
 }
 
 .tool-card {
-  background: linear-gradient(180deg, #ffffff 0%, #fef7f2 100%);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-tool) 100%);
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 1.1rem 1.1rem 1rem 1.1rem;
@@ -94,7 +104,7 @@ section[data-testid="stSidebar"] {
 }
 
 .tutorial-card {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-tutorial) 100%);
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 1.1rem 1.1rem 1rem 1.1rem;
@@ -163,9 +173,9 @@ section[data-testid="stSidebar"] {
 
 .stButton > button, .stDownloadButton > button {
   border-radius: 999px;
-  border: 1px solid var(--text);
-  background: var(--text);
-  color: white;
+  border: 1px solid var(--border);
+  background: var(--btn-bg);
+  color: var(--btn-text);
   font-weight: 600;
   padding: 0.6rem 1rem;
 }
