@@ -9,6 +9,7 @@ import streamlit as st
 from statsmodels.tsa.arima.model import ARIMA
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, TEXT_COLOR, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import forecast_breakdown, forecast_live_code
 from services.storage import initialize_session_state
@@ -52,8 +53,9 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("future_predictor")
 
+    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sidebar_payload = render_sidebar("future_predictor", kimi_service)
+    sidebar_payload = render_sidebar("future_predictor", gemini_service, kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
     shipment_frame = dataset_bundle.dataframe.copy()
 
@@ -203,7 +205,7 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("future_predictor", None)
+    render_study_notes_panel("future_predictor", gemini_service)
     module_state = {
         "forecast_horizon_days": forecast_horizon,
         "discrepancy_multiplier": round(discrepancy_multiplier, 2),
@@ -214,7 +216,7 @@ def main() -> None:
         "dataset_source": dataset_bundle.source_label,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("future_predictor", module_state, sidebar_payload, None, kimi_service)
+    handle_tutor_interaction("future_predictor", module_state, sidebar_payload, gemini_service, kimi_service)
     render_last_tutor_response()
     render_quiz("future_predictor")
 

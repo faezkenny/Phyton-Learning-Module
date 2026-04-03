@@ -9,6 +9,7 @@ import statsmodels.api as sm
 import streamlit as st
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, TEXT_COLOR, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.storage import initialize_session_state
 from services.toolbox import TOOLBOX_DEPARTMENTS, heuristic_tool_recommendation
@@ -234,8 +235,9 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("toolbox")
 
+    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sidebar_payload = render_sidebar("toolbox", kimi_service)
+    sidebar_payload = render_sidebar("toolbox", gemini_service, kimi_service)
     dataset_bundle = sidebar_payload["dataset_bundle"]
     shipment_frame = dataset_bundle.dataframe.copy()
 
@@ -281,7 +283,7 @@ def main() -> None:
         "Recipe analogy: the ingredients are raw CSV rows, Python is the chef, and the kitchen tools are Pandas, NumPy, Plotly, Scikit-Fuzzy, and Statsmodels."
     )
 
-    render_study_notes_panel("toolbox", None)
+    render_study_notes_panel("toolbox", gemini_service)
     module_state = {
         "active_department": TOOLBOX_DEPARTMENTS[active_tool].name,
         "active_role": TOOLBOX_DEPARTMENTS[active_tool].factory_role,
@@ -289,7 +291,7 @@ def main() -> None:
         "dataset_source": dataset_bundle.source_label,
         "tool_recommendation": recommendation["content"] if recommendation else "No department recommendation requested yet.",
     }
-    handle_tutor_interaction("toolbox", module_state, sidebar_payload, None, kimi_service)
+    handle_tutor_interaction("toolbox", module_state, sidebar_payload, gemini_service, kimi_service)
     render_last_tutor_response()
     render_quiz("toolbox")
 

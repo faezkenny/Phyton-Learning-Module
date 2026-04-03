@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, TEXT_COLOR, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import quality_gate_breakdown, quality_gate_live_code
 from services.storage import initialize_session_state
@@ -37,8 +38,9 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("quality_gate")
 
+    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sidebar_payload = render_sidebar("quality_gate", kimi_service)
+    sidebar_payload = render_sidebar("quality_gate", gemini_service, kimi_service)
 
     bootstrap_app("quality_gate")
     render_kpis(
@@ -105,14 +107,14 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("quality_gate", None)
+    render_study_notes_panel("quality_gate", gemini_service)
     module_state = {
         "delay_days": delay_days,
         "threshold_days": threshold_days,
         "safety_stock_alert": safety_stock_alert,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("quality_gate", module_state, sidebar_payload, None, kimi_service)
+    handle_tutor_interaction("quality_gate", module_state, sidebar_payload, gemini_service, kimi_service)
     render_last_tutor_response()
     render_quiz("quality_gate")
 

@@ -5,6 +5,7 @@ from pathlib import Path
 import streamlit as st
 
 from services.config import FIRST_TIME_TUTORIAL_PATH, MODULE_LABELS, MODULE_SEQUENCE, SOURCES_DIR, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.storage import initialize_session_state, load_manifest, save_progress
 from services.ui import (
@@ -117,8 +118,9 @@ def main() -> None:
     ensure_project_directories()
     initialize_session_state(st.session_state)
 
+    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sidebar_payload = render_sidebar("home", kimi_service)
+    sidebar_payload = render_sidebar("home", gemini_service, kimi_service)
 
     bootstrap_app("home")
 
@@ -226,7 +228,7 @@ def main() -> None:
             use_container_width=True,
         )
 
-    render_study_notes_panel("home", None)
+    render_study_notes_panel("home", gemini_service)
 
     module_state = {
         "certification_level": progress["certification_level"],
@@ -234,7 +236,7 @@ def main() -> None:
         "indexed_source_files": 0,
         "dataset_source": dataset_bundle.source_label,
     }
-    handle_tutor_interaction("home", module_state, sidebar_payload, None, kimi_service)
+    handle_tutor_interaction("home", module_state, sidebar_payload, gemini_service, kimi_service)
     render_last_tutor_response()
 
 

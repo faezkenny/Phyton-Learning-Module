@@ -89,7 +89,7 @@ def sync_sources_if_needed(gemini_service) -> None:
     st.session_state["source_sync_bootstrapped"] = True
 
 
-def render_sidebar(module_key: str, kimi_service) -> dict[str, Any]:
+def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, Any]:
     sidebar_payload: dict[str, Any] = {}
     with st.sidebar:
         st.markdown("<div class='sidebar-title'>Ain's Copilot</div>", unsafe_allow_html=True)
@@ -134,6 +134,8 @@ def render_sidebar(module_key: str, kimi_service) -> dict[str, Any]:
         st.markdown("### Socratic Tutor")
         if not kimi_service.available:
             st.info("Add `MOONSHOT_API_KEY` to activate the Kimi tutor.")
+        if not gemini_service.available:
+            st.info("Add `GEMINI_API_KEY` to enable Gemini grounded evidence in the chatbot.")
 
         col_title, col_clear = st.columns([3, 1])
         with col_clear:

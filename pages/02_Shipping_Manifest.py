@@ -5,6 +5,7 @@ import plotly.express as px
 import streamlit as st
 
 from services.config import ACCENT_COLOR, PLOTLY_TEMPLATE, ensure_project_directories
+from services.gemini_rag import GeminiRAGService
 from services.kimi_tutor import KimiTutorService
 from services.python_learning import shipping_manifest_breakdown, shipping_manifest_live_code
 from services.storage import initialize_session_state
@@ -34,8 +35,9 @@ def main() -> None:
     initialize_session_state(st.session_state)
     enforce_unlock("shipping_manifest")
 
+    gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()
-    sidebar_payload = render_sidebar("shipping_manifest", kimi_service)
+    sidebar_payload = render_sidebar("shipping_manifest", gemini_service, kimi_service)
 
     st.session_state.setdefault("manifest_coils", ["COIL-101", "COIL-103"])
     st.session_state.setdefault("manifest_suppliers", {"PT Meratus": 42.0, "PT Cakra": 38.0})
@@ -108,13 +110,13 @@ def main() -> None:
         )
     )
 
-    render_study_notes_panel("shipping_manifest", None)
+    render_study_notes_panel("shipping_manifest", gemini_service)
     module_state = {
         "coil_manifest": coil_manifest,
         "supplier_manifest": supplier_manifest,
         "active_python_snippet": active_python_snippet,
     }
-    handle_tutor_interaction("shipping_manifest", module_state, sidebar_payload, None, kimi_service)
+    handle_tutor_interaction("shipping_manifest", module_state, sidebar_payload, gemini_service, kimi_service)
     render_last_tutor_response()
     render_quiz("shipping_manifest")
 
