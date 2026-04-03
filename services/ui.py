@@ -69,11 +69,11 @@ def sync_sources_if_needed(gemini_service) -> None:
     has_store = bool(manifest.get("store", {}).get("name"))
     if not has_store:
         result = gemini_service.sync_sources(force=False)
+        st.session_state["source_sync_message"] = getattr(result, "message", "")
     else:
-        result = type("_R", (), {"message": manifest.get("message", "Sources loaded from manifest.")})()  # type: ignore[misc]
+        st.session_state["source_sync_message"] = manifest.get("message", "Sources loaded from manifest.")
     st.session_state["manifest"] = load_manifest()
     st.session_state["last_source_sync"] = st.session_state["manifest"].get("last_synced_at")
-    st.session_state["source_sync_message"] = getattr(result, "message", "")
     st.session_state["source_sync_bootstrapped"] = True
 
 
