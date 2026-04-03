@@ -163,11 +163,14 @@ class GeminiRAGService:
                 self._delete_document(existing_document_name)
                 deleted_files += 1
 
+            import unicodedata
+            raw_display_name = Path(record.relative_path).name
+            ascii_display_name = unicodedata.normalize("NFKD", raw_display_name).encode("ascii", "ignore").decode("ascii")
             operation = client.file_search_stores.upload_to_file_search_store(
                 file=str(record.absolute_path),
                 file_search_store_name=store_name,
                 config={
-                    "display_name": Path(record.relative_path).name,
+                    "display_name": ascii_display_name or raw_display_name[:80],
                     "custom_metadata": self._metadata_items(record),
                 },
             )
