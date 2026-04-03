@@ -50,28 +50,28 @@ def render_learning_sprint_card(module_key: str, description: str, unlocked: boo
 @st.dialog("First-Time Guide", width="large")
 def render_first_time_tutorial(progress: dict, source_count: int) -> None:
     st.markdown(
-        "Start here if this is Ain's first time inside the dashboard. The goal is to reduce anxiety and make the first session feel obvious."
+        "Welcome aboard the Academic Flight Simulator! This dashboard is built for interactive learning. Here is how to navigate:"
     )
     tutorial_steps = [
         (
             "1",
-            "Launch And Relax",
-            "Open the app and remember that missing API keys or source files do not break the dashboard. Demo data is already built in.",
+            "Follow The Curriculum",
+            "Use the left sidebar to navigate. Start at Module 1. Complete the quiz at the bottom of each page to unlock the next level.",
         ),
         (
             "2",
-            "Start With Module 1",
-            "Open Module 1 directly, which is the foundational learning module.",
+            "Interactive Python",
+            "Inside each module, adjust the sliders. Watch how the charts and the 'Live Python Code' change automatically as you interact.",
         ),
         (
             "3",
-            "Add Real Sources Later",
-            "If you already have PDFs or CSVs, drop them into sources/. If not, keep going with the demo dataset and come back later.",
+            "Ain's AI Copilot",
+            "Stuck? Click the floating orange Chat Button (💬) at the bottom right to open the AI Socratic Tutor. It will explain exactly what the Python code is doing.",
         ),
         (
             "4",
-            "Use The Sidebar",
-            "Ask Kimi why a chart changed, upload a shipment CSV if needed, and refresh Gemini indexing once source files exist.",
+            "Learn by Doing",
+            "Don't worry about memorizing syntax. Ask the AI 'Why did this chart move when I adjusted the slider?' and use the 'Suggested Questions' to guide your learning.",
         ),
     ]
     tutorial_columns = st.columns(4, gap="medium")
@@ -98,16 +98,12 @@ def render_first_time_tutorial(progress: dict, source_count: int) -> None:
     with status_column:
         if source_count == 0:
             render_plain_note(
-                "No local sources are indexed yet, which is completely fine for a first session. Ain can still learn the workflow with the built-in shipment demo."
+                "You are currently using the built-in demo dataset. Perfect for your first flight! You can upload your own optionally via the sidebar."
             )
         elif not progress.get("completed_modules"):
             render_plain_note(
-                f"{source_count} local source files are already indexed, so Ain can use the tutor with grounded retrieval from the beginning."
+                f"{source_count} custom documents are indexed! The Copilot will use your own PDFs and CSVs to answer your questions during this syllabus."
             )
-
-    if FIRST_TIME_TUTORIAL_PATH.exists():
-        with st.expander("Open the full first-time tutorial", expanded=not progress.get("completed_modules")):
-            st.markdown(FIRST_TIME_TUTORIAL_PATH.read_text(encoding="utf-8"))
 
     st.divider()
     if not st.session_state["progress"].get("tutorial_shown", False):
