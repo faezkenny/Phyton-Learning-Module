@@ -151,6 +151,8 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
                 if citations:
                     st.caption("Sources: " + " | ".join(Path(citation.get("source_path", "local-source")).name for citation in citations[:3]))
 
+        sidebar_payload["spinner_container"] = st.container()
+
         st.caption("Suggested questions:")
         for suggestion in kimi_service.default_seed_questions(module_key)[:3]:
             if st.button(suggestion, key=f"{module_key}-{suggestion}", use_container_width=True):
@@ -164,9 +166,6 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
         if queued_prompt and not sidebar_payload.get("submitted_prompt"):
             sidebar_payload["submitted_prompt"] = queued_prompt
             st.session_state["queued_tutor_prompt"] = None
-
-        if sidebar_payload.get("submitted_prompt"):
-            sidebar_payload["spinner_container"] = st.container()
 
     return sidebar_payload
 
