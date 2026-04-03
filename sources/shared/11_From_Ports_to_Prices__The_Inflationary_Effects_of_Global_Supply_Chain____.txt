@@ -1,0 +1,652 @@
+Title: From Ports to Prices: The Inflationary Effects of Global Supply Chain ...
+Source URL: https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026026-source-pdf.pdf
+
+================================================================================
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxSBCpzOO00Af4urxIJyYwSJNEgYQ5MyDSk2K8oVB8jDFHo5sgJL0o4x_PGAFKltQNrx7IDeGF7X9UrmUgFIhu1fl95dIFaoYLlIf2SkVLELkawV20HhNQg1HvPvHcXPVW4kE7E_g=w1280-h414-v0
+
+edecb0f2-17d1-4635-adcd-71d087112def
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzFACyLT1ED6U8NkknfXY-9NqR_f1KD6eSS8Up8hBdQ1kBqoeIUcwtVCYPWd6Hfe13Eg53eathCGCqxZow3VIk4RhUweF9OR8KP-nKBy-0DVVkt34Hmk8piQFHKp11Eiz8k7VI0=w1280-h414-v0
+
+91c26db6-3e16-4354-b35e-0eac1d4bb236
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzVXiAFKulqq4Ouu-ILveKmgu2uXq80yfkIdCj-Tsgr2erEpFReiHJyZInOffgCvFrRoPToguJBxTlk5xXqaJu6PXg7eUmoTVxJzH9hfGg4jsBCWEOD9HspHuwMeUQiF6lNvq3q=w1280-h414-v0
+
+174affb5-9481-49bc-a6e8-04695d529b3e
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwZeVQGs4XrzbdsOSdmSgEclqz-EyRKRmTEqiV4ye264l2IkgAkUqHuk6naHZfBpd5GTT98CuE2g5lgWa_mhNrar8qMC0vk89lLgwE9xJ0jnWCnzICemtsTSXWrUnF42lhsTEsSyw=w1280-h412-v0
+
+215521aa-d97e-473e-9b4b-63ef4c98c920
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAymLdYYzNMdvIsD18Znmi3S3QRzNZCQ2Uj17oyNUMi_W1qpnDFxoJ5UKLdtvBQGMUwyN3ebChtlPghN-ACr-m8F8adYw5laYkeWXUxuxiCsoDzF_P8jiZgxbgpc66XzgIkpx_sR=w452-h452-v0
+
+2a1eb5c0-2095-4b58-b3cc-128d4e550048
+
+2026 FEB 
+
+From Ports to Prices:   The Inflationary Effects of Global Supply Chain Disruptions 
+
+Yang Jiao, Ting Lan, Yang Liu, and Xinrui Zhou 
+
+WP/26/26 
+
+IMF Working Papers describe research in 
+
+progress by the author(s) and are published to 
+
+elicit comments and to encourage debate. 
+
+The views expressed in IMF Working Papers are 
+
+those of the author(s) and do not necessarily 
+
+represent the views of the IMF, its Executive Board, 
+
+or IMF management. 
+
+* The authors would like to thank Yuning Xu for excellent research assistance, Camelia Minoiu, and 2026 AEA 
+
+Annual Meeting participants for their valuable comments. Yang Jiao acknowledges financial support by 
+
+Singapore Ministry of Education Tier 1 Academic Research Fund (24-SOE-SMU-017). Yang Jiao: Singapore 
+
+Management University; Ting Lan: International Monetary Fund; Yang Liu: International Monetary Fund; and 
+
+ 
+
+© 2026 International Monetary Fund WP/26/26 
+
+IMF Working Paper 
+
+Research Department 
+
+From Ports to Prices: The Inflationary Effects of Global Supply Chain Disruptions 
+
+Prepared by Yang Jiao, Ting Lan, Yang Liu, and Xinrui Zhou* 
+
+Authorized for distribution by Rudolfs Bems February 2026 
+
+IMF Working Papers describe research in progress by the author(s) and are published to elicit 
+
+comments and to encourage debate. The views expressed in IMF Working Papers are those of the 
+
+author(s) and do not necessarily represent the views of the IMF, its Executive Board, or IMF management. 
+
+ABSTRACT: This paper examines the inflationary effects of shipping delays.We construct a novel measure of 
+
+port-to-port shipping time using real-time AIS maritime data and link itwith granular port-level trade and item-
+
+level price data. We document substantial heterogeneity in goods imports across ports and regions, variation in 
+
+exposure to delays, and aggregate price responses to congestion shocks. Exploiting cross-product variations in 
+
+exposure, we estimate both the average and dynamic effects of shipping delays on consumer prices, finding 
+
+that a 100-hour delay raises inflation by roughly 0.5 percentage points at its five-month peak. 
+
+RECOMMENDED CITATION: Jiao, Yang, Ting Lan, Yang Liu, and Xinrui Zhou, “From Ports to Prices: The 
+
+Inflationary Effects of Global Supply Chain Disruptions,” IMF Working Paper 26/26. 
+
+JEL Classification Numbers: E31 F10 F60 G31 
+
+Keywords: Supply Chain Disruption; Port Congestion; Inflation; Price Dynamics 
+
+Authors’ E-Mail Addresses: yangjiao@smu.edu.sg; tlan@imf.org; yliu10@imf.org; 
+
+xinruiz@umich.edu  
+
+IMF WORKING PAPERS From Ports to Prices: The Inflationary Effects of Global Supply Chain Disruptions 
+
+INTERNATIONAL MONETARY FUND 3 
+
+WORKING PAPERS 
+
+From Ports to Prices:      The Inflationary Effects of Global Supply Chain Disruptions 
+
+Prepared by Yang Jiao, Ting Lan, Yang Liu, and Xinrui Zhou 
+
+1 Introduction 
+
+Global supply chains have made the world more interconnected than ever before, providing 
+
+households and firms unprecedented access to goods, resources, and markets. However, this 
+
+interconnectedness also creates vulnerabilities, as disruptions in one part of the value chain can 
+
+quickly ripple across countries and sectors. Events such as natural disasters, trade wars, military 
+
+conflicts, labor strikes, and pandemics can severely hinder the smooth flow of goods, resulting 
+
+in delays, shortages, and increased costs (Alessandria et al., 2023; Bai et al., 2024). How do such 
+
+supply chain disruptions affect the domestic economy? This paper studies the effects of a major 
+
+supply chain disruption during the COVID-19 crisis on US inflation, focusing on shipping delays 
+
+largely driven by port congestion. 
+
+Shipping delays, a critical disruption in global supply chains, can have widespread economic 
+
+impacts, as ocean shipping is the primary mode of transportation for about 80% of global trade. 
+
+Using a novel measure of shipping delays linked to granular port-level trade and item-level price 
+
+data, this paper exploits cross-product variation in exposure to shipping delays to estimate their 
+
+effects on domestic inflation dynamics. 
+
+2 Data 
+
+Our analysis draws on three main data sources: granular port-level trade data from the USA 
+
+Trade Online database, maritime traffic data derived from the Automatic Identification System 
+
+(AIS) and detailed item-level price data from the Bureau of Labor Statistics (BLS). 
+
+2.1 Granular Level Import Data 
+
+The USA Trade Online database provides monthly import values at the HS 6-digit level for all US 
+
+ports disaggregated by transportation mode. For our analysis, we focus on 93 US mainland sea-
+
+ports over the period 2017–2023 and compute the import shares by product for each mainland 
+
+seaport.1 
+
+2.2 Maritime Traffic Data 
+
+The real-time maritime traffic data are drawn from the AIS. Transponders—mandatory for nearly 
+
+all cargo vessels—broadcast high-frequency information on vessel type, location, speed, and 
+
+1BLS domestic price data are available at the item level, which often corresponds to multiple HS 4-digit codes. We construct a concordance between HS 4-digit codes and BLS item categories to link the import data to item-level price data. 
+
+1
+
+draught, which is collected by terrestrial stations and satellites to enable global tracking of ship 
+
+movements. Building on the machine-learning–based methodology of Cerdeiro et al. (2020), 
+
+which identifies port boundaries and reconstructs port-to-port voyages, we construct port-to-
+
+port travel time measures for all US ports over the period January 2017 to July 2023.2 To focus 
+
+on global manufacturing supply chains, we restrict the sample to vessels engaged in goods 
+
+transportation. 
+
+For each vessel arriving at a US port, we measure shipping time from its previous foreign 
+
+port of call through its departure from the port. We then construct monthly port-level indicators 
+
+of shipping delays by aggregating vessel-level shipping times to the port–month level using a 
+
+simple average, and expressing them relative to their level 12 months earlier. 
+
+2.3 Domestic Price Data 
+
+Domestic price data come from the BLS Consumer Price Index at the item level. Our analysis 
+
+includes 99 items at monthly frequency,3 covering household consumption categories such 
+
+as food and beverages, apparel and footwear, recreational goods, household equipment and 
+
+furnishings, motor vehicles, medical care goods, education and communication products, and 
+
+personal care products. 
+
+3 Stylized Facts 
+
+By combining granular port-level import data with real-time maritime traffic data and detailed 
+
+domestic price data, we document three stylized facts. 
+
+First, import shares vary substantially across regions and major ports, both within and across 
+
+product categories, providing the basis for our empirical strategy to identify the causal effect 
+
+of shipping delays on US CPI. For each product category, we calculate how import shares are 
+
+distributed across ports. Within the same product category, import shares differ substantially 
+
+across major ports—including those located in the same region. For example, in the case of 
+
+footwear and headgear, West Coast ports dominate overall, but there remains notable variation 
+
+among them: the Port of Los Angeles accounts for roughly 54% of US imports in this category, 
+
+followed by Long Beach (10%), Seattle (4%), and Tacoma (4%). Across product categories, other-
+
+wise similar products often enter the United States through different port gateways. For instance, 
+
+while footwear and headgear are heavily concentrated on the West Coast, textile products exhibit 
+
+2Since our focus is on international trade, we exclude voyages whose origin and destination ports are both within the United States. 
+
+3The BLS CPI basket includes roughly 200 item strata covering goods and services. Our analysis focuses exclu-sively on goods. 
+
+2
+
+Figure 1: Average Shipping Time 
+
+Panel A. By Region 
+
+0 
+
+200 
+
+400 
+
+600 
+
+800 
+
+1000 
+
+H ou 
+
+rs 
+
+2017 2018 2019 2020 2021 2022 2023 
+
+West Northeast South 
+
+Panel B. By Top 5 Major Ports 
+
+0 
+
+200 
+
+400 
+
+600 
+
+800 
+
+1000 
+
+H ou 
+
+rs 
+
+2017 2018 2019 2020 2021 2022 2023 
+
+Los Angeles, CA New York, NY Savannah, GA Houston, TX Norfolk–Newport News, VA 
+
+Note: The figure plots average shipping time for vessels arriving at major gateway regions (left panel) and the five largest US ports (right panel) from January 2017 to July 2023. Port-level average shipping time is the simple average across vessels, while regional average is weighted by each port’s 2017 import share to proxy for port size. Source:Cerdeiro et al. (2020); and author’s calculations. 
+
+a much more dispersed import pattern, with 36% entering through Los Angeles, 18% through 
+
+Newark, 11% through Savannah, 5% through Long Beach, and 5% through Charleston. 
+
+Second, shipping delays vary widely in both intensity and timing across ports. Figure 1 plots 
+
+the average shipping time for vessels arriving at the major gateway regions (left panel) and the 
+
+five largest US ports (right panel) from January 2017 to July 2023. 4 Relative to the pre-congestion 
+
+period, West Coast ports experienced the most pronounced increase in shipping time. Average 
+
+shipping time in the West—about 400 hours before the pandemic—began rising in early 2021, 
+
+peaked at roughly 700 hours in early 2022, and gradually returned to normal by 2023. Congestion 
+
+was considerably milder in the South and the Northeast. While Northeast ports exhibit no clear 
+
+congestion episode, southern ports show a modest but noticeable rise in shipping time. Among 
+
+the five largest US ports, the Port of Los Angeles experienced the sharpest increase in delays, 
+
+followed by Savannah, Houston, and Norfolk. The timing of peak congestion varies across ports: 
+
+Savannah saw its most severe bottleneck in mid-2021, improved temporarily, and then faced 
+
+another buildup around mid-2022. In contrast, Los Angeles, Houston, and Norfolk reached their 
+
+peak congestion around early 2022. 
+
+Finally, US inflation rises substantially during periods of prolonged shipping delays. Figure 2 
+
+plots aggregate price changes against aggregate average shipping time between January 2017 
+
+and July 2023. Domestic consumer inflation rose sharply during the congestion episode, peaking 
+
+4Port-level average shipping time is calculated as the simple average across vessels arriving at each port, whereas regional average shipping time is computed as an import-value–weighted average, using each port’s 2017 import value as weight to proxy for port size. 
+
+3
+
+Figure 2: Inflation and Shipping Time 
+
+300 
+
+350 
+
+400 
+
+450 
+
+500 
+
+550 
+
+H ou 
+
+rs 
+
+-5 
+
+0 
+
+5 
+
+10 
+
+15 
+
+% 
+
+2017 2018 2019 2020 2021 2022 2023 2024 
+
+Domestic inflation(excl. autos) Import inflation (consumer goods, excl. autos) CIF-FOB Margin (consumer goods) Shipping-time 
+
+Note: The figure shows domestic inflation (blue solid line), import inflation (red dash-dot line), transport costs (green dotted line), and shipping time (black dashed line) from January 2017 to July 2023. Domestic inflation is measured as the year-on-year percentage change in the CPI for all goods excluding automotives, while import inflation is measured as the year-on-year percentage change in the BLS Import Price Index for consumer goods excluding automotives. Transport costs are proxied by the CIF–FOB margin, computed as (CIF/Customs 
+
+Value)−1 
+
+for consumer goods using data from USA Trade Online. Aggregate average shipping time is calculated as an import-value–weighted average across ports, with weights given by each port’s 2017 import value to proxy for port size. Source: Bureau of Labor Statistics (BLS); USA Trade Online; Cerdeiro et al. (2020); and authors’ calculations. 
+
+at approximately 15% in mid-2022, while import-price inflation remained much more muted, 
+
+reaching only about 3% earlier that year. Shipping and insurance costs were stable at around 
+
+4% of import value before the pandemic, and increased only slightly to about 5% during the 
+
+congestion. 
+
+4 Impacts of Shipping Delays on Domestic Consumer Price In-
+
+flation 
+
+Motivated by the stylized facts that products enter the United States through different ports 
+
+and that congestion intensity varies across ports, we develop an empirical strategy that exploits 
+
+cross-product variation in exposure to shipping delays to estimate its average effect on product-
+
+level inflation. We construct a monthly product-level measure of shipping delay, by weighing 
+
+each port p’s change in shipping time by the share of total US imports of good g that enter the 
+
+US through port p in 2017, prior to the US-China trade war and COVID-19–related shipping 
+
+disruptions. More specifically, 
+
+Θg 
+
+t 
+
+= ∑ 
+
+p sg p 
+
+·∆τpt 
+
+, where sg p denotes the share of product g ’s 
+
+imports that enter through port p, constructed using import share from year 2017. 
+
+τpt 
+
+is the 
+
+4
+
+average shipping time of vessels arrived at port p in period t and 
+
+∆τpt 
+
+is the change in shipping 
+
+time relative to its level 12 months earlier. Shipping time is measured in units of 100 hours. 5 
+
+We then estimate the impact of shipping delays at the product–month level on product-level 
+
+inflation using the following specification, 
+
+πg 
+
+t 
+
+=α+β ·Θg 
+
+t 
+
++γt +µg +δXg 
+
+t 
+
++εg 
+
+t , (1) 
+
+where 
+
+πg 
+
+t is the 12-month log change in the price index of product g at time t , and 
+
+γt 
+
+and 
+
+µg 
+
+represent time and product fixed effects, respectively. 
+
+β 
+
+is the parameter of interest, captures the 
+
+overall average effect of shipping delays on product-level inflation. To account for the possibility 
+
+that product-time–specific demand and supply shocks simultaneously affect prices, the control 
+
+vector Xg t includes a Bartik-style fiscal stimulus measure to proxy for demand shocks and a 
+
+China tariff exposure measure to capture product-level supply shocks.6 
+
+Table 1 presents the estimated coefficients. Column (1) uses the contemporaneous con-
+
+gestion shock, while Column (2) considers the effect of a one-month lagged congestion shock. 
+
+Column (3) examines the response of consumer prices excluding oil, and Column (4) further 
+
+controls for other product–time level supply and demand shocks. 
+
+The empirical results suggest that a 100-hour shipping delay increases consumer goods infla-
+
+tion by 1.194 percentage points. We obtain similar magnitudes if we use the lagged measure of 
+
+shipping delay or exclude oil products from the analysis. Furthermore, controlling for product-
+
+time level supply and demand shocks does not materially change the estimated effect, sug-
+
+gesting that these results reflect the impacts of shipping delays rather than other product-level 
+
+shocks. 
+
+We then estimate the dynamic responses of consumer inflation to shipping delays, using the 
+
+local projection methodology of Jordà (2005). Specifically, the empirical setting is 
+
+πg ,t+h = βhΘg 
+
+,t 
+
++ P∑ 
+
+p=1 ρh,p πg ,t−p + 
+
+Q∑ q=1 
+
+θh,qΘg ,t−q + αg + γt + εg ,t+h 
+
+, (2) 
+
+where 
+
+πg ,t+h 
+
+denotes the inflation of product g at t 
+
++h 
+
+(expressed in percentage points). We 
+
+control for inflation lagged 1 to 12 months (P 
+
+= 
+
+12) and shipping delays lagged 1 to 6 months 
+
+(Q 
+
+= 
+
+6). As the local projection specification removes feedback effects between inflation and 
+
+shipping delays, the estimated dynamic responses 
+
+βh 
+
+in Equation (2) typically differ from the 
+
+5At the peak of shipping delays, aggregate average shipping time increased by nearly 200 hours. 6The fiscal stimulus shock is constructed by combining state-level excess refundable tax credits from the BEA 
+
+CAINC35 table with pre-pandemic (2017) state-level absorption shares for product g from the Commodity Flow Sur-vey, while the China tariff exposure measure is computed by multiplying the product-level tariff by each product’s 2017 import share sourced from China. 
+
+5
+
+Table 1: Effects of Shipping Delays on Consumer Price Inflation 
+
+(1) (2) (3) (4) All Consumer All Consumer Drop Oil Drop Oil 
+
+Goods Goods With Controls Shipping Delay 1.194 1.249 1.420 
+
+(0.326) (0.327) (0.350) Lagged Shipping Delay 1.135 
+
+(0.307) Observations 6,499 6,402 6,432 5,494 R-squared 0.304 0.303 0.347 0.354 Number of Items 97 97 96 82 Product FE Yes Yes Yes Yes Time FE Yes Yes Yes Yes 
+
+Note: The table reports the overall effects of shipping delays on consumer inflation. Inflation is measured in percent-age points, and shipping delays are expressed in 100-hour units. Robust standard errors, clustered at the product level, are reported in parentheses. 
+
+baseline estimate 
+
+β 
+
+in Equation (1). Figure 3 shows that inflation peaks about five months after 
+
+the shock before gradually tapering off. At its peak, a 100-hour shipping delay raises consumer 
+
+inflation by about 0.5 percentage points. 
+
+Figure 3: Dynamic Effects of Shipping Delays on Consumer Inflation 
+
+-.5 
+
+0 
+
+.5 
+
+1 
+
+Ef fe 
+
+ct  o 
+
+n Yo 
+
+Y in 
+
+fla tio 
+
+n (% 
+
+) 
+
+0 3 6 9 12 Months after the congestion shock 
+
+Note: The figure reports local projection estimates of the response of consumer inflation to shipping delays. The solid line plots the estimated impulse response 
+
+β̂h 
+
+at horizon h. Dark and light shaded areas indicate 68 percent and 90 percent confidence intervals, respectively. 
+
+6
+
+5 Conclusion 
+
+This paper studies the inflationary effects of shipping delays. We construct a novel measure 
+
+of port-to-port shipping time using real-time maritime traffic data from the AIS and combine 
+
+it with granular port-level trade data and domestic item-level price data. We document three 
+
+stylized facts regarding the heterogeneity in goods imported across ports and regions, the vari-
+
+ation in exposure to shipping delays, and the aggregate price responses to congestion shocks. 
+
+Motivated by these facts, we exploit cross-product variation in exposure to shipping delays to es-
+
+timate both the average and dynamic effects of shipping delays on consumer prices. We find that 
+
+a 100-hour shipping delay raises consumer inflation by approximately 0.5 percentage points at 
+
+its five-month peak. In a companion paper (Jiao et al., 2025), we further investigate the channels 
+
+through which shipping delays transmit to consumer prices using both empirical evidence and 
+
+quantitative analysis. 
+
+References 
+
+Alessandria, George, Shafaat Yar Khan, Armen Khederlarian, Carter Mix, and Kim J Ruhl. 2023. 
+
+“The aggregate effects of global and local supply chain disruptions: 2020–2022.” Journal of 
+
+International Economics, 146: 103788. 
+
+Bai, Xiwen, Jesús Fernández-Villaverde, Yiliang Li, and Francesco Zanetti. 2024. “The causal 
+
+effects of global supply chain disruptions on macroeconomic outcomes: evidence and theory.” 
+
+NBER Working Paper Series No. 32098. 
+
+Cerdeiro, Diego A, Mr Diego A Cerdeiro, Andras Komaromi, Yang Liu, and Mamoon Saeed. 
+
+2020. “World seaborne trade in real time: A proof of concept for building AIS-based nowcasts 
+
+from scratch.” IMF Working Papers 2020, 057. 
+
+Jiao, Yang, Ting Lan, Yang Liu, and Xinrui Zhou. 2025. “Shipping Delays and Domestic Inflation: 
+
+Uncovering the Transmission Channels.” Unpublished mimeo. 
+
+Jordà, Òscar. 2005. “Estimation and inference of impulse responses by local projections.” Amer-
+
+ican Economic Review, 95(1): 161–182. 
+
+7
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwq83SL0pK2-Lmqwa6-QNRm4XJUbdHcH6hqzgnqhb94BYdQ4ykKLBhB1xMkLSEbBQ5Kjn3dDwOjvhT8JasFa6fj80WPJ1-2kKF6LOfXSxnjpdQQa4YiFgkhWELhz9mT945_qM94=w1280-h1243-v0
+
+e8754e7a-3112-44d9-b726-6d69ffb9425a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwjzTowzqXkTb3X3CJlmSDKxXc5s_Cb_lXwso4KRAPBXxsCZDlBKDG1inTn9wGwFdMpX1uCNXTglAAD7jouIm1J-ZTkplwrugsLCppUBFf3yDLc90DAj_--k6Ue0UD7co8LAH_h=w1280-h412-v0
+
+149624e5-77df-47b1-9af6-73ef4f4d8cf7
+
+From Ports to Prices: The Inflationary Effects of Global Supply Chain 
+
+Disruptions Working Paper No. WP/2026/026

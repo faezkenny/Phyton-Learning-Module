@@ -1,0 +1,692 @@
+Title: The 2026 State of Shipping and Logistics Report | GlobalTranz
+Source URL: https://www.globaltranz.com/wp-content/uploads/sites/2/2026/01/2026-State-of-the-Industry-Report.pdf
+
+================================================================================
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwBPk4JSE7KvM-ZGzNhqdb3N-sdIkZRBs9kZIxKUZZOAGf29UBhThTcBYRD2mfLdMdmt-nhN8k2JgPz3n4OHt7UJmrkH0HzDWCRxa-82OIw5jUBNsyV0Kjyh7vva6ZYq2IAn3Us=w990-h1280-v0
+
+6ffb5e0a-55b3-4cb5-92cb-88d2233cab5a
+
+Shipping Trends for 2026 
+
+The 2026 State of Shipping and Logistics Report
+
+ About WWEX Group 
+
+The WWEX Group family of brands, which includes Worldwide Express, GlobalTranz, Unishippers, JEAR Logistics and BLX Logistics, offers full-service logistics expertise to more than 113,000 customers across the country. With access to industry leading small package, truckload, less-than-truckload and managed transportation solutions, customers benefit from enhanced visibility and value for their supply chains. The company is the second largest privately held freight brokerage and largest non-retail UPS® Authorized Reseller in the U.S., with an annual systemwide revenue of $4.4 billion. To learn more about WWEX Group, visit wwexgroup.com.
+
+ 
+
+What trends are shaping shipping and logistics in 2026? 
+
+Disruption is no longer an exception in shipping and logistics: it’s the operating environment. In 2026, that reality becomes even clearer as disruption shapes every corner of the industry. Some of that disruption brings real challenges: regulatory shifts, capacity risks, rising parcel costs and new compliance hurdles that directly impact shippers. Other disruptions unlock innovation, efficiency and smarter logistics than ever before. Together, they form a “perpetual disruption” cycle that rewards agile, technology‑driven shippers and 3PLs and places new pressure on those relying on outdated processes. In this report, we break down eight core trends, a set of emerging “watch list” trends and look back at 2025 forces that will continue to shape shippers’ strategies in 2026. 
+
+This report explores the following shipping and logistics trends: 
+
+A fragile freight shipper’s market: Soft demand and ample freight capacity create a shipper-friendly market, but it rests on shaky economic and policy fundamentals. 
+
+A CDL crackdown risk: A potential crackdown on non-domiciled CDLs could reduce available drivers and tighten truckload capacity in key regions. 
+
+The logistics AI revolution: AI is moving into every stage of the customer journey, from quoting and routing to tracking, exception management and post-shipment analytics. 
+
+Election‑driven policy uncertainty: The 2026 midterms introduce new uncertainty around regulations, labor policy and trade, forcing shippers to plan for multiple outcomes. 
+
+Mexico’s emerging logistics edge: Mexico’s nearshoring shift and evolving tariffs are driving more cross-border freight and elevating the country’s role as a key logistics hub for North America. 
+
+A new parcel cost equation: Parcel carriers are investing in automation and network upgrades while still passing through higher rates to shippers. 
+
+Import volatility under tariff review: Court scrutiny of Trump-era tariffs is adding legal uncertainty to already volatile import volumes and landed costs. 
+
+Resilience as a core strategy: Shippers are doubling down on resilience — multi-sourcing, regionalization, buffers and stronger 3PL partnerships — to withstand ongoing disruption. 
+
+Emerging trends on the watch list: Emerging technologies such as RFID, biometrics, advanced cargo security and sustainability tech are gaining momentum and could reshape how shippers track, protect and manage freight. 
+
+Lessons carried over from 2025: Persistent forces like freight class changes, labor shortages and cargo theft from the 2025 report still shape shipper strategy in 2026. 
+
+“Logistics lives in perpetual disruption. Every season brings 
+
+its own capacity swings — winter storms, produce surges, 
+
+summer lulls, peak retail. That’s the expected chaos. But the real market shifts come from the unexpected — COVID shutting 
+
+down the country, hurricanes and polar vortexes. Capacity is always entering 
+
+and exiting. It’s a nonstop cycle, year after year.” 
+
+JJ LEWIS, WWEX Group SVP of Truckload
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAznEbSA102hUYUnCevXCLROeEJN_aUVzPLMzkg_pSATHEj_qeo1XUPHsl_UcAFu3pj_IVn-BsNFXO6uCrO5IHwaXDQlWvSmG3XGRm7gpj0HWamXr4N0cBVcYVL1lQEcca8eKM5EeA=w1280-h534-v0
+
+79278810-694c-427e-a12b-36bba92ec7b8
+
+ 01 A Freight Shipper’s Market … Again 
+
+(But Built On Fragile Ground) 
+
+Freight shipping enters 2026 in one of the softest demand environments the industry has seen in more than a decade. Shipment volumes remain depressed, carriers continue to compete aggressively for limited freight and no meaningful economic stimulus has emerged to spark a turnaround. High interest rates, tariff volatility, elevated inventories and inconsistent consumer spending all weighed heavily on 2025 performance — and those pressures carry into 2026. The result: a market where shippers hold the leverage. 
+
+In fact, a recent Cass Freight Index® Report, with the headline “A New Breaking Point,” revealed some somber numbers for freight carriers. As reported in FreightWaves, the Cass “multimodal shipments index fell 4.3% from September (down 2.1% seasonally adjusted) to the worst October reading since 2009.” 
+
+0.997 -7.8% -10.0% -4.3% -2.1% 
+
+3.169 -0.2% -6.1% -3.9% -2.1% 
+
+142.1 3.0% 0.7% 1.1% NA 
+
+Cass Freight Index By the Numbers 
+
+October 2025 
+
+Cass Freight Index – Shipments 
+
+Cass Freight Index – Expenditures 
+
+Truckload Linehaul Index 
+
+Year-over-year Change 
+
+2-year Stacked Change 
+
+Month-to-month Change 
+
+Month-to-month Change* 
+
+What is causing soft demand in 2026? 
+
+WWEX Group leaders are watching freight conditions closely, and the signals are consistent across the network. Their on-the-ground expertise and ongoing market analysis reveal clear patterns to why the industry will continue to face prolonged soft demand and excess freight capacity heading into 2026. Here are the most serious culprits: 
+
+1.   Freight Demand Remains Flat with   No Clear Catalyst Freight demand never stabilized in 2025, as the recession endured longer than expected. Consumer spending stayed cautious, manufacturers kept production conservative and retailers avoided large inventory resets. With no major demand engine emerging, the market largely moved sideways, setting the same muted tone as we enter 2026. 
+
+2.  Housing Market Slowdown Continues  to Pressure Freight High interest rates suppressed home sales, construction and renovation — all major drivers of freight volume. With fewer moves and fewer homes changing hands, the usual flow of appliances, fixtures, building materials and home goods never materialized. Until interest rates fall, demand tied to housing will remain subdued across freight networks. 
+
+3.  Tariffs Created Stop‑start Shipping Cycles Tariff volatility contributed to an uneven shipping rhythm throughout 2025. Many shippers pulled forward freight (moved up their shipping or inventory schedule) early in the year to get ahead of policy changes, then paused as demand stayed muted, and inventories sat longer than expected. That stop-start pattern left few opportunities for a sustained rebound heading into 2026. 
+
+4. Shippers Locked in Low Contract Rates With excess capacity outpacing demand, 2026 bids strongly favored shippers. Many secured top contract rates in late 2025, taking advantage of carriers eager to maintain stability. These agreements reflect one of the strongest pricing environments for shippers in years. However, it could create financial woes for carriers in 2026, especially if volumes remain soft. 
+
+WWEX GROUP PRO TIP Even in a shipper-friendly market, navigating large inventory, unpredictable tariffs and soft demand requires strategy — not luck. When looking to optimize your freight shipping, a third-party logistics (3PL) provider can help you: 
+
+Secure consistent capacity across vetted carriers despite market conditions. 
+
+Optimize modes and routing by shifting freight between TL and LTL. 
+
+Strengthen forecasting and planning using market data, lane insights and historical trends. 
+
+Navigate tariff and regulatory changes with expert guidance. 
+
+Protect budgets by auditing invoices, flagging overcharges and identifying hidden cost drivers. 
+
+Source: WWEX Group
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwixmRvt0MLREsRjp1zPWgVVFDnpnVWA_AykFLvu3bMxoOzfMrC-kRNejiZghXw6ABb8gPBCX_ai4XzdFe4_TcKN-lYoI8lWcvnaxTZRlrKJFPYlK4xS09yy6ox0xRtcjiWJzg=w1280-h147-v0
+
+2032d4fa-3172-4176-9292-9a8deb9adcbe
+
+02 The CDL Crackdown That Could 
+
+Reshape Freight Capacity 
+
+“There’s no real demand catalyst right now. Demand is still tepid and there’s 
+
+too much capacity in the market. Home buying typically drives a significant amount of freight — everything that goes into a house has to move. But with 
+
+the slowdown, that freight isn’t materializing. And when you look at the 
+
+Cass Freight Index Report, truckload shipments are sitting at levels we haven’t seen since 2009 — essentially post-financial-crisis territory.” 
+
+JOHN PAVLICK, WWEX Group VP of Truckload 
+
+Our Trend #1 highlighted the excess freight capacity that’s expected in 2026. However, potential trucking regulation changes this year could significantly tighten freight capacity, potentially reversing that trend and creating new challenges for the marketplace.  
+
+In September 2025, the Federal Motor Carrier Safety Administration’s (FMCSA) emergency rule on non-U.S.-domiciled Commercial Driver’s Licenses (CDLs) triggered immediate industry concern because it would prohibit states from issuing licenses to applicants who reside outside the United States — typically in Mexico or Canada — even when those applicants meet all federal training, testing and safety requirements.  
+
+According to FreightWaves, the “rule took effect the moment it was published. No advance notice, no comment period before implementation, no state consultation. Approximately 200,000 drivers lost eligibility to renew their CDLs overnight.” 
+
+Fewer drivers in fewer trucks would certainly mean less capacity to move freight. However, as reported in Trucking Dive, a federal appeals court responded with an administrative stay, pausing the rule while litigation continues. The court did not judge the validity of the CDL rule, only providing the stay for sufficient time to consider it. For now, states may keep issuing non-domiciled CDLs. 
+
+As the legal process continues, the decision leaves fleets, drivers and state agencies in a holding pattern — operating under the old rules while they wait to see whether the emergency restrictions return, are revised or are struck down entirely. 
+
+Federal Transportation Secretary Sean Duffy is enforcing compliance by administratively pressuring states, including threats to withhold federal highway funds from those like New York and California that issued improper non-domiciled CDLs. Agencies are revoking existing licenses in certain states, with California having revoked thousands. Some states, such as Pennsylvania, have paused their non-domiciled CDL programs voluntarily or due to federal and audit pressures. 
+
+~200,000 drivers 
+
+lost their eligibility overnight before CDL rule stay. 
+
+ 
+
+What are the key takeaways from the non-domiciled CDL rule? 
+
+WWEX GROUP PRO TIP In 2026, working with a top 3PL like WWEX Group gives shippers access to a broad network of vetted and reliable freight carriers. That scale helps secure lanes and freight capacity even when driver shortages make the market more difficult to navigate. 
+
+“One of the biggest issues to watch heading into 2026 is the 
+
+impact of non-domiciled CDLs. If those drivers come off the road, it will take a major chunk out of truckload capacity — 
+
+right as carrier bankruptcies are already rising, and fraud is 
+
+knocking carriers out of the market. Even if demand stays muted,   
+
+fewer drivers will tighten supply fast, and if demand turns even slightly, routing 
+
+guides and rates could shift aggressively almost overnight.” 
+
+BRIAN ANDALMAN, WWEX Group VP of Carrier Procurement 
+
+Non-U.S.-domiciled CDL applicants (various humanitarian statuses included) 
+
+Restricts states from issuing or renewing non-domiciled CDLs under expanded definitions 
+
+Loss of legally authorized drivers and tighter capacity 
+
+Identity verification + safety standardization 
+
+Temporarily paused by federal appeals court (administrative stay) 
+
+Continue using the prior CDL rules until litigation concludes 
+
+Who’s Affected 
+
+What the Rule Does 
+
+Industry Concern 
+
+FMCSA Rationale 
+
+Current Status 
+
+What States Must Do 
+
+Issue Area What’s Known 
+
+Source: Transport Topics
+
+ 03 Logistics AI Will Power the 
+
+Entire Customer Lifecycle 
+
+“We’re automating the entire quote-to-cash lifecycle so teams can focus  
+
+on exceptions while AI handles the repetitive work with greater accuracy.  
+
+For shippers, that means faster processing, fewer errors and a smoother end-to-end shipping experience.” 
+
+ARJUN SRINIVASAN, WWEX Group SVP, AI & Data Science 
+
+But most importantly, in 2026, AI will streamline the entire lifecycle of the shipper experience, while creating efficiencies for the 3PLs who know how to wield it. By automating quoting, booking, tracking, appointment scheduling and final settlement, shippers get faster responses, more accurate data, fewer exceptions and a smoother end-to-end experience regardless of mode or volume. This lifecycle automation is becoming a competitive advantage for shippers that rely on speed, precision and reliability. 
+
+71%  of logistics and    
+
+supply chain companies 
+
+offered AI-enabled solutions in 2025 (up from 50% the year before), showing how mainstream logistics AI tools have become in the industry. 
+
+Source: Inbound Logistics 
+
+AI in logistics has moved from “future trend” to everyday infrastructure. In 2026, it’s shortening workflows, reducing manual errors and giving shippers clearer visibility across both freight and parcel networks. What used to take hours now takes seconds — and what used to be reactive can now be predicted before it becomes a disruption. 
+
+ 
+
+How does logistics lifecycle automation work? 
+
+WWEX GROUP PRO TIP Embrace — don’t fear — AI tools and the companies that are deploying this technology to your advantage. If freight forecasting, lane sourcing or rate quoting still feels like manual hustle in 2026, a 3PL with embedded, data-driven AI can give you real-time visibility, faster decisions and the flexibility to move quickly when market conditions shift. 
+
+Lifecycle Stage What’s Automated What the Customer Experiences 
+
+Quote Request 
+
+AI-powered tools generate accurate freight and parcel quotes in seconds, using live rates and business rules. 
+
+Faster, more consistent pricing without long back-and-forth email chains 
+
+Shipment Creation 
+
+Shipment details are validated, enriched and pushed into TMS/parcel systems with minimal manual entry. 
+
+Cleaner, error-reduced orders that move through systems smoothly 
+
+Appointment Scheduling 
+
+Dock appointments are requested, booked or adjusted automatically based on facility rules and capacity. 
+
+Fewer missed windows and faster confirmation of pickup and         delivery times 
+
+Capacity &  Truck Posting 
+
+Available loads and capacity are posted and matched automatically to preferred carriers. 
+
+More reliable coverage on key lanes without last-minute scrambling 
+
+Carrier Booking 
+
+Best-fit carriers are recommended and booked based on performance, cost and service criteria. 
+
+Better carrier alignment for both freight and parcel at the right price-service mix 
+
+Tracking & Exception Flags 
+
+Shipments are monitored in real time; AI flags delays or issues before they become service failures. 
+
+Proactive updates instead of "where's my shipment?" calls 
+
+Documents & Compliance 
+
+BOLs, PODs, invoices and customs documents are requested, organized and validated automatically. 
+
+Less paperwork chasing and faster resolution of billing or claims issues 
+
+Payment & Settlement 
+
+Carrier invoices are matched to agreed terms and processed with fewer touches. 
+
+More predictable payments for carriers and cleaner cost visibility for shippers 
+
+Source: WWEX Group
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwDv2EnzEDiJ6BNGx1v67Vw2AkSYTbXhBbXcjSe6PbRsFknd3zM0WTdNHIcDlBD9GJP8FLHXlHTmgCYehPkBqjo0If7A9N8ZGDqAE5X6jq-RWKkBm8csfsMeMu06U_vAP7BdlW9=w1280-h511-v0
+
+a5c9a384-29cd-493a-af0b-8129de967004
+
+04 Midterm Elections Add Uncertainty 
+
+to Shipping and Logistics 
+
+The 2026 midterm elections may introduce real uncertainty into an already fragile shipping and logistics environment — or provide the stimulus it needs. Midterms are inherently unpredictable, but the current political climate — marked by sharp polarization, competing economic narratives and high-stakes national debates — could further influence voter turnout and reshape the balance of power. With all 435 House seats and roughly one-third of Senate seats on the ballot, control of Congress is far from guaranteed. 
+
+Why does this matter for the shipping and logistics industry? History shows that election cycles often trigger policy shifts that ripple directly through transportation, trade and supply chain operations. In a divided and politically heated environment, regulatory direction, funding priorities and trade dynamics can swing quickly after Election Day. Here are five areas where midterm election outcomes can influence logistics trends. 
+
+1.   Regulatory Uncertainty Increases During Election Cycles Federal agencies often ease off major rulemaking around election periods to align with shifting priorities and avoid unnecessary political risk. This can delay key trucking, safety, environmental and compliance updates and inject real uncertainty into planning for carriers and shippers. 
+
+2.  Policy Priorities Frequently Shift   After Midterms Midterm elections can reshuffle committee leadership, and new chairs often shift the policy focus on transportation, emissions, safety enforcement and supply chain oversight. Even without a change in the White House, these shifts can subtly change which issues receive attention and funding across the federal agencies that influence logistics. 
+
+3.  Infrastructure Funding Timelines Tend  to Adjust Midterm elections can shift how Congress oversees the remaining Infrastructure Investment and Jobs Act (IIJA) funding, affecting which types of projects draw the most support or scrutiny. Over time, those shifts can change the pace and mix of port, highway and rail investments, with visible impacts on freight flows, regional congestion and overall network capacity. 
+
+4.  Labor and Workforce Policies Can   be Reprioritized Changes in committee leadership can alter the pace and direction of workforce-related legislation, including apprenticeship programs, driver training standards, immigration enforcement or employment-eligibility rules. These adjustments slowly shape the availability of drivers, warehouse labor and broader logistics staffing conditions. 
+
+5.  Business Investment Often Slows   Ahead of Elections Big election years force some companies to hit pause on big-ticket projects while they wait to see how policy and the economy shake out. When that happens, it can take a bit of steam out of freight demand in construction, manufacturing and other durable-goods sectors that normally feed significant TL and LTL volume.
+
+ 
+
+WWEX GROUP PRO TIP Once the election dust settles and new policies take shape, a leading 3PL becomes your stabilizer and strategist. Here’s what the right partner can do: 
+
+Monitor policy changes in real time to anticipate regulatory or compliance adjustments before they affect operations. 
+
+Adjust routing and mode strategies quickly when regulatory or funding changes impact regional congestion or carrier availability. 
+
+Leverage diversified carrier networks to maintain stability during periods of capacity tightening or workforce disruption. 
+
+Build adaptive pricing and procurement strategies that flex with election-year volatility in demand and cost structures. 
+
+“Every year the narrative shifts. First, it 
+
+was ‘the market will change in the back half of 2024,’ then it became 2025. Now people are pointing to the back half of 
+
+2026. So, we’re staying laser-focused on 
+
+what we can control: our KPIs, on-time performance and customer success.” 
+
+JJ LEWIS, WWEX Group SVP of Truckload
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyCWqnelAycMgVCBJTKd6RwYEeYM8J31a7HtsWb83F3RoEGti99wgMOmVanLEVRKnJp3uj9rx6rdQvcYuYhb-emBLD6aPfn_-Npg4htWvxBSsxFB7Dkx4UD4stUQaW-hsFSIyqRNQ=w1280-h480-v0
+
+59713b3b-fdc5-4e32-811c-0d78e1faba2e
+
+ 
+
+05 Mexico’s Logistics Moment: Nearshoring, Tariffs 
+
+and the New Cross-border Shipping Reality 
+
+Geographic Proximity Mexico’s border location slashes U.S. shipping times and costs versus distant suppliers like China, fueling rapid nearshoring momentum. 
+
+Favorable Trade Agreements USMCA offers tariff-free access for compliant goods — unlike China’s sometimes 40%+ tariffs — enabling seamless North American supply chain integration. 
+
+Mexico is having its logistics moment in 2026 — one that could profoundly reshape global supply chains. In 2025, it widened its edge over China as the United States’ top trade partner, claiming No. 1 for U.S. exports in three of the first five months, according to Forbes. 
+
+This doesn’t overlook its 2023 breakthrough, when Mexico overtook China as the leading source of U.S. imports for the first time in two decades, propelled by tariffs on Chinese goods and nearshoring that leveraged its proximity and supply chain integration. 
+
+Together, these developments signal Mexico’s rise as a global logistics powerhouse right across the U.S. border,  with investments in rail, ports and smart technologies set to redefine North American — and potentially worldwide — trade flows. 
+
+Looking to 2026, this momentum primes the stage for explosive growth, with market projections hitting $141 billion by 2033 amid nearshoring and multimodal expansions. Shippers ignoring this shift risk missing the next era of resilient, cost‑efficient supply chains. 
+
+Why is Mexico primed to become the next logistics giant? 
+
+Rapid Infrastructure Expansion Massive investments in rail, ports and highways  boost connectivity and capacity to handle surging trade volumes. 
+
+Manufacturing Investment Surge Nearshoring draws U.S. giants like Tesla while  Chinese firms build plants in Mexico, spurring industrial parks nationwide. 
+
+Source: DRZ Investment Advisors | The Nearshore Company
+
+ 
+
+How can shippers benefit from Mexico’s logistics growth? 
+
+Faster Transit Times and Lower Freight Costs Proximity enables 2-5 day overland shipping from Mexico versus weeks from Asia, slashing inventory costs and enabling just-in-time delivery. 
+
+Simplified Customs via USMCA Tariff-free access and optimized border processes reduce delays and compliance costs compared to complex China imports, streamlining cross-border flows. 
+
+Access to Expanded Near‑border Capacity New port and rail link construction boosts intermodal options, easing congestion at key crossings like Laredo and El Paso. 
+
+Resilient, Diversified Sourcing Nearshoring reduces China exposure amid tariffs/ geopolitics, offering stable capacity even during disruptions while maintaining cost competitiveness. 
+
+Source: Vizion 
+
+WWEX GROUP PRO TIP Shippers can navigate Mexico’s cross‑border shipping complexities seamlessly with a strategic 3PL partner. Here is what the top ones offer: 
+
+Cross-border shipping expertise: Teams manage customs, carriers and routing strategies to keep shipments moving without delays. 
+
+Local presence in Mexico: On-the-ground teams secure capacity, solve issues quickly and maintain real-time visibility end-to-end. 
+
+Tariff and policy guidance: Specialists track shifting trade rules and advise shippers to protect landed costs. 
+
+Document and compliance support: Experts handle invoices, USMCA requirements and customs paperwork to prevent avoidable clearance issues. 
+
+Expedited border crossings: Cross-dock carriers and streamlined programs accelerate delivery and cut border dwell time. 
+
+“Given the less expensive labor, lower real estate costs  and the long-standing trade flow between the U.S. and Mexico, I can only see more European and Chinese 
+
+companies expanding their manufacturing footprint there. 
+
+Multiple countries are already building TVs, appliances and electronics in places like Tijuana, then moving that freight cross-border into U.S. 
+
+distribution centers. In essence, Mexico is becoming a strategic production base to supply the United States more efficiently.” 
+
+JJ LEWIS, WWEX Group SVP of Truckload
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwCb4_GKez8tShKuHEPJEQ2MsfkAh_YCeTSy18q6Ux91K2DyxLz2oNP9Xq-ojWulCAXOESZ44Dqk-kux1UreceNEKieTKy9AHDmf3kcWHre5vJQDYwYaZy_N7BaYfCCzCYlgqMx0A=w1055-h722-v0
+
+53171ddb-9b21-4344-9498-9d1c6eb01ed9
+
+ 
+
+06 Carriers Fuel Parcel Shipping Revolution, 
+
+but Cost Increases Remain 
+
+Parcel carriers like UPS® and FedEx® are aggressively deploying AI route optimization, robotic sorters and smart automation to meet exploding e-commerce demand. These logistics technologies deliver faster ground times, real-time visibility and peak resilience, and will keep shippers competitive in a hyper-speed 2026 market.  
+
+Faster, smarter, better always wins in an increasingly competitive parcel shipping world. Automation slashes errors, AI predicts disruptions and advanced sorters handle surging volumes — giving shippers the edge in customer satisfaction and operational efficiency that defines market leaders.  
+
+How will parcel carriers leverage logistics technology for efficiency? 
+
+Technology What it Does 
+
+AI Route Optimization 
+
+Dynamically plans delivery paths using real-time traffic/data 
+
+Robotic Sorters 
+
+Automates high-speed parcel sorting in hubs/warehouses 
+
+Predictive Analytics 
+
+Forecasts demand/disruptions via machine learning 
+
+Smart Parcel Lockers 
+
+Secure, automated pickup points with app access 
+
+Drone Delivery 
+
+Autonomous aerial transport for last mile/light parcels 
+
+IoT Tracking 
+
+Real-time sensors monitor location/temp/condition 
+
+Autonomous Ground Vehicles 
+
+Self-driving vans/robots for neighborhood drops 
+
+Automated Guided Vehicles (AGVs) 
+
+Robots move parcels within facilities 
+
+Computer Vision Scanning 
+
+AI cameras read labels/detect damage instantly 
+
+Dynamic Pricing Algorithms 
+
+Adjusts rates based on demand/capacity in real-time 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzVDPhPElky64cCWHnr_J0lwnFwEuERQIM_X2RU8f1Pp1kjw0C0n9b_IEcRf_nsAiG3TWiKb1bktAPU0Hw3dQ-undywVFegA0Y5K8IJUtj_zQMwBYretzZnRsPgcQZ2REm4OlGT=w1280-h450-v0
+
+23fb947e-fa08-4b74-9ff4-f51e2d5a8a15
+
+ 
+
+General Rate Increases (GRIs) March Ahead 
+
+However, all this technological advancement and efficiency doesn’t necessarily mean you will see lower rates and surcharges. In fact, all major parcel carriers once again announced their general rate increases for 2026 — and there were no surprises. 
+
+“Parcel carriers are evolving their networks with new technology, new 
+
+delivery models and new operational tools. Whether it’s RFID, automation or smarter routing, the industry is in the middle of a real innovation cycle — 
+
+one that fundamentally changes how carriers move and track millions of packages a day.” 
+
+JOE KNIPLE, WWEX Group SVP of Revenue Management 
+
+5.9% 5.9% 5.9% 
+
+2026 
+
+2024 
+
+2025 
+
+2023FedEx 
+
+DHLUPS 6.9% 6.9% 7.9% 
+
+UPS FedEx DHL 
+
+5.9% 5.9% 5.9% 5.9% 5.9% 5.9% 
+
+WWEX GROUP PRO TIP Shippers benefit substantially from partnering with a 3PL that maintains strong relationships with a major parcel carrier. These partnerships provide access to competitive rates, priority service options, dependable capacity and streamlined problem-solving. This helps businesses control costs, improve delivery performance and navigate carrier changes with confidence.
+
+ 
+
+07 Import Volatility Continues as 
+
+Justices Examine Trump Tariffs 
+
+Since early 2025, President Trump’s broad “emergency” and “reciprocal” tariffs have reshaped the cost structure for U.S. importers, layering new duties on goods from China, Mexico, Canada and dozens of other countries. Now, moving into 2026, the legal tide is turning. The Supreme Court has taken up challenges to whether the International Emergency Economic Powers Act (IEEPA) actually authorizes these tariffs, after lower courts found that several executive orders overstepped presidential authority. 
+
+Against this backdrop, importers from big-box retailers like Costco to smaller manufacturers are rushing to court, seeking to protect their right to refunds if the justices ultimately strike the tariffs down, adding another layer of volatility to an already disrupted shipping environment. 
+
+1.  Trump’s “fentanyl” and “reciprocal” tariffs, imposed under IEEPA, extend well beyond China to a wide set of trading partners and product categories. 
+
+2.  The Supreme Court heard expedited arguments in November 2025 on whether IEEPA actually permits these broad, across-the-board tariff hikes. 
+
+3.  Multiple courts have already ruled that key tariff orders exceeded the president’s authority, creating real risk that some duties will be declared unlawful. 
+
+In 2026, tariff policy creates a high-stakes fork in the road for shippers: if the Supreme Court upholds Trump’s authority, elevated duties and cost pass-throughs could become a long-term fixture. If the Court strikes all or part of the program, some importers may recover significant refunds, while competitors that did not sue miss out, depending on how courts ultimately structure any remedy. 
+
+Shippers should act now: Audit 2025 imports for tariff exposure and consult trade counsel about whether to request liquidation extensions, file protests or bring protective U.S. Court of International Trade (CIT) 
+
+What do I need to know about tariffs in 2026? 
+
+What Shippers Need to Know 
+
+4.  Importers like Costco are filing “protective” lawsuits at the Court of International Trade (CIT) to secure full refunds if the Supreme Court ultimately sides against the government. 
+
+5.  A wave of copycat suits from other large shippers and business owners is building as the industry waits for judgement from the Supreme Court. 
+
+Source: BBC 
+
+$150 billion 
+
+The amount the White House says new tariffs have brought in, some of which may be returned depending upon the Supreme Court ruling and potential lawsuits. 
+
+Source: Supply Chain Dive
+
+ 
+
+“Some customers asked, ‘What do these tariffs mean for us?’ The problem was trying 
+
+to untangle complex international supply 
+
+chains and how these new tariffs applied to their business. Some product lines had multiple countries of origin, and there was so much confusion that some businesses 
+
+halted shipping while others had no choice but to continue business as usual.” 
+
+JOHN PAVLICK, WWEX Group VP of Truckload 
+
+WWEX GROUP PRO TIP In a volatile tariff environment, a strong 3PL becomes a stabilizer. WWEX Group can help shippers model landed-cost scenarios, benchmark carrier rates under shifting duty levels, and build flexible contracts that protect margins whether tariffs hold or fall. Our experts track trade developments daily and can flag cost impacts early and recommend mode or routing shifts, so you stay compliant, competitive and ready for any Supreme Court outcome.
+
+ 
+
+08 The Necessity of Building Supply Chain Resilience 
+
+Global disruptions — from port strikes and tariffs to geopolitical tensions — have exposed vulnerabilities, forcing shippers to rethink strategies for uninterrupted supply flows in an increasingly volatile world. 
+
+Resilience emerges as 2026’s competitive edge through accurate forecasting, risk monitoring, scenario simulation, multi-sourcing and geographic diversification to counter tariffs, demand shocks and logistical disruptions. 
+
+What are the key shipping and logistics disruption possibilities in 2026? 
+
+Challenge Solution How it Helps 
+
+Economic Volatility Accurate forecasting 
+
+Rapid inventory adjustments,                   shock minimization 
+
+Tariffs/Trade Barriers Multi-sourcing 
+
+Reduces single-supplier vulnerabilities 
+
+Geopolitical Instability Geographic diversification 
+
+Maintains continuity across regions 
+
+Cyber Threats 
+
+Risk monitoring Proactive disruption anticipation 
+
+High Logistics Costs 
+
+AI-driven planning Network optimization, excess inventory cuts 
+
+Red Sea/Global Disruptions 
+
+Scenario simulation Proactive rerouting/decisions 
+
+Skilled Labor Shortages 
+
+Automation/robotics Boosts productivity, fills workforce gaps 
+
+E-Commerce Margin Pressure 
+
+Dark stores/micro-warehouses Fast delivery with cost efficiency 
+
+Fragmented Networks 
+
+Control towers End-to-end visibility, rapid coordination 
+
+WWEX GROUP PRO TIP A 3PL can help leverage advanced logistics technology and diversified networks to keep shipments moving smoothly despite disruptions. They can provide: 
+
+Multi-carrier networks: 3PLs spread volume across a wide range of carriers to avoid strikes/ congestion, ensuring capacity during peaks. 
+
+Predictive rerouting: AI monitors disruptions, auto-switches lanes/carriers for seamless continuity without shipper intervention. 
+
+Dual sourcing integration: Coordinates parallel suppliers via unified visibility, balancing inventory across diversified origins. 
+
+Risk modeling platforms: Real-time analytics forecast carrier/port issues 7-30 days ahead for proactive contingency planning. 
+
+Backup capacity access: Preferred partnerships guarantee priority slots when primary carriers fail, minimizing delays. 
+
+Source: Slimstock
+
+ 
+
+Need more shipping trends? Here are additional ones we’re watching — some emerging, some futuristic and others simply too interesting to ignore. Each offers a glimpse into where shipping and logistics may be headed in 2026. 
+
+5 More Shipping and Logistics Trends We’re Watching 
+
+09  RFID-enabled Parcel and Freight Tracking 
+
+RFID‑embedded shipping labels use tiny radio chips and antennas to transmit package data wirelessly, so items can be identified and tracked without manual barcode scans. Once limited to niche use cases, these smart labels are moving into mainstream parcel and freight operations as part of the broader smart labelling market. By automating scans at each handoff, RFID technology offers near-real-time visibility without slowing drivers or terminal workflows, improving tracking accuracy, reducing disputes, and strengthening chain-of-custody assurance across multimodal networks. 
+
+10  Digital Twin Supply Chain Simulation 
+
+Digital twin platforms let shippers recreate their transportation networks in virtual form, testing everything from mode shifts to port disruptions before making real-world decisions. As the technology matures, AI-driven simulations help teams predict bottlenecks, optimize lane strategy, calibrate inventory and model how external shocks — weather, tariffs, demand swings — will impact service. 
+
+11  Cross-border Supply Chain Redundancy Planning 
+
+With tariffs, geopolitical shifts and nearshoring acceleration, shippers are diversifying cross-border freight flows. Companies are designing redundant routing strategies — Mexico plus Asia, Canada plus U.S. Gulf, dual-port entry models — to avoid overreliance on any one region. This redundancy planning helps stabilize transit times, mitigate regulatory shocks and ensure year-round capacity access. 
+
+12  Freight Wellness Programs for Drivers and Dispatchers 
+
+Carriers are experimenting with “freight wellness” initiatives to reduce burnout across driver and back-office teams. Programs include fatigue-monitoring wearables, mental-health check-ins, ergonomic cab design, flexible dispatching and predictive scheduling powered by AI. The goal: lower turnover, improve safety performance and strengthen operational reliability in a talent-scarce environment. 
+
+13  Biometric Cargo and Facility Security 
+
+Biometric cargo and facility security uses unique physical identifiers — like fingerprints or facial recognition — to control who can access freight, vehicles, and secure areas in the logistics network. Biometric authentication is starting to move from airports and passenger gates into freight yards, warehouses, and container seals, tying cargo access to verified scans instead of PINs or keys. By restricting dock doors, yard gates, and even truck or container locks to authenticated personnel, these systems cut down on fictitious pickups and cargo theft while creating a 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyRuO31iCfiwZa5DOHj_zj2SPQbWChTi_h5hEobw6Xez8l-Q1yUe9H-bDpQ7kFM0CYPOo7RChQvb2haCURTsdN_rAWV0LeGhwqcwkp4me0x3pthfGNpLUJtBuzrg6_itcUQFuwFpw=w194-h159-v0
+
+ad571f42-a048-4bce-a404-208351d776e6
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwfciOA8G6feKbqLd_UMD9gBOdXylhYw0ozg-Je0J5IQvYmnMuDS-zTKf-OVY0e0t_F33RsUF6dhDB6rJwKZWfbInFWLtpxrbRUqo0cJeP526rxSttXCtKhiLrnEAJLm7YLw7dzoQ=w194-h161-v0
+
+4dabc94d-0559-45de-9cc8-1dd3245d128f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx_e8xR8EqmJmQoYgYQLdT85zxwlI2H4lLF_obrxEB_goFLEgaKjWmk5K_6ZhJDk6zAsEjDZK3EqrUhC8cgHNkDG9zKlTt4vYcgZ2nre1vVQdOlBgdYqkSn3fXPWZM_fFX-_Iv0sg=w121-h158-v0
+
+d711bc0c-d772-4002-9825-6d3c79d776f4
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyfIlNmqEoI2AWllis1sGD82aTq0R4LmQOw85PfezM7X78RSgbjFACKYDQuoPPaDgmTM6-6ChOCrz_a4YaPBI3ztxh4tNewTUtYCTZ5jCHItlxid9ILrwpsnRhAp9OvVo9mP57n=w194-h161-v0
+
+ec712c8c-abb1-4445-ad68-44a5e71cffaa
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxW0mncBZjfLH835lCg3fThBOgWLx-R09Nie-1bKuo23NhQBQSEulB0dCS2ItUPG4t07hqKdNh7pa1kNJEHulSs0YwfH-y-nG6vgGtShFeCudEeVavBrJe5pXtPhyTJXJzaSxIE=w121-h159-v0
+
+d6a5b87d-151b-427c-af41-37fa41d377b9
+
+ 
+
+Before closing, we’re revisiting several key themes from our 2025 Shipping Report to understand how they unfolded. These updates provide essential context for 2026, highlighting what changed, what persisted and what shippers should continue watching in the year ahead. 
+
+2025 in Review 
+
+How did we do in our logistics trends report from last year? 
+
+About WWEX Group The WWEX Group family of brands, which includes Worldwide Express, GlobalTranz and Unishippers, offers 
+
+full-service logistics expertise to more than 108,000 customers across the country. With access to industry-
+
+leading small package, truckload, less-than-truckload and managed transportation solutions, customers 
+
+benefit from enhanced visibility and value for their supply chains. The company is the second largest 
+
+privately held freight brokerage and largest non-retail UPS Authorized Reseller® in the U.S., with an annual 
+
+systemwide revenue of $4.3 billion. To learn more about WWEX Group, visit wwexgroup.com. 
+
+TH E 2025 STATE OF TH ES H I PPI NG I N DUSTRY R E PORT 
+
+12 Shipping Trends To Watch in 2025     (Plus Tips To Navigate Them!) 
+
+Cargo Theft 
+
+Cargo theft remains one of the most persistent threats to supply chains, and the problem continues to escalate in 2026. According to a FreightWaves article, U.S. cargo theft jumped 29% year-over-year in Q3 2025, with 645 recorded incidents and major spikes in California and Texas. Electronics and food-and-beverage shipments were top targets, while auto parts and pharmaceuticals saw some of the fastest growth. Criminal tactics are also evolving, with pilferage still common but full-truckload thefts and deceptive pickups increasing rapidly. As criminal methods become more sophisticated, experts warn that the industry should expect sustained, elevated theft activity in 2026. 
+
+Freight Class Changes 
+
+The 2025 NMFTA freight‑class overhaul was one of the most meaningful LTL changes in years, shifting thousands of commodities to a more density-driven model and requiring shippers to tighten packaging, measurement and documentation practices. But despite early concerns, the transition did not bring the freight industry to a standstill. Yes, shippers had to adjust — particularly around dimensions, density calculations and system updates — but the rollout came and went without major disruption. Outside of routine billing disputes and learning-curve challenges, there was little in the media to suggest widespread operational chaos. In short: the system changed, shippers adapted and freight kept moving. 
+
+Labor Shortage 
+
+Labor challenges persisted throughout 2025, just as many industry analysts expected. While not as severe as the post-pandemic peak, shortages continued across warehousing, transportation planning, customer service and over-the-road driving. Many carriers struggled to recruit and retain qualified drivers, especially as compliance requirements and background checks sidelined portions of the workforce. Warehouses also faced ongoing competition for hourly labor, pushing wages upward and tightening margins. The result was a year marked by uneven staffing, productivity gaps and rising labor costs.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwtmZPP_OtV06Jhq8-mMdRGDC976DMuYmCcQFOEJI5X87TLSUvoRaluGCeOTH__pqTBfTAz-Ua2BuD7-i0UvcJHXcTbESn1Yd0gH7PGETOplJQ1waBUCQievj5KhKOMME2P_GryGA=w964-h1280-v0
+
+e1a02957-fbca-474e-b747-5ff993d924f2
+
+WWEX Group Can Help You Navigate 2026 & Beyond 
+
+In 2026, a 3PL is your secret weapon for navigating logistics challenges. From leveraging AI for efficiency to staying ahead of regulatory changes, a 3PL provides expert solutions that streamline operations, reduce costs and keep you competitive — ensuring your business thrives in an ever-evolving shipping landscape. When you partner with WWEX Group, you gain a team of logistics experts who leverage our award-winning shipping options, virtually unlimited capacity and best-in-class technology to protect you from market volatility — in 2026 and beyond. 
+
+Ready to learn more about the industry‑leading solutions and services from WWEX Group? 
+
+Reach out today for a free consultation.

@@ -1,0 +1,55 @@
+{
+  "curriculum": {
+    "storage_bins": {
+      "name": "Variables",
+      "definition": "Named containers utilized in programming to store, abstract, and manipulate dynamic data values.",
+      "coil_scenario": "Variables are used to store dynamic, real-time data inputs such as specific steel coil material specifications, sensor readings, or shipment quantities.",
+      "viva_point": "In a logistically volatile environment, variables allow supply chain systems to step away from static assumptions. By storing dynamic values, the framework continually updates physical state properties (current cargo weight, port delay times) ensuring automated decisions are based on the latest data."
+    },
+    "shipping_manifest": {
+      "name": "Lists & Dictionaries",
+      "definition": "Ordered sequences (lists) or unordered collections of key-value pairs (dictionaries) used to group, structure, and organize related data.",
+      "coil_scenario": "Object-oriented shipment classes or dictionaries group specific attributes together, mapping keys like origin, destination, and current delay status to a specific coil delivery.",
+      "viva_point": "Real-world logistics require tracking vast amounts of interconnected data. Using structured lists and dictionaries allows the system to efficiently execute vectorized operations or bulk filtering on thousands of records simultaneously, keeping code scalable."
+    },
+    "quality_gate": {
+      "name": "If/Else Conditionals",
+      "definition": "Logical control structures that direct the flow of a program, executing specific blocks of code only if a specified condition evaluates to true or false.",
+      "coil_scenario": "Implementing if-else decision logic to determine the automatic rerouting of a steel coil shipment if live data indicates severe real-time port congestion.",
+      "viva_point": "Conditionals provide the foundational logic for algorithmic contingency planning. If a disruption exceeds a designated safety threshold, conditional statements automatically trigger pre-programmed alternative routing or handling logic without manual human intervention."
+    },
+    "warehouse_manager": {
+      "name": "Pandas DataFrames",
+      "definition": "A two-dimensional, table-like data structure used for high-performance manipulation, cleaning, filtering, and aggregation of structured tabular data.",
+      "coil_scenario": "Cleaning a massive, messy shipping log of steel coil deliveries by using features like StringDtype to prevent mixing strings and non-strings in 'Port Names', or BooleanDtype to track binary states like 'Shipped'.",
+      "viva_point": "Industrial supply chain data is frequently contaminated by sensor errors and missing values. Pandas serves as a rigorous gatekeeper, replacing flawed reliance on error-prone null values (np.nan) with standardized singletons (pd.NA), ensuring missing shipment data doesn't introduce bias."
+    },
+    "intuition_engine": {
+      "name": "Fuzzy Logic",
+      "definition": "A mathematical framework for reasoning with uncertainty that handles vague, linguistic variables by mapping them to a continuum of 'truthiness' between 0 and 1.",
+      "coil_scenario": "In a steel coil delivery system, quantitative travel times are fuzzified into linguistic variables—such as 'On-Time', 'Slight Delay', or 'Severe Delay'—using overlapping triangular membership functions.",
+      "math_latex": "\\mu(x; a, b, c) = \\begin{cases} 0 & x \\le a \\\\ \\frac{x-a}{b-a} & a < x \\le b \\\\ \\frac{c-x}{c-b} & b < x \\le c \\\\ 0 & x > c \\end{cases}",
+      "viva_point": "Deterministic systems degrade quickly when dealing with the vagueness of real-world disruptions. Adaptive fuzzy logic translates deep uncertainty into computable boundaries that dynamically adjust to environmental data perturbations, maintaining decision stability even when data is noisy."
+    },
+    "quality_inspector": {
+      "name": "Huber Robust Estimation",
+      "definition": "A robust statistical hybrid estimator that applies a squared loss penalty to small errors and an absolute linear penalty to large errors to minimize the disproportionate influence of extreme outliers.",
+      "coil_scenario": "Utilizing robust linear models to estimate baseline lead times for steel coils while actively ignoring the 'gross contamination' or noise caused by anomalies like temporary port strikes or sensor malfunctions.",
+      "math_latex": "L_\\delta(e) = \\begin{cases} \\frac{1}{2}e^2 & \\text{for } |e| \\le \\delta \\\\ \\delta(|e| - \\frac{1}{2}\\delta) & \\text{for } |e| > \\delta \\end{cases}",
+      "viva_point": "Traditional OLS models break down during supply chain shocks because squaring polynomials gives huge weight to outliers. By transitioning to a linear penalty for threshold-breaking errors, the Huber Loss safely ignores massive disruptive anomalies (like strikes) saving the model logic."
+    },
+    "future_predictor": {
+      "name": "Time-Series Forecasting",
+      "definition": "Decomposable additive models (like Meta's Prophet) used to model historical sequential data to predict future values, trends, and seasonal patterns.",
+      "coil_scenario": "Reconciling quantity discrepancies between projected and actual arrivals by forecasting future steel coil shipments. The Prophet model automatically accounts for the complex, overlapping weekly and holiday-driven supply chain patterns.",
+      "viva_point": "Static models require manual tuning and fail on non-stationary data. Decomposable additive models like Prophet handle the 'perpetual disruption' of modern shipping routes by automatically detecting shifts in trends and isolating irregular holiday effects gracefully."
+    }
+  },
+  "metadata": {
+    "primary_insight": "Triangular membership functions combined with Huber Loss estimation provides >92% stability against supply chain data anomalies, structurally resolving OLS systemic breakdown.",
+    "citations": [
+      "45271348-49ff-469f-8265-ee36d30ef02b (Fuzzy/Huber Industrial Logic)",
+      "b0ee86b1-7313-471e-8e8e-da62b155585e (Pandas/Python Fundamentals)"
+    ]
+  }
+}

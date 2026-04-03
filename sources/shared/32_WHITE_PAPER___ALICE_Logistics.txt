@@ -1,0 +1,2084 @@
+Title: WHITE PAPER - ALICE Logistics
+Source URL: https://www.etp-logistics.eu/wp-content/uploads/2024/05/AI-White-Paper-web.pdf
+
+================================================================================
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzoLatCz-5pCWpq4F-35mxqJJfxDjhbC8UzarNT-6Be5CVpYeJ1H_5IqduLtyCW0U9TsquEKbbvE3GstD3FlahlPZbY4yJM26SD-X3Aab3tS6k1_WXgXvO4iZqAjbf1Un1kE9nXrw=w1242-h1279-v0
+
+5b26b45b-6bf1-4ba8-88d1-35a60cbf9274
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyMyBDfXgJ9fegZ2gIkr9TBzQ4c1bbJ-2TBwpf3oAKaB5N-w2cuuTJZSu15T4UpJesB2cQKZRu7MYbO2WOjK_X2Fkkef1ABJJhVQ05VV_i1OPzbel3_25Yx6j_BZ74Q5eT7Tk0R=w1245-h770-v0
+
+daac9671-4182-4251-8b70-cecdf3236f88
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwjIhD56sNhRd8ZP6TAXl_s5vzueGM7KhsaqlSWUoS0PqXCstVAFJPF6K9-aIAZnYws9ZnjW7UBjksfFon9Uns0xtocqsjLR6G1v1CkVbeRHZKV1ZJi3n1_1ek8stCr5kdi1AyjZQ=w1280-h857-v0
+
+42082037-c54d-4430-9394-484a5425bf59
+
+WHITE PAPER
+
+AUTHORS: 
+
+AUTHORS CONTRIBUTED TO THE USE CASES: 
+
+White paper AI in logistics 
+
+Anike Murrenhoff, Fraunhofer Institute for Material Flow and Logistics IML 
+
+Mia Bedarf, Fraunhofer Institute for Material Flow and Logistics IML 
+
+Liesbeth Brügemann, DINALOG 
+
+Bas van Bree, DINALOG 
+
+Tomas Ambra, ALICE 
+
+Julian Hinxlage, Fraunhofer Institute for Material Flow and Logistics IML 
+
+Dr. Stefan Walter, VTT Technical Research Centre of Finland 
+
+Pablo Castiella, baobab soluciones 
+
+Bartu Arslan, Eindhoven University of Technology (ESCF) 
+
+Christian Jestel, Fraunhofer Institute for Material Flow and Logistics IML 
+
+Jorge García Fernández, Geoodel 
+
+Pavlos Basaras, Institute of Communication and Computer Systems (ICCS) 
+
+Enrique Onieva Caracuel, University of Deusto, Bilbao 
+
+Enrique Martín-Alcalde, PORTXCHANGE 
+
+Joan Meseguer, Fundacion Valenciaport 
+
+Ngoc Quang Luong, IMEC 
+
+Ignacio Serra Viedma, IDOM Consulting 
+
+Prof. Lorant Tavasszy, TUDelft/TNO 
+
+Konrad Steiner (DB Schenker) & Maximilian Otten (Fraunhofer Institute for Material Flow and Logistics IML) 
+
+Vincent Wegener, Captain AI 
+
+Muhammad Awais Shafique, CIMNE 
+
+Willem van Jaarsveld, Eindhoven University of Technology/ Twente University 
+
+Patrick Brandtner, University of Applied Sciences Upper Austria 
+
+Enrico Ferrari, RULEX 
+
+Dr. David Cipres & Dr. David Escuin, ITAINNOVA 
+
+Sebastian Piest, UTwente 
+
+Veronica Asta, Circle Group 
+
+Abdo Abouelrous, Eindhoven University of Technology
+
+3 
+
+Contents 
+
+White paper AI in logistics 
+
+Executive Summary 04 
+
+Artificial Intelligence in the Logistics Industry in Europe 05 
+
+A brief introduction to Artificial Intelligence 07 
+
+Application examples for Artificial Intelligence in logistics 10 
+
+The challenge of finding the right place to start 35 
+
+Conclusion 38 
+
+References 39
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAylYsOe9QyJywT1nWZLccbNzPPvnlkYlVBLVsBFkyyCROcWWkdDOHW9w3DVrH-tlxtYK3uGuNu_2nMfX6JDdFxaJSfKNZ2tFMDJA4_IVT-7knfKxJN-AQyZBFleI7bHLCW4pGNBcw=w1007-h645-v0
+
+cc039d6a-8dd5-46ee-9b57-ea8b592e16b8
+
+4 
+
+Executive summary 
+
+This white paper on Artificial Intelligence (AI) in Logistics targets ALICE network members and organizations interested in starting AI projects in the logistics field. 
+
+AI currently permeates all sectors and industries and becomes an increasingly important technology. The characteristics of the logistics industry, such as a fluctuating consumer market, multiple actors with opposing goals, and complex optimization problems, make it highly suitable for AI applications. AI methods can capture the complex relationships in logistics environments, leveraging the increasing availability of data to make logistics processes more efficient and sustainable. The European Union (EU) supports the development and use 
+
+of AI by creating a regulatory framework called the EU AI Act, aiming to ensure the safety, transparency, traceability, non-discrimination, and environmental friendliness of AI systems used in the EU. 
+
+After exploring the foundations of AI, the white paper provides application examples for AI in logistics from members of the ALICE network. The application examples are clustered according to their application domain (ports, intralogistics, and transport management), as well as the task that an AI algorithm on (sensing, thinking, acting). Finally, the white paper addresses common challenges of starting and AI project and ways to overcome them. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyveFojdavy5O62A7cbS2dAM2dIidajqz5zskNe2UPMGRRtpZASGBM258QrwB38HN542sHKsmGvb9dmXnxH2CJy_qJ4n_HBXOvpHHd6HyeNDJIHti-rAJXkPvzj4eFLRgUDyc78=w1004-h338-v0
+
+3afe9a36-b7c2-401e-917d-ad1bfdfc5503
+
+WHITE PAPER AI IN LOGISTICS 5 
+
+Artificial Intelligence in the Logistics Industry in Europe 
+
+Over the past couple of years, artificial intelligence (AI) has become a major topic – if not the major topic – in many newspaper articles, panels of experts, forums as well as in the business community. Especially with recent developments and releases in the area of generative AI quickly taking the market and transforming economies, for example the chatbot ChatGPT*  by OpenAI and image generation tool Midjourney by Midjouney**, Inc., the discussion about the potentials of AI for all private and industrial sectors have gained a new level of attention. The EU supports the development and use of these innovative technologies by creating a regulatory framework, called EU AI Act. The goal of the AI Act is to make sure that AI systems used in the EU are safe, transparent, traceable, non-discriminatory and environmentally friendly and to reach an agreement on the new law by the end of 2023 [1]. 
+
+The importance of AI is also growing rapidly in the European logistics industry, as it can help optimize processes, reduce costs, improve customer satisfaction, and increase sustainability. According to an Accenture report, 86% of COOs claim that AI is essential for achieving their growth objectives and 40% of supply chain executives participating in Accenture’s Technology Vision research said AI is the second priority for scaling in 
+
+a post-pandemic world, just behind the cloud [2]. Also, the 2021 MHI Annual Industry Report determined that AI is one of the technologies that have experienced the largest jump in technology adaption rate in global supply chains from 2020 to 2021, underlining the rapid growth of the importance of AI in logistics [3]. 
+
+This development is not surprising: the logistics industry is particularly well suited for the use of AI due to its specific characteristics (see Fig. 1). The environment in which logistics systems operate is characterized by a fluctuating consumer market, many different actors, and opposing goals that need to be reconciled.  It is therefore a highly dynamic and complex environment, which leads to complex optimization problems that need to be solved to achieve efficient and sustainable logistics processes. Methods in AI have the ability to capture the complex relationships in logistics environments. In order to do so, they require a lot of data. Data becomes more and more widely available in the logistics industry with the widespread use of technology such as sensors, cameras, tracking and tracing systems or digital twins, even though sharing data between companies in the logistics industry can be challenging due to data privacy and sovereignty concerns, security risks, and differences in data formats and systems used by each company. The complex decisions 
+
+* https://openai.com/blog/chatgpt 
+
+**  https://www.midjourney.com/home?callbackUrl=%2Fexplore
+
+6 
+
+Figure 1:  Relevance of AI for the logistics industry 
+
+Characteristics of the Logistics Industry 
+
+Characteristics of Artificial Intelligence 
+
+Complex, dynamic environment and problems 
+
+Ability to map complex interrelationships 
+
+Produces lots of data (subject to data sovereignty management) 
+
+Requires a lot of data to map complex interrelationships 
+
+Faces workforce transformation in the future 
+
+Enables to generate and capture knowledge 
+
+High relevance for economy Particularly large lever  for optimization 
+
+that control logistics processes are often made by experts and thus depend on the experience of employees. The shortage of skilled workers is a trend that will also become increasingly relevant for the logistics industry in the future, so that AI with the ability to generate and capture knowledge will become a key factor. Finally, with a contribution of 5% of the EU’s gross domestic product, more than 6 million employees, and 25 % of the EU’s total greenhouse gas emissions, the transport industry alone plays a significant role in the European economy 
+
+and holds major potentials for optimization approaches based on AI methods [4]. 
+
+Thus, AI has the potential to transform the logistics industry and is becoming a driver for logistics systems of the future. This white paper explores foundations of AI methods, application examples for AI in logistics from members of the ALICE network, as well as common challenges and how to overcome them.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx_YG6Tkjy9Si4vmnXdefi5Yr9uUo5FVL29I08HPnqhYh3UW2XKkn6C92Zmcs76dTLfHiQE1pcv-VlBItqet1ob7iyfRn0pYFbRbZCdIxMsIMaje-ZF9uKiXU54oezIjHHnhxwsug=w479-h407-v0
+
+4412e59e-5b19-4982-8869-04710fa2b507
+
+WHITE PAPER AI IN LOGISTICS 7 
+
+A brief introduction to Artificial Intelligence 
+
+The first definition of the term AI was proposed by the British mathematician and computer scientist Alan Turing in a widely cited article from 1950 [5]: a computer is considered intelligent if a human interacting with that computer cannot distinguish between whether they are communicating with a machine or a human. This test nowadays is known as the “Turing Test” and serves as a widely accepted definition for the AI. A more recent definition of the term AI is proposed by Russel and Norvig as follows: AI can be defined as “intelligent entities that mimic cognitive functions” [6]. As Turing, they define AI as the ability to mimic human intelligence and execution of tasks using automation or robots. 
+
+In the same article, Turing stated that only learning machines can develop truly intelligent behavior. This prediction should turn out correct, Machine Learning (ML), and Deep Learning (DL) in particular, have been instrumental in advancing AI in recent years (see Fig. 2). ML is a subfield of AI that focuses on algorithms that can learn from data and make predictions or decisions based on that learning. DL is a specific type of ML that uses artificial neural networks to process complex data inputs and generate outputs. 
+
+DEFINITION OF THE TERM ARTIFICIAL INTELLIGENCE 
+
+Figure 2:  Machine Learning and Deep Learning as 
+
+subfields of AI [7] 
+
+Artificial Intelligence 
+
+Machine Learning 
+
+Deep Learning 
+
+Slate statue of Mathematician Alan Turing at Bletchley Park, Bletchley, Milton Keynes, Britain
+
+8 
+
+Figure 3:  Differences between traditional software and ML software [7] 
+
+Computation 
+
+Computation 
+
+Input / Data 
+
+Input / Data 
+
+Output / Results 
+
+Rules / Algorithms 
+
+Rules / Algorithms 
+
+Output / Results 
+
+“Conventional” algorithms 
+
+Machine algorithms 
+
+The field of ML originated from the theory of pattern recognition and the idea that computers can learn to perform tasks without explicit programming. Unlike conventional software, which remains fixed once programmed (see Fig. 3), ML programs are designed to adapt to changing circumstances and to map complex relationships between input and output data. They operate on the principle of human learning, with inputs, a model, and outputs. The input component of the system is data that is provided for a task, and the outputs show how the ML system responds to the inputs. The internal model describes how to convert the input into output. By using existing sample data for inputs and feedback on the expected outputs, an ML software learns the best fitting 
+
+model to the data and can then apply it to new input data to convert it into new outputs. 
+
+Provided that data is available from which a context can be learned, the use of ML software offers advantages in two situations: 
+
+The relationship between inputs and outputs changes over time, so that the model must also adapt. 
+
+The relationship between inputs and outputs complex enough that conventional models are not able to represent it or that the performance of these algorithms is not sufficient for the application. 
+
+DIFFERENCES OF ML SOFTWARE COMPARED TO CONVENTIONAL SOFTWARE
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz8scxzxpVFbH-bvtvX8eWk74VJGu475c_SFQOEZCFY-udCeStgsBRKa-SPGtSCWunjNf0rw32ppHwXAoU6SB99MKT305B0_MbYqKb9N7ds6WmqxuUjfwlvIZQZsnTXDilxwANA1Q=w1019-h492-v0
+
+cb835b22-92e2-44ab-a2a6-b9417cd5fe37
+
+WHITE PAPER AI IN LOGISTICS 9 
+
+     APPROACHES TO MACHINE LEARNING 
+
+The following section outlines the three primary categories of machine learning algorithms that are used to train ML models. 
+
+    SUPERVISED LEARNING 
+
+Supervised learning involves having a known correct output for each input, allowing the ML model to be trained with a given data set of pairs of input and expected output until it learns the correct behavior. After the training phase, the ML system can then successfully process data that are not included in the training set. Supervised learning is widely used in various fields, and some application examples include image classification, regression analysis, fraud detection, and predictive maintenance. 
+
+    UNSUPERVISED LEARNING 
+
+Unsupervised learning involves the ML algorithm searching for patterns within input data without any specific goal or output in mind, unlike supervised learning. This involves using methods from data mining and multivariate statistics. A common example is the recognition of 
+
+whether customers are expecting a child or not, based on their shopping behavior. The ML algorithm learns this information to provide customized offers, such as baby clothes, to these customers [8]. 
+
+    REINFORCEMENT LEARNING 
+
+Reinforcing learning is the third basic type of ML. In contrast to supervised learning, there is no pair of inputs and “correct” outputs (expected results). Instead, reinforcement learning involves training an algorithm to make decisions based on rewards and punishments. In this type of learning, an agent interacts with an environment and learns to perform certain actions to maximize a reward signal over time. The agent receives feedback in the form of a reward signal when it performs a desired action and a penalty when it performs an undesired action. Therefore, the agent learns by trial and error, using exploration strategies to try out new actions and learn from the resulting rewards. Reinforcement learning is commonly applied in game playing and robotics.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw6NeBLe9KiFRFQ63GmgeUBEcQRbnSCMdNIg1FAsAFsaRaeh4-z_fcc4nBQ-Oll3zFxWrstuCeY_VZS4Z7N-yvrJIDA6lddV7g8hY_9_tmBQ_02EdWkfd1oDRWJa5CC_H-46vVG=w1004-h820-v0
+
+622b7f31-eb94-430f-b958-26d75ee4da23
+
+10 
+
+Application examples for Artificial Intelligence in logistics 
+
+Among the members of the ALICE network, AI is being extensively used in various domains of application, such as ports, intralogistics, and transport management. These applications can be broadly categorized based on the task performed by the AI algorithm - sensing, thinking, or acting (see Fig. 4). Sensing applications involve the use of sensors and data analytics to gather information about the environment, while thinking applications use 
+
+ML algorithms to analyze data, e.g., generated by use cases in the sensing category, and make decisions. Acting applications involve the use of robotics and automation to perform physical tasks. In this section, we will explore the different use cases of AI in logistics, clustered according to their domain of application and the task of the AI algorithm.
+
+WHITE PAPER AI IN LOGISTICS 11 
+
+Figure 4:  Application examples of AI in logistics 
+
+Intralogistics 
+
+Ports 
+
+Transport Management 
+
+Sensing Thinking Acting 
+
+Fraunhofer 
+
+Identification based on natural 
+
+features 
+
+Fraunhofer 
+
+Real autonomous 
+
+robot navigation 
+
+Port de Barcelona 
+
+goclever 
+
+DB Schenker 
+
+Video Analytics in 
+
+Landtransport 
+
+ICCS 
+
+5G-LOGINNOV 
+
+UD 
+
+LOGISTAR 
+
+Fundación Valenciaport 
+
+E2RM 
+
+IMEC 
+
+COOCK Smart Port 2025 
+
+Port of Algeciras 
+
+PortXchange 
+
+TUDelft & TNO 
+
+SWARMPORT 
+
+Circle Group 
+
+Milos Intelligence 
+
+Port of Algeciras 
+
+IDOM & AWS 
+
+VTT 
+
+KnowlEdge 
+
+TU/e 
+
+AI Planner 
+
+Baobab 
+
+Production Planning 
+
+Captain AI 
+
+AI based radar tracker for 
+
+inland shipping 
+
+CIMNE 
+
+TOOL: Traffic fOrcasting fOr 
+
+Logistics 
+
+ITAINNOVA 
+
+SmartDriving 
+
+TU/e & UT 
+
+DYNAPLEX 
+
+TU/e 
+
+Digital Twins for City Logistics 
+
+FH Steyr 
+
+Demand prediction 
+
+in retail 
+
+UT 
+
+ICCOS 
+
+Rulex 
+
+Data driven dashboard
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyHjTbRuX5fiIRKO1ph8MWaQe2ZaIkzbGQ0R3lJGIVq33M2RIEGGX0GIDsOX7BXMCTM4_0xyzzOT31mXxKygZwNS4n4JXgieXzCQmQ-GLJyajDULFt85EyYSLVIZQTV11Fg-u2bjw=w420-h262-v0
+
+9609899d-1270-49c1-8267-82899a57f6bd
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzh23A3lw2oypETJkZnBWnqR4M94mveUBRjVPOQ8lr9a20MNDxpWu2KTRXD2KOBkfs8lgGrRnJYd1uoXl5Dev8dNGK3rQSaerYQad7C-s7vaGOJydx6v_51OqDIpgEDXRtYjnME=w678-h355-v0
+
+93823f66-dd7c-4d9d-8da5-753847c963ad
+
+12 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Julian Hinxlage 
+
+ORGANISATION: Fraunhofer IML 
+
+RELATED PUBLICITY FUNDED PROJECT: Silicon Economy 
+
+ONLINE INFORMATION: https://www.silicon-economy.com/en/homepage/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+The developed open source service allows to uniquely identify load carriers based on their natural features, e.g., the specific grain in the wood of a wooden pallet. 
+
+The service is designed to make processes within a logistics system more efficient by eliminating processes such as label printing, temporary attachment of labels to the pallet and manual scanning. Pictures of pallet feet are used to train neural networks to detect the pallet feet in the pictures and create signatures based on the specific grain. The signatures can then be used to re-identify the load carriers at the following identification points in the logistics system. 
+
+In this project two different neural networks have been trained, one for detecting the pallet feet in the pictures and one to create pallet specific signatures. For training the networks, methods from the area of computer vision have been applied. 
+
+Fraunhofer IML, Fraunhofer ISST, TU Dortmund University 
+
+Source: Fraunhofer IML 
+
+Identification service based on natural features 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+WHITE PAPER ON AI IN LOGISTICS 13 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Dr. Stefan Walter 
+
+ORGANISATION: VTT Technical Research Centre of Finland Ltd. 
+
+RELATED PUBLICITY FUNDED PROJECT: EU knowlEdge (Horizon2020, Grant agreement ID: 957331) 
+
+ONLINE INFORMATION: http//www.knowledge-project.eu 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+To create a solution that can optimize production sequences and improve efficiency. This includes using AI technologies to reduce human input and improve predictions of product quality parameters. It requires extracting information from different data streams along the supply chain to improve coordination of production and logistics processes. 
+
+The case focuses on the production scheduling for a dairy factory. The product is to be made in accordance with market demand, while utilizing the resources efficiently. This process is constrained by many factors and requires extensive knowledge to plan the production. Re-scheduling in real-time needs to be undertaken when unexpected changes occur. Line managers are responsible for reacting quickly to these changes, which is currently mostly based on experience and human behaviour. 
+
+The project develops a platform, which is designed to be agile, distributed, scalable, collaborative, and standardized, with security and accountability in mind. It integrates cognitive technologies, including AI, distributed data analytics, Internet-of-Things (IoT), cyber-physical systems (CPS), edge, fog, and cloud technologies. 
+
+The platform includes several elements, which address challenges related to decision-making, knowledge representation and storage, data integration and management, AI and analytics, and cross-platform capabilities. Distributed AI and data analytics are based on deep machine learning methods towards automatic knowledge discovery. Users can reason with the AI results and suitable interfaces allow capturing of human domain knowledge. 
+
+Source: Fraunhofer IML 
+
+VTT Technical Research Centre of Finland Ltd, Finland - LINKS Foundation, Italy - Fraunhofer Institute for Applied Information Technology (FIT), Germany - Nextworks Srl, Italy - Information Catalyst for Enterprise Ltd (ICE), United Kingdom - Westfälische Wilhelms-Universität Münster (WWU), Germany -Barcelona Supercomputing Center (BSC), Spain - Kautex Textron GmbH & Co. KG, Germany - Universitat Politècnica de Catalunya (UPC), Spain - Parmalat S.p.A., Italy - Centre for Research and Technology Hellas (ITI-CERTH), Greece - Bonfiglioli Slovakia s.r.o., Slovakia - FernUniversität in Hagen, Germany 
+
+Optimised production scheduling and process efficiency, based on interconnected data of sales, production and distribution 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxEIl0agKIKIVZvy0qcGsMll1DptksrvM5qxO6C9g32ww1kQDpyDyqzJHyCOYVIAk3M312nMnMIjfFt9G4bTYZKmQDb5F5VItN6IunuSzkQaChF4cpo1BgVMq2voDilvTjjef_VNQ=w897-h631-v0
+
+24664ec4-d092-4d09-8640-87c5e12051a6
+
+14 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Pablo Castiella 
+
+ORGANISATION: Baobab Soluciones 
+
+ONLINE INFORMATION: https://baobabsoluciones.es/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Baobab is a consulting company that specializes in solutions and tools to reduce operational costs and optimize margins. One of the use cases is concerned with production planning in a steel coil production line. 
+
+In order to optimize the production planning process, the use case pursues various goals. It aims for an efficient use of material by maximizing the weight delivered to the production line and minimizing the amount of waste. Simultaneous optimization goals are minimizing changeover and lost times. 
+
+To solve the problem optimization is used, specifically, linear programming. This field is based on, through a mathematical model, obtaining the optimal solution of our problem, which is characterized by providing the maximum or minimum possible according to the objectives of the problem, in this case, the maximum amount of material delivered. 
+
+Production Planning of Steel Coils 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: Baobab Soluciones.
+
+WHITE PAPER ON AI IN LOGISTICS 15 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Bartu Arslan 
+
+ORGANISATION: Eindhoven University of Technology - ESCF 
+
+RELATED PUBLICITY FUNDED PROJECT: AI Planner of the Future – Project 3 
+
+ONLINE INFORMATION: https://escf.nl/ai-planner-project-3/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+Utilizing real-time data and Reinforcement Learning techniques, an algorithm for retailers is developed. This AI-driven solution optimizes inventory management by providing near-optimal fulfillment and replenishment decisions. 
+
+With the rise of online and omnichannel retailing, retailers now have more data to help with their inventory decisions. However, seamlessly integrating crucial inventory decisions—particularly in fulfillment and replenishment—is not straightforward. The intricate nature of these decisions demands sophisticated solutions. Enter Reinforcement Learning algorithms: designed to adapt and improve over time, they harness the power of real-time data. 
+
+In this context, a Reinforcement Learning approach is used because the problem is a sequential decision problem. For example, each day, a retailer observes the demand and makes a fulfillment decision as the demand arrives, and on particular periods, the retailer observes the on-hand inventory to make a replenishment decision. We include every information of the retailer such as the on-hand inventory and the pipeline inventory, as a state element. Considering the state, the Reinforcement Learning agent provides an action that yields the maximum reward (this could be the expected profits over a period). 
+
+Eindhoven University of Technology, European Supply Chain Forum, Eindhoven Artificial Intelligence Systems Institute, Logistics Community Brabant 
+
+AI-Based Replenishment and Order Fulfillment Strategies for Omnichannel Supply Chains 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxAprfEM6LB1G9pLfcUsp2B-d1JCai0CW0kSxixqmkxSC4muLav1rk4Q5sBjvfJNpr4ds31U8oD-Y5VpZwVjm3pHxaGgvqIVe09djes-HLuz3pEAwVSpfxrTUktJCVpf8cIwAhR=w502-h404-v0
+
+7ad219fe-c3e4-40e3-a674-b45627b03fa9
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwb7I3HMCHekFbEy-dQdcszKWKVnLxhTLP_MetesZW95UTjzw0AjFIRvtBtfgEDnSyLbqdgOurtRbikgI_PAavniWoBcw3Tf0GTkE1rSaocOJam0XZeYUzsKr6rLDx38Y6AnjSl=w266-h226-v0
+
+526f8975-9e0b-448a-be6c-17544165f64b
+
+16 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Christian Jestel 
+
+ORGANISATION: Fraunhofer IML 
+
+RELATED PUBLICITY FUNDED PROJECT: AI Arena 
+
+ONLINE INFORMATION: https://www.aiarena.de/blog/roboter-schwarmintelligenz/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+In this work autonomous self-learning robot navigation in an unknown environment has been applied to a real robot without a map or planner. 
+
+Reliable localization of mobile systems, route planning and position control are essential to many applications in logistics, manufacturing, and service robotics. Examples include item tracking in warehouses, the delivery of resources to assembly lines or an assistive robot’s autonomous navigation and execution of localized actions. Multi-robot navigation is a challenging task in which multiple robots must be coordinated simultaneously within dynamic environments. 
+
+Deep reinforcement learning (DRL) is applied to learn a decentralized end-to-end policy, which maps raw sensor data to the command velocities of the agent. The agents get the four last observations as inputs: the 2D laserscans, orientation to the goal, distance to the goal, and velocities of the robot. The produced output is continuous action as command velocities. 
+
+Using Proximal Policy Optimization (PPO) the agents are trained in several environments like multi robot or bottleneck scenarios. An emergent behavior was observed when the agents learned to drive as group to their goal and efficiently pass other robots without colliding. 
+
+Westphalian University of Applied Sciences, TU Dortmund University, Fraunhofer IML 
+
+Real Autonomous Mobile Robot Navigation Indoor 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: Surmann, Hartmut, et al. “Deep Reinforcement learning for real autonomous mobile robot navigation in indoor environments.” arXiv preprint arXiv:2005.13857 (2020).
+
+WHITE PAPER ON AI IN LOGISTICS 17 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Jorge García Fernández 
+
+ORGANISATION: Geoodel 
+
+RELATED PUBLICITY FUNDED PROJECT: Ports 4.0 Deployment of CleverVolume 
+
+ONLINE INFORMATION: http//www.goclever.io 
+
+GoClever’s Clever Sense solution leverages LIDAR sensor technology and advanced processing to transform operations in port environments. Through seamless integration with existing automation systems via APIs or object detection-triggered systems, Clever Sense optimizes two critical domains: waste (MARPOL) quantification in Maritime Ports and cargo verification in Ferry terminals. Both domains have been applied to the Port of Barcelona. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Clever Sense leverages LIDAR sensors to generate point clouds that represent physical objects, such as waste and cargo containers. These point clouds are then processed through specialized algorithms for intelligent segmentation and feature extraction. Both cloud-based and on-edge computing handle this intricate data analysis. The AI methods are designed to interpret these features and provide precise measurements and characterizations, automating what used to be manual, labor-intensive tasks. By utilizing intelligent segmentation, the system is capable of distinguishing between different types of waste and cargo, even under varying environmental conditions. This segmentation and subsequent analysis enable highly accurate, real-time quantification and categorization. 
+
+PARTNERS 
+
+Working closely together with the Port of Barcelona, BCN Port Innovation, Port of Aveiro and Grimaldi. 
+
+Automating and Optimizing Port Operations through Clever Sense: A Sensor-Driven, Cloud-Enabled, and API-Integrated Solution 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+Clever Sense is strategically designed to address two key challenges in the maritime and port logistics sector. First, it automates the real-time estimation of solid waste volumes under MARPOL V regulations, significantly improving waste management efficiency and sustainability. Implemented successfully at the Port of Barcelona, this feature allows for rapid, accurate measurements independent of weather and lighting conditions. Second, it automates the dimensional characterization of non-containerized cargo, specifically in ferry terminals, to optimize cargo space and ensures precision in tariff collection and ensure safe, efficient vehicle management. Together, these applications significantly enhance the efficiency, compliance, and sustainability of port operations. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzDx4QJBf1XWg6KMX6amcXE_0Prsg02fgdBj9yu3A-m2M156HtcwDu9nRfpYTfizZGDmvgKvAAi086iLmM3Dh9skWbiEnHi8EYjysVOaqng5nXGWUeumXMKtexKiMRgU0QdPFW9Wg=w447-h304-v0
+
+4c8ad3fc-f600-419e-9590-43c58784a56e
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwiIibrPit68hWGDao6M4jr7_3Fa2i0lpfm-bL7IjuicxgyOv19FW_vEXYMAskzlo_t3OV0XhquyTwHNb3YDZaE59beaj4M5tevMSZBUC64j_Z4XOE6sbA3mLZEGdm4buaxHedfzQ=w66-h177-v0
+
+929016e6-6331-4c57-bb62-137a5ab7e4a2
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz3BB-34oL7BclJXlL8PzPKDewhHsRcOroOkXy1eVvDs6hdQOUNZvbAIdy6btWmbzWT45wSK80NB7ywf_OUgOlndl0S0zx4bvvkNJhTZZ86GaGz9Iqsrz11C_2yQBpg0j3_oNYd_g=w164-h231-v0
+
+1b7dc27d-6670-4336-b4ba-c2ae10ead541
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxlRJCrPiqONAOZSgg27e05VIuWrWxIAz0PjjKf4RL4eY4YXaWBzdQDzIJhnFCNNe5SWu8t4Fd1cJ0OEfg9_5r2wh4wM9otBNxCPsGYLbyQaRIYMWmwGbqstuTI-y6QSVoSCzkhXw=w86-h231-v0
+
+a97a66e3-4dc3-4f07-9486-2306925e1474
+
+18 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Pavlos Basaras (pavlos.basaras@iccs.gr) 
+
+ORGANISATION: Institute of Communication and Computer Systems (ICCS) 
+
+RELATED PUBLICITY FUNDED PROJECT: 5G-LOGINNOV “5G creating opportunities for LOGistics supply chain INNOVation” (H2020–ICT–42) 
+
+ONLINE INFORMATION: https://5g-loginnov.eu/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+Use Case Setup in Port Environment AI service inference time in various settings 
+
+The service relies on high resolution video captured by cameras mounted on quay side cranes that observe the crane’s loading and unloading actions. The video is transmitted in real time over 5G to the AI-enabled video analytics service which infers the presence or absence of container seals. 
+
+Detecting the presence (or absence) of container seals for containers inbound at a port is of paramount importance for the port operator, as the presence of a seal validates the integrity of the container contents. It is not rare however for containers to arrive with broken/absent seals, especially when their transportation plan involves transhipments; in such cases, the involved ports should be able to prove that the container left the port with its seals intact or pay the claimed financial reimbursements. Currently, the seal check process requires human intervention, i.e., manual check. The objective of the developed AI-enabled video analytics solution is to fully automate the seal check process and eliminate the need for human involvement in an area with relatively high safety risks. 
+
+Computer vision is essential for extracting meaningful information from video frames. As a crane loads/unloads a container, a CCTV camera facing the front view of the container provides real-time video frames to a fully convolutional neural network (FCN) object detection algorithm trained for identifying containers. Each frame is processed. If a container is detected, it is cropped from the original image and used on a similar object detection algorithm trained for identifying seals. Separating each type of detection improves the system’s accuracy. After the image processing steps, bounding boxes are drawn on the frame, providing the user with annotation data. 
+
+Institute of Communication and Computer Systems (ICCS), Piraeus Container Terminal (PCT) 
+
+5G&AI-enabled container seal detection at the loading/ unloading phase of vessels 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Extreme-Edge V1 Extreme-Edge V2 200 
+
+175 
+
+150 
+
+125 
+
+100 
+
+75 
+
+50 
+
+25 
+
+0 
+
+Cloud V1 
+
+In fe 
+
+re n 
+
+ce  T 
+
+im e 
+
+(m s) 
+
+Conta in 
+
+er  Ti 
+
+m e 
+
+Conta in 
+
+er  Ti 
+
+m e 
+
+Conta in 
+
+er  Ti 
+
+m e 
+
+Conta in 
+
+er  Ti 
+
+m e 
+
+Se al 
+
+Tim e 
+
+Se al 
+
+Tim e 
+
+Se al 
+
+Tim e 
+
+Se al 
+
+Tim e 
+
+Cloud V2 
+
+Source: Institute of Communication and Computer Systems (ICCS).
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyA7hqSCVujDg54pwUS-YZIl1wG4XsfXv6nAvn09ycBI1LQPtuLy6-WXIpbhOxN2Ofi0KISMG45xEK_OGKY8nLcuC9D0Sm4-W73sdzD0IBl2T_G7WPE_7YQLHF__SxJ8zfrR0zmYw=w551-h367-v0
+
+64d8d603-04c1-409e-89cc-cf10835a418a
+
+WHITE PAPER ON AI IN LOGISTICS 19 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Using a state-of-the-art neural detection and tracking stack for radar enhances radar detection of ships and boats highly accurately, ultimately enabling navigation and control of ships by a digital captain. 
+
+The port area is a very buy environment, also on the water. Not only large container vessels, with tug boats sail the waterways, but also smaller vessels like water taxis, waste boats and inland ships. To navigate and avoid collision, shippers should be aware of their surroundings. The advanced radar detection supports the safer and more efficient inland navigation offering advanced collision detection and improved warnings for skippers, enabling them to react in a timely and accurate manner to dangerous situations around the ship. 
+
+The Radar Tracker uses Deep Learning techniques by collecting and labelling data using a variety of inputs for Captain AI’s fusion algorithm, in order to create a reliable view of every situation. They make use of of radar, cameras, GPS, Octance, sonar and AIS already installed on most vessels. 
+
+The Deep Learning Radar detector and tracker is now available for Furuno and Simrad radars and can both run in the cloud or on premise. The technology will be integrated in Periskals existing navigation systems, such as the Inland ECDIS Viewer and can propose changes to an (Agonics/ Alphatron) Trackpilot on the course of the ship. 
+
+PARTNERS 
+
+Working closely together with the Port of Rotterdam Authority and Rijkswaterstaat, and for example with Periskal to  include is in River Information Services and Navigation Software. 
+
+AI Deep Learning based radar tracker for advanced navigation for inland shipping 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: : Captian AI. 
+
+NAME: Vincent Wegener 
+
+ORGANISATION: Captain AI 
+
+RELATED PUBLICITY FUNDED PROJECT: Captain AI receives funding from a.o. UNIIQ investment fund and Citylab010 
+
+ONLINE INFORMATION: Captain AI – Autonomous ships for autonomous ports
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwsRKsxx8t2ShDJG2B72hTZUn-TmO0w_VZm3bluc5JyS414rfsGS3OClB5U-_0mYPbxO4gO_ZDRdjMvy12NsRT13oQLwjkgTwwMTbPqWEbh66M4Y4l3gpJ9s74L8sQGHEFOllyCEA=w247-h52-v0
+
+bf2e0600-7d67-4c2c-af62-deb547d4d7e0
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwo_TgsYzAxKGJFx9ZGHbDndTHeyZo3yULteNRKetDysoyh7_SVubEqWZWPsDc22tbE6vkaVwL1nyTiEaUhRex_JUZ8-0N2LKBhBsEw8jnOfOT8Gjm7RuBTBwRt9oO5hmRl8i9N=w171-h55-v0
+
+116e5a00-88f2-421d-9348-0211c3613d33
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz1rpEgsGyr1oQ5zVjR5GkbdOCkKLL6tusUKhCol_eW8NdHFzUPo88rX26dTq80Hcxp2IErOOxeEotpNDfbOH74C8VRAnE7UsOOPAmzOZgYNmGT7945wpsy1H-dwE7vtjLGhObfhQ=w116-h55-v0
+
+793bc85b-25a8-43de-8223-0c0236b5a151
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxICjcLmo_uZ32wxrrISOfphvdCfrE2DorbESeCRXVcLgRZfiGGZj3V6UQY3stLIsVSMfIq1rQEijLJNUCZXsmM19Dgyy_jnp2fuX-G6x7Tvh3hf_yGb0J1CAJ6J0epj9VgfReYeQ=w130-h55-v0
+
+109285bb-9d4e-4991-940b-c4f477ebd327
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwA0e4JAlM32YYfsKeMd8iRxvyli44YM_0XAm97GG3_IWaEoO9zaspnHQSB9wFsnzORWQGI-yptdVYcKPnvsO2d9KI-ISVyXL4VGfYG5QfZjVlZYHe8OyBXGGmm-Ukr4Q8dOfjL6w=w130-h55-v0
+
+0fbcd22d-31c0-43ee-93ce-e59e8979634d
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyRGMXDOqI3k4p-TK2P4uVqKA-2pcNshWekJ_eMVoFW5GJNaKOzBXlkD1rhIZV9kh3TBoq1_6Kip0ICirUGH5LTQz5DJTQAv0kMXjLKcLCu6w_DXSeSxpLrXs4LYhlkgpMTX8BQUw=w208-h55-v0
+
+726c6b7d-ee47-4c5b-9aad-d168a8411585
+
+20 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Enrique Onieva Caracuel 
+
+ORGANISATION: LOGISTAR/ University of Deusto, Bilbao, Spain 
+
+RELATED PUBLICITY FUNDED PROJECT: LOGISTAR “Enhanced data management techniques for real time logistics planning and scheduling”(H2020: MG-5.2-2017) 
+
+ONLINE INFORMATION: https://logistar-project.eu/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+Collaborative route optimization by building optimal routes for collaborative freight transport using data (fleet, demands, time windows etc) as well as providing real-time supply chain visibility through dashboards not only displaying information but also showing deviations, alerts or recommendations to take actions. 
+
+By collaborating and optimization in freight transport, companies can increase load factors, shorten delivery routes and create full truck load (FTL) backhaul opportunities and consolidation of less than truckload (LTL) deliveries. The solution is aimed at allowing effective planning and optimizing of transport operations in the supply chain by taking advantage of horizontal collaboration relying on the increasingly real-time data gathered from the interconnected environment. 
+
+Data is retrieved and harmonized and sensors are connected to a cloud IoT platform to leverage the available data, to process it and to deliver services. Information used by smart algorithms (Hybrid metaheuristics based on paradigms of parallel computing) for predictions, learning the preferences, optimization of the planning of operations and automated negotiation and re-optimization (based on multi-objective optimization models). Real-time dashboards provide an overview to managers of what is happening. 
+
+DeustoTech, University College of Cork – Insight Centre for Data Analytics, CSIC, DunavNET, Semantic Web company, Preston Solutions, MDS Transmodal, dbh Logistics IT, Software AG,  Ahlers, ZAILOG, Nestle, PLADIS, Codognotto Group, CHEP 
+
+Decision-making tool and a real-time visualization tool for optimization effective planning of (collaborative) freight transport 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: LOGISTAR. 
+
+Data gathering & harmonization 
+
+Implementation of services in the platform 
+
+Smart Algorithms 
+
+Broad data 
+
+Control & decision making tool in logistic operations 
+
+Event Identification & Management 
+
+Global Optimization planning 
+
+Internet of Things (loT) 
+
+Real time information on freight transport 
+
+Artificial Intelligence focussed on prediction 
+
+Automated negotiation and planning reoptimization 
+
+data sharing 
+
+alerts of events, planning of resources, recommendations for solving incidents 
+
+Goods positioning & status 
+
+Information about vehicles and goods 
+
+Goods positioning & status 
+
+Preferences between objectives and tradeoffs 
+
+data governance 
+
+Identification of disruptions 
+
+Planning of operations 
+
+1 
+
+3 
+
+2 
+
+4 
+
+Data flow 
+
+Data flow
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzKwobASSKRn2thjyTvsN-vRXqWdGX2dDCMS0pAkVsxgcabCU8mckHFtcW0BasJPCc3QTdXaI7FP4g5axkAHykkCH-_xZCrGzlJYRcE37OauYs01gkNZ5jRyW8R4u2NZIqsBh0wjg=w319-h196-v0
+
+32057ed3-4fe7-4ca3-a653-2c1fcc2f964f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAziVY20KI2geCoCuUzq_lxPfT6vjB3q0fzE0GkYsNelGAg6ovC49pExHawcKwUhrGxuj4IXDvOqJbR-Augjg3EJD5yMMtik8iBoSqr1xNZORY4z7Ax6nKU4SKhbMGaCdlIs-QEVDQ=w160-h208-v0
+
+dbef3c82-a5ed-4b8a-b519-a4516dd3ee9b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw-yvB6WroLKXlSNxxZ54XsDfOY0k3lOj_0UWb4RK8Wq002r9P4yNZ-awqPXxNXiSpW7G_xgnb6c8BLBB04dTFJdys6Y3x8LJyeGbaM_rQk7HwqieCkRPkm6WBXN0vwwBjnTDbG=w264-h226-v0
+
+8988809f-bb46-4269-a8e5-9eae376b5367
+
+WHITE PAPER ON AI IN LOGISTICS 21 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Enrique Martín-Alcalde (innovacion@apba.es) 
+
+ORGANISATION: PORTXCHANGE 
+
+ONLINE INFORMATION: Port of Algeciras – PortXchange – World Port Sustainability Program (sustainableworldports.org) 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+PortXchange is a digital collaboration platform that shipping lines, port authorities, terminals, and agents can use to optimally plan, execute and monitor all activities during a port call in real-time. It connects operational data from all local parties involved in a port call, standardizes it, and creates a single point of reliable information. 
+
+The maritime industry needs to adapt to the changing world. Serving ships on a first-come-first-served basis causes an adverse carbon footprint and leads to planning disruptions. PortXchange empowers companies to make port calls more predictable, efficient, and sustainable through digitalization and collaborative data sharing. PortXchange provides a centralized point for sharing real-time data to align all players during the port call. All users have an overview of the entire process and are immediately informed about any schedule changes. This common situational awareness helps respond quickly to the changing situation and make necessary adjustments in the planning. 
+
+PortXchange uses applies international standards and combines advanced tools like cloud computing, machine learning, and API to automate real-time data sharing and collaboration amongst the parties involved in a port call process. PortXchange shows planning updates as soon as they occur, enabling a vessel to optimize its speed and decrease unnecessary emissions. 
+
+Pilot run with Port of Algeciras, Maersk Line, APMT, Marmedsa and Port Xchange. 
+
+Digital Collaboration platform for more efficient and sustainable organisation of port calls 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: PortXchange (PortXchange Synchronizer for Shipping Companies (port-xchange.com))
+
+22 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Joan Meseguer (jmeseguer@fundacion.valenciaport.com) 
+
+ORGANISATION: Fundacion Valenciaport 
+
+ONLINE INFORMATION: E2RM - EMPTY EQUIPMENT REPOSITORY MANAGEMENT - Fundación Valenciaport 
+
+The E2RM system will be able to predict the available stock of empty containers, which will directly improve quality of life by minimizing unplanned repositioning movements of equipment. With the help of artificial intelligence, the integration of different data sources and the use of innovative user-friendly visualization tools, an improvement in the quality and level of service to clients is expected. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+The E2RM system applies machine learning algorithms to produce reliable predictions of operations involving the receipt and delivery of containers. with the use of automatic learning algorithms and techniques such as neural network modelling, the vast amount and diversity of data is processed for predictions and programming rules apply multiple factors to take into account. The system will independently manage prediction models so that it can quickly adapt to changing patterns in supply, demand and container traffic. 
+
+PARTNERS 
+
+Funding entity: Cosco Shipping Lines (Spain) S.A. 
+
+Empty Equipment Repository Management (E2RM) 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+The management of the empty container fleet (empty equipment) carried out by local agencies of large shipping companies is a complex activity to optimize for a number of different reasons, notably the level of operational uncertainty involved in the receipt and delivery of containers, which makes forecasting difficult. The lack of support tools capable of making reliable forecasts of these operations gives rise to poor management of the equipment and in repeated problems that result in extra costs and dissatisfied clients (freight forwarders, logistics operators, exporters and importers). Such problems include the repeated lack of equipment needed for export operations at certain locations and times, and the unplanned repositioning of equipment due to bad decisions. The E2RM system will improve forecasts, eliminating repositioning movements. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyks_1tbWxfNhPjJ2uYycI2ZeZeq8bVQ-IW18B90PfP0_Oaje1J8py_VbfAzhJSBRkZeB4C6h1FnL351nEDcG_HW_7lpcJEcWQugR3dliFNQm3wDGiSHXgrlKFxljXKnlzD6y33zQ=w403-h259-v0
+
+6d242fef-e12e-4ff2-93f0-3da70c1ec7d7
+
+WHITE PAPER ON AI IN LOGISTICS 23 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Milos intelligence encompasses a set of innovative solutions each aimed to enhance a specific aspect of the supply chain, support operators in complex decisions and improve efficiency in the transport and logistics sectors through the use of optimization and artificial intelligence. 
+
+The addressed problems involve process management and operational activities within both maritime ports and inland nodes. These complex environments require seamless coordination to ensure efficiency and productivity. Milos Intelligence offers a concrete solution, encompassing a set of innovative tools that aim to enhance various aspects of the supply chain. By providing intelligent, predictive, and automated support, it assists in streamlining the intricate operations in port and terminal nodes, ultimately supporting operators in making complex decisions. This innovative approach leverages optimization and artificial intelligence to drive efficiency in the transport and logistics sectors, fostering a more intelligent and efficient future for the industry. 
+
+The intricate and ever-changing dynamics of operational activities demand swift decision-making and adaptability. Milos Intelligence utilizes optimization algorithms and machine learning techniques to assist industry operators, particularly in the port and maritime sectors. These tools help them understand the complexities of their processes, identify inefficiencies, and optimize their activities by forecasting flow patterns. A technologically generated solution empowers operators to make informed, data-driven decisions, significantly boosting the efficiency and performance of port and terminal operations. 
+
+PARTNERS 
+
+OPTIMeasy. 
+
+Milos Intelligence – Innovative solutions for transports and logistics through optimization and artificial intelligence 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: Circle Group internal elaboration 
+
+NAME: Veronica Asta (asta@circletouch.eu) 
+
+ORGANISATION: Circle Group 
+
+RELATED PUBLICITY FUNDED PROJECT: Some functionalities development within Project eBridge - Emergency and BRoad Information Development for the ports of Genoa and Project RAISE - Robotics and AI for socio-economic empowerment 
+
+MILOS INTELLIGENCE 
+
+Innovative solutions for transports and logistics through optimization and artificial intelligence 
+
+Inland Terminal & Road Network 
+
+Shunting Area & Rail Network 
+
+Maritime Terminal
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwCFqOhGaugHtwI7SV84VL_ccHenIgevXmy0_cbUj6UECzyZWDVbI9kIns5TmonkH5Ea8O2lLK0CytLbVquxS1SMb6Yk4bsjBPOA1mnXP2p-8oJ-49AabM2Id8EkKtK26WLs_ZRXw=w199-h50-v0
+
+f4344e87-db9a-4759-a1cc-e9fe925b21b3
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw3BEa6fGQiHDB98bIns1SAz0vlhEi_cLYdwbN6V-4Hm3k8KNRUueWiaXW9AinsQ6PEawFw3N4AbJytNq7HbTer3OvtfMA_rUM5Z8Y84f1-fFw5bcG482XfamJqtC-7e_1o64m3tQ=w203-h43-v0
+
+b95135d6-e9d4-4dcb-9a56-da102db86a83
+
+24 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Ngoc Quang Luong (ngoc.quang.luong@imec.be) 
+
+ORGANISATION: IMEC, Belgium 
+
+RELATED PUBLICITY FUNDED PROJECT: COOCK Smart Port 2025 
+
+ONLINE INFORMATION: https://www.thebeacon.eu/innovation/projects/coock-smart-port-2025/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+We build the optimizers which recommend the deep-sea port operators to assign wisely the tugboat and dock pilots to assist vessels through the nautical chain. The proposed integrated planning contributes to reduce the ship’s waiting time, travel distance, as well as improve workload balance on these services, thus enhances the port’s operational efficiency.  
+
+In today’s ports, the nautical chain necessitates the inter-operability among multiple intra-port services, with fully sharable planning visibility each. In addition, it harnesses not only historical observations, real time tracking, but also future look-ahead indicators to aid decision making. Our solutions tackle these challenges in various concrete extents. First, the deep learning models forecast the resource capacity (e.g., availability of tugboats or pilots), thus unveil shortage risk in different future time steps. Second, the discrete event-based simulators unlock current planning’ shortcomings via delay, idle time, work balance or cost factors. These insights constitute a fitness function to measure the cooperated tugboat – dock pilot goodness at a given time. Next, our optimizers repeatedly generate planning scenarios and retain candidates corresponding to the best aggregation of desired objectives.   
+
+The Deep Learning models leverage the large-scale historical data and foster end-to-end learning on the capacity of tugboat and dock pilots over future horizons. Moreover, as the situation evolves through time (e.g., task cancellation, task shift, etc.), such models exhibit efficiency in retraining and adapting prediction. 
+
+On the other side, the discrete event-based simulation models focus on the analytical aspects of plannings for the time being. While simulating the trajectory of the actual tasks, different shortcomings related to delay, time and cost can be observed or computed. 
+
+Next, the optimization approach allows to retain the best plannings within the large search space. Furthermore, it enables the fusion of robust candidates after each iteration to propagate the beneficial aspects towards the next generations, therefore strengthening the solutions over time. 
+
+Antwerp systems and software modelling (AnSyMo), University of Antwerp Department of Transport and Regional Economics (TPR), University of Antwerp 
+
+Capacity prediction and simulation models to optimize the joint planning of tugboat and doc2k pilot 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Optimization Algorithms (Genetic, PSO, etc.) 
+
+AI Models Simulators Fitness Values 
+
+Planning Search Space (at time T) 
+
+Overall Cost Value = Min 
+
+Optimal Tugboat planning Optimal Dock pilot planning 
+
+Other Data at time T KPI Model 
+
+Source: IMEC, Belgium.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy8GI32G0skfo_jY6IMmxBLRDwN9zfOn3OteqqV530KC1jju9Pm2G6SfN45lZhocROaiRDualBECCwvkoiM_vd0qrIeJvY3lHckAmZCefCzeKEAe0ayJSQv4FfLK8lvzM0w_sW0=w452-h255-v0
+
+0154cc45-f3a0-4a89-ae8e-2ba770d8bb4d
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxPS6HXJdH1edLyDqSgPdFMm_EB-qPAN-2PbJfxzJkAVpCH2QxDnq-R6y_w0uv0X-JBZPD4N4t9GS4g_l-0XFYC2U3hlKXjXBOZsY-0kfaNJcC4Zn7TdDCoJ8LtgS0qaa0CVM3hDw=w345-h238-v0
+
+bdba4e27-4427-40df-940c-35b6942f5f0f
+
+WHITE PAPER AI IN LOGISTICS 25 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Ignacio Serra Viedma (innovacion@apba.es) 
+
+ORGANISATION: IDOM & AWS 
+
+ONLINE INFORMATION: https://innovacion.apba.es/en/autonomous-traceability-and-geolocation-of-the-cargo-with-artificial-intelligence/ 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+PARTNERS 
+
+Solution developed based on advanced techniques of Computer Vision and ML, which allows the acquisition, processing, analysis and understanding of videoimages to identify and monitor the trucks going through the Heavy Traffic Terminal and to automatically detect the key events of interest, such as the occupation of the parking slots. 
+
+Pilot project for testing and validating an innovative solution in the field of advanced data science and artificial intelligence. To solve the following challenge: carrying out the traceability and geolocation of the cargo within the Heavy Traffic Terminal (TTP) of the Port of Algeciras, aiming to manage the port resources in a more efficient and effective manner, from an enhanced management and location process. 
+
+AI has given tools to extract high-dimensional data from the real operation processes, e.g. dwell time or geolocation, in order to deliver useful actionable knowledge in forms of decisions and, afterwards, a higher efficiency and productivity of port-logistics processes. Without needing dedicated physical devices, e.g. sensors or tags, the solution validated that a future product would help improving the management and location process of the cargo in the rotation area of the TTP, thus reducing the service time dedicated to the collection of the ILUs, platforms and semi-trailers from this storage area, both by the stevedoring department and carriers themselves. 
+
+IDOM Consulting, Engineering, Architecture and Amazon Web Services (AWS). 
+
+Autonomous traceability and geolocation of RoRo traffic 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: APBA.
+
+26 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Agent-based models for a decision support tool prototype for the Port of Rotterdam’s port authority supporting the evaluation of possible strategies from a self-organizational, complex system perspective of port nautical processes to increase the resilience, reliability and flexibility of services of individual actors and of the aggregate service chain. 
+
+Seaports provide a range of services that together support the turnaround process of ships, including positioning, piloting, mooring and bunkering or fuelling. As a short turnaround time is one of the key factors determining the competitiveness of ports, a well-organized chain of nautical services is essential. The performance of this service chain will depend on the dynamic nature of the demand for services (volume and size of ships), on external circumstances (e.g. weather), the capabilities of individual agents within the chain as well as on the collaboration between them. Performance enhancement requires the optimisation of the strategies and actions by the highly complex system of nautical services and service providers. 
+
+The multi-agent based simulation model focuses on the physical and organizational aspects of the port nautical chain.  Observing the port nautical chain as a multi agent system requires an insight into individual actor processes and interactions between the port nautical chain actors with the use of algorithms based on swarm intelligence. 
+
+A proof-of-concept model of the Port of Rotterdam has been developed in PySeidon, an open-source, modular, and generic port simulation framework written in Python. Using data mining techniques optimisation reducing the turnaround time in the port is analysed. 
+
+PARTNERS 
+
+Delft University of Technology, Port of Rotterdam, University of Maastricht, Intertransis, ECT, TNO. 
+
+Agent-based model simulation for decision support tool for the port nautical services 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: : I. Davydenko, R. Fransen (2021): Empirical agent-based model simulation for the port nautical services: A case study for the Port of Rotterdam  pp. 1-14. 
+
+NAME: Prof. Lorant Tavasszy 
+
+ORGANISATION: TUDelft/TNO 
+
+RELATED PUBLICITY FUNDED PROJECT: SWARMPORT (Funded by the Dutch research Council in the Topsector Logistics Programme ‘Complexity in Transport and Logistics’ with TKI Dinalog) 
+
+ONLINE INFORMATION: https://www.nwo.nl/projecten/43916108-0 
+
+Model output on average ship turnaround time and loss time for a 90 day simulation with 3 different random seeds. 
+
+std loss time 
+
+std turnaround time 
+
+Average turnaround time [h] 
+
+Average loss time [h] 
+
+Number of pilots 
+
+160 
+
+140 
+
+120 
+
+100 
+
+80 
+
+60 
+
+40 
+
+20 
+
+-
+
+8.00 
+
+7.00 
+
+6.00 
+
+5.00 
+
+4.00 
+
+3.00 
+
+2.00 
+
+1.00 
+
+-8 12 16 20 24 28 
+
+h o 
+
+u rs 
+
+St an 
+
+d ar 
+
+d  d 
+
+ev ia 
+
+ti o 
+
+n  -
+
+ o
+
+WHITE PAPER AI IN LOGISTICS 27 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NAME: Konrad Steiner & Maximilian Otten 
+
+ORGANISATION: DB Schenker in cooperation with Fraunhofer IML 
+
+The project was initiated as part of the DB Schenker Enterprise Lab together with Fraunhofer IML. By utilizing machine learning algorithms, video data is automatically processed which delivers valuable information. This builds the foundation to determine KPIs that enable an optimization of the land transport processes. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Machine learning-based algorithms have dominated the field of computer vision since around 2012. The MLCVZoo is an Open-Source Framework initiated by DB Schenker and Fraunhofer IML, which provides an ecosystem of computer vision algorithms that can be put together in a pipeline, regardless of the framework that is used for their implementation. By utilizing the MLCVZoo DB-Schenker could build their software solution using the current state-of-the-art Object-Detection and OCR algorithms without having a vendor lock-in to a specific framework. With internal research, specific post processing optimizations could be developed that push the accuracy of the algorithm even higher. 
+
+Video analytics in land transport 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+The goal is the automatic collection of information that is needed for the optimization of land transport processes. Specifically, it is about increasing the visibility and determining KPIs and thus being able to drive optimizations forward in a targeted manner. As a first use case, all incoming and outgoing trucks at a pilot branch are scanned and their license plate and potential ILU- (Intermodal Loading Unit) code are extracted from the video data. This information enables a range of process efficiencies such as automated yard access control, real-time allocation of (un)loading docks, or a no-touch inventory of the equipment on the yard. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+28 
+
+Source: : CIMN. 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+The project improves the efficiency of logistic operations by forecasting the traffic conditions and therefore enabling the prediction of travel time. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Since a lot of different information and their underlying complex interactions are involved in this prediction, AI is the right tool to solve the problem. Conventional machine learning algorithms (such as XGBoost, Random Forest, Support Vector Machine, etc.) and deep learning neural networks (such as MLP, LSTM, CNN, etc.) can be utilized for this task. These forecasted values are being fed to a traffic simulation software to identify the quickest route available for the delivery as well as delivery time for using the preferred route. 
+
+TOOL: Traffic fOrcasting fOr Logistics 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+Planning for “just in time” deliveries, the accurate anticipation of travel times is crucial. Hence, it is beneficial to know in advance the future traffic scenario so that the delivery schedule may be modified if needed. The collection of relevant data such as, for instance, traffic count data, weather information, fuel price fluctuations, road as well as public transport closures, and regulatory measures is crucial to accurately predict traffic along entire networks or corridors of interest at any given time in future. TOOL aims to provide a prediction model for these scenarios. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Muhammad Awais Shafique 
+
+ORGANISATION: CIMNE 
+
+RELATED PUBLICITY FUNDED PROJECT: CENIT 
+
+Proposed project methodology 
+
+Quickest route prediction Travel time prediction for preferred route 
+
+Fuel price fluctuation prediction algorithm 
+
+International benchmark prices 
+
+Euro value against USD 
+
+Traffic forecasting algorithm 
+
+Historical fuel prices 
+
+Traffic simulation software (Vissim, Synchro, etc.) 
+
+Historical weather data 
+
+Weather forecast data 
+
+Information regarding road closures 
+
+Information regarding public transport clousures 
+
+Regulatory measures
+
+WHITE PAPER AI IN LOGISTICS 29 
+
+Source: : https://www.logistikum-retail.at/uploads/Projekte%20und%20Kompetenzbereiche/ Data%20Analytics%20und%20Foresight/NEXT.png 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+NEXT applies machine learning in retail supply chains. With a focus on predictive analytics, it aims to provide intelligent decision support to reduce SCM uncertainty. A focus is on the recognition of network behaviour patterns (e.g., a combination of LSPs, suppliers, locations), which is then used as a prediction basis. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Machine Learning based on pattern recognition and focussing on the derivation of predictive insights is especially applicable in SCM. By identifying patterns in large amounts of SC data as well as in external data, prediction can be made. Depending on the problem, different ML methods are applicable. E.g., predicting reliability of supply paths could be done via classification (e.g., decision trees or random forests), demand prediction via regression analysis (e.g., SARIMAX), identification of connections between network partners via clustering (e.g., k-means or SOM) and the detection of abnormal network behaviour via outlier detection (e.g., local outlier factor or isolation forest). 
+
+NEXT (Pattern Recognition and Extended Value Network Foresight) 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+Uncertainties in supply, demand, and the environment create unpredictability on process and control levels, which increases the intricacy of SCM decision-making. Reducing uncertainty through a business-driven application of Machine Learning methods facilitates decision-making processes. Problems such as predicting the demand for product A in store B on day X or finding the most reliable supply paths in the network can be handled with predictive, intelligent decision support. Future application areas may also include the prediction of the impact of disruptive events as e.g., Covid, on supply chains. Prerequisite is the availability of sufficient data to learn from and derive predictions. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Patrick Brandtner 
+
+ORGANISATION: University of Applied Sciences Upper Austria, School of Business & Management (FH- Steyr), Department for Logistics 
+
+RELATED PUBLICITY FUNDED PROJECT: Logistikum.RETAIL 
+
+ONLINE INFORMATION: https://www.logistikum-retail.at/en/areas-of-expertise-en/data-analytics-foresight-en/next-en.html 
+
+PARTNERS 
+
+Hofer, Vaillaint, Hagleitner
+
+30 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Deep reinforcement learning based Automated Decision Support Toolbox for dynamic data-driven logistics challenges in uncertain environments utilizing real-time information, a general problem definition interface modelling the logistics challenge as a as a Markov Decision Process and letting the toolbox optimize these problems, with zero coding. 
+
+Companies active in logistics seek to find new ways for improving their operations based on data, in order improve efficiency and sustainability. To achieve this on a significant scale, logistics companies need to automate decision making. Their logistics challenges involve multiple dependent decisions over time, each based on (nearly) real-time data. When making logistics decisions, it is important to anticipate the arrival of new data (e.g. orders, delays, disruptions). 
+
+The AlphaZero algorithm autonomously learns to play games only by playing the game many times itself, also with GO and Chess where it is crucial to anticipate unknown moves of the opponent. 
+
+AI driven decision support for real-time coordination of dynamic supply chains in which a software agent learns based on Reinforcement Learning techniques, the right strategies in interaction with a simulated environment.  
+
+Objective: Plug&play infrastructure (based on a modelling framework) for support of modelling data driven logistics decision challenges in uncertain environments and optimisation using real-time information without necessary coding with deep Learning technology (algorithmic framework inspired by the AlphaZero algorithms). 
+
+PARTNERS 
+
+Eindhoven University of Technology, Nexperia B.V., ASML, Vanderlande, Combi Terminal Twente (CTT), Consultants in Quantitative Methods B.V. (CQM B.V.), Den Hartogh Logistics, Ewals Cargo Care B.V., ESCF European Supply Chain Forum, Universiteit Twente (UT)., Combi Terminal Twente (CTT), Bolk Transport B.V., Emons Group, Ahold Delhaize, Pharox 
+
+Reinforcement learning Decision support toolbox for complex realtime logistics supply chain planning 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Source: Project proposal Dynaplex. 
+
+NAME: Willem van Jaarsveld PhD 
+
+ORGANISATION: Eindhoven University of Technology/ Twente University 
+
+RELATED PUBLICITY FUNDED PROJECT: DYNAPLEX (Deep Reinforcement Learning for Data-Driven Logistics) Funded by TKI Dinalog 
+
+ONLINE INFORMATION: DynaPlex (Deep Reinforcement Learning for Data-Driven Logistics) - TKI Dinalog 
+
+Logistics challenges addressed in the Dynaplex use cases 
+
+Dynamic planning of inbound and internal logistics 
+
+Logistics challenges Cases from consortium partners 
+
+Dynamic resource allocation based on real-time information 
+
+Dynamic service netword design 
+
+Dynamic pricing & fenders 
+
+Ew als 
+
+C TT 
+
+A h 
+
+o ld 
+
+D elh 
+
+aize Em o 
+
+n s 
+
+Ph aro 
+
+x 
+
+A SM 
+
+L 
+
+B o 
+
+lk 
+
+V an 
+
+d er-
+
+lan d 
+
+e 
+
+N exp 
+
+e-ria 
+
+D en 
+
+H arto 
+
+g h
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy6IMyFypSKn2tASH1R3u8-QXno8sv2Nt2qKKbpVPvjh5EKw1egeZ9WVJt-Wl6QxDq20gqjJIRdmr_prWXwiQVpoXbsU7vfq-eFnCoA7RSHZMjSwEWJjzN4aZoFuHLOW7FnubLvyA=w410-h361-v0
+
+a70eb852-6477-4dd3-9bf6-8b9e89c97a71
+
+WHITE PAPER AI IN LOGISTICS 31 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+The solution developed by Rulex allows to optimize the whole logistics pipeline, using available data to produce decisions for the business lines. It includes these steps (i) Replenishment Optimization (ii) Mitigation Sources (iii) Dynamic Allocation (iv) Transport Optimization. Across these steps, the topic of data quality is considered as well. 
+
+The solution is applied in the optimization of logistics networks, regardless their type or extension. 
+
+The problem that is considered is that given data from ERP (e.g., current demand and availability), information about future behaviours is extracted and decisions the optimize the network are provide, i.e., reducing the transport costs and emissions while ensuring that demand is fulfilled. 
+
+The problem is very complex since it includes several variables. For a human it requires several hours of work without the warrantee of finding the optimal solution. Therefore, AI is the preferred method to solve these problems. 
+
+The solution is implemented in the Rulex platform which enables users to directly interact with the AI techniques by means of a simple no code graphical user interface. The methods implemented include machine learning methods, namely Explainable AI, and advanced optimisation techniques. 
+
+PARTNERS 
+
+Rulex. 
+
+Optimization of operational logistics 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Enrico Ferrari 
+
+ORGANISATION: RULEX 
+
+ONLINE INFORMATION: https://www.rulex.ai/supply-chain-optimization/ 
+
+Source: https://www.rulex.ai/supply-chain-optimization/
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxQBnN5aRNdiNNbA-lVqV5K2FIfpbjFNNIxW1CiKQCQpeO5LNcA0HMcXJUR0GTm_ZFVNMnwKEerfOZjgjIRAj0NvC6mmjuVUmMoVmMIgA75MWvyKcpdkcc8TghDvnRDxlGZgwiQEQ=w140-h74-v0
+
+9fa7b7dc-4dd3-4c6c-a025-43254b09b450
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxkJUGkl4W2jANGVz01Sy8_f3W37qXj3ylLXsht05fe2U4pB11cga3Cc2-D9wWjlcE911JxnS18b2GvadeA1H_LzY2kZUR4UMlvjJeAWnE7N74MUYm1XeiYi9XyrhbxQM8q4EqSTw=w64-h54-v0
+
+51831125-6e9d-479f-8046-724b9e402093
+
+32 
+
+Source: Eindhoven University of Technology 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+Digital Twins are virtual replicas of a real-life system which monitor, control and optimize their physical counterparts. They embed analytical tools in the form of AI models. Through accurate replication of the system and synchronized analysis of parameters influencing the operational environment, their computational power can enhance decision-making. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+The integration of AI occurs on two levels, environment-based and solution-based. Environment-based integration concerns collecting ample information on the urban environment in real-time and using to model the current situation or storing it for later processing such as with pattern detection using supervised learning. Solution-based integration deals with decision-making where computationally-intensive problems such as vehicle routing are solved in real-time using methods like reinforcement learning. Both integration levels demand significant data-synchronization, storage capacities, computational power (for training procedures) and vigorous analytics using technical tools. A Digital Twin constitutes the technological platform for these resources. 
+
+Digital Twins for City Logistics 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+The concept of a Digital Twin has been widely studied in manufacturing contexts and shown to add value to relevant operations. Therefore, we seek to investigate their utility in the urban logistics sectors where they can aid Logistics Service Providers with planning their routing operations in complex urban environments. These environments are characterized by several uncertainties and external factors over which the decision-makers have no control, such as traffic, and can severely effect operational efficiency. Thus, a control system that is able to incorporate this information effectively in real-time would be of added value. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Abdo Abouelrous 
+
+ORGANISATION: Eindhoven University of Technology 
+
+RELATED PUBLICITY FUNDED PROJECT: AI Planner of the Future 
+
+ONLINE INFORMATION: https://escf.nl/ai-planner-project-7/ 
+
+PARTNERS 
+
+Our project is partially funded by European Supply Chain Forum (ESCF) whose members also directly collaborate with us in our research, and by the Eindhoven AI Systems Institute (EAISI). Among the ESCF members, DB Schenker has the most notable contribution in terms of data provision. Further support is provided by Logistics Community Brabant (LCB) on technical matters and industry contacts. 
+
+Uncertainty Data 
+
+Feedback 
+
+Decisions 
+
+Mathematical Programming 
+
+Model-Based System 
+
+Machine Learning 
+
+Data-Driven System 
+
+min max f(x,u) 
+
+s.t. g(x,u)≤ 0
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwFb50ayO4OUdS5aUD61eVnD8d5tLOYiOu7W4jpSVUaWakMruDEZiHxnizWhfLCCPPSi9oHeuXAl5Qtduetjt4cn00RkLzkcjUWATPNuBmMYqAIv-G2RogBQ-rz_1L44MIYlS7r=w51-h49-v0
+
+8df186dc-caf9-4140-87f7-404aa8f97f5f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzrflp7ZUjpS4mR_8tTXBj1IPDNM5kPwNo8veW6P3NUgVYdgyG7XhKjQz4VEbx5xhQnHxIXrLOcnGhIbgWVl9X6m67lGHONUB8XqU_pRat3SJwYHTUBi0KzQUASfKFZvFlJKQXysQ=w41-h45-v0
+
+5f95203f-6e5b-4f84-b74a-7822256a2194
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzvtFxGLS0hQogDzSn2tXrt-MA-b1ETNRqIrVc3rNA1TwZ3m6CDjB22INPb9H8cJJEiUNo6qtO0Hz_2A9WC0X2m0uR45a7Mx6604gJcFA31WE2IFEq4yw1y5qXcmU8foOxdQlSHiA=w41-h71-v0
+
+b35f2de7-d721-4514-bfb0-72e98957082c
+
+WHITE PAPER AI IN LOGISTICS 33 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+SmartDriving is an intelligent system based on big data and artificial intelligence that analyses and processes all vehicle telemetry information to make recommendations on the appropriate speed according to the type of vehicle, the load being transported and the physical conditions of the road. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+Integration of the tachograph status in real time with the search for rest areas to optimize driving times. Telemetry processing as an input source to IA methods to update speeds based on fuel consumption merged with Open Data and tachograph data. Generation and maintenance of a proprietary routing system with the daily experience of drivers and fleet managers. This is a totally new block not found in any other fleet management company. Definition of a Route Performance Index to evaluate the driver’s behaviour. 
+
+AI for Smart Driving 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+The Smart Driving Service (SDS) is a customized mobile application and a complex microservices framework that is intended for not only professional drivers but also for novel people who need help during the driving time in their long-distance journeys. The challenge is to analyse and leverage thousands of miles of records from truck telemetry (best known as floating car data, FCD) that, combined with Open Data Services (maps and weather), could improve vehicle efficiency and a fuel consumption reduction. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Dr. David Cipres, Dr. David Escuin 
+
+ORGANISATION: ITAINNOVA 
+
+RELATED PUBLICITY FUNDED PROJECT: SMART DRIVING-DESARROLLO DE UN SISTEMA DE CONDUCCION Y PLANIFICACION INTELIGENTE EN TIEMPO REAL PARA FLOTAS DE TRANSPORTE Y MERCANCIAS DE LARGA DISTANCIA (EXP - 00099553) 
+
+ONLINE INFORMATION: https://ieeexplore.ieee.org/document/9846968 
+
+PARTNERS 
+
+Grupo Sese 
+
+Source: ITAINNOVA. 
+
+JSON 
+
+ETA Recommendations 
+
+Stops (date and location) 
+
+Transport Order Driver 
+
+Vehicle type 
+
+Telemetry device Tachograph 
+
+Path Calculation Provider 
+
+Open Weather API 
+
+Find homologated route or call graphhopper service 
+
+Other relevant info: weather and traffic incidents 
+
+Query to telemetry database 
+
+Scheduling of stops 
+
+ETA Estimation 
+
+Map Matching 
+
+Routes 
+
+Stops
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyMNkRevItYTfeNDjWb7YtOTAEE8kOuHFsdms6vcQelQH3kPOrA0GBK2bWkOWD6HVpZDDSBE1M-Uvm3x_NJOEnX_uuy7He7GUJL1ywSsdvqEEA34GQMtIN5vCr6R0_YkZTkLQ7n=w568-h355-v0
+
+6f23c182-8ecb-44c3-8c6c-c1a159818ffe
+
+34 
+
+Source: Emons Group 
+
+SHORT INTRODUCTION OF THE SOLUTION 
+
+A neural network with software agents making weighted planning decisions based on actions of the past, trained by advantage actor critic (A2C). This is especially appropriate for complex transport management planning, including locations, lengths of trips, frequency and proportion of the trip made empty, including the potential benefit of developed scenarios. 
+
+DETAILS OF AI METHODS Why is AI the right way to solve it? How is it technically realised (methods and mapping)? 
+
+The solution primarily used reinforcement learning techniques, for which data is not a requirement. The initial data processing used unsupervised learning to reduce the number of locations to clusters. The playing field is defined by the locations in the dataset. The scoreboard measures how well the software agent is doing. The software agent was developed in Python and trained in Google Colab. The software agent uses a neural network in which the knowledge is stored and uses one-hot encoding to ‘see’ the playing field and thus the sequence of the journeys. 
+
+Emons: using artificial intelligence to reduce empty mileage 
+
+APPLICATION What problem are you solving? What is the concrete application for your AI solution? 
+
+Every day, lots of lorries drive around with wholly or partly empty trailers. Logistics service providers are working together to improve the occupancy rates. On top of that, there are online marketplaces and platforms where cargoes and journeys are exchanged. One result of this is that logistical puzzles have to be solved every day so that market demand can be met, capacity can be used optimally and kilometres driven while empty can be reduced. These conundrums are currently resolved by commercial planners. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NAME: Sebastian Piest 
+
+ORGANISATION: UTwente (via TKI Dinalog) 
+
+RELATED PUBLICITY FUNDED PROJECT: ICCOS (Industry 4.0 driven supply Chain Coordination for SMEs (funded TKI Dinalog, The Netherlands) 
+
+ONLINE INFORMATION: Industry 4.0 driven Supply Chain Coordination for Small- & Medium-sized Enterprises (ICCOS) - TKI Dinalog 
+
+PARTNERS 
+
+Delft University of Technology, Maastricht University, TNO, Rotterdam Port Authority, Intertransis, ECT, Smartport 
+
+60 
+
+55 
+
+50 
+
+45 
+
+-10 0 10 20 30 
+
+40
+
+WHITE PAPER AI IN LOGISTICS 35 
+
+The challenge of finding the right place to start 
+
+Despite the numerous benefits of AI in the logistics industry and various successful application examples, its implementation also poses significant challenges to many organizations, including cost of implementation, data availability, and privacy and security concerns. Nevertheless, one of the main challenges that limit the widespread use of AI in logistics is finding the right place to start a project. 
+
+When embarking on an ML project, there are common mistakes that can lead to early failure and can be avoided. Based on experience, the following aspects are particularly important to consider [7]: 
+
+ Start by identifying the problem and determining which methods can be used to solve it. It is 
+
+recommended to begin with small use cases to learn the advantages and limitations of ML. Developing a solution for a certain part of the problem and then extending it to larger use cases is often easier than attempting to develop a comprehensive solution from scratch. 
+
+ Answer some key questions before deciding on an ML-based solution. For example, consider whether 
+
+your organization has enough resources to handle the project alone. Many organizations that have started ML projects or are using ML applications have worked with external partners, such as IT service providers, universities, research institutions, and management consultants. Combining the company’s specialized knowledge with the corresponding IT expertise has proven to be particularly successful. 
+
+ Determine the basis on which the ML solution will operate. The hardware requirements and data on 
+
+which the learning will take place are crucial components 
+
+of a successful project. Determine whether the necessary data is already available or whether it needs to be collected at the start of the project to create a learning environment. The quantity and quality of the required data will depend on the use case and intended solution. There is no general rule or formula that specifies this, but in general, having a lot of high-quality data is the goal. 
+
+ There are several ways to get started with hardware and software requirements. Many organizations 
+
+begin with “Machine Learning as a Service” through cloud-based external solutions. In productive deployment scenarios, the option of external hosting and the operation of existing frameworks in the cloud are still commonly used. 
+
+A structured, practical starting point to consider these aspects is given by the intelligence amplification (IA) design canvas developed by Piest et al. [9] (see Figure 5). It enables practitioners to emphasize, ideate, and conceptualize IA applications by means of a practical IA design canvas that can be used in IA workshops. 
+
+The IA canvas contains three layers: a conceptual, foundational, and supporting layer. The conceptual layer supports emphasizing the initial idea(s) for an IA application and its context. This is the starting point for ideation. The foundational layer contains the main IA concepts. Practitioners can involve stakeholders to collaboratively conceptualize the IA application. The supporting layer incorporates enabling IA concepts. Each of the elements in the canvas is provided with an instruction and guiding questions (see Table 1). 
+
+Structured by the IA canvas, workshops can be held and create the starting point for next steps towards a successful development of an AI application. 
+
+1 
+
+2 
+
+3 
+
+4
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw3ds4EyW8R0s5-Nr8S2lmu0YuDJD6QdzltwUyMh8KsjKaGeEDrw1hCfiX2FanP4w4DdQneKSFwWs2Z4G0fzSawsSmAkUFbg_vBOm3PNFZTmNFZRum3xAFvu3Q85Y4kWKb6OyzNVQ=w1280-h906-v0
+
+7730bfc9-3e47-4730-951a-be6b345c4688
+
+36 
+
+Figure 5:  : Intelligence Amplification design canvas by Piest et al. [9]
+
+WHITE PAPER AI IN LOGISTICS 37 
+
+ELEMENT INSTRUCTION GUIDING QUESTIONS 
+
+Idea description & context Describe the idea and context in 2-3 sentences 
+
+What is the idea for an intelligent agent? How are the concepts of IA incorporated? 
+
+Stakeholders List the involved people and their interest(s) 
+
+Who are the main stakeholders involved? What is their role? 
+
+Goal(s) Define the solution objective(s) What is the main goal of the IA application? 
+
+User interface & interaction Provide human oversight and controls 
+
+How do end-users interact with the intelligent agent? 
+
+Cognitive functions & enhancements 
+
+List the skills, capabilities, and intelligence 
+
+Which cognitive functions are assigned to the end-user? Which to the intelligent agent? 
+
+Sensors Determine inputs and perception How does the intelligent agent perceive its environment? 
+
+Actuators Determine intents and (inter)actions Which actions/decisions does the intelligent agent need to take? 
+
+Agent appearance Describe the agent(s) and task environment 
+
+Which type of intelligent agent is suitable? 
+
+Professional judgment Facilitate auditing and explainability How can practitioners assess and interpret the outcomes? 
+
+Key metrics Measure the performance of the system 
+
+Which metrics can measure and monitor performance? 
+
+Legal, ethical & societal impact Ensure responsible and trustworthy design 
+
+Which rules and regulations are applicable? What is the (unintended) impact? 
+
+Algorithms & learning models Evaluate model accuracy and reliability 
+
+What are candidate algorithms? How can each model be trained and assessed? 
+
+Systems & data sources Define interfaces and secure access to data 
+
+Which system integrations are required to access data sources? 
+
+Table 1:  : Design canvas elements, instructions, and guiding questions by Piest et al. [9]
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzMtHVhyV9Umc9iKz9bVvegXwLwh9IHGDCNXfkwbUvQ-o-jttSdpRrsVMkNxwORFyNrOqdmWfhg5X1su6JykaUQmQa1wzyEu1BjsiEekEvVLToj5UWt8-tJopXmSDPt2EyIgK6IoA=w1007-h857-v0
+
+b36b3bcf-f1c7-4f2a-bffc-1bf98fe25a55
+
+38 
+
+Conclusion 
+
+In conclusion, the use of AI in the logistics industry offers numerous benefits, including increased efficiency, accuracy, and sustainability. AI algorithms can optimize operations, reduce errors, and improve profitability. However, the implementation of AI in the logistics industry also poses significant challenges, including the high cost of implementation, data privacy and security concerns, and regulatory challenges. As such, organizations must carefully consider these challenges before implementing AI solutions in their operations. The EU is addressing some of these challenges by creating a regulatory framework in the EU AI Act. 
+
+WHITE PAPER AI IN LOGISTICS 39 
+
+References 
+
+[1] “EU AI Act: first regulation on artificial intelligence | News | European Parliament,” Jun. 08, 2023. https://www.europarl.europa.eu/news/en/headlines/ society/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence (accessed Aug. 27, 2023). 
+
+[2] J. Lagunas and P. A. Riedl, “Scaling AI in the supply chain - The next step toward intelligent, self-driving supply chains,” accenture, 2022. Accessed: May 01, 2023. [Online]. Available: https://www.accenture.com/ content/dam/accenture/final/a-com-migration/manual/ r3/pdf/Accenture-Scaling-AI-In-The-Supply-Chain.pdf 
+
+[3] MHI and Deloitte, “Innovation Driven Resilience - How technology and innovation help supply chains thrive in unprecedented times,” MHI, 8, 2021. 
+
+[4] European Commission. Statistical Office of the 
+
+European Union., Key figures on European transport: 2022 edition. LU: Publications Office, 2023. Accessed: 
+
+May 01, 2023. [Online]. Available: https://data.europa. eu/doi/10.2785/322262 
+
+[5] A. M. Turing, “Computing machinery and intelligence,” 
+
+Mind - a Quarterly Review of Psychology and Philosophy, 
+
+vol. 59, no. 236, pp. 433–460, 1950. 
+
+[6] S. J. Russell, P. Norvig, and E. Davis, Artificial intelligence: a modern approach, 3rd ed. in Prentice Hall 
+
+series in artificial intelligence. Upper Saddle River: Prentice Hall, 2010. 
+
+[7] A. Murrenhoff, M. Friedrich, and M. Witthaut, 
+
+“Künstliche Intelligenz in der Logistik,” Future Challenges in Logistics and Supply Chain Management, 2021. 
+
+[8] K. Hill, “How Target Figured Out A Teen Girl Was 
+
+Pregnant Before Her Father Did,” Forbes, 2012. https:// 
+
+www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/ (accessed May 03, 2023). 
+
+[9] J. Paul Sebastian Piest, M. Eugenia Iacob, and M. Wouterse, “Designing intelligence amplification: a design canvas for practitioners,” presented at the Human Interaction & Emerging Technologies (IHIET 2022): Artificial Intelligence & Future Applications, 2022. doi: 10.54941/ahfe1002714.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx23-1q2LHyLGvGY5mdfHkt8zKV9FOnLcWva7UGzFFiffULb0sdZiU60nwZls8aVWXAAaM1vivhEghY8AEM86LRHcxgsF0CHBz1f_FXwySrEewC2A6RSg2ICDoQwaeDXUmE3ZGVVw=w1242-h1279-v0
+
+bee2305e-5c17-4309-954a-9ad192672709
+
+WHITE PAPER

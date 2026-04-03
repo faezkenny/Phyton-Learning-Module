@@ -1,0 +1,1216 @@
+Title: Truck pilot report September 2025 - VEV
+Source URL: https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf
+
+================================================================================
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAydf0BgXgO0uK-N_5Lby0Ysx8ZCSyKJzpOE0rBmur037xcb5f0uGqusYkaZ1eoYlYddlY1FrEedVCkdUFlKARinlO3PruO698b4yhdCIoRQNv3agt-fDYJU0Vbs_I1AJIH15cZ3=w985-h1081-v0
+
+722d9300-2873-4f48-b4b3-c89238c3ad62
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAztKN2b00mMMLjn4zdrIurSg2XOKTAR65RNyBi6tFoqQs1RGJaosOnAfOhrnK7zhy8AD4X1wrApKQbjXlBSd7VVVWza2gPAd8dgW8BoESDIIUVFko2aVpQZbD_OJ-Ia1_c0o6dhWw=w348-h63-v0
+
+6ec6d646-8d94-4de9-926a-4621021743b6
+
+Demonstrating net zero transport for AV Dawson Truck pilot report September 2025 
+
+Click to enter
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwWNTbU3bS4tuFxYeaTfS-10AVOKMyy4NWfmpnIfHCvASdPh5E8K1mBPsQIKvSUidUSUWP1_Xnvvw_vpuVAxanGsI9v2fw63m96CLM-EvSPOjlwFqAZHl2tLsxIL46zxqMVoq6aXA=w1280-h888-v0
+
+57a577bf-d134-42d3-a799-31446a197725
+
+Contents 
+
+ 
+
+ 
+
+Pilot Overview & Objectives 
+
+Executive Summary 
+
+Key Findings 
+
+EV Operations 
+
+Key Learnings 
+
+Conclusion 
+
+About
+
+Executive Summary 
+
+Proving electric HGVs can deliver industrial loads today  without compromise, and with new commercial and operational upsides. 
+
+In May 2025, AV Dawson and VEV 
+
+successfully conducted a real-world 
+
+pilot of a 40-tonne electric HGV, 
+
+demonstrating its performance across 
+
+steel and automotive supply chains in 
+
+the North East. Over a 10-day trial, the 
+
+electric vehicle completed 20 trips, 
+
+covered 1,826 km, using 2.1 MWh of 
+
+energy, and removed 1.5 tonnes of tailpipe 
+
+CO₂ emissions—without disrupting daily 
+
+logistics or requiring major operational 
+
+adjustments. 
+
+The pilot focused on four key challenges: 
+
+payload, range, charging, and customer 
+
+impact. The electric vehicle performed 
+
+strongly across each area: 
+
+It completed full-load industrial 
+
+deliveries, including steel coils and 
+
+containerised freight 
+
+Returned to base each day with 
+
+a 31% battery margin 
+
+Required minimal adjustment from 
+
+drivers and schedulers 
+
+Received enthusiastic support from 
+
+key customers 
+
+Beyond operational success, the pilot 
+
+surfaced important strategic insights. 
+
+Customers are actively encouraging 
+
+decarbonised logistics. Drivers found 
+
+the electric truck more comfortable 
+
+and enjoyable to operate. And planning 
+
+based on real-time data proved 
+
+essential in managing range, payload, 
+
+and charging windows. 
+
+The trial confirms that electric HGVs 
+
+are ready for service in hard-to-abate 
+
+sectors and that the customer demand is 
+
+there for fleets who move early to unlock 
+
+competitive advantage. 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxKzi-5GSFzWVM1WecNx4UbGQzoquDU7z0Smv8xj4xWUb-P9iOQFF8lwni0ep_Aa5R_JrZRgClhESbY9LqIaopzv9UDNJbHKGFJ66BosA_k8z_z9uLf0e-aAsGXh1IoTSM-_PsTOg=w971-h992-v0
+
+bfbabc0d-d140-4279-8d18-117453921063
+
+Pilot Overview:  Proving zero-emission freight for heavy industry 
+
+Purpose: Assess whether zero-emission trucks could 
+
+deliver against operational demands in hard-to-abate 
+
+sectors – including steel and automotive supply chains - 
+
+and to build the foundation for full-fleet electrification. Quick Facts 
+
+Duration: 6th – 16th May 2025 
+
+Location: Port of Middlesbrough to sites across 
+
+the North East. 
+
+Pilot Operation: An AV Dawson driver operated 
+
+the vehicle, with routes and loads planned by 
+
+their scheduling team in partnership with VEV. 
+
+Vehicle and charger: MAN eTGX 40t 4x2 tractor 
+
+with mobile 40 kW charger. 
+
+Data analysis: Trial insights collated by VEV 
+
+supported by VEV-IQ data platform. 
+
+Key customers: Tata Steel, British Steel, Nissan 
+
+Demonstrate the reliability of the eHGV and  
+
+its ability to complete routes with minimal 
+
+operational impact 
+
+Show the sustainability of net zero transport, 
+
+including tailpipe emissions reduction 
+
+Demonstrate the performance of the integrated 
+
+charging, vehicle and energy solution 
+
+Objectives 
+
+ 
+
+ 
+
+AV Dawson plays a crucial role in UK steel and automotive supply chains – sectors with high emissions that require long-term investment to decarbonise. The routes selected 
+
+for this pilot were chosen to show AV Dawson’s commitment to delivering near term carbon savings for their customer base. We also chose a selection of use cases to 
+
+demonstrate the range and reliability of the truck under heavy payload. 
+
+Coiled steel Steel beams Mixed containers 
+
+Route description Round trips between the Port 
+
+of Middlesbrough and Nissan’s 
+
+Sunderland plant, transporting coiled 
+
+steel on behalf of Tata. 
+
+Short shuttle runs moving steel from 
+
+the port to British Steel in Lackenby  
+
+and collecting pipes for export through 
+
+the port. 
+
+Varied portside and regional trips 
+
+delivering containers and serving 
+
+customers across the North East. 
+
+These just-in-time deliveries support 
+
+Nissan’s electric vehicle production. 
+
+Decarbonising this route aligns logistics 
+
+with the sustainability goals of the EV 
+
+supply chain. 
+
+British Steel aims to reduce emissions 
+
+82% by 2035. Cutting logistics 
+
+emissions complements the transition 
+
+to electric arc furnace production. 
+
+Container flows are a backbone of 
+
+regional freight. Decarbonising these 
+
+mixed-use journeys supports a broader 
+
+shift to low-emission logistics beyond 
+
+core industry corridors. 
+
+Why it matters to 
+
+decarbonise 
+
+Assess range and load performance 
+
+under full-payload, long-distance 
+
+conditions. 
+
+Test repeatability, vehicle uptime, and 
+
+performance under high-frequency, 
+
+time-sensitive conditions. 
+
+Test operational implications of 
+
+reduced payload deliveries. 
+
+Evaluate eHGV performance on flexible, 
+
+variable-length duty cycles. 
+
+Purpose of test 
+
+OverviewThe Routes: A mix of route profiles across hard-to-abate sectors 
+
+ 
+
+ 
+
+Going into the pilot AV Dawson had identified four key challenges they saw in electrification – centred around its suitability for their team and operation, as well as the impact 
+
+it might have on deliveries for their customers. Each of these was monitored closely through the pilot. 
+
+Weight and payload impacts 
+
+AV Dawson operate 44t 6x2 tractors, 
+
+and were concerned about the impact of 
+
+eHGV weight restrictions limiting them to 
+
+a 42t gross weight. 
+
+They routinely move full-payload steel 
+
+loads, so identifying routes with lighter 
+
+loads that could be delivered within this 
+
+limit was essential. 
+
+The team needed to prove the vehicle 
+
+could meet operational requirements 
+
+while carrying real industrial freight. 
+
+Vehicle range 
+
+While individual trips were within 
+
+the truck’s stated range, there was 
+
+uncertainty around total mileage 
+
+covered across a full working day— 
+
+especially with heavy loads. 
+
+AV Dawson wanted assurance that a 
+
+battery-electric truck could complete a 
+
+full shift without operational impact. 
+
+Modelling had shown this was possible, 
+
+but the pilot aimed to test it under real-
+
+world conditions. 
+
+Charging operation 
+
+Charging was entirely new to AV 
+
+Dawson. The operations and driver 
+
+teams needed to understand how 
+
+charging would work in practice, 
+
+whether it could be integrated into  
+
+shift patterns, and what kind of data 
+
+would be available. 
+
+The trial used a temporary 40kW 
+
+charger these questions in a low-risk 
+
+environment. 
+
+Customer impact 
+
+AV Dawson needed to know whether 
+
+customers would support a shift to 
+
+electric HGVs, particularly if it required 
+
+any delivery window adjustments. 
+
+VEV supported engagement with key 
+
+customers and provided route and timing 
+
+analysis to demonstrate feasibility. 
+
+Customer response pre-pilot was 
+
+positive, with strong interest in receiving 
+
+zero-emission deliveries. 
+
+OverviewK y challenges to explore through the pilot 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzo5RH0IZsDwd8smN6tVcNCqZs6upxWfxFLbR7o0jd7gzA6iATjVZIJ0Iyindi3NZtrRSknqwkAnxoa1bzk85h602RplaohTz1Ewf8052Z64tUPcGAvH1P-NUiiEcfXMTgOv-cG3w=w1280-h943-v0
+
+eb65ad1d-8530-4271-9eaa-3c77ce9277aa
+
+Key Findings 
+
+ 
+
+ 
+
+~£260 
+
+Fuel Savings 
+
+The pilot was a success with the vehicle successfully delivering payloads for AV Dawson’s customers with minimal operational change 
+
+Key facts 
+
+Key Findings 
+
+20 
+
+Trips Completed 
+
+2.1 mWh 
+
+mWh Energy Delivered 
+
+1,826 
+
+Electric km Driven 
+
+31% 
+
+Average battery back at base 
+
+40 tonnes 
+
+Total annualised tailpipe 
+
+emissions saved 
+
+247 km 
+
+Average daily distance 
+
+0.9 km/kWh 
+
+Average efficiency 
+
+~£260 
+
+Fuel Savings 
+
+Addressing AV Dawson’s key challenges 
+
+Customer impact – Customers were positive in 
+
+response to the trial, seeing it as a key enabler of their 
+
+net zero ambitions with the trial showing 40 tonnes of 
+
+total annualised tailpipe emissions removed. 
+
+04 
+
+Charger operation – The charger worked successfully, 
+
+requiring minimal effort from the driver to manage.03 
+
+Weight and payload – The vehicle was able to complete 
+
+deliveries as a normal part of AV Dawson’s operation, 
+
+travelling long distances with full payloads. 
+
+02 
+
+Vehicle range – The vehicle successfully completed 
+
+the modelled routes, returning to base with an average 
+
+battery charge of 31% — a safe margin. 
+
+01 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx6dei-PCtqUixMVx9hdiPFthUn8MqPNsH2X3-j1hZ4fxuwht9TGHHZ9a5lhVMqcTmfRt02Ozzri3MSiu87AsL1cVOwyipokYvbGl6t1Mx7SWlR5dqSxgZClph7r641sdES5f7cVQ=w1280-h955-v0
+
+a5f1148a-7b2f-4112-85a4-5262cdbfc3a7
+
+EV Operations 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz_7yhAgHO_QdCAORX4rMgXqn7eSdDIsfP4GO-vryIBUI86NyL7ZPVsC_INt9xPoWcI8UpIH2u3kir-vUmAmUVRALxCRiJ3j7ZT5taJu99vTMdOOaOKD8qWunPaoczPf6EHJacBNA=w1280-h681-v0
+
+7f269145-93e2-416e-b5ad-c4cd2ce1451f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxnFM81nKooNUcDwpIYBo-AbQLiVjyvb0DmRgUanNWG-cYGMaykHQ36iBHrI_44Vc-AtDeCpE62JSHAL3dVlVgEEalEjooEgpyxlzPM6NaAyvnKU7uwIppvA8SMSiZ4aG8u3MIzew=w908-h1080-v0
+
+c9e66c82-0eaa-4401-9ce5-781961a3e7c7
+
+Use Case 01: Automotive Steel Coil 
+
+Vehicle efficiency per trip (km/kwh) 
+
+1.5 
+
+0.5 
+
+1 
+
+1 2 53 64 7 8 
+
+0 
+
+Outward trip Return trip 
+
+Steel coil was transported up to a major automotive plant three times a day with minimal 
+
+operational change. Electrifying this route is feasible today, and would save 16 tons of carbon  
+
+a year from the manufacturer’s scope three emissions. 
+
+Length of route 
+
+Average EV efficiency (km / kwh) 
+
+Runs per day 
+
+CO2 saved  during the pilot 
+
+Average payload 
+
+Tons of CO2 saved annually if all EV 
+
+50km 
+
+0.9 
+
+8 
+
+681kg 
+
+19t 
+
+17t 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy1V03ZAyrxMfYIf3HdC-mnJm5wY1gPvBBIWLruMZ0z6dveiOUOLQJr3ymrgLVuNMupHevuq1uI6x9b0Yr2GH0BhgVhizE4GdLv1hkkj1jeSifmXL_i9akhisFIdPnaFywHTvAqzg=w1280-h759-v0
+
+8a5e9dcc-5560-4cc0-b02d-8cb20505d9a8
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwWW6E4ARIVR_o2540FQawxEWoj3bbYq1dU6vtgODjkYcU5Hnipxagx-ttUrFU1FsgFRsjRnAcuGNR-v0t1jWsbeCln91PLbOKj4F78uD3WL3fQVRxKM3zuSHLrpkiVg_iMTaLt-Q=w908-h1080-v0
+
+e718c264-04c2-4a33-9493-653430be7397
+
+Use Case 02: Steel supply chain 
+
+AV Dawson transports bulk steel for export through the Port of Middlesbrough.  
+
+These were successfully transported with some flexibility to allow for a 1.5t reduction 
+
+ in payload. This can be offset with vehicle weight reductions and some operational flexibility. 
+
+Vehicle efficiency per trip (km/kwh) 
+
+Outward trip Return trip 
+
+1.5 
+
+0.5 
+
+1 
+
+1 2 53 64 
+
+0 
+
+Length of route 
+
+Average EV efficiency (km / kwh) 
+
+Runs per day 
+
+CO2 saved  during the pilot 
+
+Average payload 
+
+Tons of CO2 saved annually if all EV 
+
+20km 
+
+0.95 
+
+6 20t 
+
+5t204kg 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzCp7gWYvJ7bQJMAHeA0zt_Sabp71QWT9B5NAZAMGndE4Zq_cQpayjelIvf-KcX4860ZWRqHviWULyG4dG6AyI-pmrRP4i5kc3SuLhYdh0-n2P4qmiKlVmtLdJkSBtZG6HBZGeO=w1280-h758-v0
+
+dac3dc16-a019-45ad-bebb-91c22751a4bd
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyjSSk_93Of0LKVIOWDrKUQ3XA5uYUrqqIDNbrkY8NODYjCLVJuNiZBMCK6C9TFDGjPHxzFepjK88vk_ia203Na5lo2NK7hZZe44VKlrMAeuDqvygvrnKOvzA0xn5U-srOudtkx=w908-h1080-v0
+
+451952dd-b942-42fd-ba6b-9b8f9eb41a1b
+
+Use Case 03: Local deliveries 
+
+AV Dawson transports containers and bulk goods for customers through the port  
+
+– all deliveries were successful, with strong customer interest and additional business  
+
+picked up through the trial. 
+
+Length of route 
+
+Average EV efficiency (km / kwh) 
+
+Runs per day 
+
+CO2 saved  during the pilot 
+
+Average payload 
+
+Tons of CO2 saved annually if all EV 
+
+45km 
+
+1.02 
+
+6 
+
+460kg 
+
+22t 
+
+12t 
+
+Vehicle efficiency per trip (km/kwh) 
+
+Outward trip Return trip 
+
+1.5 
+
+0.5 
+
+1 
+
+1 2 53 64 
+
+0 
+
+ 
+
+ 
+
+Key Learnings 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzhGPou_6wgOhjQfycwGs0EqIQoqTCYkgAW5uuuKYh7M7H72TpHGQvVrqtoClt_S50HYA_4QzaHK_ikFB1wQEa5lHogUjK-jY8yODnzi5MWiRRnVJP1MNsXJAW8ASw5_Dgey1NzCA=w942-h562-v0
+
+d9848406-1315-4b3c-aef0-f43177654858
+
+ 
+
+The pilot was designed to answer big questions—not just about whether the 
+
+truck could run, but what it would take to make electrification work in practice. 
+
+Along the way, we uncovered insights that go beyond one vehicle or one fleet. 
+
+These lessons can help other operators take confident first steps toward zero-
+
+emission freight. 
+
+Key Learnings 
+
+Customers are committed 
+
+Industrial clients are actively looking for lower-carbon 
+
+logistics and will support fleets that take the lead. 
+
+01 
+
+Shared charging is coming 
+
+Semi-public infrastructure can supplement depot  
+
+charging and support more flexible operations. 
+
+05 
+
+An electric fleet is an intelligent fleet 
+
+Success depends on planning, tools and data,  
+
+not just the hardware on the road. 
+
+04 
+
+Drivers are delighted 
+
+Electric trucks offer a better driving experience,  
+
+which supports safety, satisfaction and driver retention. 
+
+03 
+
+Loads are less of a challenge 
+
+Electric trucks can carry meaningful loads today,  
+
+if routes and specs are matched intelligently. 
+
+02 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxpxm_7bVxbrzY5t75qnSBEVTeM2AMyawq_oc14EJYvTYgqHQnHw5V0dCNc5JBtEejU4zzz8hUDEDMtYGkg3PRSaP3_T0A9oaFC7PrdZouQPZeqkl1zBJm1mBYF7MhCOH7Dbs7TiQ=w547-h838-v0
+
+6707d03e-20f5-473b-a613-c49f81d7d190
+
+Customers are committed 
+
+Many fleets assume their customers won’t accept the operational 
+
+compromises or higher costs that can come with electric HGVs.  
+
+But the pilot showed the opposite. 
+
+AV Dawson’s customers—including major industrial players like Nissan 
+
+and Tata—were engaged and supportive from the outset. They understood 
+
+the significance of decarbonising road freight, especially in supply chains 
+
+where manufacturing emissions are already under scrutiny. This included 
+
+willingness to adjust delivery expectations to enable cleaner transport. 
+
+What we learned:  
+
+Real customers are not just accepting of electric transport — they’re 
+
+actively encouraging it. They see it as a key enabler of their own 
+
+sustainability goals, particularly when their own decarbonisation  
+
+will happen over a longer time horizon. 
+
+Industrial clients are actively looking for lower-carbon logistics and will support fleets that take the lead. 
+
+Jon Booth 
+
+Head of Sustainability and Performance 
+
+“There was a healthy degree of scepticism about whether customers would be interested. But there seems to have been an overwhelming amount of interest - customers wanting to know more about the trial, wanting to add it onto their routes, even wanting to get their picture taken with it. It sounds as though we might have some new opportunities on the back of this, which is brilliant.” 
+
+Fleets that move early on electrification 
+
+can build stronger commercial 
+
+relationships, win work, and differentiate 
+
+themselves in contested markets. 
+
+Takeaway 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwYRNx138vrOl-HhwT_QHINuILYoFnXVR71ZGHhyVnIp8jdw2Z0udE0Tk9WEPOb4WIhP_BLLkw48-5oE0dYkdR3kkj6YXDFrsGahywNFzzow9vxFN3GjYy4Rgavanpa_1MWSyfu=w547-h839-v0
+
+710c5992-3b34-4964-902d-5466853eb24d
+
+Loads are less of a challenge 
+
+Weight limits are often viewed as a blocker to electric HGV adoption.  
+
+The legal limit of 42t gross weight (including a 2t allowance for 
+
+ zero-emission vehicles) falls short of the standard 44 t for diesel  
+
+6×2s. AV Dawson routinely operates at full payload with steel, so this  
+
+was a critical concern. 
+
+Through planning, we identified viable movements and payloads within 
+
+their network. On-the-ground validation, including weighbridge checks, 
+
+confirmed these could be delivered safely and legally. Some flexibility 
+
+was required to make marginal weight reductions on the EV routes,  
+
+but these can be accounted for with adjustments to the final vehicle spec. 
+
+What we learned:  
+
+With minimal spec adjustments and intelligent scheduling,  
+
+weight impacts can be managed—even in high-payload applications. 
+
+Electric trucks can carry meaningful loads today,  if routes and specs are matched intelligently. 
+
+Paul Scott  
+
+Head of Operations 
+
+“There was scepticism about whether the truck could do the distance it needed to, whether we could manage our typically heavy loads - but it has been a resounding success.” 
+
+Fleets don’t need to wait for regulatory 
+
+change or breakthrough battery tech. 
+
+There are viable ways to electrify today, 
+
+especially when starting with the right 
+
+routes and vehicle setup. 
+
+Takeaway 
+
+ 
+
+ 
+
+Drivers are delighted 
+
+Driver experience is often overlooked in fleet trials, but it can make or 
+
+break adoption. The lead driver in this pilot had 40 years’ experience and 
+
+described the MAN eTGX as the best vehicle he’d driven. Others who drove 
+
+the truck during the pilot remarked at the comfort and ease. 
+
+Even with heavy payloads, they felt it handled like it had an empty trailer. 
+
+The absence of gears reduced the complexity of driving. The lack of 
+
+engine noise and vibration reduced fatigue, and the smoother drive 
+
+improved comfort. 
+
+What we learned:  
+
+Electric trucks aren’t just tolerable—they’re better to drive.  
+
+The improvement in comfort, stress, and control was clear. 
+
+Electric trucks offer a better driving experience, which can support safety, satisfaction and driver retention. 
+
+Malcolm Baker  
+
+Driver 
+
+“The truck’s better than what we could ever imagined. It’s a driver’s truck. You press the accelerator and it just cruises up to speed. Very laid-back driving it. Really impressive.” 
+
+Driver sentiment is a powerful enabler.  
+
+In a sector facing driver shortages, a better 
+
+experience can help with recruitment and 
+
+retention—and build internal champions  
+
+for change. 
+
+Takeaway 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw9OlJnZ8mL4B3KPHwrEPzrjVi1BAc1LoDSqnI0O0-RkTUZMsBUtZgdStwUZrTnB3iu6MiDRP6VCWDN5gLbNfqsD2ehyBjhVQFTflXhB3sfIOdaQAPqsX6U2a9uxITuKYNFXrbu=w547-h838-v0
+
+287e3626-43a5-4174-8721-f20af441d18d
+
+An electric fleet is an intelligent fleet 
+
+Moving to electric requires new ways of thinking. With diesel, range  
+
+and fuelling are rarely constraints. But with electric HGVs, fleet managers 
+
+must plan for energy consumption, charging windows, and route profiles. 
+
+The trial helped AV Dawson start to plan out their EV operation, thinking 
+
+about how to accommodate charging into the schedule. 
+
+This trial showed how VEV enabled data-driven decisions:  
+
+from route validation before the trial to real-time energy monitoring 
+
+during operations. Charging data, trip logs and driver input were all 
+
+used to refine assumptions and support AV Dawson in making informed 
+
+planning decisions. 
+
+What we learned:  
+
+Running electric trucks requires better planning, better tools, and more 
+
+data literacy across operations – enabled by integrated platforms. 
+
+Success depends on planning, tools and data,  not just the hardware on the road. 
+
+George Hobbs  
+
+VEV Data Lead 
+
+“The best way to learn how electric vehicles will actually work in your fleet is to run a real-world pilot. It gives you a low-risk way to understand the operational changes you might need — from route planning to charging — and helps you build confidence with real data, not just assumptions.” 
+
+This isn’t just a vehicle transition — it’s 
+
+an operational one. Success depends on 
+
+building the habits and tools of intelligent 
+
+fleet management, not just installing 
+
+chargers and ordering trucks. 
+
+Takeaway 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAykOAq1h9WLqIdEjVStr7x4ITqZtjxoa71KLkedg54-xiSVlq51atcVDTyR036oyp7rYY9_p9j2vtf_BI9b0F2725yeI0nlmqFI2cV5Zodw4CrcvsqrLOW-8pdbEtDHktoZtTUh=w547-h839-v0
+
+a9ce1574-a0a4-4288-8181-538620861f38
+
+Shared charging will enable flexibility 
+
+Depot charging was used for the bulk of the trial, but we also tested 
+
+fast charging at a nearby Stagecoach facility. Operationally, the process 
+
+worked: AV Dawson was able to route the vehicle for a top-up mid-shift. 
+
+However, as this was the first MAN eTGX of its spec in the UK, there was 
+
+a software communication fault between the truck and the charger. This 
+
+was resolved collaboratively with MAN and Stagecoach, reinforcing the 
+
+benefit of strong OEM and partner relationships. 
+
+AV Dawson remains enthusiastic about accessing shared charging 
+
+infrastructure in future to support longer or second shifts. 
+
+What we learned:  
+
+Shared infrastructure is coming—and it works. Early adopters should 
+
+expect some integration issues as the ecosystem matures, but these will 
+
+be rapidly resolved by OEMs and charging providers. 
+
+Semi-public infrastructure can supplement depot charging and support more flexible operations. 
+
+Paul Scott   
+
+Head of Operations 
+
+“Being able to utilise shared facilities up and down the UK would allow us to go a bit further afield, which then opens up more doors for different customers.” 
+
+Depot charging can be supplemented by 
+
+shared charging sites being developed by 
+
+other truck and bus fleets – presenting 
+
+a way to extend range or improve 
+
+operational flexibility. For operators 
+
+developing depots, it can present a way to 
+
+generate new revenue streams to offset 
+
+the depot investment. 
+
+Takeaway 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxaB3R0ze70ftmLRqMTtI6PKWcbLjPTzPTH8TIXO6Pduo5wL1PzKLTRwWk45ut8sgCabhQmztPtixdOdKAWfdIRBjvunpi6aL-gxuMPuZZ1nlbwOEC7KNuu_mGlU640Nk1_Ns3uZg=w1280-h983-v0
+
+ae62c419-84a1-4a41-a5e7-74d80afccba0
+
+Conclusion 
+
+ 
+
+ 
+
+AV Dawson is now in a strong position to begin it’s EV rollout, with proven 
+
+readiness across vehicles, routes, and customer relationships. The trial 
+
+showed electrification can be integrated easily with current operations to 
+
+deliver environmental and commercial benefits from day one. 
+
+This pilot is not just a milestone for AV Dawson, it’s a signal electric HGVs 
+
+are a viable tool for decarbonising heavy logistics in the UK. 
+
+Conclusion 
+
+Operationally viable 
+
+Electric HGVs handled live, full-payload routes across 
+
+heavy industry without operational disruption. 
+
+01 
+
+Flexible infrastructure pathways exist 
+
+With both depot and shared charging options tested,  
+
+AV Dawson has multiple routes to scale electrification. 
+
+05 
+
+Electrifying requires data 
+
+Electric trucks demand more precise planning than  
+
+diesel, particularly around payload, energy consumption, 
+
+and charging. Tools like VEV-IQ enable this visibility  
+
+and control. 
+
+04 
+
+Driver approval 
+
+The electric truck offered a superior experience,  
+
+helping boost satisfaction and retention. 
+
+03 
+
+Customer alignment 
+
+Industrial clients actively welcomed the trial and 
+
+recognised it as a step forward in decarbonising shared 
+
+supply chains. 
+
+02 
+
+ 
+
+ 
+
+About 
+
+ 
+
+ 
+
+VEV combines all the components  of a successful journey to net-zero 
+
+VEV navigates the complexities of the energy transition 
+
+to design and deliver a cost-effective transition for 
+
+transport networks, optimised for your specific business 
+
+requirements. We deliver integrated transformation 
+
+programmes, covering infrastructure development, power 
+
+upgrades, commissioning and integration. 
+
+Once your fleet is running, we use our platform, VEV-
+
+IQ to manage chargers, energy assets and power to 
+
+deliver ongoing optimisation, ensure resilience, and keep 
+
+mission-critical fleets on the road. 
+
+VEV is your partner in the energy transition;  
+
+designing, delivering and optimising net zero  
+
+transport infrastructure 
+
+We help organisations deliver on their carbon reduction ambitions with an end-to-end electrification solutions, integrating vehicles, charging infrastructure and power. 
+
+Energy suppy & optimisation 
+
+Insights, business case & rollout plan 
+
+Vehicles, charging & energy infrastructure 
+
+Flexible Financing 
+
+Service & Support 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz32SwryLJp6Z1g2wyf54C_1e73YiRP44U7lIFipMzJkM5PWJvVOQd9EuLMANCtGfxaqBGKRQaidc2jlQP0vsS2bmNKdqD2X9F8uYz6bi5oHCc9CN0GFa07_EQ4fQDQA5ZGaQURNg=w1270-h665-v0
+
+5b038395-3ea6-4938-806b-cdb69929235a
+
+Part of a global net-zero portfolio, owned by an energy leader 
+
+58 years 
+
+Average efficiency 
+
+$400 bn 
+
+Turnover 
+
+About Vitol 
+
+1.3 GW 
+
+Renewable capacity 
+
+Deep connections into 
+
+global energy markets 
+
+$2.5 +bn 
+
+committed to sustainable 
+
+investments 
+
+Investing heavily in  
+
+the energy transition 
+
+Transport focused 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxKeHLe7cdD04tgOW25sgp_Mc5Z_f86a8rIe62X4t9guLJX8loQZAjQPVVRXRshsuSoDDrTwxxL7gMSkxGcPyat5EFYv92C3NyKZXKDMyNUzZmhxvAuiczI3AbdoDK2cgum_EeGkg=w1280-h853-v0
+
+478c0ea2-ddaa-43e6-9f97-25d8753be758
+
+AV Dawson 
+
+AV Dawson Limited, the Teesside business which owns and operates  
+
+Port of Middlesbrough, is a third-generation family business with an 
+
+80-year track record in logistics. The AV Dawson Group also includes 
+
+specialist shipping agency and ship brokerage, Cockfield Knight; road 
+
+haulage business, AV Dawson Transport; and logistics company, AVD 
+
+Industrial and Port Services. With a local workforce of 200 people, the  
+
+AV Dawson Group is dedicated to the development and improvement of  
+
+its employees and the community in which it operates. 
+
+Located on the River Tees in North East England, AV Dawson’s Port of 
+
+Middlesbrough provides a multi-modal freight logistics service across 
+
+a number of sectors including energy and renewables, construction, 
+
+agriculture and automotive. The 40-hectare facility boasts deep-water 
+
+berths, market-specific rail terminals including a container park and 
+
+climate-controlled metals hub, all supported by its road transport fleet. 
+
+AV Dawson continues to invest in its Middlesbrough port facility, 
+
+supporting its customers and positioning the business for future growth. 
+
+It has recently completed a three-year £10m master plan which included 
+
+the construction of a renewable energy plant, a new head office and 
+
+developments to the port’s quayside to accommodate larger vessels. 
+
+ 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzC1rDFj2W-nyzf-I2HkNgG4TO4NuU9WK4BqSFuas7E4AwH6lLkQ3Y8ix1MOfhDXYonnYw-rbhUk6AfI9G4mGEwd1OzS8Z4vXlIBQiZ6qtP4jIvIxUQepQVXuiVUUNYPDuhyeR7VQ=w321-h61-v0
+
+76d557c6-651c-4031-8e35-f6b7d8a4f370
+
+More information at vev.com 
+
+Contact us ask@vev.com 
+
+George Hobbs 
+
+Data Lead 
+
+george.hobbs@vev.com 
+
+Thank you 
+
+ 

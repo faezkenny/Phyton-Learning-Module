@@ -1,0 +1,32 @@
+Title: The scikit-fuzzy Documentation - skfuzzy 0.3 docs
+Source URL: https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/
+
+================================================================================
+
+Just a moment...
+
+scikit-fuzzy.readthedocs.io
+
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Verification successful. Waiting for scikit-fuzzy.readthedocs.io to respond
+
+Enable JavaScript and cookies to continue
+
+Ray ID: 
+
+9e67e26368ab21ab
+
+Performance and Security by 
+
+Cloudflare
+
+https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+
+ 
+
+Privacy
+
+https://www.cloudflare.com/privacypolicy/

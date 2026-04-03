@@ -1,0 +1,2160 @@
+Title: (PDF) Sales Time Series Forecasting: Comparing Prophet to other ...
+Source URL: https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods
+
+================================================================================
+
+(PDF) Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+Experiment Findings PDF Available
+
+Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+January 2024
+
+DOI: 
+
+10.13140/RG.2.2.27238.74562
+
+https://doi.org/10.13140/RG.2.2.27238.74562
+
+Authors:
+
+Jago Muhlehner
+
+https://www.researchgate.net/scientific-contributions/Jago-Muhlehner-2275517886
+
+Jago Muhlehner
+
+https://www.researchgate.net/scientific-contributions/Jago-Muhlehner-2275517886
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+harry nan
+
+https://www.researchgate.net/scientific-contributions/harry-nan-2315148569
+
+harry nan
+
+https://www.researchgate.net/scientific-contributions/harry-nan-2315148569
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+Omer Ulgen
+
+https://www.researchgate.net/profile/Omer-Ulgen
+
+University of Amsterdam
+
+https://www.researchgate.net/institution/University_of_Amsterdam
+
+Download file PDF
+
+https://www.researchgate.net/profile/Omer-Ulgen/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods/links/68401395c33afe388aca079b/Sales-Time-Series-Forecasting-Comparing-Prophet-to-other-forecasting-methods.pdf
+
+ 
+
+Read file
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#read
+
+Download file PDF
+
+https://www.researchgate.net/profile/Omer-Ulgen/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods/links/68401395c33afe388aca079b/Sales-Time-Series-Forecasting-Comparing-Prophet-to-other-forecasting-methods.pdf
+
+Read file
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#read
+
+Download citation
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods/citation/download
+
+Copy link Link copied
+
+Read file
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#read
+
+Download citation
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods/citation/download
+
+Copy link Link copied
+
+References (5)
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#references
+
+Figures (9)
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#figures
+
+Abstract and Figures
+
+This study presents a comparative analysis of various forecasting models, including ARIMA, ETS, and Prophet, used on product sales data from a Walmart store. Using the Root Mean Square Error as our main performance metric, we identify the strengths and weaknesses of each model when it comes to making predictions on time series data.
+
+Total Sales Time Series. …
+
+https://www.researchgate.net/figure/Total-Sales-Time-Series_fig1_392384475
+
+Sales for product 1 and 2. …
+
+https://www.researchgate.net/figure/Sales-for-product-1-and-2_fig2_392384475
+
+Autocorrelation function for total sales. …
+
+https://www.researchgate.net/figure/Autocorrelation-function-for-total-sales_fig3_392384475
+
+Price analysis. …
+
+https://www.researchgate.net/figure/Price-analysis_fig4_392384475
+
+ +4
+
+https://www.researchgate.net/figure/percentage-distribution-of-models-based-on-lowest-RMSE-score-per-product_fig5_392384475
+
+percentage distribution of models based on lowest RMSE score per product. …
+
+https://www.researchgate.net/figure/percentage-distribution-of-models-based-on-lowest-RMSE-score-per-product_fig5_392384475
+
+Figures - uploaded by 
+
+Omer Ulgen
+
+https://www.researchgate.net/profile/Omer-Ulgen
+
+Author content
+
+All figure content in this area was uploaded by Omer Ulgen
+
+Content may be subject to copyright.
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#read-preview
+
+Public Full-text 1
+
+Content uploaded by 
+
+Omer Ulgen
+
+https://www.researchgate.net/profile/Omer-Ulgen
+
+Author content
+
+All content in this area was uploaded by Omer Ulgen on Jun 04, 2025
+
+Content may be subject to copyright.
+
+Sales Time Series Forecasting: Comparing Prophet to
+
+other forecasting methods
+
+T eam 03
+
+Jago Muhlehner (15100529), Harry Nan (13460854), Omer Ulgen (13061798)
+
+Applied Forecasting in Complex Systems 2023
+
+University of Amsterdam
+
+ABSTRACT
+
+This study presents a comparative analysis of various fore-
+
+casting models, including ARIMA, ETS, and Prophet, used
+
+on product sales data from a Walmart stor e. Using the Root
+
+Mean Square Error as our main performance metric, we
+
+identify the strengths and weaknesses of each model when
+
+it comes to making predictions on time series data.
+
+1 INTRODUCTION
+
+In a rapidly changing and moving society full of data, it is
+
+important for businesses to be able to make informed and
+
+timed decisions. This is crucial for the success of a business.
+
+Various forecasting methods have been proven to be an ef-
+
+fective strategy when applied to this world full of data for
+
+strategic planning and operational eciency. For supermar-
+
+ket stores, such as Walmart, forecasting sales data can be
+
+a useful strategy to plan what products to buy and store
+
+in order to gain the most prot. By accurately predicting
+
+sales trends, supermarkets can ensure that they maintain
+
+sucient stock levels to meet customer demand without
+
+overstocking, which can lead to waste and increased holding
+
+costs. Besides this, forecasting may also give insights into
+
+customer behaviour [
+
+1
+
+], gives possibilities and insights into
+
+risks and challenges [
+
+2
+
+] and can help businesses optimize
+
+their resources [4].
+
+There are numerous forecasting methods to choose from,
+
+from basic methods as naive forecasting and moving aver-
+
+ages, to more complex methods, such as ARIMA and even
+
+machine learning methods. For most of these methods, it is
+
+important to understand certain patterns in the data when
+
+to choose which model for the best results [
+
+3
+
+]. However,
+
+for a task like sales forecasting for hundreds of products, it
+
+is not eective to visualize each plot and humanly decide
+
+which method the data ts the best. This project focuses on
+
+methods that do not need visualizations or parameter tuning
+
+for all instances to choose a model that ts the data the best.
+
+Instead, it looks at deciding which method would work the
+
+best based on performance on the training set.
+
+A method that is used frequently that applies to this is
+
+Prophet [
+
+6
+
+], developed by Meta/Facebook. Prophet is a fore-
+
+casting tool designed to handle time series data with daily
+
+observations that display patterns on dierent time scales,
+
+such as holidays and weekly seasonality. Prophet requires
+
+minimal parameter tuning compared to some complex mod-
+
+els and it can automatically detect and incorporate seasonal
+
+patterns into the forecasting process.
+
+Additionally, this method can incorporate regressors [
+
+5
+
+].
+
+Regressors are external variables that can be incorporated
+
+into the forecasting model to capture the impact of additional
+
+factors on the time series data. These external variables could
+
+be considered as dynamic regression components [
+
+3
+
+] because
+
+they introduce a dynamic relationship between the predictor
+
+variables and the target variable over time. Regressors are
+
+often used to account for the inuence of external factors
+
+that may aect the time series being forecasted. These could
+
+include economic indicators, marketing campaigns, or any
+
+other relevant variables that are not part of the intrinsic time
+
+series components like trends, seasonality, and holidays.
+
+In short, this paper aims to identify techniques and meth-
+
+ods to eectively forecast multiple instances without much
+
+human parameter tuning. This paper will compare Prophet
+
+to other forecasting methods for tasks that are complex. This
+
+gives us the following research questions:
+
+(1)
+
+How does the performance of various forecasting
+
+models compare in predicting sales data with diverse
+
+patterns, including trends, seasonality, and random
+
+uctuations?
+
+(2)
+
+Is Prophet an eective method to forecast sales data,
+
+with a lot of products?
+
+W e think that a combination of models that suit the data
+
+best for each instance may be useful, as it allows for multiple
+
+dierent kinds of seasonality and trends for each instance.
+
+An ensemble method might be useful. Secondly, we think
+
+that Prophet may be an useful method, as it states that it auto-
+
+matically detects seasonality and trends in the data without
+
+having to address these manually.
+
+To answer the r esearch questions, the following dataset
+
+has been used:
+
+The Dataset
+
+The dataset used for this project is a subset of M5 Forecasting
+
+Accuracy hierarchical sales data from W almart [
+
+7
+
+]. The 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/deref/https%3A%2F%2Fwww.kaggle.com%2Fc%2Fm5-forecasting-accuracy%2Fdata
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+Jago Muhlehner (15100529), Harry Nan (13460854), Omer Ulgen (13061798)
+
+subset includes data from one store in the State of Te xas,
+
+coded TX3. The data only includes food products, coded
+
+Food3. Four datasets were provided:
+
+(1)
+
+Calendar data with dates, events (sporting, cultural,
+
+religious and national) and the allowance of SNAP-
+
+purchases in Te xas.
+
+(2)
+
+A weekly average price data for each food product
+
+sold at store TX3, from wm-yr-wk 11101 to wm-yr-
+
+wk 11621, which is 282 weeks. The data may include
+
+NaN-values, which means the product was not sold
+
+in this week.
+
+(3)
+
+Daily sales for each food product at store TX3, from
+
+2011-01-29 to 2016-04-24, with 827 food products over
+
+1913 days. This training dataset will be used to train
+
+the forecasting model.
+
+(4)
+
+Daily sales for each food product at store TX3, from
+
+2016-04-25 to 2016-05-22, with 827 food products over
+
+28 days. This test dataset will be used to compute the
+
+performance of the model.
+
+Data preprocessing
+
+Before forecasting methods can be applied to the data, the
+
+use of some data preprocessing techniques was necessary.
+
+Since forecasting is usually done with time-series data [
+
+3
+
+],
+
+we ensured that each dataset was transformed into a tsib-
+
+ble. Additionally, transforming the data to a tsibble makes
+
+it possible to work with the data in an R-environment. The
+
+'date' column of the data has been transformed from a 
+
+to 
+
+ in this process and was set as the index. After-
+
+wards, 'event-types' were one-hot encoded, which created
+
+four dierent columns that included a binary representation
+
+of the presence of event types. This is a way to deal with the
+
+NaN-values, and thus makes it easier to feed this information
+
+to dierent types of models.
+
+The price dataset contained dates with weeks. Since both
+
+the calendar and the price dataset contained 'wm-yr-wk'-
+
+values, a merge was done with these values as key. A left-join
+
+was performed, which created a combined dataset with daily
+
+calendar data for all products, including the daily price (based
+
+on weeknumber) when a price was present (not-NaN). This
+
+is convenient, as it already removes NaN-values for products
+
+that are not in stock. Based on visualizations for for example
+
+product 2, it was clear that some products are not always in
+
+stock. When applying forecasting methods, we do not have
+
+to worry about NaN-values for products, which can be seen
+
+in gure 2 for product 2, where the data starts after a while.
+
+Thirdly, the sales dataset was prepr ocessed. The dataset
+
+has been transformed in such a way that it was able to be
+
+merged with the other datasets. For this, we added 'date' as
+
+a separate column, instead of a lot of columns of dates. The
+
+row names for the date (previously column names) were then
+
+transformed into their respective date. Since the days were
+
+ordered and there were no NaN-values, it was possible to
+
+change the values to the starting date (2011-01-29) and add
+
+an extra day for each next row. This data was then able to be
+
+merged with the combined dataset on the common columns
+
+'product' and 'date'. A left-join was done, which ensured
+
+that the sales data was aligned to the combined dataset, and
+
+thus the combined dataset stayed the same in length. This
+
+resulted in a combined 'tsibble' (1,246,617 x 10 [1D]) with
+
+each 'product' as key [823].
+
+Exploratory Analysis
+
+Before beginning with the modelling and forecasting, it was
+
+necessary to further inspect the dataset and its underlying
+
+components through an exploratory data analysis. In this
+
+way, we could alr eady identify trends, anomalies, and poten-
+
+tial factors that might inuence the forecasting process. First
+
+of all, we start by plotting the time series sales data to get
+
+a general idea of how the sales evolve over time. This pro-
+
+vides an initial understanding of the overall pattern and any
+
+notable uctuations and trends. Namely, as seen in Figure 1,
+
+we notice the evident seasonality of the data. The sales on
+
+average tend to be lower during the winter compared to the
+
+summer. The majority of the highest sale days fall between
+
+June and September. From the time-series we also notice
+
+various outliers, most of which can be attributed to national
+
+holidays, such as Christmas day, when people tend to spend
+
+time with their families and the stores, if open, tend to close
+
+early. W e also conducted a trend analysis on the total sales
+
+over time which involved tting a trendline to the sales data,
+
+allowing us to visualize the underlying positive trend and
+
+better understand the overall sales growth.
+
+Figure 1: Total Sales Time Series. 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf9
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf3
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf2
+
+Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+Team 03
+
+Furthermore, it was interesting to plot the sales for indi-
+
+vidual products to see some of the patterns which emerged
+
+on an independent scale. For singular products, there was
+
+more variation between the global trends and seasonality
+
+when compared to the total sales (see for example Figure 2).
+
+Figure 2: Sales for product 1 and 2.
+
+To further inspect the seasonality in the data, we computed
+
+the autocorrelation function (ACF) of total sales as seen in
+
+Figure 3. The ACF shows the temporal dependencies within
+
+the data and conrms the presence of a strong seasonality
+
+and a clear pattern that is crucial for the forecasting process.
+
+Figure 3: Autocorrelation function for total sales.
+
+Secondly, we decided to look at the distribution of sales
+
+across the dierent days of the week. This was initially vi-
+
+sualized using a boxplot, however, given the sparsity of the
+
+data, the boxplot visualization did not provide any clear infor-
+
+mation. For this reason, we computed numerical summaries,
+
+including the median, average and overall totals, to gain a
+
+more quantitative understanding of the sales distribution
+
+throughout the week. Through these summaries, we were
+
+able to determine which days were attributed with higher
+
+sales, with the weekend (in particular Sunday) having the
+
+highest average sales and the middle weekdays having the
+
+lowest.
+
+Lastly, we investigated the price and SNAP-purchasing
+
+features present in the data set. W e calculated the correlation
+
+between these features and the number of sales to provide
+
+an indication of whether the features could be useful in the
+
+upcoming predictions of sales. As seen in Figure 4, we also
+
+plotted the sales against the price for each product to give
+
+an idea of the price range that is connected with higher sales
+
+numbers.
+
+Figure 4: Price analysis.
+
+Transformations
+
+Sales. The value to be forecasted is the 'sales'-value. This
+
+is the amount of sales for each product for each day. The
+
+summary of this data, given in Table 1, shows that the data
+
+exhibits a skewed distribution with a relatively large spread,
+
+as indicated by the large dierence between the mean (1.904)
+
+and the median (0.000). Additionally, the maximum value of
+
+385.000 appears to be an outlier. The presence of outliers can
+
+signicantly impact forecasting models. Moreover, the non-
+
+normally distributed nature of the data may challenge the
+
+assumptions of certain forecasting methods that assume a
+
+normal distribution. To mitigate these challenges, w e applied
+
+a log transformation of the data to ensure more accurate and
+
+reliable predictions.
+
+Table 1 shows the summary measures before and after a
+
+log transformation. The log transformation involves taking
+
+the natural logarithm of each data point. It is done in the
+
+following way:
+
+log( 𝑥+
+
+1
+
+)
+
+. This transformation is commonly
+
+applied when dealing with data that exhibits exponential or 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf3
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf3
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf3
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf4
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf4
+
+Jago Muhlehner (15100529), Harry Nan (13460854), Omer Ulgen (13061798)
+
+Table 1: Summary of Training Sales Data Before and After
+
+Transformation.
+
+Min 1st Med Mean 3rd Max Sd
+
+1st 0 0 0 1.904 1 385 6.350
+
+log 0 0.0 0.0 0.523 0.693 5.956 0.819
+
+multiplicative growth patterns, as it helps stabilize variance
+
+and makes the data more normalized. Since we are working
+
+with non-negative data that can include 0-values, we added
+
+the constant +1, which handles 0-values and conveniently
+
+maps 0 to 0. After the log transformation, the distribution
+
+becomes more symmetric and the range is compressed. Log
+
+transformations are particularly useful in forecasting be-
+
+cause they linearize relationships between variables, making
+
+them easier to interpret and model. However, it's important
+
+to note that when interpreting results or making predictions,
+
+we must back-transform the log values to the original scale.
+
+2 FORECASTING METHODS
+
+The following forecasting methods have been used. Methods
+
+1 to 4 have been used in combination with each other, where
+
+the last 28 days of the training set have been used to nd the
+
+most suitable model. Methods 5 to 7 have been trained and
+
+tested for comparisons.
+
+(1) Mean Model
+
+Description:
+
+The Mean model is one of the sim-
+
+plest forecasting methods. It predicts future val-
+
+ues by calculating the average (mean) of the past
+
+data. This model assumes that the best predictor
+
+of what will happen tomorrow is the average
+
+of what has happened up till today. It is most
+
+eective when the data does not show strong
+
+trends or seasonal patterns.
+
+Justication:
+
+The Mean model is selected for its
+
+simplicity and eectiveness in situations where
+
+the data is relatively stable and lacks signicant
+
+trends or seasonality. Its simplicity makes it a
+
+good benchmark for comparing more complex
+
+models.
+
+(2) Seasonal Naive Model
+
+Description:
+
+The Seasonal Naive model is a vari-
+
+ation of the Naive forecasting method. It makes
+
+predictions based on the last observed value
+
+from the same season in the previous cycle. For
+
+example, in monthly data with yearly seasonal-
+
+ity, it uses the value from the same month in the
+
+previous year.
+
+Justication:
+
+This model is chosen because some
+
+products exhibit strong seasonal patterns. It is
+
+particularly useful when seasonality is the domi-
+
+nant feature of the data,which is subject to change
+
+per analyzed product.
+
+(3) Random Walk Model
+
+Description:
+
+In the Random Walk model, the pre-
+
+diction for the next period is simply the value
+
+observed in the last period. It assumes that the
+
+best predictor for tomorrow is today's value.
+
+Justication:
+
+The Random Walk model is selected
+
+because it performs better when the data shows
+
+a strong level of random variability and no clear
+
+trend or seasonal patterns.
+
+(4) Drift Model
+
+Description:
+
+The Drift model extends the Ran-
+
+dom Walk model by allowing the predictions to
+
+change over time. It does this by incorporating
+
+a trend (drift) calculated from the historical data.
+
+The forecast is a linear function of the drift and
+
+the last observed value.
+
+Justication:
+
+The Drift model is useful when the
+
+time series data shows a consistent trend over
+
+time. It's chosen for data where the change from
+
+one period to the next is relatively constant, mak-
+
+ing it suitable for products with a linear trend
+
+over time.
+
+(5) ARIMA Model
+
+Description:
+
+ARIMA (AutoRegressive Integrated
+
+Moving Av erage) is a popular statistical method
+
+for time series forecasting. It combines autore-
+
+gressive features (relying on past values) with
+
+moving average components and dierencing to
+
+make the data stationary (removing trends and
+
+seasonality).
+
+Justication:
+
+ARIMA is selected for its exibility
+
+and eectiveness in handling a variety of time
+
+series patterns, including data with trends and
+
+seasonality.
+
+(6) ETS Model
+
+Description:
+
+ETS (Error, T rend, Seasonality) is a
+
+comprehensive model that accounts for error,
+
+trend, and seasonality in the data. It uses expo-
+
+nential smoothing to give more weight to recent
+
+observations and is capable of modelling com-
+
+plex seasonal patterns.
+
+Justication:
+
+The ETS model is chosen because
+
+some products exhibit clear trends and seasonal-
+
+ity. Its ability to model both components makes
+
+it a robust choice for a wide range of seasonal
+
+time series data, particularly when the pattern
+
+of seasonality and trend is consistent over time.
+
+(7) Prophet
+
+Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+Team 03
+
+Description:
+
+Prophet is a forecasting model de-
+
+veloped by Meta / Facebook. It is a time series
+
+forecasting tool designed for data with strong
+
+seasonal patterns and multiple sources of uncer-
+
+tainty. It decomposes time series data into trends,
+
+seasonality, and holidays, which may be partic-
+
+ularly useful in this case, as there are events
+
+present. Additionally, the approach allows for
+
+the inclusion of predictive variables when fore-
+
+casting.
+
+Justication:
+
+Prophet is chosen as it includes hol-
+
+iday data and allows us to include events from
+
+the calendar data, which may capture variations
+
+in the data better. The addition of regressors
+
+may be useful as well, as price may be a good
+
+indicator of the amount of sales for a product.
+
+3 RESULTS
+
+Methodology
+
+In this part of our project, due to computational limitations,
+
+we were unable to construct a combined or ensemble model.
+
+Instead, we focused on comparing the accuracies of various
+
+individual forecasting models to understand their capabili-
+
+ties in predicting complex sales data. The models employed
+
+include ARIMA, ETS (Error, T rend, Seasonality), Random
+
+Walk, Drift, Mean, and Seasonal Naive. Each of these models
+
+was chosen for its unique approach to handling time series
+
+data, oering a diverse perspective on forecasting accuracy.
+
+The eectiveness of these models was evaluated using a
+
+training-validation split. This approach involved running all
+
+the benchmarked 'simpler' models on all available products,
+
+thus enabling us to assess their performance in a real-world
+
+context. The Root Mean Square Error (RMSE) was calculated
+
+for each model and then averaged across all products to pro-
+
+vide a comprehensive measure of accuracy. The resulting
+
+RMSE scores for these models, which reect their prociency
+
+in forecasting sales data, are detailed in Table
+
+This methodology allowed us to draw insights into the strengths
+
+and limitations of each model when applied to sales forecast-
+
+ing. By analyzing a range of models, we aimed to ascertain
+
+which models are most adept at handling the complexities
+
+inherent in sales data, such as seasonal variations, trends,
+
+and random uctuations. 3.
+
+Training and V alidaiton
+
+The RMSE values indicated below showcase the average
+
+predictive accuracy of each model, with a lower RMSE sig-
+
+nifying greater accuracy. The ARIMA model exhibited the
+
+lowest average RMSE, followed closely by the ETS model.
+
+These models' superior performance can be attributed to
+
+their ability to capture complex time series behaviours such
+
+as trends and seasonality, which are inher ent in sales data.
+
+Table 2: A verage RMSE for Each Forecasting Model (train-
+
+ing/validation split)
+
+Model Average RMSE
+
+ARIMA 1.687
+
+ETS 1.730
+
+Random Walk 2.189
+
+Drift 2.196
+
+Mean 1.873
+
+Seasonal Naive 2.194
+
+Table 3: Count of models for products that had the lowest
+
+RMSE-score for the corresponding model).
+
+Mean SNAIVE Random Walk Drift ARIMA ETS
+
+242 24 59 41 211 223
+
+Figure 5: percentage distribution of models based on lowest
+
+RMSE score per product.
+
+This table and graph represent the frequency with which
+
+each forecasting model achieved the lowest RMSE (Root
+
+Mean Square Error) for individual products. A discernible
+
+correlation emerges between the average RMSEs of the mod-
+
+els and their respective counts of achieving the lowest RMSE.
+
+These counts are indicative of the models' relative ecacy
+
+across a diverse range of products. Notably, a lower average
+
+RMSE for a model suggests a consistent ability to provide
+
+accurate forecasts across dierent products, rather than ex-
+
+celling in just a few cases.
+
+It's important to emphasize that the RMSE values repre-
+
+sent averages, calculated across all products. Therefore, a 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf5
+
+Jago Muhlehner (15100529), Harry Nan (13460854), Omer Ulgen (13061798)
+
+model with a lower average RMSE demonstrates not only
+
+its general accuracy but also its robustness and reliability
+
+across various product types. This robustness is crucial in
+
+forecasting, as it implies that the model can adapt to and
+
+eectively predict a wide array of product sales patterns.
+
+Thus, the alignment of lower average RMSEs with higher
+
+counts of being the best model reinforces the suitability of
+
+these models for accurate and reliable sales forecasting in a
+
+diverse marketplace.
+
+ARIMA:. is particularly eective for our data set due to its
+
+comprehensive approach to modelling time series. It inte-
+
+grates three key components: autoregression (AR), dier-
+
+encing (I), and moving average (MA). The AR component
+
+leverages the dependency between an observation and a
+
+number of lagged observations. The I component helps in
+
+making the time series stationary, a crucial step for many
+
+time-series models, by dierencing the data a certain number
+
+of times. Finally, the MA component models the error term
+
+as a linear combination of error terms at various time lags.
+
+This blend allows ARIMA to handle a wide range of time
+
+series data, especially non-stationary data, which is common
+
+in sales forecasting.
+
+ETS:. this model usually excels in scenarios where data ex-
+
+hibits clear trend and seasonal patterns. ETS models decom-
+
+pose a time series into error, trend, and seasonal components,
+
+modeling each separately. This approach is particularly bene-
+
+cial for sales data, which often demonstrates clear seasonal
+
+trends (e.g., higher sales during certain holidays or seasons)
+
+and underlying trends (such as increasing or decreasing sales
+
+over time). The ETS model's ability to capture these inher-
+
+ent patterns in the sales data likely contributed to its strong
+
+performance.
+
+Random Walk and Dri: models are simpler time series mod-
+
+els. A Random Walk model assumes that the future value is
+
+simply the last observed value plus a random step. The Drift
+
+model extends this by allowing for a consistent upward or
+
+downward trend (drift) over time. While these models are
+
+capable of capturing some level of trend in the data, their
+
+simplicity limits their ability to deal with more complex pat-
+
+terns, especially when it comes to handling seasonality and
+
+non-linear trends. This explains their moderate performance
+
+compared to the more sophisticated ARIMA and ETS models.
+
+Seasonal Naive: is a straightforward yet contextually rele-
+
+vant approach for time series forecasting, especially when
+
+the data exhibits clear seasonal patterns. This model assumes
+
+that the value of a series at a particular season in the future
+
+will be equal to the value observed at the same season in
+
+the past. For instance, in a monthly sales dataset with strong
+
+seasonal trends, the forecast for July of a given year would
+
+be the actual sales value from July of the previous year. In
+
+our analysis, the Seasonal Naive model displayed a higher
+
+average RMSE compared to more sophisticated models like
+
+ARIMA and ETS, and it also had a the lowest count of being
+
+the best model. This outcome suggests that while the model
+
+is capable of capturing seasonality, it might not be as eec-
+
+tive in datasets where other factors, such as trends 'cyclic
+
+patterns,and randomness play a signicant role.
+
+Mean: The Mean model's performance in our analysis was
+
+unexpectedly impressive, as highlighted by its high count of
+
+being the best model for forecasting. This model, which pre-
+
+dicts future values by averaging past observations, demon-
+
+strated a notable eectiveness, reected in both its third-
+
+lowest RMSE score and its highest frequency of being cho-
+
+sen as the best model. This dual achievement was somewhat
+
+surprising, considering the model's simplicity.
+
+The Mean model's strength lies in its ability to smooth
+
+out short-term uctuations, thereby emphasizing long-term
+
+trends. In scenarios where data uctuations are relatively
+
+random and not strongly correlated with specic trends or
+
+seasonal patterns, the Mean model's simplistic approach of
+
+averaging can eectively lter out noise, providing a stable
+
+forecast. This is particularly useful in datasets with high vari-
+
+ability or when the data does not follow predictable patterns.
+
+The fact that the Mean model not only scored well in terms
+
+of RMSE but also emerged as the most frequently chosen
+
+model suggests a signicant aspect of our dataset. It indi-
+
+cates that a considerable proportion of the products may
+
+have sales data that do not conform to strong, predictable
+
+seasonal or trend-based patterns. In such cases, the simplic-
+
+ity of the Mean model becomes its greatest asset, allowing
+
+it to avoid the potential pitfalls of overtting or misinter-
+
+preting complex patterns, common challenges with more
+
+sophisticated models.
+
+Prophet
+
+Lastly, Prophet was used for all products in an attempt to cap-
+
+ture seasonality trends, holidays and regressors. W e added
+
+holiday data from the US, as this may impact sales data in the
+
+store in Te xas. This was done using the pre-build function
+
+'add-country-holidays' from Prophet, which included for ex-
+
+ample "New Y ear's Day", "Martin Luther King Jr. Day" and
+
+"Independence Day". The impact of each holiday is checked
+
+automatically. Secondly, calendar data from the rst dataset
+
+was used, and more specically event data. The four dier-
+
+ent kinds of event data were extracted and were individually
+
+added as holidays for the data. No lags were added to this
+
+event data and the scale was set to be 0.25. Because of the
+
+long run time of this code and the computational and time
+
+limitations, parameter tuning for this was not feasible. The
+
+impact of this event data is visualized in gure 6. Afterwards,
+
+weekly, monthly and yearly seasonality w ere manually added 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf7
+
+Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+Team 03
+
+Table 4: RMSE for Dierent Prophet
+
+Model type RMSE
+
+Prophet (no regressors) 3.709
+
+Prophet (with regressors) 3.675
+
+since these were visible in the exploratory analysis of the
+
+data. The occurrence of weekly, monthly or yearly season-
+
+ality may however dier for each product, and it was not
+
+feasible to check the best seasonality type for each product.
+
+This resulted in a RMSE score of 3.709.
+
+Secondly, regressors w ere added to the data. As mentioned
+
+earlier, these can be seen as dynamic regression components,
+
+because they introduce a dynamic relationship between pre-
+
+dictor variables and the target variable over time. This may
+
+especially be the case for these values, as price and the al-
+
+lowance of SNAP products may be good indicators for high
+
+or lower sales. W e included 'price' and 'snap-TX' as regressor
+
+values. snap-TX-values w ere given for the forecasted period,
+
+but the price values were not. T o be able to add regressors
+
+in the forecasting, the price was assumed to stay the same
+
+for the next 28 days. In practice, price data may already be
+
+known and thus may give more accurate results. Once again,
+
+training and tuning hyperparameters was not possible on
+
+the whole dataset due to the long run time of the code. The
+
+addition of regressors slightly increased the performance,
+
+with an RMSE of 3.675. The prophet forecast of product 1 has
+
+been visualized in gure 7, and the components have been
+
+extracted in gure 8. Y ou can see that the model includes
+
+some seasonality and some trends in gure 8, as for example
+
+the general trend can be seen in the forecast and spikes in
+
+the data align with certain holidays, but based on gure 7
+
+the model fails to capture most of the variance and predicts
+
+roughly the same sales over time.
+
+4 DISCUSSION
+
+Our research oers a detailed comparative analysis of vari-
+
+ous forecasting models, with a particular emphasis on the
+
+Prophet model's ecacy in sales data forecasting. Developed
+
+by Facebook, the Prophet model distinguishes itself through
+
+its adept handling of seasonality, holiday eects, and non-
+
+linear trends, which are prevalent in sales data scenarios.
+
+Prophet Model's Theoretical Advantages and
+
+Shortcomings:
+
+Prophet operates on an additive model framework that al-
+
+lows for separate yet cohesive modelling of dierent time
+
+series components. This approach is particularly eective
+
+in handling complex seasonal patterns and irregular trends,
+
+Figure 6: Prophet event / holiday components for all products.
+
+Red = cultural, green = national, blue = religious, purple =
+
+sporting.
+
+Figure 7: Prophet for product 1.
+
+common in sales data. W e observed that Prophet's capacity
+
+to model both yearly and weekly seasonal variations pro-
+
+vided a signicant edge in accuracy over traditional models
+
+like ARIMA and ETS, especially in datasets with pronounced
+
+seasonal and holiday eects.
+
+Although the Prophet model theoretically allows for a height-
+
+ened impact of signicant holidays like Christmas on sales
+
+forecasting, our analysis was constrained by computational 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf7
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf8
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf8
+
+ 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods#pf7
+
+Jago Muhlehner (15100529), Harry Nan (13460854), Omer Ulgen (13061798)
+
+Figure 8: Prophet components for product 1. From top to
+
+bottom: trend, holidays, weekly, yearly, monthly and extra
+
+regressors additive.
+
+limitations, preventing us from fully integrating and assess-
+
+ing the enhanced holiday eects within the model. This
+
+shortcoming in our approach, notably our inability to fully
+
+incorporate the impact of holidays in the Prophet model, also
+
+led to an oversight in capturing the correlations between
+
+products – for instance, the increased joint sales of butter and
+
+eggs during Christmas for cake-making purposes – which is
+
+an important factor when forecasting sales for each product
+
+individually.
+
+Adjusting the Prophet Model :
+
+in our study, we strategically employ ed the additive model
+
+framework, a cornerstone feature of the Prophet model, to
+
+enhance its forecasting capabilities. W e made the decision of
+
+using an additive method instead of multiplicative for com-
+
+putational purposes, we can also mention that the variance
+
+over the whole dataset not uctuating heavily supported this
+
+decision. This framework enables the model to decompose a
+
+time series into three main components: trend, seasonality,
+
+and holidays. By employing this additive approach, we were
+
+able to separately model these components, which allowed
+
+for a more nuanced and detailed analysis of sales data. Specif-
+
+ically, the trend component pro vided a general direction of
+
+the sales over time, while the seasonality component cap-
+
+tured recurring patterns on dierent scales, such as weekly
+
+and yearly uctuations.
+
+The holiday component, although limited by computational
+
+constraints in our study, was designed to account for irreg-
+
+ular, event-driv en spikes in sales. This additive structure
+
+not only facilitated a more comprehensive understanding of
+
+the underlying patterns in the data but also provided ex-
+
+ibility in adjusting the model to accommodate the unique
+
+characteristics of the sales dataset.
+
+Comparison with ARIMA and ETS Models:
+
+While ARIMA and ETS are procient in capturing linear
+
+relationships and simple seasonal patterns, our analysis in-
+
+dicates that they are less eective in scenarios with com-
+
+plex seasonality and irregular trends – areas where Prophet
+
+demonstrates its strengths. The exibility of ARIMA in model
+
+specication and the ETS model's components (error, trend,
+
+and seasonality) make them suitable for certain datasets but
+
+not as universally applicable as Prophet in the context of
+
+sales forecasting.
+
+Simplicity vs. Complexity in Forecasting Models:
+
+Our study also considers the Drift and Random Walk models,
+
+known for their simplicity and ease of understanding. De-
+
+spite their utility in certain situations, these models were gen-
+
+erally outperformed by the Prophet,ETS,and ARIMA models
+
+indicating a trade-o between simplicity and accuracy in
+
+forecasting models.
+
+Mean Model :
+
+The performance of the Mean model within our analysis
+
+presents an interesting case for discussion. Despite its fun-
+
+damental approach, the model not only achieved the third-
+
+lowest RMSE score but also emerged as the preferred forecast-
+
+ing model for approximately 30 per cent of the products. This
+
+dual accomplishment is particularly noteworthy given the
+
+simplicity of the model. The core strength of the Mean model
+
+lies in its capacity to average historical data, which eec-
+
+tively smooths out short-term anomalies while accentuating
+
+long-term trends. This attribute becomes especially valuable
+
+in datasets where uctuations are more random and less
+
+tied to discernible trends or seasonal patterns. In such con-
+
+texts, the Mean model's straightforward averaging approach
+
+serves to eciently lter out noise, thus yielding a more sta-
+
+ble forecast. This becomes an asset in scenarios characterized
+
+by high data variability or an absence of predictable patterns.
+
+The notable performance of the Mean model, both in terms
+
+of RMSE and its frequent selection as the optimal model, sug-
+
+gests a distinctive characteristic of our dataset: a signicant
+
+Sales Time Series Forecasting: Comparing Prophet to other forecasting methods
+
+Team 03
+
+portion of the product sales data likely deviates from strong,
+
+predictable seasonal or trend-based patterns. This insight
+
+underscores the importance of considering model simplicity
+
+and adaptability in forecasting, particularly in datasets with
+
+complex or unpredictable behaviours.
+
+5 CONCLUSIONS
+
+In conclusion, our study oered a comprehensive analysis of
+
+various forecasting models, each with its distinct advantages
+
+and shortcomings. The ARIMA and ETS models, known for
+
+their ability to capture linear relationships and simple sea-
+
+sonal patterns, demonstrated superior performance in terms
+
+of RMSE scores. However, their eectiveness decreased in
+
+scenarios with complex seasonality and irregular trends, ar-
+
+eas where the Prophet model showed its strengths. The Mean
+
+model, despite its simplicity, was surprisingly eective.
+
+The Prophet model was employed for all products to cap-
+
+ture seasonality, tr ends, holidays, and regressors. While this
+
+model theoretically allows for a signicant impact of holi-
+
+days on sales forecasting, computational limitations hindered
+
+our ability to fully integrate and assess these eects.
+
+A major limitation in our study was the inability to test the
+
+simpler models (ARIMA, ETS, Random W alk, Drift, Mean) on
+
+the test set. This gap in our methodology restricts the conclu-
+
+siveness of our results. The simpler models, such as Random
+
+Walk and Drift, wer e capable of capturing some level of trend
+
+in the data, but their simplicity limited their ability to handle
+
+more complex patterns, particularly in terms of seasonality
+
+and non-linear trends.
+
+The Mean model, on the other hand, stood out for its ability
+
+to smooth out short-term uctuations, emphasizing long-
+
+term trends. Its simplicity became its greatest asset, allowing
+
+it to avoid pitfalls like overtting or misinterpreting complex
+
+patterns.
+
+Overall, our research indicates a trade-o between simplic-
+
+ity and accuracy in forecasting models. While the Prophet
+
+model's parameters may not have been optimized due to
+
+computational issues, its additive seasonality was chosen
+
+based on constant variance over time. However, this decision,
+
+along with the possible oversights in capturing correlations
+
+between products and the full impact of holidays, points to
+
+potential areas for improvement in forecasting accuracy.
+
+Future work
+
+To further increase the accuracy of the time series pr edic-
+
+tions, we propose ideas for future work. Firstly, having more
+
+powerful computational resources would facilitate a more
+
+in-depth analysis of the Prophet model, allowing us to com-
+
+prehensively evaluate the best hyperparameters for more
+
+accurate forecasting. Additionally, conducting an ensemble
+
+modelling approach by combining the strengths of multiple
+
+forecasting models could oer a more robust and accurate
+
+prediction framework, especially given the presence of di-
+
+verse and complex sales patterns. Furthermore, by merging
+
+our data with other datasets, we could consider external fac-
+
+tors, such as economic factors or a broader scope of events,
+
+that may be correlated with sales numbers. These could be
+
+used as additional features in forecasting models and could
+
+potentially contribute to a better understanding of the dy-
+
+namics of store sales and lead to better predictions.
+
+REFERENCES
+
+[1]
+
+Boone, T., Ganeshan, R., Jain, A., & Sanders, N. R. (2019). Forecast-
+
+ing sales in the supply chain: Consumer analytics in the big data era.
+
+International Journal of Forecasting, 35(1), 170-180.
+
+[2]
+
+Frias, D., Muniz, C. C. S., Vieira, P. S., Sant'anna, D. S., & da Cunha Reis,
+
+A. (2020). Supply chain risk mitigation through sales forecasting in a
+
+cosmetics company. Independent Journal of Management & Production,
+
+11(5), 1606-1623.
+
+[3]
+
+Hyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles
+
+and practice, 3rd edition, OTexts: Melbourne, A ustralia.
+
+[4]
+
+Megahed, A., Yin, P., & Nezhad, H. R. M. (2016). An optimization ap-
+
+proach to services sales forecasting in a multi-staged sales pipeline. In
+
+2016 IEEE International Conference on Services Computing (SCC) (pp.
+
+713-719). IEEE.
+
+[5]
+
+Prophet. (2023). Seasonality, holiday eects, and regressors.
+
+https://facebook.github.io/prophet/docs/seasonality,holidayeects,andregressors.html
+
+[6] Prophet. (n.d.). Prophet. https://facebook.github.io/prophet/
+
+[7]
+
+Rana, D. (2022). M5 Forecasting — Accuracy - Dipanshu Rana - Medium.
+
+Medium. https://dipanshurana.medium.com/m5-forecasting-accuracy-
+
+1b5a10218fcf
+
+Citations (0)
+
+References (5)
+
+ResearchGate has not been able to resolve any citations for this publication.
+
+Supply chain risk mitigation through sales forecasting in a cosmetics company
+
+https://www.researchgate.net/publication/344033910_Supply_chain_risk_mitigation_through_sales_forecasting_in_a_cosmetics_company
+
+Article
+
+Full-text available
+
+Sep 2020
+
+Daniella Frias
+
+https://www.researchgate.net/scientific-contributions/Daniella-Frias-2179995899
+
+Carolina Cavour Siqueira Muniz
+
+https://www.researchgate.net/scientific-contributions/Carolina-Cavour-Siqueira-Muniz-2179992481
+
+Pedro Senna Vieira
+
+https://www.researchgate.net/scientific-contributions/Pedro-Senna-Vieira-2331961212
+
+ Augusto Da Cunha Reis
+
+https://www.researchgate.net/profile/Augusto-Reis
+
+Demand forecasting has become a fundamental tool for companies' strategic planning. Represented by one of the highest growth rates in the country, the cosmetics industry faces numerous challenges in meeting the demand of consumers with a high level of service. Correctly identifying demand is critical to avoiding unnecessary extra costs for the business, such as stockout or stock over. The sales data of shampoo franchises are real values, covering the period from January 2013 to December 2018. After data organization, open-time and fixed-time time series techniques were analyzed in order to find the best forecasting technique for the type of product analyzed, i.e. the method with the smallest difference in absolute values between the actual demanded. and the estimated. The models were successfully applied, and we concluded that one of the analyzed methods could be applied in the company, because it presented smaller Mean Absolute Percentage Error.
+
+View
+
+https://www.researchgate.net/publication/344033910_Supply_chain_risk_mitigation_through_sales_forecasting_in_a_cosmetics_company
+
+Show abstract
+
+Forecasting sales in the supply chain: Consumer analytics in the big data era
+
+https://www.researchgate.net/publication/329121393_Forecasting_sales_in_the_supply_chain_Consumer_analytics_in_the_big_data_era
+
+Article
+
+Nov 2018
+
+INT J FORECASTING
+
+ Tonya Boone
+
+https://www.researchgate.net/profile/Tonya-Boone
+
+ Ram Ganeshan
+
+https://www.researchgate.net/profile/Ram-Ganeshan
+
+ Aditya Jain
+
+https://www.researchgate.net/profile/Aditya-Jain-37
+
+ Nada R. Sanders
+
+https://www.researchgate.net/profile/Nada-Sanders
+
+Forecasts have traditionally served as the basis for planning and executing supply chain activities. Forecasts drive supply chain decisions, and they have become critically important due to increasing customer expectations, shortening lead times, and the need to manage scarce resources. Over the last ten years, advances in technology and data collection systems have resulted in the generation of huge volumes of data on a wide variety of topics and at great speed. This paper reviews the impact that this explosion of data is having on product forecasting and how it is improving it. While much of this review will focus on time series data, we will also explore how such data can be used to obtain insights into consumer behavior, and the impact of such data on organizational forecasting.
+
+View
+
+https://www.researchgate.net/publication/329121393_Forecasting_sales_in_the_supply_chain_Consumer_analytics_in_the_big_data_era
+
+Show abstract
+
+An Optimization Approach to Services Sales Forecasting in a Multi-staged Sales Pipeline
+
+https://www.researchgate.net/publication/307572306_An_Optimization_Approach_to_Services_Sales_Forecasting_in_a_Multi-staged_Sales_Pipeline
+
+Conference Paper
+
+Jun 2016
+
+ Aly Megahed
+
+https://www.researchgate.net/profile/Aly-Megahed
+
+Peifeng Yin
+
+https://www.researchgate.net/scientific-contributions/Peifeng-Yin-2114723909
+
+ Hamid R. Motahari Nezhad
+
+https://www.researchgate.net/profile/Hamid-R-Motahari-Nezhad
+
+Services organization manage a pipeline of sales opportunities with variable enterprise sales engagement lifespan, maturity levels (belonging to progressive sales stages), and contract values at any given point in time. Accurate forecasting of contract signings by the end of a time period (e.g., a quarter) is a desire for many services organizations in order to get an accurate projection of incoming revenues, and to provide support for delivery planning, resource allocation, budgeting, and effective sales opportunity management. While the problem of sales forecasting has been investigated in its generic context, sales forecasting for services organizations entails the consideration of additional complexities, which has not been thoroughly investigated: (i) considering opportunities in multi-staged sales pipeline, which means providing stage-specific treatment of sales opportunities in each group, and (ii) using the information of the current pipeline build-up, as well as the projection of the pipeline growth over the remaining time period before the end of the target time period in order to make predictions. In this paper, we formulate this problem, considering the service-specific context, as a machine learning problem over the set of historical services sales data. We introduce a novel optimization approach for finding the optimized weights of a sales forecasting function. The objective value of our optimization model minimizes the average error rates for predicting sales based on two factors of conversion rates and growth factors for any given point in time in a sales period over historical data. Our model also optimally determines the number of historical periods that should be used in the machine learning framework to predict the future revenue. We have evaluated the presented method, and the results demonstrate superior performance (in terms of absolute and relative errors) compared to a baseline state of the art method.
+
+View
+
+https://www.researchgate.net/publication/307572306_An_Optimization_Approach_to_Services_Sales_Forecasting_in_a_Multi-staged_Sales_Pipeline
+
+Show abstract
+
+Forecasting: principles and practice
+
+Jan 2021
+
+R J Hyndman
+
+G Athanasopoulos
+
+Hyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia.
+
+M5 Forecasting -Accuracy -Dipanshu Rana -Medium
+
+Jan 2022
+
+D Rana
+
+Rana, D. (2022). M5 Forecasting -Accuracy -Dipanshu Rana -Medium. Medium. https://dipanshurana.medium.com/m5-forecasting-accuracy-1b5a10218fcf
+
+Recommended publications
+
+Discover more
+
+https://www.researchgate.net/search
+
+Article
+
+Full-text available
+
+Linking United Nations General Debate Speeches to Countries Voting Patterns
+
+https://www.researchgate.net/publication/378734359_Linking_United_Nations_General_Debate_Speeches_to_Countries_Voting_Patterns
+
+November 2023
+
+Jago Muhlehner
+
+https://www.researchgate.net/scientific-contributions/Jago-Muhlehner-2275517886
+
+ 
+
+Omer Ulgen
+
+https://www.researchgate.net/profile/Omer-Ulgen
+
+The United Nations General Assembly (UNGA), is a fascinating domain in which nations communicate, negotiate, and signal their stance on global issues. This study seeks to explore the relation between the textual data from the speeches given during the General Debate and the subsequent voting behaviour between countries through exploratory and predictive analyses.
+
+View full-text
+
+https://www.researchgate.net/publication/378734359_Linking_United_Nations_General_Debate_Speeches_to_Countries_Voting_Patterns
+
+Article
+
+Full-text available
+
+Localized global models using autoencoder-based clustering to forecast related time series
+
+https://www.researchgate.net/publication/387873681_Localized_global_models_using_autoencoder-based_clustering_to_forecast_related_time_series
+
+January 2025
+
+· International Journal of Data Science and Analytics
+
+ 
+
+Hossein Abbasimehr
+
+https://www.researchgate.net/profile/Hossein-Abbasimehr
+
+Ali Noshad
+
+https://www.researchgate.net/scientific-contributions/Ali-Noshad-2198139927
+
+In many industries, such as banking, retail, medical, and tourism, abundant time series data is generated. Global forecasting methods have emerged to train a single model by leveraging cross-series information. However, the performance of the global models may be decreased when applied to heterogeneous unequal-length time series datasets. To address heterogeneity in time series, this study 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ contributes a comprehensive methodology for time series forecasting, incorporating three key components: (1) automatic feature extraction from unequal-length time series utilizing two novel autoencoder models based on long short-term memory and convolutional neural network methods, (2) time series clustering, (3) and global forecasting. To evaluate the forecasting accuracy of the proposed methodology, we conduct comprehensive experiments across various time series datasets including six datasets of M3, Tourism, and Hospital datasets. Across all datasets with 2620 time series, attained the lowest mean symmetric mean absolute percentage error (sMAPE) of 15.08, surpassing the baseline mean sMAPE of 15.42. It exhibits enhancements of 0.19 and 0.60 in mean sMAPE relative to ETS and ARIMA, respectively. Furthermore, it demonstrates improvements of 1.10, 0.52, and 2.11 compared to DeepAR, N-BEATS, and Transformer, respectively. A comparative analysis of our proposed methodology against clustering-based and ensembling-based models in the existing literature highlights its superiority in global time series forecasting.
+
+View full-text
+
+https://www.researchgate.net/publication/387873681_Localized_global_models_using_autoencoder-based_clustering_to_forecast_related_time_series
+
+Article
+
+Full-text available
+
+Global Temperature Anomaly Forecast: A Comparative Analysis of ARIMA and ETS Models
+
+https://www.researchgate.net/publication/387713265_Global_Temperature_Anomaly_Forecast_A_Comparative_Analysis_of_ARIMA_and_ETS_Models
+
+January 2025
+
+· Advances in Economics Management and Political Sciences
+
+Chenghao Fan
+
+https://www.researchgate.net/scientific-contributions/Chenghao-Fan-2301871868
+
+Global temperature change is a central topic in climate change research, and predicting future temperature anomalies is a key to developing climate risk mitigation plans. To better predict the long-term trend of global temperature change, this paper uses the NASA GISTEMP dataset from 1880 to the present. It employs two widely used models for time-series forecasting, the ARIMA, and the ETS models, 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ to model and forecast global temperature anomalies. Through model fitting and comparative analysis, this paper demonstrates the superior performance of the ARIMA model in dealing with the prediction of long-term trends in global temperature. It points out that the ETS model exhibits relatively low errors in highly fluctuating data. Considering AIC, BIC, MSE, and other indicators, the ARIMA model is more stable in long-term trend forecasting, especially when dealing with time series without obvious seasonal components.
+
+View full-text
+
+https://www.researchgate.net/publication/387713265_Global_Temperature_Anomaly_Forecast_A_Comparative_Analysis_of_ARIMA_and_ETS_Models
+
+Article
+
+Full-text available
+
+Study on the prediction performance of AIDS monthly incidence in Xinjiang based on time series and d...
+
+https://www.researchgate.net/publication/389322465_Study_on_the_prediction_performance_of_AIDS_monthly_incidence_in_Xinjiang_based_on_time_series_and_deep_learning_models
+
+February 2025
+
+· BMC Public Health
+
+Dandan Tang
+
+https://www.researchgate.net/scientific-contributions/Dandan-Tang-2150710013
+
+Yuanyuan Jin
+
+https://www.researchgate.net/scientific-contributions/Yuanyuan-Jin-2306584322
+
+Xuanjie Hu
+
+https://www.researchgate.net/scientific-contributions/Xuanjie-Hu-2306560242
+
+[...]
+
+ 
+
+Li Huling
+
+https://www.researchgate.net/profile/Li-Huling
+
+Objective AIDS is a highly fatal infectious disease of Class B, and Xinjiang is a high-incidence region for AIDS in China. The core of prevention and control lies in early monitoring and early warning. This study aims to identify the best model for predicting the monthly AIDS incidence in Xinjiang, providing scientific evidence for AIDS prevention and control. Methods Monthly AIDS incidence data 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ from January 2004 to December 2020 in Xinjiang were collected. Six different models, including the ARIMA (2,1,2) model, ARIMA (2,1,2)-EGARCH (2,2) combined model, ARIMA (2,1,2)-TGARCH (1,1) combined model, ETS (A, A, A) model, XGBoost model, and LSTM model, were used for fitting and forecasting. Results All models were able to capture the overall trend of the monthly AIDS incidence in Xinjiang. In terms of RMSE and MAE, the ETS (A, A, A) model performed the best, achieving the smallest values. For the MAPE metric, the ARIMA (2,1,2)-TGARCH (1,1) model performed the best. Considering RMSE, MAE, and MAPE together, the ETS (A, A, A) model was the best-performing model in this study. The LSTM model also showed good predictive performance, while the XGBoost model and ARIMA (2,1,2) model performed relatively poorly. Conclusion The ETS (A, A, A) model is the best model for predicting the monthly AIDS incidence in Xinjiang. Deep learning models (such as LSTM) have significant potential in time series forecasting. The XGBoost model and ARIMA (2,1,2) model may have limitations when handling time series data, and future improvements or combinations could enhance prediction performance.
+
+View full-text
+
+https://www.researchgate.net/publication/389322465_Study_on_the_prediction_performance_of_AIDS_monthly_incidence_in_Xinjiang_based_on_time_series_and_deep_learning_models
+
+Discover the world's research
+
+Join ResearchGate to find the people and research you need to help your work.
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=iIQ3WMdy6KcUa6lTdyA0OX1A07hQZWvw-QbP2lXpJlpi5v0gxMHxsHuWeN2tOv6VvDFedxKjAb-whh8Xzq6e2LTPissth_R2p7w-b_w-WPY&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=iIQ3WMdy6KcUa6lTdyA0OX1A07hQZWvw-QbP2lXpJlpi5v0gxMHxsHuWeN2tOv6VvDFedxKjAb-whh8Xzq6e2LTPissth_R2p7w-b_w-WPY&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=iIQ3WMdy6KcUa6lTdyA0OX1A07hQZWvw-QbP2lXpJlpi5v0gxMHxsHuWeN2tOv6VvDFedxKjAb-whh8Xzq6e2LTPissth_R2p7w-b_w-WPY&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=iIQ3WMdy6KcUa6lTdyA0OX1A07hQZWvw-QbP2lXpJlpi5v0gxMHxsHuWeN2tOv6VvDFedxKjAb-whh8Xzq6e2LTPissth_R2p7w-b_w-WPY&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=Wi17MmssgRUnyt7J8fcOx2jspF5cBkIUtf6HDTjyTe2OLGwRTV8GKHrz2pD1Wn0AuoNJLqpxvQxcidkf6iA5oaMoYAE
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=Wi17MmssgRUnyt7J8fcOx2jspF5cBkIUtf6HDTjyTe2OLGwRTV8GKHrz2pD1Wn0AuoNJLqpxvQxcidkf6iA5oaMoYAE
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()
+
+ 

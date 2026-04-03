@@ -1,0 +1,1224 @@
+Title: Python Basics: A Practical Introduction to Python 3
+Source URL: https://static.realpython.com/python-basics-sample-chapters.pdf
+
+================================================================================
+
+Python Basics: A Practical Introductionto Python 3 
+
+Real Python
+
+Python Basics: A Practical Introduction to Python 3 Revised and Updated 4th Edition David Amos, Dan Bader, Joanna Jablonski, Fletcher Heisler Copyright © Real Python (realpython.com), 2012–2020 For online information and ordering of this and other books by RealPython, please visit realpython.com. For more information, pleasecontact us at info@realpython.com. ISBN: 9781775093329 (paperback) ISBN: 9781775093336 (electronic) Cover design by Aldren Santos Additional editing and proofreading by Jacob Schmitt “Python” and the Python logos are trademarks or registered trade-marks of the Python Software Foundation, used by Real Python withpermission from the Foundation. Thank you for downloading this ebook. This ebook is licensed for yourpersonal enjoyment only. This ebookmay not be resold or given awayto other people. If you would like to share this book with another per-son, please purchase an additional copy for each recipient. If you’rereading this book anddid not purchase it, or if it was not purchased foryour use only, then please return to realpython.com/pybasics-bookand purchase your own copy. Thank you for respecting the hard workbehind this book.
+
+This is a sample from “Python Basics: A PracticalIntroduction to Python 3” With the full version of the book you get a complete Python curriculumto go all theway frombeginner to intermediate-level. Every step alongthe way is explained and illustrated with short & clear code samples. Coding exercises within each chapter and our interactive quizzes helpfast-track your progress and ensure you always knowwhat to focus onnext. Become a fluent Pythonista and gain programming knowledge youcan apply in the real-world, today: If you enjoyed the sample chapters you can purchase a fullversion of the book at realpython.com/pybasics-book
+
+What Pythonistas Say About Python Basics: A Practical In-troduction to Python 3 
+
+“I love [the book]! The wording is casual, easy to understand, andmakes the information ow well. I never feel lost in the material, andit’s not too dense so it’s easy for me to review older chapters over andover. I’ve looked at over 10 di erent Python tutorials/books/online courses,and I’ve probably learned the most from Real Python!” — ThomasWong 
+
+“Three years later and I still return to my Real Python books when Ineed a quick refresher on usage of vital Python commands.” — Rob Fowler 
+
+“I oundered for a long time trying to teach myself. I slogged throughdozens of incomplete online tutorials. I snoozed through hours of bor-ing screencasts. I gave up on countless crufty books from big-timepublishers. And then I found Real Python. The easy-to-follow, step-by-step instructions break the big conceptsdown into bite-sized chunks written in plain English. The authorsnever forget their audience andare consistently thoroughanddetailedin their explanations. I’m up and running now, but I constantly referto the material for guidance.” — Jared Nielsen
+
+“I love the book because at the end of each particular lesson there arereal world and interesting challenges. I just built a savings estimatorthat actually re ects my savings account – neat!” —Drew Prescott 
+
+“As a practice of what you taught I started building simple scripts forpeople on my team to help them in their everyday duties. When mymanagers noticed that, I was o ered a new position as a developer. I know there is heaps of things to learn and there will be huge chal-lenges, but I nally started doing what I really came to like. Once again: MANY THANKS!” —Kamil 
+
+“What I found great about the Real Python courses compared to othersis how they explain things in the simplest way possible. A lot of courses, in any discipline really, require the learning of a lot ofjargon when in fact what is being taught could be taught quickly andsuccinctly without too much of it. The courses do a very good job ofkeeping the examples interesting.” — Stephen Grady 
+
+“After reading the rst Real Python course Iwrote a script to automateamundane task at work. What used to takeme three to ve hours nowtakes less than ten minutes!” — Brandon Youngdale
+
+“Honestly, throughout this whole process what I found was just melooking really hard for things that couldmaybe be added or improved,but this tutorial is amazing! You do a wonderful job of explaining andteaching Python in away that people likeme, a complete novice, couldreally grasp. The ow of the lessonsworks perfectly throughout. The exercises trulyhelped along the way and you feel very accomplished when you nishup the book. I think you have a gift for making Python seem moreattainable to people outside the programming world. This is something I never thought I would be doing or learning andwith a little push from you I am learning it and I can see that it will benothing but bene cial to me in the future!” — Shea Klusewicz 
+
+“The authors of the courses have NOT forgotten what it is like to bea beginner – something that many authors do – and assume noth-ing about their readers, which makes the courses fantastic reads. Thecourses are also accompanied by some great videos as well as plentyof references for extra learning, homework assignments and examplecode that you can experiment with and extend. I really liked that there was always full code examples and each lineof code had good comments so you can see what is doing what. I now have a number of books on Python and the Real Python onesare the only ones I have actually nished cover to cover, and theyare hands down the best on the market. If like me, you’re not a pro-grammer (I work in online marketing) you’ll nd these courses to belike a mentor due to the clear, u -free explanations! Highly recom-mended!” — Craig Addyman
+
+About the Authors AtReal Python you’ll learn real-world programming skills from a com-munity of professional Pythonistas from all around the world. The realpython.com website launched in 2012 and currently helpsmore than three million Python developers each month with freeprogramming tutorials and in-depth learning resources. 
+
+Everyone whoworked on this book is a practitionerwith several yearsof professional experience in the software industry. Here are themem-bers of the Real Python tutorial team who worked on Python Basics: DavidAmos is the content technical lead forReal Python. After leav-ing academia in 2015, David worked in various technical positions asa programmer and data scientist. In 2019, David joined Real Pythonfull time to pursue his passion for education. He lead the charge onrewriting and updating the Python Basics curriculum to Python 3. Dan Bader is the owner and editor in chief of Real Python and themain developer of the realpython.com learning platform. Dan hasbeen writing code for more than twenty years and holds a master’sdegree in computer science. He’s the author of Python Tricks, a best-selling programming book for intermediate Python developers. Joanna Jablonski is the executive editor of Real Python. She likesnatural languages just as much as she likes programming languages.Her love for puzzles, patterns, and pesky little details led her to followa career in translation. It was only a matter of time before she wouldfall in love with a new language: Python! She joined Real Python in2018 and has been helping Pythonistas level up ever since. Fletcher Heisler is the founder of Hunter2, where he teaches de-velopers how to hack and secure modern web apps. As one of thefounding members of Real Python, Fletcher wrote the first version ofthe Python curriculum this book is based on in 2012.
+
+Contents 
+
+Contents 8 Foreword 13 1 Introduction 201.1 Why This Book? . . . . . . . . . . . . . . . . . . . . 211.2 About Real Python . . . . . . . . . . . . . . . . . . 231.3 How to Use This Book . . . . . . . . . . . . . . . . . 241.4 Bonus Material and Learning Resources . . . . . . . 25 2 Setting Up Python 292.1 A Note on Python Versions . . . . . . . . . . . . . . 302.2 Windows . . . . . . . . . . . . . . . . . . . . . . . 312.3 macOS . . . . . . . . . . . . . . . . . . . . . . . . . 342.4 Ubuntu Linux . . . . . . . . . . . . . . . . . . . . . 37 3 Your First Python Program 423.1 Write a Python Program . . . . . . . . . . . . . . . 433.2 Mess Things Up . . . . . . . . . . . . . . . . . . . . 473.3 Create a Variable . . . . . . . . . . . . . . . . . . . 503.4 Inspect Values in the Interactive Window . . . . . . 553.5 Leave Yourself Helpful Notes . . . . . . . . . . . . . 583.6 Summary and Additional Resources . . . . . . . . . 60 4 Strings and String Methods 624.1 What Is a String? . . . . . . . . . . . . . . . . . . . 634.2 Concatenation, Indexing, and Slicing . . . . . . . . . 69 
+
+Contents 4.3 Manipulate Strings With Methods . . . . . . . . . . 794.4 Interact With User Input . . . . . . . . . . . . . . . 854.5 Challenge: Pick Apart Your User’s Input . . . . . . . 884.6 Working With Strings and Numbers . . . . . . . . . 884.7 Streamline Your Print Statements . . . . . . . . . . 944.8 Find a String in a String . . . . . . . . . . . . . . . . 964.9 Challenge: Turn Your User Into a L33t H4x0r . . . . 994.10 Summary and Additional Resources . . . . . . . . . 100 
+
+5 Numbers and Math 1025.1 Integers and Floating-Point Numbers . . . . . . . . 1035.2 Arithmetic Operators and Expressions . . . . . . . . 1075.3 Challenge: Perform Calculations on User Input . . . 1155.4 Make Python Lie to You . . . . . . . . . . . . . . . . 1165.5 Math Functions and Number Methods . . . . . . . . 1185.6 Print Numbers in Style . . . . . . . . . . . . . . . . 1235.7 Complex Numbers . . . . . . . . . . . . . . . . . . 1265.8 Summary and Additional Resources . . . . . . . . . 130 6 Functions and Loops 1326.1 What Is a Function, Really? . . . . . . . . . . . . . . 1336.2 Write Your Own Functions . . . . . . . . . . . . . . 1376.3 Challenge: Convert Temperatures . . . . . . . . . . 1466.4 Run in Circles . . . . . . . . . . . . . . . . . . . . . 1476.5 Challenge: Track Your Investments . . . . . . . . . . 1566.6 Understand Scope in Python . . . . . . . . . . . . . 1576.7 Summary and Additional Resources . . . . . . . . . 162 7 Finding and Fixing Code Bugs 1647.1 Use the Debug Control Window . . . . . . . . . . . 1657.2 Squash Some Bugs . . . . . . . . . . . . . . . . . . 1717.3 Summary and Additional Resources . . . . . . . . . 179 8 Conditional Logic and Control Flow 1818.1 Compare Values . . . . . . . . . . . . . . . . . . . . 1828.2 Add Some Logic . . . . . . . . . . . . . . . . . . . . 1868.3 Control the Flow of Your Program . . . . . . . . . . 194 
+
+Contents 8.4 Challenge: Find the Factors of a Number . . . . . . . 2068.5 Break Out of the Pattern . . . . . . . . . . . . . . . 2078.6 Recover From Errors . . . . . . . . . . . . . . . . . 2118.7 Simulate Events and Calculate Probabilities . . . . . 2178.8 Challenge: Simulate a Coin Toss Experiment . . . . . 2238.9 Challenge: Simulate an Election . . . . . . . . . . . 2238.10 Summary and Additional Resources . . . . . . . . . 224 
+
+9 Tuples, Lists, and Dictionaries 2269.1 Tuples Are Immutable Sequences . . . . . . . . . . . 2279.2 Lists Are Mutable Sequences . . . . . . . . . . . . . 2379.3 Nesting, Copying, and Sorting Tuples and Lists . . . 2519.4 Challenge: List of lists . . . . . . . . . . . . . . . . . 2579.5 Challenge: Wax Poetic . . . . . . . . . . . . . . . . 2589.6 Store Relationships in Dictionaries . . . . . . . . . . 2609.7 Challenge: Capital City Loop . . . . . . . . . . . . . 2709.8 How to Pick a Data Structure . . . . . . . . . . . . . 2729.9 Challenge: Cats With Hats . . . . . . . . . . . . . . 2739.10 Summary and Additional Resources . . . . . . . . . 274 10 Object-Oriented Programming (OOP) 27610.1 Define a Class . . . . . . . . . . . . . . . . . . . . . 27710.2 Instantiate an Object . . . . . . . . . . . . . . . . . 28110.3 Inherit From Other Classes . . . . . . . . . . . . . . 28710.4 Challenge: Model a Farm . . . . . . . . . . . . . . . 29610.5 Summary and Additional Resources . . . . . . . . . 297 11 Modules and Packages 29811.1 Working With Modules . . . . . . . . . . . . . . . . 29911.2 Working With Packages . . . . . . . . . . . . . . . . 31011.3 Summary and Additional Resources . . . . . . . . . 318 12 File Input and Output 32012.1 Files and the File System . . . . . . . . . . . . . . . 32112.2 Working With File Paths in Python . . . . . . . . . . 32412.3 Common File System Operations . . . . . . . . . . . 33312.4 Challenge: Move All Image Files to a New Directory . 350 
+
+Contents 12.5 Reading and Writing Files . . . . . . . . . . . . . . 35112.6 Read and Write CSV Data . . . . . . . . . . . . . . . 36612.7 Challenge: Create a High Scores List . . . . . . . . . 37712.8 Summary and Additional Resources . . . . . . . . . 378 
+
+13 Installing Packages With pip 37913.1 Installing Third-Party Packages With pip . . . . . . . 38013.2 The Pitfalls of Third-Party Packages . . . . . . . . . 39013.3 Summary and Additional Resources . . . . . . . . . 392 14 Creating and Modifying PDF Files 39414.1 Extracting Text From a PDF . . . . . . . . . . . . . 39514.2 Extracting Pages From a PDF . . . . . . . . . . . . . 40214.3 Challenge: PdfFileSplitter Class . . . . . . . . . . . 40914.4 Concatenating and Merging PDFs . . . . . . . . . . 41014.5 Rotating and Cropping PDF Pages . . . . . . . . . . 41714.6 Encrypting and Decrypting PDFs . . . . . . . . . . . 42814.7 Challenge: Unscramble a PDF . . . . . . . . . . . . 43314.8 Creating a PDF File From Scratch . . . . . . . . . . 43314.9 Summary and Additional Resources . . . . . . . . . 440 15 WorkingWith Databases 44215.1 An Introduction to SQLite . . . . . . . . . . . . . . 44315.2 Libraries for Working With Other SQL Databases . . 45515.3 Summary and Additional Resources . . . . . . . . . 456 16 Interacting With theWeb 45816.1 Scrape and Parse Text From Websites . . . . . . . . 45916.2 Use an HTML Parser to Scrape Websites . . . . . . . 46916.3 Interact With HTML Forms . . . . . . . . . . . . . . 47516.4 Interact With Websites in Real Time . . . . . . . . . 48116.5 Summary and Additional Resources . . . . . . . . . 485 17 Scienti c Computing and Graphing 48717.1 Use NumPy for Matrix Manipulation . . . . . . . . . 48817.2 Use Matplotlib for Plotting Graphs . . . . . . . . . . 49917.3 Summary and Additional Resources . . . . . . . . . 522 
+
+Contents 18 Graphical User Interfaces 52318.1 Add GUI Elements With EasyGUI . . . . . . . . . . 52418.2 Example App: PDF Page Rotator . . . . . . . . . . . 53618.3 Challenge: PDF Page Extraction Application . . . . . 54318.4 Introduction to Tkinter . . . . . . . . . . . . . . . . 54418.5 Working With Widgets . . . . . . . . . . . . . . . . 54818.6 Controlling Layout With Geometry Managers . . . . 57318.7 Making Your Applications Interactive . . . . . . . . 59218.8 Example App: Temperature Converter . . . . . . . . 60218.9 Example App: Text Editor . . . . . . . . . . . . . . 60718.10 Challenge: Return of the Poet . . . . . . . . . . . . . 61618.11 Summary and Additional Resources . . . . . . . . . 618 19 Final Thoughts and Next Steps 62019.1 Free Weekly Tips for Python Developers . . . . . . . 62219.2 Python Tricks: The Book . . . . . . . . . . . . . . . 62219.3 Real Python Video Course Library . . . . . . . . . . 62319.4 Acknowledgements . . . . . . . . . . . . . . . . . . 624 
+
+Foreword 
+
+Hello, and welcome to Python Basics: A Practical Introduction toPython 3. I hope you’re ready to learn why so many professional andhobbyist developers are drawn to Python and how you can beginusing it on your own projects, small and large, right away. This book is targeted at beginners who either know a little program-ming but not the Python language and ecosystem or are starting freshwith no programming experience whatsoever. If you don’t have a computer science degree, don’t worry. David, Dan,Joanna, and Fletcher will guide you through the important comput-ing concepts while teaching you the Python basics and, just as impor-tantly, skipping the unnecessary details at first. Python Is a Full-Spectrum Language When learning a new programming language, you don’t yet have theexperience to judge howwell it will serve you in the long run. If you’reconsidering learning Python, let me assure you that this is a goodchoice. One key reason is that Python is a full-spectrum language. What do I mean by this? Some languages are very good for beginners.They hold your hand and make programming super easy. We can goto the extreme and look at visual languages such as Scratch. In Scratch, you get blocks that represent programming concepts likevariables, loops, method calls, and so on, and you drag and drop themon a visual surface. Scratch may be easy to get started with for sim-
+
+Contents ple programs, but you cannot build professional applications with it.Name one Fortune 500 company that powers its core business logicwith Scratch. Come up empty? Me too, because that would be insanity. Other languages are incredibly powerful for expert developers. Themost popular one in this category is likely C++ and its close relative,C. Whichever web browser you used today was likely written in C orC++. Your operating system running that browser was very likely alsobuilt with C/C++. Your favorite first-person shooter or strategy videogame? You nailed it: C/C++. You can do amazing things with these languages, but they are whollyunwelcoming to newcomers looking for a gentle introduction. You might not have read a lot of C++ code. It can almost make youreyes burn. Here’s an example, a real albeit complex one: template <typename T> 
+
+_Defer<void(*(PID<T>, void (T::*)(void))) 
+
+(const PID<T>&, void (T::*)(void))> 
+
+defer(const PID<T>& pid, void (T::*method)(void)) 
+
+{ 
+
+void (*dispatch)(const PID<T>&, void (T::*)(void)) = 
+
+&process::template dispatch<T>; 
+
+return std::tr1::bind(dispatch, pid, method); 
+
+} 
+
+Please, just no. Both Scratch and C++ are decidedly not what I would call full-spectrum languages. With Scratch, it’s easy to start, but you have toswitch to a “real” language to build real applications. Conversely, youcan build real apps with C++, but there’s no gentle on-ramp. Youdive headfirst into all the complexity of the language, which exists tosupport these rich applications. 
+
+Contents Python, on the other hand, is special. It is a full-spectrum language.We often judge the simplicity of a language based on the Hello, Worldtest. That is, what syntax and actions are necessary to get the languageto output Hello, World to the user? In Python, it couldn’t be simpler: print("Hello, World") 
+
+That’s it! However, I find this an unsatisfying test. The Hello, World test is useful but really not enough to show the poweror complexity of a language. Let’s try another example. Not every-thing here needs to make total sense—just follow along to get the Zenof it. The book covers these concepts andmore as you go through. Thenext example is certainly something you could write as you get nearthe end of the book. Here’s the new test: What would it take to write a program that ac-cesses an externalwebsite, downloads the content to your app inmem-ory, then displays a subsection of that content to the user? Let’s trythat experiment using Python 3 with the help of the requests package(which needs to be installed—more on that in chapter 12): import requests 
+
+resp = requests.get("http://olympus.realpython.org") 
+
+html = resp.text 
+
+print(html[86:132]) 
+
+Incredibly, that’s it! When run, the program outputs something likethis: <h2>Please log in to access Mount Olympus:</h2> 
+
+This is the easy, getting-started side of the Python spectrum. A fewtrivial lines can unleash incredible power. Because Python has accessto so many powerful but well-packaged libraries, such as requests, it’soften described as having batteries included. 
+
+Contents So there you have a simple yet powerful starter example. On the real-world side of things, many incredible applications have been writtenin Python as well. YouTube, the world’s most popular video streaming site, is written inPython and processes more than amillion requests per second. Insta-gram is another example of a Python application. Closer to home, weeven have realpython.com and my sites, such as talkpython.fm. This full-spectrum aspect of Python means that you can start withthe basics and adopt more advanced features as your application de-mands grow. Python Is Popular You might have heard that Python is popular. It may seem that itdoesn’t really matter how popular a language is so long as you canbuild the app you want to build with it. But, for better or worse, the popularity of a programming languageis a strong indicator of the quality of libraries you’ll have available aswell the number of job openings you’ll find. In short, you should tendto gravitate toward more popular technologies as there will be morechoices and integrations available. So, is Python actually that popular? Yes it is. You’ll find a lot ofhype and hyperbole, but there are plenty of stats backing this claim.Let’s look at some analytics presented by stackoverflow.com, a popu-lar question-and-answer site for programmers. StackOverflow runs a site called StackOverflowTrendswhere you canlook at the trends for various technologies by tag. When you compare 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzYWxbP58pApmt7_o_WyZb2yGcSQrzGLgDiEEuPFRWXIDMBlbSPhNdKhfdRwWEmjG8_xl0YwijX68Rvow3IogZ77mxRr8gIzw_0ICpplLFKoMwONgPMIEdMqlFrC-OWplZ0Q2G0bQ=w1176-h766-v0
+
+ce1e942f-072e-40e9-9f00-23034bcf22cf
+
+Contents Python to the other likely candidates you could pick to learn program-ming, you’ll see one is unlike the others: 
+
+You can explore this chart and create similar charts to this one over atinsights.stackoverflow.com/trends. Notice the incredible growth of Python compared to the flat or evendownward trend of the other usual candidates! If you’re betting yourfuture on the success of a given technology, which one would youchoose from this list? That’s just one chart—what does it really tell us? Well, let’s look atanother. Stack Overflow does a yearly survey of developers. It’s com-prehensive and very well done. You can find the full 2020 results atinsights.stackoverflow.com/survey/2020. From that writeup, I’d like to call your attention to a section titled“Most Loved, Dreaded, and Wanted Languages.” In the “MostWanted” section, you’ll find data on the share of “developers who arenot developing with the language or technology but have expressedinterest in developing with it.” 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyKvg2lK2b5YE7_OL0xjZ8FJsRtBSrhy0JpDnpmo9sN6xLuWXBBv8dMX8vIFzg23tKzU0E78xSz5UOivsoPPyor46cjqNqYIxWNGIPgWSoQnx7PFPH7HOiPnaknYT39i4MX92F5eg=w1280-h491-v0
+
+8514c779-d885-424a-a8a4-8fc09599c1bd
+
+Contents Again, in the graph below, you’ll see that Python is topping the chartsand is well above even second place: 
+
+If you agree with me that the relative popularity of a programminglanguage matters, then Python is clearly a good choice. We Don’t Need You to Be a Computer Scientist One other point that I want to emphasize as you start your Pythonlearning journey is that we don’t need you to be a computer scientist.If that’s your goal, then great. Learning Python is a powerful stepin that direction. But the invitation to learn programming is oftenframed as “We have all these developer jobs going unfilled! We needsoftware developers!” That may or may not be true. But, more importantly, programming(even a little programming) can be a personal superpower for you. To illustrate this idea, suppose you are a biologist. Should you dropout of biology and get a job as a front-end web developer? Probablynot. But skills such as the one I opened this foreword with, using re-quests to get data from theWeb, can be incredibly powerful for you asa biologist. Rather than manually exporting and scraping data from the Web orfrom spreadsheets, you can use Python to scrape thousands of datasources or spreadsheets in the time it takes you to do just one man-
+
+Contents ually. Python skills can take your biology power and amplify it wellbeyond your colleagues’ to make it your superpower. Dan and Real Python Finally, let me leave you with a comment on your authors. Dan Baderand the other Real Python authors work day in and day out to bringclear and powerful explanations of Python concepts to all of us viarealpython.com. They have a unique view into the Python ecosystem and are keyed intowhat beginners need to know. I’m confident leaving you in their hands on this Python journey. Goforth and learn this amazing language using this great book. Mostimportantly, remember to have fun! —Michael Kennedy, Founder of Talk Python (@mkennedy) 
+
+Chapter 1 Introduction 
+
+Welcome to Real Python’s Python Basics book, fully updated forPython 3.9! In this book, you’ll learn real-world Python program-ming techniques, illustrated with useful and interesting examples. Whether you’re a new programmer or a professional software devel-oper looking to dive into a new language, this book will teach you allthe practical Python that you need to get started on projects of yourown. No matter what your ultimate goals may be, if you work with a com-puter at all, then you’ll soon be finding endless ways to improve yourlife by automating tasks and solving problems through Python pro-grams that you create. But what’s so great about Python as a programming language? Forone, Python is open source freeware, meaning you can download itfor free and use it for any purpose, commercial or not. Python also has an amazing community that has built a number ofuseful tools that you can use in your own programs. Need to workwith PDF documents? There’s a comprehensive tool for that. Want tocollect data from web pages? No need to start from scratch! 
+
+1.1. Why This Book? Python was built to be easier to use than other programming lan-guages. It’s usually much easier to read Python code and much fasterto write code in Python than in other languages. For instance, here’s some basic code written in C, another commonlyused programming language: #include <stdio.h> 
+
+int main(void) 
+
+{ 
+
+printf("Hello, World\n"); 
+
+} 
+
+All the program does is show the text Hello, World on the screen. Thatwas a lot of work to output one phrase! Here’s the same programwrit-ten in Python: print("Hello, World") 
+
+That’s pretty simple, right? The Python code is faster to write andeasier to read. We find that it looks friendlier andmore approachable,too! At the same time, Python has all the functionality of other languagesandmore. Youmight be surprised byhowmanyprofessional productsare built on Python code: Instagram, YouTube, Reddit, Spotify, toname just a few. Python is not only a friendly and fun language to learn, but it also pow-ers the technology behind multiple world-class companies and offersfantastic career opportunities for any programmer who masters it. 
+
+1.1 Why This Book? Let’s face it: there’s an overwhelming amount of information aboutPython on the Internet. But many beginners studying on their ownhave trouble figuring out what to learn and in what order to learn it. 
+
+1.1. Why This Book? You may be asking yourself, What should I learn about Python in thebeginning to get a strong foundation? If so, then this book is for you,no matter if you’re a complete beginner or if you’ve already dabbledin Python or other languages. Python Basics is written in plain English and breaks down the coreconcepts that you really need to know into bite-sized chunks. Thismeans you’ll learn enough to be dangerous with Python, fast. Instead of just going through a boring list of language features, you’llsee exactly how the different building blocks fit together and what’sinvolved in building real applications and scripts with Python. Step by step, you’llmaster fundamental Python concepts thatwill helpyou get started on your journey toward learning Python. Many programming books try to cover every last possible variationof every command, which makes it easy for readers to get lost in thedetails. This approach is great if you’re looking for a referencemanual,but it’s a horrible way to learn a programming language. Not only doyou spend most of your time cramming things into your head thatyou’ll never use, but you also don’t have any fun! This book is built on the 80/20 principle, which suggests that you canlearn most of what you need to know by focusing on a few crucial con-cepts. We’ll cover the commands and techniques used in the vast ma-jority of cases and focus on how to program real-world solutions toeveryday problems. This way, we guarantee that you will: 
+
+ Learn useful programming techniques quickly 
+
+ Spend less time struggling with unimportant complications 
+
+ Find more practical uses for Python in your own life 
+
+ Have more fun in the process 
+
+1.2. About Real Python Once you’ve mastered the material in this book, you will have gaineda strong enough foundation that venturing out on your own intomoreadvanced territory will be a breeze. What you’ll learn here is based on the first part of the original RealPython Course initially released in 2012. Over the years, this Pythoncurriculum has been battle-tested by thousands of Pythonistas, datascientists, and developers working for companies big and small, in-cluding Amazon, Red Hat, and Microsoft. For Python Basics, we’ve thoroughly expanded, refined, and updatedthematerial so you can build your Python skills quickly and efficiently. 
+
+1.2 About Real Python At Real Python, you’ll learn real-world programming skills from acommunity of professional Pythonistas from all around the world. The realpython.com website launched in 2012 and currently helpsmore than three million Python developers each month with books,programming tutorials, and other in-depth learning resources. Everyone who worked on this book is a Python practitioner recruitedfrom the Real Python team with several years of professional experi-ence in the software industry. Here’s where you can find Real Python on the Web: 
+
+ realpython.com 
+
+ @realpython on Twitter 
+
+ The Real Python Newsletter 
+
+ The Real Python Podcast 
+
+1.3. How to Use This Book 1.3 How to Use This Book The first half of this book is a quick but thorough overview of all thePython fundamentals. You don’t need any prior experience with pro-gramming to get started. The second half is focused on finding practi-cal solutions to interesting, real-world coding problems. If you’re a beginner, then we recommend that you go through the firsthalf of this book from beginning to end. The second half covers topicsthat don’t overlap as much, so you can jump around more easily, butthe chapters do increase in difficulty as you go along. If you’re amore experienced programmer, then youmay find yourselfheading toward the second part of the book right away. But don’t ne-glect getting a strong foundation in the basics first, and be sure to fillin any knowledge gaps along the way. Most sections within a chapter are followed by review exercises tohelp youmake sure that you’vemastered all the topics covered. Thereare also a number of code challenges, which are more involved andusually require you to tie together several different concepts from pre-vious chapters. The practice files that accompany this book also include full solutionsto the challenges as well as some of the trickier exercises. But to getthemost out of thematerial, you should try your best to solve the chal-lenge problems on your own before looking at the example solutions. If you’re completely new to programming, then you may want to sup-plement the first few chapters with additional practice. We recom-mend working through the entry-level tutorials available for free atrealpython.com to make sure you’re on solid footing. If you have any questions or feedback about the book, you’re alwayswelcome to contact us directly. 
+
+1.4. Bonus Material and Learning Resources Learning by Doing This book is all about learning by doing, so be sure to actually typein the code snippets you encounter in the book. For best results, werecommend that you avoid copying and pasting the code examples. You’ll learn the concepts better and pick up the syntax faster if youtype out each line of code yourself. Plus, if you screw up—which is to-tally normal andhappens to all developers on adaily basis—the simpleact of correcting typos will help you learn how to debug your code. Try to complete the review exercises and code challenges on your ownbefore getting help from outside resources. With enough practice,you’ll master this material—and have fun along the way! How LongWill It Take to Finish This Book? If you’re already familiar with a programming language, then youcould finish this book in as little as thirty-five to forty hours. If you’renew to programming, then you may need to spend up to one hundredhours or more. Take your time and don’t feel like you have to rush. Programming is asuper-rewarding but complex skill to learn. Good luck on your Pythonjourney. We’re rooting for you! 
+
+1.4 Bonus Material and LearningResources This book comes with a number of free bonus resources and down-loads that you can access online at the link below. We’re also main-taining an errata list with corrections there: realpython.com/python-basics/resources 
+
+1.4. Bonus Material and Learning Resources Interactive Quizzes Most chapters in this book come with a free online quiz to check yourlearning progress. You can access the quizzes using the links providedat the end of the chapter. The quizzes are hosted on the Real Pythonwebsite and can be viewed on your phone or computer. Each quiz takes you through a series of questions related to a particu-lar chapter in the book. Some of them are multiple choice, some willask you to type in an answer, and some will require you to write ac-tual Python code. As you make your way through each quiz, it willkeep score of which questions you answered correctly. At the end of the quiz, you’ll receive a grade based on your result. Ifyou don’t score 100 percent on your first try, don’t fret! These quizzesare meant to challenge you. It’s expected that you’ll go through themseveral times, improving your score with each run. Exercises Code Repository This book has an accompanying code repository on the Web contain-ing example source code as well as the answers to exercises and codechallenges. The repository is broken up by chapter, so you can checkyour code against the solutions provided by us after you finish eachchapter. Here’s the link: realpython.com/python-basics/exercises 
+
+Note The code found in this book has been tested with Python 3.9 onWindows, macOS, and Linux. 
+
+1.4. Bonus Material and Learning Resources Example Code License The example Python scripts associated with this book are licensed un-der a Creative Commons Public Domain (CC0) License. This meansthat you’re welcome to use any portion of the code for any purpose inyour own programs. Formatting Conventions Code blocks will be used to present example code: # This is Python code: 
+
+print("Hello, World") 
+
+Terminal commands follow the Unix format: $ # This is a terminal command: 
+
+$ python hello-world.py 
+
+(The dollar signs are not part of the command.) Monospace text will be used to denote a filename: hello-world.py. Bold text will be used to denote a new or important term. Keyboard shortcuts will be formatted as follows: Ctrl + S 
+
+Menu shortcuts will be formatted as follows: File New File 
+
+Notes and important information will be highlighted as follows: Note This is a note filled in with placeholder text. The quick brownfox jumps over the lazy dog. The quick brown Python slithersover the lazy hog. 
+
+1.4. Bonus Material and Learning Resources Feedback and Errata We welcome ideas, suggestions, feedback, and the occasional rant.Did you find a topic confusing? Did you find an error in the text orcode? Did we leave out a topic that you’d love to know more about? We’re always looking to improve our teaching materials. Whateverthe reason, please send in your feedback at the link below: realpython.com/python-basics/feedback 
+
+Chapter 2 Setting Up Python 
+
+This book is about programming computers with Python. You couldread this book from cover to cover without ever touching a keyboard,but you’d miss out on the fun part—coding! To get the most out of this book, you need a computer with Pythoninstalled on it and a way to create, edit, and save Python code files. In this chapter, you’ll learn how to: 
+
+ Install the latest version of Python 3 on your computer 
+
+ Open IDLE, Python’s built-in Integrated Development andLearning Environment 
+
+Let’s get started! 
+
+2.1. A Note on Python Versions 2.1 A Note on Python Versions Many operating systems, including macOS and Linux, come withPython preinstalled. The version of Python that comes with youroperating system is called the system Python. The systemPython is used by your operating system and is usually outof date. It’s essential that you have the most recent version of Pythonso that you can successfully follow along with the examples in thisbook. 
+
+Important Do not attempt to uninstall the system Python! 
+
+You can have multiple versions of Python installed on your computer.In this chapter, you’ll install the latest version of Python 3 alongsideany system Python that may already exist on your machine. Note Even if you already have Python 3.9 installed, it’s still a goodidea to skim this chapter to double-check that your environ-ment is set up for following along with this book. 
+
+This chapter is split into three sections: Windows, macOS, andUbuntu Linux. Find the section for your operating system and followthe steps to get set up, then skip ahead to the next chapter. If you have a different operating system, then check out Real Python’s“Python 3 Installation & Setup Guide” to see if your OS is covered.Readers on tablets andmobile devices can refer to the “Online PythonInterpreters” section for some browser-based options. 
+
+2.2. Windows 2.2 Windows Follow these steps to install Python 3 and open IDLE on Windows. 
+
+Important The code in this book is tested only against Python installed asdescribed in this section. Be aware that if you have installed Python through some othermeans, such asAnacondaPython, youmay encounter problemswhen running some of the code examples. 
+
+Install Python Windows doesn’t typically come with a system Python. Fortunately,installation involves little more than downloading and running thePython installer from the Python.org website. Step 1: Download the Python 3 Installer Open a web browser and navigate to the following URL: https://www.python.org/downloads/windows/ Click Latest Python 3 Release - Python 3.x.x located beneath the“Python Releases for Windows” heading near the top of the page. Asof this writing, the latest version was Python 3.9. Then scroll to the bottom and click Windows x86-64 executable in-staller to start the download. 
+
+Note If your system has a 32-bit processor, then you should choosethe 32-bit installer. If you aren’t sure if your computer is 32-bitor 64-bit, stick with the 64-bit installer mentioned above. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy0qYB8Gq3NfhEKaB5Vy4GKkczJzDfiGRPl7xGkPOuuRRHRh5e6qOdjtsPYQhAVN5pgo3MhWciTC9f9G9XyIGedqRrWD3aVUp085Er9sdwTULu8UoEG90PdOSv5bfs0pzL_esqM=w1056-h675-v0
+
+06fd8353-c807-4565-a7b6-03697de5c981
+
+2.2. Windows Step 2: Run the Installer Open your Downloads folder in Windows Explorer and double-clickthe file to run the installer. A dialog that looks like the following onewill appear: 
+
+It’s okay if the Python version you see is greater than 3.9.0 as long asthe version is not less than 3. Important Make sure you select the box that says Add Python 3.x to PATH.If you install Python without selecting this box, then you canrun the installer again and select it. 
+
+Click Install Now to install Python 3. Wait for the installation to finish,then continue to open IDLE. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz6Ey79g3Etvyo2Yk9xis9Iu9GgxCiY_rEQypjetlegPYZAUo9JOggyYRsQxmeuMzL3formevD0aqlOvdqnAAo38nwGMNlkKKg_7w_vkou-5UfOAbyS3oXet9PZyKuvEVYK2Hip=w1280-h722-v0
+
+d2067447-fb38-426c-bc5c-cb0fc52b1a2a
+
+2.2. Windows Open IDLE You can open IDLE in two steps: 1. Click the Start menu and locate the Python 3.9 folder. 2. Open the folder and select IDLE (Python 3.9). IDLE opens a Python shell in a new window. The Python shell is aninteractive environment that allows you to type in Python code andexecute it immediately. It’s a great way to get started with Python! 
+
+Note While you’re free to use a code editor other than IDLE if youprefer, note that some chapters, especially chapter 7, “Findingand Fixing Code Bugs,” do contain material specific to IDLE. 
+
+The Python shell window looks like this: 
+
+At the top of the window, you can see the version of Python that isrunning and some information about the operating system. If you seea version less than 3.9, then you may need to revisit the installationinstructions in the previous section. 
+
+2.3. macOS The >>> symbol that you see is called a prompt. Whenever you seethis, it means that Python is waiting for you to give it some instruc-tions. 
+
+Interactive Quiz This chapter comes with a free online quiz to check your learn-ing progress. You can access the quiz using your phone or com-puter at the following web address: realpython.com/quizzes/pybasics-setup 
+
+Now that you have Python installed, let’s get straight into writing yourfirst Python program! Go ahead and move on to chapter 3. 
+
+2.3 macOS Follow these steps to install Python 3 and open IDLE on macOS. 
+
+Important The code in this book is tested only against Python installed asdescribed in this section. Be aware that if you have installed Python through some othermeans, such asAnacondaPython, youmay encounter problemswhen running some of the code examples. 
+
+Install Python To install the latest version of Python 3 on macOS, download and runthe official installer from the Python.org website. Step 1: Download the Python 3 Installer Open a web browser and navigate to the following URL: https://www.python.org/downloads/mac-osx/ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyIsf3IW4cDM5GGzYfwqsPApAH64C_FQ7EXcGpcCK3dxHaXD3WJFpOlibNyuZMKw74wddupK3-0wqdBqVBWEUJljen7oaVYMOL2BHMoRRiGDyAPNFDPklq6USPVLIZfp24nZ0Yw=w1280-h950-v0
+
+2be6c32d-15fc-4216-892a-249497f21238
+
+2.3. macOS Click Latest Python 3 Release - Python 3.x.x located beneath the“Python Releases for Mac OS X” heading near the top of the page. Asof this writing, the latest version was Python 3.9. Then scroll to the bottom of the page and clickmacOS 64-bit installerto start the download. Step 2: Run the Installer Open Finder and double-click the downloaded file to run the installer.A dialog box that looks like the following will appear: 
+
+Press Continue a few times until you are asked to agree to the softwarelicense agreement. Then click Agree . You’ll be shown a window that tells you where Python will be installedand howmuch space it will take. Youmost likely don’t want to changethe default location, so go ahead and click Install to start the installa-tion. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwWg5abIkdcyGZqySZnnyB0vx0k13DztqQ29T09mJd5nINdFNy6zH-KftSfmwjD9tj6OENL43mgxORKgL6brCXSZaQg32mNtNBDqJ_G-2K2_JyTB1oFK3GErtCVBfuRFQp-YxPG=w1280-h749-v0
+
+8a125b0c-8186-462b-8cd3-2075d5645d80
+
+2.3. macOS When the installer is finished copying files, click Close to close theinstaller window. Open IDLE You can open IDLE in three steps: 1. Open Finder and click Applications. 2. Double-click the Python 3.9 folder. 3. Double-click the IDLE icon. IDLE opens a Python shell in a new window. The Python shell is aninteractive environment that allows you to type in Python code andexecute it immediately. It’s a great way to get started with Python! 
+
+Note While you’re free to use a code editor other than IDLE if youprefer, note that some chapters, especially chapter 7, “Findingand Fixing Code Bugs,” do contain material specific to IDLE. 
+
+The Python shell window looks like this: 
+
+2.4. Ubuntu Linux 
+
+At the top of the window, you can see the version of Python that isrunning and some information about the operating system. If you seea version less than 3.9, then you may need to revisit the installationinstructions in the previous section. The >>> symbol that you see is called a prompt. Whenever you seethis, it means that Python is waiting for you to give it some instruc-tions. 
+
+Interactive Quiz This chapter comes with a free online quiz to check your learn-ing progress. You can access the quiz using your phone or com-puter at the following web address: realpython.com/quizzes/pybasics-setup 
+
+Now that you have Python installed, let’s get straight into writing yourfirst Python program! Go ahead and move on to chapter 3. 
+
+2.4 Ubuntu Linux Follow these steps to install Python 3 and open IDLE on UbuntuLinux. 
+
+Important The code in this book is tested only against Python installed asdescribed in this section. Be aware that if you have installed Python through some othermeans, such asAnacondaPython, youmay encounter problemswhen running some of the code examples. 
+
+2.4. Ubuntu Linux Install Python There’s a good chance that your Ubuntu distribution already hasPython installed, but it probably won’t be the latest version, and itmay be Python 2 instead of Python 3. To find out what version(s) you have, open a terminal window and trythe following commands: $ python --version 
+
+$ python3 --version 
+
+One or more of these commands should respond with a version, asbelow: $ python3 --version 
+
+Python 3.9.0 
+
+Your version number may vary. If the version shown is Python 2.xor a version of Python 3 that is less than 3.9, then you want to in-stall the latest version. How you install Python on Ubuntu dependson which version of Ubuntu you’re running. You can determine yourlocal Ubuntu version by running the following command: $ lsb_release -a 
+
+No LSB modules are available. 
+
+Distributor ID: Ubuntu 
+
+Description: Ubuntu 18.04.1 LTS 
+
+Release: 18.04 
+
+Codename: bionic 
+
+Look at the version number next to Release in the console output, andfollow the corresponding instructions below. 
+
+2.4. Ubuntu Linux Ubuntu 18.04 or Greater Ubuntu version 18.04 does not come with Python 3.9 by default, butit is in the Universe repository. You can install it with the followingcommands in the Terminal application: $ sudo apt-get update 
+
+$ sudo apt-get install python3.9 idle-python3.9 python3-pip 
+
+Note that because the Universe repository is usually behind thePython release schedule, you may not get the latest version of Python3.9. However, any version of Python 3.9 will work for this book. Ubuntu 17 and Lower For Ubuntu versions 17 and lower, Python 3.9 is not in the Universerepository. You need to get it from a Personal Package Archive (PPA).To install Python from the deadsnakes PPA, run the following com-mands in the Terminal application: $ sudo add-apt-repository ppa:deadsnakes/ppa 
+
+$ sudo apt-get update 
+
+$ sudo apt-get install python3.9 idle-python3.9 python3-pip 
+
+You can check that the correct version of Python was installed by run-ning python3 --version. If you see a version number less than 3.9, thenyou may need to type python3.9 --version. Now you can open IDLEand get ready to write your first Python program. Open IDLE You can open IDLE from the command line by typing the following: $ idle-python3.9 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzxLTCCmJYqw3cKEOv2rCoLGLb8TvTMd1oywdMqkInGq0k06eFqJkE1ZFexAjwHSdnqQ5WkBeBsuPJrC65dDmFeltrHnN90XWXpdkuBbCjpU_k6I8Eoz4F2NrlPnWSTTAJJ6Zsn5w=w1280-h717-v0
+
+f4757c13-c26b-48b2-932a-eb1649f9e890
+
+2.4. Ubuntu Linux On some Linux installations, you can open IDLE with the followingshortened command: $ idle3 
+
+IDLE opens a Python shell in a new window. The Python shell is aninteractive environment that allows you to type in Python code andexecute it immediately. It’s a great way to get started with Python! Note While you’re free to use a code editor other than IDLE if youprefer, note that some chapters, especially chapter 7, “Findingand Fixing Code Bugs,” do contain material specific to IDLE. 
+
+The Python shell window looks like this: 
+
+At the top of the window, you can see the version of Python that isrunning and some information about the operating system. If you seea version less than 3.9, then you may need to revisit the installationinstructions in the previous section. 
+
+2.4. Ubuntu Linux Important If you open IDLEwith the idle3 command and see a version lessthan 3.9 displayed in the Python shell window, then you’ll needto open IDLE with the idle-python3.9 command. 
+
+The >>> symbol that you see in the IDLE window is called a prompt.Whenever you see this, it means that Python is waiting for you to giveit some instructions. Interactive Quiz This chapter comes with a free online quiz to check your learn-ing progress. You can access the quiz using your phone or com-puter at the following web address: realpython.com/quizzes/pybasics-setup 
+
+Now that you have Python installed, let’s get straight into writing yourfirst Python program! Go ahead and move on to chapter 3. 
+
+Chapter 3 Your First Python Program 
+
+Now that you have the latest version of Python installed on your com-puter, it’s time to start coding! In this chapter, you will: 
+
+ Write your first Python program 
+
+ Learn what happens when you run a program with an error 
+
+ Learn how to declare a variable and inspect its value 
+
+ Learn how to write comments 
+
+Ready to begin your Python journey? Let’s go! 
+
+3.1. Write a Python Program 3.1 Write a Python Program If you don’t already have IDLE open, then go ahead and open it. Thereare twomain windows that you’ll work with in IDLE: the interactivewindow, which is the one that opens when you start IDLE, and theeditor window. You can type code into both the interactive window and the editor win-dow. The difference between the two windows is in how they executecode. In this section, you’ll learn how to execute Python code in bothwindows. The Interactive Window IDLE’s interactive window contains a Python shell, which is a tex-tual user interface used to interact with the Python language. You cantype a bit of Python code into the interactive window and press Enter to immediately see the results. Hence the name interactive window. The interactive window opens automatically when you start IDLE.You’ll see the following text, with some minor differences dependingon your setup, displayed at the top of the window: Python 3.9.0 (tags/v3.9.0:1b293b6) 
+
+[MSC v.1916 32 bit (Intel)] on win32 
+
+Type "help", "copyright", "credits" or "license" for more information. 
+
+>>> 
+
+This text shows the version of Python that IDLE is running. Youcan also see information about your operating system and somecommands you can use to get help and view information aboutPython. The >>> symbol in the last line is called the prompt. This is whereyou’ll type in your code. 
+
+3.1. Write a Python Program Go ahead and type 1 + 1 at the prompt and press Enter : >>> 1 + 1 
+
+2 
+
+>>> 
+
+Python evaluates the expression, displays the result (2), then displaysanother prompt. Every time you run some code in the interactive win-dow, a new prompt appears directly below the result. Executing Python in the interactive window can be described as a loopwith three steps: 1. Python reads the code entered at the prompt. 2. Python evaluates the code. 3. Python prints the result and waits for more input. This loop is commonly referred to as a read-evaluate-print loop andis abbreviated asREPL. Python programmers sometimes refer to thePython shell as the Python REPL, or just “the REPL” for short. Let’s try something a little more interesting than adding numbers. Arite of passage for every programmer is writing a program that printsthe phrase “Hello, World” on the screen. At the prompt in the interactive window, type the word print followedby a set of parentheses with the text "Hello, World" inside: >>> print("Hello, World") 
+
+Hello, World 
+
+3.1. Write a Python Program A function is code that performs some task and can be invoked by aname. The above code invokes, or calls, the print() function with thetext "Hello, World" as input. The parentheses tell Python to call the print() function. They also en-close everything that gets sent to the function as input. The quotationmarks indicate that "Hello, World" really is text and not somethingelse. 
+
+Note IDLE highlights parts of your code in different colors as youtype to make it easier for you to identify the different parts. By default, functions are highlighted in purple and text is high-lighted in green. 
+
+The interactive window executes a single line of code at a time. Thisis useful for trying out small code examples and exploring the Pythonlanguage, but it has a major limitation: you have to enter your codeone line at a time! Alternatively, you can save Python code in a text file and execute all ofthe code in the file to run an entire program. The Editor Window You’ll write your Python files using IDLE’s editor window. You canopen the editor window by selecting File New File from the menu atthe top of the interactive window. The interactive window stays open when you open the editor window.It displays the output generated by code in the editorwindow, so you’llwant to arrange the two windows so that you can see them both at thesame time. 
+
+3.1. Write a Python Program In the editor window, type in the same code you used to print "Hello, World" in the interactive window: print("Hello, World") 
+
+IDLE highlights code typed into the editor window just like in the in-teractive window. Important When you write code in a Python file, you don’t need to includethe >>> prompt. 
+
+Before you run your program, you need to save it. Select File Save from the menu and save the file as hello_world.py. 
+
+Note On some systems, the default directory for saving files in IDLEis the Python installation directory. Do not save your files tothis directory. Instead, save them to your desktop or to a folderin your user’s home directory. 
+
+The .py extension indicates that a file contains Python code. In fact,saving your file with any other extension removes the code highlight-ing. IDLE only highlights Python code when it’s stored in a .py file. Running Python Programs in the Editor Window To run your program, select Run Run Module from the menu in theeditor window. 
+
+Note Pressing F5 also runs a program from the editor window. 
+
+Program output always appears in the interactive window. 
+
+3.2. Mess Things Up Every time you run code from a file, you’ll see something like the fol-lowing output in the interactive window: >>> =================== RESTART =================== 
+
+IDLE restarts the Python interpreter, which is the computer programthat actually executes your code, every time you run a file. This makessure that programs are executed the same way each time. Opening Python Files in the Editor Window To open an existing file in IDLE, select File Open from the menu,then select the file you want to open. IDLE opens every file in a neweditor window, so you can have several files open at the same time. You can also open a file from a file manager, such as WindowsExplorer or macOS Finder. Right-click the file icon and select Edit with IDLE to open the file in IDLE’s editor window. Double-clicking on a .py file from a file manager executes the pro-gram. However, this usually runs the file with the system Python,and the program window disappears immediately after the programterminates—often before you can even see any output. For now, the best way to run your Python programs is to open themin IDLE’s editor window and run them from there. 
+
+3.2 Mess Things Up Everybody makes mistakes—especially while programming! In caseyou haven’t made any mistakes yet, let’s get a head start and messsomething up on purpose to see what happens. Mistakes in programs are called errors. You’ll experience two maintypes of errors: syntax errors and runtime errors. 
+
+3.2. Mess Things Up Syntax Errors A syntax error occurs when you write code that isn’t allowed in thePython language. Let’s create a syntax error by removing the last quotation mark fromthe code in the hello_world.py file that you created in the last section: print("Hello, World) 
+
+Save the file and press F5 to run it. The code won’t run! IDLE dis-plays an alert box with the following message: EOL while scanning string literal. 
+
+There are two terms in this message that may be unfamiliar: 1. A string literal is text enclosed in quotation marks. "Hello, 
+
+World" is a string literal. 2. EOL stands for end of line. So, the message tells you that Python got to the end of a line whilereading a string literal. String literals must be terminated with a quo-tation mark before the end of a line. IDLE highlights the line containing print("Hello, World) in red to helpyou quickly find the line of code with the syntax error. Without thesecond quotation mark, everything after the first quotation mark—including the closing parenthesis—is part of a string literal. Runtime Errors IDLE catches syntax errors before a program starts running. In con-trast, runtime errors only occur while a program is running. To generate a runtime error, remove both quotation marks in the hello_world.py file: 
+
+3.2. Mess Things Up print(Hello, World) 
+
+Did you notice how the text color changed to black when you removedthe quotation marks? IDLE no longer recognizes Hello, World as text.What do you think will happen when you run the program? Press F5 to find out! The following text displays in red in the interactive window: Traceback (most recent call last): 
+
+File "/home/hello_world.py", line 1, in <module> 
+
+print(Hello, World) 
+
+NameError: name 'Hello' is not defined 
+
+Whenever an error occurs, Python stops executing the program anddisplays several lines of text called a traceback. The traceback showsuseful information about the error. Tracebacks are best read from the bottom up: 
+
+ The last line of the traceback tells you the name of the error andthe error message. In this case, a NameError occurred because thename Hello is not defined anywhere. 
+
+ The second to last line shows you the code that produced the error.There’s only one line of code in hello_world.py, so it’s not hard toguess where the problem is. This information is more helpful forlarger files. 
+
+ The third to last line tells you the name of the file and the line num-ber so you can go to the exact spot in your code where the erroroccurred. 
+
+In the next section, you’ll see how to define names for values in yourcode. Before you move on, though, you can get some practice withsyntax errors and runtime errors by working on the review exercises. 
+
+3.3. Create a Variable Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Write a program that IDLEwon’t run because it has a syntax error. 2. Write a program that crashes only while it’s running because it hasa runtime error. 
+
+3.3 Create a Variable In Python, variables are names that can be assigned a value and thenused to refer to that value throughout your code. Variables are fundamental to programming for two reasons: 1. Variables keep values accessible: For example, you can as-sign the result of some time-consuming operation to a variable sothat your programdoesn’t have to perform the operation each timeyou need to use the result. 2. Variables give values context: The number 28 couldmean lotsof different things, such as the number of students in a class, thenumber of times a user has accessed a website, and so on. Givingthe value 28 a name like num_students makes the meaning of thevalue clear. In this section, you’ll learn how to use variables in your code, aswell assome of the conventions Python programmers follow when choosingnames for variables. The Assignment Operator An operator is a symbol, such as +, that performs an operation onone or more values. For example, the + operator takes two numbers,one to the left of the operator and one to the right, and adds themtogether. 
+
+3.3. Create a Variable Values are assigned to variable names using a special symbol calledthe assignment operator (=) . The = operator takes the value to theright of the operator and assigns it to the name on the left. Let’s modify the hello_world.py file from the previous section to assignsome text in a variable before printing it to the screen: >>> greeting = "Hello, World" 
+
+>>> print(greeting) 
+
+Hello, world 
+
+On the first line, you create a variable named greeting and assign it thevalue "Hello, World" using the = operator. print(greeting) displays the output Hello, World because Python looksfor the name greeting, finds that it’s been assigned the value "Hello, 
+
+World", and replaces the variable name with its value before callingthe function. If you hadn’t executed greeting = "Hello, World" before executing print(greeting), then you would have seen a NameError like you didwhen you tried to execute print(Hello, World) in the previous section. 
+
+Note Although = looks like the equals sign frommathematics, it has adifferent meaning in Python. This distinction is important andcan be a source of frustration for beginner programmers. Just remember, whenever you see the = operator, whatever is tothe right of it is being assigned to a variable on the left. 
+
+Variable names are case sensitive, so a variable named greeting isnot the same as a variable named Greeting. For instance, the followingcode produces a NameError: 
+
+3.3. Create a Variable >>> greeting = "Hello, World" 
+
+>>> print(Greeting) 
+
+Traceback (most recent call last): 
+
+File "<stdin>", line 1, in <module> 
+
+NameError: name 'Greeting' is not defined 
+
+If you have trouble with an example in this book, double-check thatevery character in your code—including spaces—matches the exampleexactly. Computers have no common sense, so being almost correctisn’t good enough! Rules for Valid Variable Names Variable names can be as long or as short as you like, but there are afew rules that you must follow. Variable names may contain upper-case and lowercase letters (A–Z, a–z), digits (0–9), and underscores(_), but they cannot begin with a digit. For example, each of the following is a valid Python variable name: 
+
+ string1 
+
+ _a1p4a 
+
+ list_of_names 
+
+The following aren’t valid variable names because they start with adigit: 
+
+ 9lives 
+
+ 99_balloons 
+
+ 2beOrNot2Be 
+
+In addition to English letters and digits, Python variable names maycontain many different valid Unicode characters. Unicode is a standard for digitally representing characters used inmost of the world’s writing systems. That means variable names cancontain letters from non-English alphabets, such as decorated letters 
+
+3.3. Create a Variable like é and ü, and even Chinese, Japanese, and Arabic symbols. However, not every system can display decorated characters, so it’s agood idea to avoid them if you’re going to share your code with peoplein different regions. 
+
+Note You’ll learn more about Unicode in chapter 12. You can also read about Python’s support for Unicode in theofficial Python documentation. 
+
+Just because a variable name is valid doesn’t necessarily mean thatit’s a good name. Choosing a good name for a variable can be surprisingly difficult. For-tunately, there are some guidelines that you can follow to help youchoose better names. Descriptive Names Are Better Than Short Names Descriptive variable names are essential, especially for complexprograms. Writing descriptive names often requires using multiplewords. Don’t be afraid to use long variable names. In the following example, the value 3600 is assigned to the variable s: s = 3600 
+
+Thename s is totally ambiguous. Using a full wordmakes it a lot easierto understand what the code means: seconds = 3600 
+
+3.3. Create a Variable seconds is a better name than s because it provides more context. Butit still doesn’t convey the full meaning of the code. Is 3600 the numberof seconds it takes for a process to finish, or is it the length of a movie?There’s no way to tell. The following name leaves no doubt about what the code means: seconds_per_hour = 3600 
+
+When you read the above code, there’s no question that 3600 is thenumber of seconds in an hour. seconds_per_hour takes longer to typethan both the single letter s and the word seconds, but the payoff inclarity is massive. Although naming variables descriptively means using longer variablenames, you should avoid using excessively long names. A good ruleof thumb is to limit variable names to three or four words maximum. Python Variable Naming Conventions In many programming languages, it’s common to write variablenames in mixedCase. In this system, you capitalize the first letterof every word except the first and leave all other letters in lowercase.For example, numStudents and listOfNames are written in mixedCase. In Python, however, it’s more common to write variable names inlower_case_with_underscores. In this system, you leave everyletter in lowercase and separate each word with an underscore. Forinstance, both num_students and list_of_names are written using thelower_case_with_underscores system. There’s no rule mandating that you write your variable names inlower_case_with_underscores. The practice is codified, though, in adocument called PEP 8, which is widely regarded as the official styleguide for writing Python. 
+
+3.4. Inspect Values in the Interactive Window Note PEP stands for Python Enhancement Proposal. A PEP is a de-sign document used by the Python community to propose newfeatures to the language. 
+
+Following the standards outlined in PEP 8 ensures that your Pythoncode is readable by most Python programmers. This makes sharingcode and collaborating with other people easier for everyone involved. Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Using the interactive window, display some text using print(). 2. Using the interactive window, assign a string literal to a variable.Then print the contents of the variable using the print() function. 3. Repeat the first two exercises using the editor window. 
+
+3.4 Inspect Values in the InteractiveWindow Type the following into IDLE’s interactive window: >>> greeting = "Hello, World" 
+
+>>> greeting 
+
+'Hello, World' 
+
+When you press Enter after typing greeting a second time, Pythonprints the string literal assigned to greeting even though you didn’tuse the print() function. This is called variable inspection. 
+
+3.4. Inspect Values in the Interactive Window Now print the string assigned to greeting using the print() function: >>> print(greeting) 
+
+Hello, World 
+
+Can you spot the difference between the output displayed by using print() and the output displayed by just entering the variable nameand pressing Enter ? When you type the variable name greeting and press Enter , Pythonprints the value assigned to the variable as it appears in your code.You assigned the string literal "Hello, World" to greeting, which is why 'Hello, World' is displayed with quotation marks. 
+
+Note String literals can be created with single or double quotationmarks in Python. At Real Python, we use double quotes wher-ever possible, whereas IDLE output appears in single quotes bydefault. Both "Hello, World" and 'Hello, World' mean the same thing inPython—what’smost important is that yoube consistent in yourusage. You’ll learn more about strings in chapter 4. 
+
+On the other hand, print() displays amore human-readable represen-tation of the variable’s value which, for string literals, means display-ing the text without quotation marks. Sometimes, both printing and inspecting a variable produce the sameoutput: >>> x = 2 
+
+>>> x 
+
+2 
+
+>>> print(x) 
+
+2 
+
+3.4. Inspect Values in the Interactive Window Here, you assign the number 2 to x. Both using print(x) and inspecting x display output without quotation marks because 2 is a number andnot text. In most cases, though, variable inspection gives you moreuseful information than print(). Suppose you have two variables: x, which is assigned the number 2,and y, which is assigned the string literal "2". In this case, print(x)and print(y) both display the same thing: >>> x = 2 
+
+>>> y = "2" 
+
+>>> print(x) 
+
+2 
+
+>>> print(y) 
+
+2 
+
+However, inspecting x and y shows the difference between each vari-able’s value: >>> x 
+
+2 
+
+>>> y 
+
+'2' 
+
+The key takeaway here is that print() displays a readable representa-tion of a variable’s value, while variable inspection displays the valueas it appears in the code. Keep in mind that variable inspection works only in the interactivewindow. For example, try running the following program from theeditor window: greeting = "Hello, World" 
+
+greeting 
+
+The program executes without any errors, but it doesn’t display anyoutput! 
+
+3.5. Leave Yourself Helpful Notes 3.5 Leave Yourself Helpful Notes Programmers sometimes read code they wrote a while ago and won-der, “What does this do?” When you haven’t looked at code in a while,it can be difficult to remember why you wrote it the way you did! To help avoid this problem, you can leave comments in your code.Comments are lines of text that don’t affect the way a program runs.They document what code does or why the programmer made certaindecisions. How toWrite a Comment The most common way to write a comment is to begin a new line inyour code with the # character. When you run your code, Python ig-nores lines starting with #. Comments that start on a new line are called block comments. Youcan also write inline comments, which are comments that appearon the same line as the code they reference. Just put a # at the end ofthe line of code, followed by the text in your comment. Here’s an example of a program with both kinds of comments: # This is a block comment. 
+
+greeting = "Hello, World" 
+
+print(greeting) # This is an inline comment. 
+
+Of course, you can still use the # symbol inside a string. For instance,Python won’t mistake the following for the start of a comment: >>> print("#1") 
+
+#1 
+
+In general, it’s a good idea to keep comments as short as possible, butsometimes you need towritemore than reasonably fits on a single line.In that case, you can continue your comment on a new line that alsobegins with the # symbol: 
+
+3.5. Leave Yourself Helpful Notes # This is my first program. 
+
+# It prints the phrase "Hello, World" 
+
+# The comments are longer than the code! 
+
+greeting = "Hello, World" 
+
+print(greeting) 
+
+You can also use comments to comment out code while you’re test-ing a program. Putting a # at the beginning of a line of code lets yourun your program as if that line of code didn’t exist, but it doesn’t ac-tually delete the code. To comment out a section of code in IDLE, highlight one ormore linesto be commented and press: 
+
+ Windows: Alt + 3 
+
+ macOS: Ctrl + 3 
+
+ Ubuntu Linux: Ctrl + D 
+
+To remove comments, highlight the commented lines and press: 
+
+ Windows: Alt + 4 
+
+ macOS: Ctrl + 4 
+
+ Ubuntu Linux: Ctrl + Shift + D 
+
+Now let’s look at some common conventions for code comments. Conventions and Pet Peeves According to PEP 8, comments should always be written in completesentences with a single space between the # and the first word of thecomment: # This comment is formatted to PEP 8. 
+
+#this one isn't 
+
+For inline comments, PEP 8 recommends at least two spaces between 
+
+3.6. Summary and Additional Resources the code and the # symbol: phrase = "Hello, World" # This comment is PEP 8 compliant. 
+
+print(phrase)# This comment isn't. 
+
+PEP 8 recommends that comments be used sparingly. A major petpeeve among programmers is comments that describe what is alreadyobvious from reading the code. For example, the comment in the following code is unnecessary: # Print "Hello, World" 
+
+print("Hello, World") 
+
+The comment is unnecessary because the code itself explicitly de-scribes what’s happening. Comments are best used to clarify codethat may be difficult to understand or to explain why something iscoded a certain way. 
+
+3.6 Summary and Additional Resources In this chapter, you wrote and executed your first Python program!You wrote a small program that displays the text "Hello, World" usingthe print() function. Then you learned about syntax errors, which occur before IDLE ex-ecutes a program that contains invalid Python code, and runtimeerrors, which only occur while a program is running. You saw how to assign values to variables using the assignmentoperator (=) and how to inspect variables in the interactive window. Finally, you learned how to write helpful comments in your code forwhen you or someone else looks at it in the future. 
+
+3.6. Summary and Additional Resources Interactive Quiz This chapter comes with a free online quiz to check your learn-ing progress. You can access the quiz using your phone or com-puter at the following web address: realpython.com/quizzes/pybasics-first-program 
+
+Additional Resources To learn more, check out the following resources: 
+
+ “11 Beginner Tips for Learning Python Programming” 
+
+ “Writing Comments in Python (Guide)” For links and additional resources to further deepen your Pythonskills, visit realpython.com/python-basics/resources 
+
+Chapter 4 Strings and String Methods 
+
+Many programmers, regardless of their specialty, deal with text on adaily basis. For example, web developers work with text input fromweb forms. Data scientists process text to extract data and performtasks like sentiment analysis, which can help identify and classifyopinions in a body of text. Collections of text in Python are called strings. Special functionscalled string methods are used to manipulate strings. There arestring methods for changing a string from lowercase to uppercase, re-moving whitespace from the beginning or end of a string, replacingparts of a string with different text, and much more. In this chapter, you’ll learn how to: 
+
+ Manipulate strings with string methods 
+
+ Work with user input 
+
+ Deal with strings of numbers 
+
+ Format strings for printing 
+
+Let’s get started! 
+
+4.1. What Is a String? 4.1 What Is a String? In chapter 3, you created the string "Hello, World" and printed it inIDLE’s interactive window using print(). In this section, you’ll get adeeper look into exactly what strings are and the various ways you cancreate them in Python. The String Data Type Strings are one of the fundamental Python data types. The term datatype refers to what kind of data a value represents. Strings are usedto represent text. 
+
+Note There are several other data types built into Python. For exam-ple, you’ll learn about numerical data types in chapter 5 andBoolean data types in chapter 8. 
+
+We say that strings are a fundamental data type because they can’tbe broken down into smaller values of a different type. Not all datatypes are fundamental. You’ll learn about compound data types, alsoknown as data structures, in chapter 9. The string data type has a special abbreviated name in Python: str.You can see this by using type(), which is a function used to determinethe data type of a given value. Type the following into IDLE’s interactive window: >>> type("Hello, World") 
+
+<class 'str'> 
+
+The output <class 'str'> indicates that the value "Hello, World" is aninstance of the str data type. That is, "Hello, World" is a string. 
+
+4.1. What Is a String? Note For now, you can think of the word class as a synonym for datatype, although it actually refers to something more specific.You’ll see just what a class is in chapter 10. 
+
+type() also works for values that have been assigned to a variable: >>> phrase = "Hello, World" 
+
+>>> type(phrase) 
+
+<class 'str'> 
+
+Strings have three important properties: 1. Strings contain individual letters or symbols called characters. 2. Strings have a length, defined as the number of characters thestring contains. 3. Characters in a string appear in a sequence, which means thateach character has a numbered position in the string. Let’s take a closer look at how strings are created. String Literals As you’ve already seen, you can create a string by surrounding sometext with quotation marks: string1 = 'Hello, World' 
+
+string2 = "1234" 
+
+You can use either single quotes (string1) or double quotes (string2)to create a string as long as you use the same type at the beginningand end of the string. Whenever you create a string by surrounding text with quotationmarks, the string is called a string literal. The name indicates thatthe string is literally written out in your code. All the strings you’veseen thus far are string literals. 
+
+4.1. What Is a String? Note Not every string is a string literal. Sometimes strings are inputby a user or read from a file. Since they’re not typed out withquotation marks in your code, they’re not string literals. 
+
+The quotes surrounding a string are called delimiters because theytell Python where a string begins and where it ends. When one type ofquotes is used as the delimiter, the other type can be used inside thestring: string3 = "We're #1!" 
+
+string4 = 'I said, "Put it over by the llama."' 
+
+After Python reads the first delimiter, it considers all the charactersafter it part of the string until it reaches a second matching delimiter.This is why you can use a single quote in a string delimited by doublequotes, and vice versa. If you try to use double quotes inside a string delimited by doublequotes, you’ll get an error: >>> text = "She said, "What time is it?"" 
+
+File "<stdin>", line 1 
+
+text = "She said, "What time is it?"" 
+
+^ 
+
+SyntaxError: invalid syntax 
+
+Python throws a SyntaxError because it thinks the string ends after thesecond ", and it doesn’t know how to interpret the rest of the line. Ifyou need to include a quotation mark that matches the delimiter in-side a string, then you can escape the character using a backslash: >>> text = "She said, \"What time is it?\"" 
+
+>>> print(text) 
+
+She said, "What time is it?" 
+
+4.1. What Is a String? Note When you work on a project, it’s a good idea to use only singlequotes or only double quotes to delimit every string. Keep inmind that there really isn’t a right or wrong choice! Thegoal is to be consistent because consistency helps make yourcode easier to read and understand. 
+
+Strings can contain any valid Unicode character. For example, thestring "We're #1!" contains the pound sign (#) and "1234" contains num-bers. "×Pýŧħøŋ×" is also a valid Python string! Determine the Length of a String The number of characters contained in a string, including spaces, iscalled the length of the string. For example, the string "abc" has alength of 3, and the string "Don't Panic" has a length of 11. Python has a built-in len() function that you can use to determine thelength of a string. To see how it works, type the following into IDLE’sinteractive window: >>> len("abc") 
+
+3 
+
+You can also use len() to get the length of a string that’s assigned to avariable: >>> letters = "abc" 
+
+>>> len(letters) 
+
+3 
+
+First, you assign the string "abc" to the variable letters. Then you use len() to get the length of letters, which is 3. 
+
+4.1. What Is a String? Multiline Strings The PEP 8 style guide recommends that each line of Python code con-tain no more than seventy-nine characters—including spaces. 
+
+Note PEP 8’s seventy-nine-character line length is a recommenda-tion, not a rule. Some Python programmers prefer a slightlylonger line length. In this book, we’ll strictly follow PEP 8’s recommended linelength. 
+
+Whether you follow PEP 8 or choose a longer line length, sometimesyou’ll need to create string literals withmore characters than your cho-sen limit. To deal with long strings, you can break them up across multiple linesinto multiline strings. For example, suppose you need to fit thefollowing text into a string literal: 
+
+This planet has—or rather had—a problem, which wasthis: most of the people living on it were unhappy forpretty much of the time. Many solutions were suggestedfor this problem, but most of these were largely con-cerned with the movements of small green pieces ofpaper, which is odd because on the whole it wasn’t thesmall green pieces of paper that were unhappy. — Douglas Adams, The Hitchhiker’s Guide to the Galaxy 
+
+This paragraph contains far more than seventy-nine characters, soany line of code containing the paragraph as a string literal violatesPEP 8. So, what do you do? There are a couple of ways to tackle this. Oneway is to break the stringup acrossmultiple lines and put a backslash (\) at the end of all but the 
+
+4.1. What Is a String? last line. To be PEP 8 compliant, the total length of the line, includingthe backslashes, must be seventy-nine characters or fewer. Here’s how you could write the paragraph as a multiline string usingthe backslash method: paragraph = "This planet has—or rather had—a problem, which was \ 
+
+this: most of the people living on it were unhappy for pretty much \ 
+
+of the time. Many solutions were suggested for this problem, but \ 
+
+most of these were largely concerned with the movements of small \ 
+
+green pieces of paper, which is odd because on the whole it wasn't \ 
+
+the small green pieces of paper that were unhappy." 
+
+Notice that you don’t have to close each line with a quotation mark.Normally, Python would get to the end of the first line and complainthat you didn’t close the string with a matching double quote. With abackslash at the end, you can keep writing the same string on the nextline. When you print() a multiline string that’s broken up by backslashes,the output is displayed on a single line: >>> long_string = "This multiline string is \ 
+
+displayed on one line" 
+
+>>> print(long_string) 
+
+This multiline string is displayed on one line 
+
+You can also create multiline strings using triple quotes (""" or ''') asdelimiters. Here’s how to write a long paragraph using this approach: paragraph = """This planet has—or rather had—a problem, which was 
+
+this: most of the people living on it were unhappy for pretty much 
+
+of the time. Many solutions were suggested for this problem, but 
+
+most of these were largely concerned with the movements of small 
+
+green pieces of paper, which is odd because on the whole it wasn't 
+
+the small green pieces of paper that were unhappy.""" 
+
+4.2. Concatenation, Indexing, and Slicing Triple-quoted strings preserve whitespace, including newlines. Thismeans that running print(paragraph) would display the string on mul-tiple lines, just as it appears in the string literal. This may or may notbe what you want, so you’ll need to think about the desired outputbefore you choose how to write a multiline string. To see how whitespace is preserved in a triple-quoted string, type thefollowing into IDLE’s interactive window: >>> print("""An example of a 
+
+... string that spans across multiple lines 
+
+... and also preserves whitespace.""") 
+
+An example of a 
+
+string that spans across multiple lines 
+
+and also preserves whitespace. 
+
+Notice how the second and third lines in the output are indented inexactly the same way as the string literal. Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Print a string that uses double quotation marks inside the string. 2. Print a string that uses an apostrophe inside the string. 3. Print a string that spans multiple lines with whitespace preserved. 4. Print a string that is coded on multiple lines but gets printed on asingle line. 
+
+4.2 Concatenation, Indexing, andSlicing Now that you know what a string is and how to declare string literalsin your code, let’s explore some of the things you can do with strings. 
+
+4.2. Concatenation, Indexing, and Slicing In this section, you’ll learn about three basic string operations: 1. Concatenation, which joins two strings together 2. Indexing, which gets a single character from a string 3. Slicing, which gets several characters from a string at once Let’s dive in! String Concatenation You can combine, or concatenate, two strings using the + operator: >>> string1 = "abra" 
+
+>>> string2 = "cadabra" 
+
+>>> magic_string = string1 + string2 
+
+>>> magic_string 
+
+'abracadabra' 
+
+In this example, the string concatenation occurs on the third line. Youconcatenate string1 and string2 using +, and then you assign the re-sult to the variable magic_string. Notice that the two strings are joinedwithout any whitespace between them. You can use string concatenation to join two related strings, such asjoining a first name and a last name into a full name: >>> first_name = "Arthur" 
+
+>>> last_name = "Dent" 
+
+>>> full_name = first_name + " " + last_name 
+
+>>> full_name 
+
+'Arthur Dent' 
+
+Here, you use string concatenation twice on the same line. First, youconcatenate first_name with " " to ensure a space appears after thefirst name in the final string. This produces the string "Arthur ", whichyou then concatenate with last_name to produce the full name "Arthur 
+
+Dent". 
+
+4.2. Concatenation, Indexing, and Slicing String Indexing Each character in a string has a numbered position called an index.You can access the character at the nth position by putting the numbern between two square brackets ([]) immediately after the string: >>> flavor = "fig pie" 
+
+>>> flavor[1] 
+
+'i' 
+
+flavor[1] returns the character at position 1 in "fig pie", which is i. Wait. Isn’t f the first character of "fig pie"? In Python—and in most other programming languages—counting al-ways starts at zero. To get the character at the beginning of a string,you need to access the character at position 0: >>> flavor[0] 
+
+'f' 
+
+Important Forgetting that counting starts with zero and trying to accessthe first character in a string with the index 1 results in an o -by-one error. Off-by-one errors are a common source of frustration for begin-ning and experienced programmers alike! 
+
+The following figure shows the index for each character of the string "fig pie": 
+
+| f | i | g | | p | i | e | 
+
+0 1 2 3 4 5 6 
+
+4.2. Concatenation, Indexing, and Slicing If you try to access an index beyond the end of a string, then Pythonraises an IndexError: >>> flavor[9] 
+
+Traceback (most recent call last): 
+
+File "<pyshell#4>", line 1, in <module> 
+
+flavor[9] 
+
+IndexError: string index out of range 
+
+The largest index in a string is always one less than the string’s length.Since "fig pie" has a length of seven, the largest index allowed is 6. Strings also support negative indices: >>> flavor[-1] 
+
+'e' 
+
+The last character in a string has index -1, which for "fig pie" is theletter e. The second to last character i has index -2, and so on. The following figure shows the negative index for each character inthe string "fig pie": 
+
+| f | i | g | | p | i | e | 
+
+-7 -6 -5 -4 -3 -2 -1 
+
+Just like with positive indices, Python raises an IndexError if you try toaccess a negative index less than the index of the first character in thestring: >>> flavor[-10] 
+
+Traceback (most recent call last): 
+
+File "<pyshell#5>", line 1, in <module> 
+
+flavor[-10] 
+
+IndexError: string index out of range 
+
+Negative indices may not seem useful at first, but sometimes they’rea better choice than a positive index. 
+
+4.2. Concatenation, Indexing, and Slicing For example, suppose a string input by a user is assigned to the vari-able user_input. If you need to get the last character of the string, howdo you know what index to use? One way to get the last character of a string is to calculate the finalindex using len(): final_index = len(user_input) - 1 
+
+last_character = user_input[final_index] 
+
+Getting the final character with the index -1 takes less typing anddoesn’t require an intermediate step to calculate the final index: last_character = user_input[-1] 
+
+String Slicing Suppose you need a string containing just the first three letters of thestring "fig pie". You could access each character by index and con-catenate them like this: >>> first_three_letters = flavor[0] + flavor[1] + flavor[2] 
+
+>>> first_three_letters 
+
+'fig' 
+
+If you need more than just the first few letters of a string, then get-ting each character individually and concatenating them together isclumsy and long-winded. Fortunately, Python provides a way to dothis with much less typing. You can extract a portion of a string, called a substring, by insertinga colon between two index numbers set inside square brackets likethis: >>> flavor = "fig pie" 
+
+>>> flavor[0:3] 
+
+'fig' 
+
+4.2. Concatenation, Indexing, and Slicing flavor[0:3] returns the first three characters of the string assigned to flavor, startingwith the character at index 0 and going up to but not in-cluding the character at index 3. The [0:3] part of flavor[0:3] is calleda slice. In this case, it returns a slice of "fig pie". Yum! String slices can be confusing because the substring returned bythe slice includes the character whose index is the first number butdoesn’t include the character whose index is the second number. To remember how slicing works, you can think of a string as a se-quence of square slots. The left and right boundaries of each slot arenumbered sequentially from zero up to the length of the string, andeach slot is filled with a character in the string. Here’s what this looks like for the string "fig pie": 
+
+| f | i | g | | p | i | e | 
+
+0 1 2 3 4 5 6 7 
+
+So, for "fig pie", the slice [0:3] returns the string "fig", and the slice [3:7] returns the string " pie". If you omit the first index in a slice, then Python assumes you want tostart at index 0: >>> flavor[:3] 
+
+'fig' 
+
+The slice [:3] is equivalent to the slice [0:3], so flavor[:3] returns thefirst three characters in the string "fig pie". Similarly, if you omit the second index in the slice, then Python as-sumes you want to return the substring that begins with the character 
+
+4.2. Concatenation, Indexing, and Slicing whose index is the first number in the slice and endswith the last char-acter in the string: >>> flavor[3:] 
+
+' pie' 
+
+For "fig pie", the slice [3:] is equivalent to the slice [3:7]. Since thecharacter at index 3 is a space, flavor[3:9] returns the substring thatstarts with the space and ends with the last letter: " pie". If you omit both the first and second numbers in a slice, you get astring that starts with the character at index 0 and ends with the lastcharacter. In other words, omitting both numbers in a slice returnsthe entire string: >>> flavor[:] 
+
+'fig pie' 
+
+It’s important to note that, unlike with string indexing, Python won’traise an IndexError when you try to slice between boundaries that falloutside the beginning or ending boundaries of a string: >>> flavor[:14] 
+
+'fig pie' 
+
+>>> flavor[13:15] 
+
+'' 
+
+In this example, the first line gets the slice from the beginning of thestring up to but not including the fourteenth character. The stringassigned to flavor has a length of seven, so you might expect Pythonto throw an error. Instead, it ignores any nonexistent indices and re-turns the entire string "fig pie". The third line showswhat happens when you try to get a slice in whichthe entire range is out of bounds. flavor[13:15] attempts to get thethirteenth and fourteenth characters, which don’t exist. Instead ofraising an error, Python returns the empty string (""). 
+
+4.2. Concatenation, Indexing, and Slicing Note The empty string is called empty because it doesn’t contain anycharacters. You can create it by writing two quotation markswith nothing between them: empty_string = "" 
+
+A string with anything in it—even a space—is not empty. All thefollowing strings are non-empty: non_empty_string1 = " " 
+
+non_empty_string2 = " " 
+
+non_empty_string3 = " " 
+
+Even though these strings don’t contain any visible characters,they are non-empty because they do contain spaces. You can use negative numbers in slices. The rules for slices with nega-tive numbers are exactly the same as the rules for slices with positivenumbers. It helps to visualize the string as slots with the boundarieslabeled with negative numbers: 
+
+| f | i | g | | p | i | e | 
+
+-7 -6 -5 -4 -3 -2 -1 
+
+Just like before, the slice [x:y] returns the substring starting at index x and going up to but not including y. For instance, the slice [-7:-4]returns the first three letters of the string "fig pie": >>> flavor[-7:-4] 
+
+'fig' 
+
+Notice, however, that the rightmost boundary of the string does nothave a negative index. The logical choice for that boundary wouldseem to be the number 0, but that doesn’t work. 
+
+4.2. Concatenation, Indexing, and Slicing Instead of returning the entire string, [-7:0] returns the empty string: >>> flavor[-7:0] 
+
+'' 
+
+This happens because the second number in a slice must correspondto a boundary that is to the right of the boundary corresponding to thefirst number, but both -7 and 0 correspond to the leftmost boundaryin the figure. If you need to include the final character of a string in your slice, thenyou can omit the second number: >>> flavor[-7:] 
+
+'fig pie' 
+
+Of course, using flavor[-7:] to get the entire string is a bit odd consid-ering that you can use the variable flavor without the slice to get thesame result! Slices with negative indices are useful, though, for getting the last fewcharacters in a string. For example, flavor[-3:] is "pie". Strings Are Immutable To wrap this section up, let’s discuss an important property of stringobjects. Strings are immutable, which means that you can’t changethem once you’ve created them. For instance, see what happens whenyou try to assign a new letter to one particular character of a string: >>> word = "goal" 
+
+>>> word[0] = "f" 
+
+Traceback (most recent call last): 
+
+File "<pyshell#16>", line 1, in <module> 
+
+word[0] = "f" 
+
+TypeError: 'str' object does not support item assignment 
+
+4.2. Concatenation, Indexing, and Slicing Python throws a TypeError and tells you that str objects don’t supportitem assignment. If you want to alter a string, then you must create an entirely newstring. To change the string "goal" to the string "foal", you can use astring slice to concatenate the letter "f" with everything but the firstletter of the word "goal": >>> word = "goal" 
+
+>>> word = "f" + word[1:] 
+
+>>> word 
+
+'foal' 
+
+First, you assign the string "goal" to the variable word. Then you con-catenate the slice word[1:], which is the string "oal", with the letter "f"to get the string "foal". If you’re getting a different result here, thenmake sure you’re including the colon character (:) as part of the stringslice. Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Create a string and print its length using len(). 2. Create two strings, concatenate them, and print the resultingstring. 3. Create two strings, use concatenation to add a space between them,and print the result. 4. Print the string "zing" by using slice notation to specify the correctrange of characters in the string "bazinga". 
+
+4.3. Manipulate Strings With Methods 4.3 Manipulate Strings With Methods Strings come bundled with special functions called string methodsthat you can use to work with and manipulate strings. There are nu-merous string methods available, but we’ll focus on some of the mostcommonly used ones. In this section, you’ll learn how to: 
+
+ Convert a string to uppercase or lowercase 
+
+ Remove whitespace from a string 
+
+ Determine if a string begins or ends with certain characters 
+
+Let’s go! Converting String Case To convert a string to all lowercase letters, you use the string’s .lower()method. This is done by tacking .lower() onto the end of the stringitself: >>> "Jean-Luc Picard".lower() 
+
+'jean-luc picard' 
+
+The dot (.) tells Python that what follows is the name of a method—the lower() method in this case. Note We’ll refer to string methods with a dot (.) at the beginning oftheir names. For example, .lower() is written with a leading dotinstead of as lower(). This makes it easier to differentiate functions that are stringmethods from built-in functions like print() and type(). 
+
+4.3. Manipulate Strings With Methods String methods don’t just work on string literals. You can also use .lower() on a string assigned to a variable: >>> name = "Jean-Luc Picard" 
+
+>>> name.lower() 
+
+'jean-luc picard' 
+
+The opposite of .lower() is .upper(), which converts every character ina string to uppercase: >>> name.upper() 
+
+'JEAN-LUC PICARD' 
+
+Compare the .upper() and .lower() string methods to the len() func-tion you saw in the last section. Aside from the different results ofthese functions, the important distinction here is how they’re used. len() is a stand-alone function. If you want to determine the length ofthe name string, then you call the len() function directly: >>> len(name) 
+
+15 
+
+On the other hand, .upper() and .lower()must be used in conjunctionwith a string. They do not exist independently. RemovingWhitespace From a String Whitespace is any character that is printed as blank space. This in-cludes things like spaces and line feeds, which are special charactersthat move output to a new line. Sometimes you need to remove whitespace from the beginning or endof a string. This is especially useful when working with strings thatcome fromuser input, whichmay include extra whitespace charactersby accident. 
+
+4.3. Manipulate Strings With Methods There are three stringmethods that you can use to remove whitespacefrom a string: 1. .rstrip() 
+
+2. .lstrip() 
+
+3. .strip() 
+
+.rstrip() removes whitespace from the right side of a string: >>> name = "Jean-Luc Picard " 
+
+>>> name 
+
+'Jean-Luc Picard ' 
+
+>>> name.rstrip() 
+
+'Jean-Luc Picard' 
+
+In this example, the string "Jean-Luc Picard "has five trailing spaces.You use .rstrip() to remove trailing spaces from the right-hand sideof the string. This returns the new string "Jean-Luc Picard", which nolonger has the spaces at the end. .lstrip() works just like .rstrip(), except that it removes whitespacefrom the left-hand side of the string: >>> name = " Jean-Luc Picard" 
+
+>>> name 
+
+' Jean-Luc Picard' 
+
+>>> name.lstrip() 
+
+'Jean-Luc Picard' 
+
+To remove whitespace from both the left and the right sides of thestring at the same time, use .strip(): >>> name = " Jean-Luc Picard " 
+
+>>> name 
+
+' Jean-Luc Picard ' 
+
+>>> name.strip() 
+
+'Jean-Luc Picard' 
+
+4.3. Manipulate Strings With Methods It’s important to note that none of .rstrip(), .lstrip(), or .strip() re-moves whitespace from the middle of the string. In each of the previ-ous examples, the space between "Jean-Luc" and "Picard" is preserved. Determine If a String Starts or EndsWith aParticular String When you work with text, sometimes you need to determine if a givenstring starts with or ends with certain characters. You can use twostring methods to solve this problem: .startswith() and .endswith(). Let’s look at an example. Consider the string "Enterprise". Here’s howyou use .startswith() to determine if the string starts with the letters e and n: >>> starship = "Enterprise" 
+
+>>> starship.startswith("en") 
+
+False 
+
+You tell .startswith() which characters to search for by providing astring containing those characters. So, to determine if "Enterprise"starts with the letters e and n, you call .startswith("en"). This returns False. Why do you think that is? If you guessed that .startswith("en") returns False because "En-
+
+terprise" starts with a capital E, then you’re absolutely right! The .startswith() method is case sensitive. To get .startswith() toreturn True, you need to provide it with the string "En": >>> starship.startswith("En") 
+
+True 
+
+You can use .endswith() to determine if a string ends with certain char-acters: >>> starship.endswith("rise") 
+
+True 
+
+4.3. Manipulate Strings With Methods Just like .startswith(), the .endswith() method is case sensitive: >>> starship.endswith("risE") 
+
+False 
+
+Note The True and False values are not strings. They are a special kindof data type called a Boolean value. You’ll learn more aboutBoolean values in chapter 8. 
+
+String Methods and Immutability Recall from the previous section that strings are immutable—theycan’t be changed once they’ve been created. Most string methodsthat alter a string, like .upper() and .lower(), actually return copies ofthe original string with the appropriate modifications. If you aren’t careful, this can introduce subtle bugs into your program.Try this out in IDLE’s interactive window: >>> name = "Picard" 
+
+>>> name.upper() 
+
+'PICARD' 
+
+>>> name 
+
+'Picard' 
+
+When you call name.upper(), nothing about name actually changes. Ifyou need to keep the result, then you need to assign it to a variable: >>> name = "Picard" 
+
+>>> name = name.upper() 
+
+>>> name 
+
+'PICARD' 
+
+name.upper() returns a new string "PICARD", which is reassigned to the name variable. Thisoverrides the original string "Picard" that you firstassigned to name. 
+
+4.3. Manipulate Strings With Methods Use IDLE to Discover Additional String Methods Strings have lots of methods associated with them, and the methodsintroduced in this section barely scratch the surface. IDLE can helpyou find new string methods. To see how, first assign a string literalto a variable in the interactive window: >>> starship = "Enterprise" 
+
+Next, type starship followed by a period, but do not hit Enter . Youshould see the following in the interactive window: >>> starship. 
+
+Now wait for a couple of seconds. IDLE displays a list of every stringmethod, which you can scroll through using the arrow keys. A related shortcut in IDLE is the ability to use Tab to automaticallyfill in text without having to type long names. For instance, if youtype only starship.u and hit Tab , then IDLE automatically fills in star-
+
+ship.upper because only one method that begins with a u belongs to starship. This even works with variable names. Try typing just the first few let-ters of starship and pressing Tab . If you haven’t defined any othernames that share those first letters, then IDLE completes the name starship for you. Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Write a program that converts the following strings to lowercase: 
+
+"Animals", "Badger", "Honey Bee", "Honey Badger". Print each lower-case string on a separate line. 2. Repeat exercise 1, but convert each string to uppercase instead oflowercase. 
+
+4.4. Interact With User Input 3. Write a program that removes whitespace from the followingstrings, then print out the strings with the whitespace removed: 
+
+string1 = " Filet Mignon" 
+
+string2 = "Brisket " 
+
+string3 = " Cheeseburger " 
+
+4. Write a program that prints out the result of .startswith("be") oneach of the following strings: string1 = "Becomes" 
+
+string2 = "becomes" 
+
+string3 = "BEAR" 
+
+string4 = " bEautiful" 
+
+5. Using the same four strings from exercise 4, write a program thatuses string methods to alter each string so that .startswith("be")returns True for all of them. 
+
+4.4 Interact With User Input Now that you’ve seen how to work with string methods, let’s makethings interactive! In this section, you’ll learn how to get some input from a user with input(). You’ll write a program that asks a user to input some text andthen displays that text back to them in uppercase. Enter the following into IDLE’s interactive window: >>> input() 
+
+When you press Enter , it looks like nothing happens. The cursormoves to a new line, but a new >>> doesn’t appear. Python is waitingfor you to enter something! 
+
+4.4. Interact With User Input Go ahead and type some text and press Enter : >>> input() 
+
+Hello there! 
+
+'Hello there!' 
+
+>>> 
+
+The text you entered is repeated on a new line with single quotes.That’s because input() returns as a string any text entered by the user. To make input() a bit more user-friendly, you can give it a prompt todisplay to the user. The prompt is just a string that you put betweenthe parentheses of input(). It can be anything you want: a word, asymbol, a phrase—anything that is a valid Python string. input() displays the prompt and waits for the user to type something.When the user hits Enter , input() returns their input as a string thatcan be assigned to a variable and used to do something in your pro-gram. To see how input() works, type the following code into IDLE’s editorwindow: prompt = "Hey, what's up? " 
+
+user_input = input(prompt) 
+
+print("You said: " + user_input) 
+
+Press F5 to run the program. The text Hey, what's up? displays in theinteractive window with a blinking cursor. The single space at the end of the string "Hey, what's up? "makes surethatwhen the user starts to type, the text is separated from the promptwith a space. When the user types a response and presses Enter , theirresponse is assigned to the user_input variable. 
+
+4.4. Interact With User Input Here’s a sample run of the program: Hey, what's up? Mind your own business. 
+
+You said: Mind your own business. 
+
+Once you have input from a user, you can do something with it. Forexample, the following program takes user input, converts it to upper-case with .upper(), and prints the result: response = input("What should I shout? ") 
+
+shouted_response = response.upper() 
+
+print("Well, if you insist..." + shouted_response) 
+
+Try typing this program into IDLE’s editor window and running it.What else can you think of to do with the input? Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Write a program that takes input from the user and displays thatinput back. 2. Write a program that takes input from the user and displays theinput in lowercase. 3. Write a program that takes input from the user and displays thenumber of characters in the input. 
+
+4.5. Challenge: Pick Apart Your User’s Input 4.5 Challenge: Pick Apart Your User’sInput Write a program named first_letter.py that prompts the user for in-put with the string "Tell me your password:". The program should thendetermine the first letter of the user’s input, convert that letter to up-percase, and display it back. For example, if the user input is "no", then the program should displaythe following output: The first letter you entered was: N 
+
+For now, it’s okay if your program crashes when the user enters noth-ing as input—that is, when they just hit Enter instead of typing some-thing. You’ll learn a couple of ways to deal with this situation in anupcoming chapter. You can nd the solutions to this code challenge andmany other bonusresources online at realpython.com/python-basics/resources 
+
+4.6 WorkingWith Strings and Numbers When you get user input using input(), the result is always a string.There are many other situations in which input is given to a programas a string. Sometimes those strings contain numbers that need to befed into calculations. In this section, you’ll learn how to deal with strings of numbers. You’llsee howarithmetic operationswork on strings andhow they often leadto surprising results. You’ll also learn how to convert between stringsand number types. Using Strings With Arithmetic Operators You’ve seen that string objects can hold many types of characters, in-cluding numbers. However, don’t confuse numerals in a string with 
+
+4.6. Working With Strings and Numbers actual numbers. For instance, try this bit of code out in IDLE’s inter-active window: >>> num = "2" 
+
+>>> num + num 
+
+'22' 
+
+The + operator concatenates two strings together, which is why theresult of "2" + "2" is "22" and not "4". You can multiply strings by a number as long as that number is aninteger or whole number. Type the following into the interactive win-dow: >>> num = "12" 
+
+>>> num * 3 
+
+'121212' 
+
+num * 3 concatenates three instances of the string "12" and returns thestring "121212". Compare this operation to arithmetic with numbers. When you mul-tiply the number 12 by the number 3, the result is the same as addingthree 12s together. The same is true for a string. That is, "12" * 3 canbe interpreted as "12" + "12" + "12". In general, multiplying a stringby an integer n concatenates n copies of that string. You canmove the number on the right-hand side of the expression num 
+
+* 3 to the left, and the result is unchanged: >>> 3 * num 
+
+'121212' 
+
+What do you think happens if you use the * operator between twostrings? 
+
+4.6. Working With Strings and Numbers Type "12" * "3" in the interactive window and press Enter : >>> "12" * "3" 
+
+Traceback (most recent call last): 
+
+File "<stdin>", line 1, in <module> 
+
+TypeError: can't multiply sequence by non-int of type 'str' 
+
+Python raises a TypeError and tells you that you can’t multiply a se-quence by a non-integer. Note A sequence is any Python object that supports accessing ele-ments by index. Strings are sequences. You’ll learn about othersequence types in chapter 9. 
+
+When you use the * operator with a string, Python always expects aninteger on the other side of the operator. What do you think happens when you try to add a string and a num-ber? >>> "3" + 3 
+
+Traceback (most recent call last): 
+
+File "<stdin>", line 1, in <module> 
+
+TypeError: can only concatenate str (not "int") to str 
+
+Python throws a TypeError because it expects the objects on both sidesof the + operator to be of the same type. If an object on either side of + is a string, then Python tries to performstring concatenation. It will only perform addition if both objects arenumbers. So, to add "3" + 3 and get 6, youmust first convert the string "3" to a number. 
+
+4.6. Working With Strings and Numbers Converting Strings to Numbers The TypeError examples in the previous section highlight a commonproblem when applying user input to an operation that requires anumber and not a string: type mismatches. Let’s look at an example. Save and run the following program: num = input("Enter a number to be doubled: ") 
+
+doubled_num = num * 2 
+
+print(doubled_num) 
+
+If you entered the number 2 at the prompt, then you would expect theoutput to be 4. But in this case, you would get 22. Remember, input()always returns a string, so if you input 2, then num is assigned the string "2", not the integer 2. Therefore, the expression num * 2 returns thestring "2" concatenated with itself, which is "22". To perform arithmetic on numbers contained in a string, you mustfirst convert them from a string type to a number type. There are twofunctions that you can use to do this: int() and float(). int() stands for integer and converts objects into whole numbers,whereas float() stands for oating-point number and converts ob-jects into numbers with decimal points. Here’s what using each onelooks like in the interactive window: >>> int("12") 
+
+12 
+
+>>> float("12") 
+
+12.0 
+
+Notice how float() adds a decimal point to the number. Floating-point numbers always have at least one decimal place of precision. Forthis reason, you can’t change a string that looks like a floating-pointnumber into an integer because you would lose everything after thedecimal point. 
+
+4.6. Working With Strings and Numbers Try converting the string "12.0" to an integer: >>> int("12.0") 
+
+Traceback (most recent call last): 
+
+File "<stdin>", line 1, in <module> 
+
+ValueError: invalid literal for int() with base 10: '12.0' 
+
+Even though the extra 0 after the decimal place doesn’t add any valueto the number, Python won’t change 12.0 into 12 because it would re-sult in a loss of precision. Let’s revisit the program from the beginning of this section and seehow to fix it. Here’s the code again: num = input("Enter a number to be doubled: ") 
+
+doubled_num = num * 2 
+
+print(doubled_num) 
+
+The issue is on the line doubled_num = num * 2 because num is a stringand 2 is an integer. You can fix the problem by passing num to either int() or float(). Sincethe prompts asks the user to input a number, and not specifically aninteger, let’s convert num to a floating-point number: num = input("Enter a number to be doubled: ") 
+
+doubled_num = float(num) * 2 
+
+print(doubled_num) 
+
+Now when you run this program and input 2, you get 4.0 as expected.Try it out! Converting Numbers to Strings Sometimes you need to convert a number to a string. You might dothis, for example, if you need to build a string from some preexistingvariables that are assigned to numeric values. 
+
+4.6. Working With Strings and Numbers As you’ve already seen, concatenating a number with a string pro-duces a TypeError: >>> num_pancakes = 10 
+
+>>> "I am going to eat " + num_pancakes + " pancakes." 
+
+Traceback (most recent call last): 
+
+File "<stdin>", line 1, in <module> 
+
+TypeError: can only concatenate str (not "int") to str 
+
+Since num_pancakes is a number, Python can’t concatenate it with thestring "I'm going to eat". To build the string, you need to convert num_pancakes to a string using str(): >>> num_pancakes = 10 
+
+>>> "I am going to eat " + str(num_pancakes) + " pancakes." 
+
+'I am going to eat 10 pancakes.' 
+
+You can also call str() on a number literal: >>> "I am going to eat " + str(10) + " pancakes." 
+
+'I am going to eat 10 pancakes.' 
+
+str() can even handle arithmetic expressions: >>> total_pancakes = 10 
+
+>>> pancakes_eaten = 5 
+
+>>> "Only " + str(total_pancakes - pancakes_eaten) + " pancakes left." 
+
+'Only 5 pancakes left.' 
+
+In the next section, you’ll learn how to format strings neatly to displayvalues in a nice, readablemanner. Before youmove on, though, checkyour understanding with the following review exercises. 
+
+4.7. Streamline Your Print Statements Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Create a string containing an integer, then convert that string intoan actual integer object using int(). Test that your new object isa number by multiplying it by another number and displaying theresult. 2. Repeat the previous exercise, but use a floating-point number and 
+
+float(). 3. Create a string object and an integer object, then display them sideby side with a single print statement using str(). 4. Write a program that uses input() twice to get two numbers fromthe user, multiplies the numbers together, and displays the result.If the user enters 2 and 4, then your program should print thefollowing text: 
+
+The product of 2 and 4 is 8.0. 
+
+4.7 Streamline Your Print Statements Suppose you have a string, name = "Zaphod", and two integers, heads = 2 and arms = 3. You want to display them in the string "Zaphod has 
+
+2 heads and 3 arms". This is called string interpolation, which isjust a fancy way of saying that you want to insert some variables intospecific locations in a string. One way to do this is with string concatenation: >>> name + " has " + str(heads) + " heads and " + str(arms) + " arms" 
+
+'Zaphod has 2 heads and 3 arms' 
+
+This code isn’t the prettiest, and keeping track of what goes inside oroutside the quotes can be tough. Fortunately, there’s another way ofinterpolating strings: formatted string literals, more commonly 
+
+4.7. Streamline Your Print Statements known as f-strings. The easiest way to understand f-strings is to see them in action. Here’swhat the above string looks like when written as an f-string: >>> f"{name} has {heads} heads and {arms} arms" 
+
+'Zaphod has 2 heads and 3 arms' 
+
+There are two important things to notice about the above example: 1. The string literal starts with the letter f before the opening quota-tion mark. 2. Variable names surrounded by curly braces ({}) are replaced bytheir corresponding values without using str(). You can also insert Python expressions between the curly braces. Theexpressions are replaced with their result in the string: >>> n = 3 
+
+>>> m = 4 
+
+>>> f"{n} times {m} is {n*m}" 
+
+'3 times 4 is 12' 
+
+It’s a good idea to keep any expressions used in an f-string as simpleas possible. Packing a bunch of complicated expressions into a stringliteral can result in code that is difficult to read and difficult to main-tain. f-strings are available only in Python version 3.6 and above. In ear-lier versions of Python, you can use .format() to get the same results.Returning to the Zaphod example, you can use .format() to format thestring like this: >>> "{} has {} heads and {} arms".format(name, heads, arms) 
+
+'Zaphod has 2 heads and 3 arms' 
+
+f-strings are shorter and sometimes more readable than using .for-
+
+mat(). You’ll see f-strings used throughout this book. 
+
+4.8. Find a String in a String For an in-depth guide to f-strings and comparisons to other string for-matting techniques, check outReal Python’s “Python 3’s f-Strings: AnImproved String Formatting Syntax (Guide).” Review Exercises You can nd the solutions to these exercises and many other bonusresources online at realpython.com/python-basics/resources 1. Create a float object named weight with the value 0.2, and createa string object named animal with the value "newt". Then use theseobjects to print the following string using only string concatena-tion: 
+
+0.2 kg is the weight of the newt. 
+
+2. Display the same string by using .format() and empty {} placehold-ers. 3. Display the same string using an f-string. 
+
+4.8 Find a String in a String One of the most useful string methods is .find(). As its name implies,this method allows you to find the location of one string in anotherstring—commonly referred to as a substring. To use .find(), tack it to the end of a variable or a string literal withthe string you want to find typed between the parentheses: >>> phrase = "the surprise is in here somewhere" 
+
+>>> phrase.find("surprise") 
+
+4 
+
+The value that .find() returns is the index of the first occurrence of thestring you pass to it. In this case, "surprise" starts at the fifth characterof the string "the surprise is in here somewhere", which has index 4because counting starts at zero. 
+
+This is a sample from “Python Basics: A PracticalIntroduction to Python 3” With the full version of the book you get a complete Python curriculumto go all theway frombeginner to intermediate-level. Every step alongthe way is explained and illustrated with short & clear code samples. Coding exercises within each chapter and our interactive quizzes helpfast-track your progress and ensure you always knowwhat to focus onnext. Become a fluent Pythonista and gain programming knowledge youcan apply in the real-world, today: If you enjoyed the sample chapters you can purchase a fullversion of the book at realpython.com/pybasics-book

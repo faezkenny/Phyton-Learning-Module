@@ -1,0 +1,2528 @@
+Title: (PDF) Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting
+Source URL: https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting
+
+================================================================================
+
+(PDF) Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting
+
+Article PDF Available
+
+Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting
+
+October 2024
+
+Research & Development
+
+https://www.researchgate.net/journal/Research-Development-2994-7057
+
+ 5(4):110-120
+
+DOI: 
+
+10.11648/j.rd.20240504.13
+
+https://doi.org/10.11648/j.rd.20240504.13
+
+License
+
+CC BY 4.0
+
+https://www.researchgate.net/deref/https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F
+
+Authors:
+
+Samuel Baffoe
+
+https://www.researchgate.net/profile/Samuel-Baffoe-2
+
+Tomsk State Pedagogical University
+
+https://www.researchgate.net/institution/Tomsk-State-Pedagogical-University
+
+Poguda Aleksey Andreevich
+
+https://www.researchgate.net/scientific-contributions/Poguda-Aleksey-Andreevich-2295632873
+
+Poguda Aleksey Andreevich
+
+https://www.researchgate.net/scientific-contributions/Poguda-Aleksey-Andreevich-2295632873
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+Download full-text PDF
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting/fulltext/6718b88c069cb92a812c82d6/Comparative-Analysis-of-ARIMA-SARIMA-and-Prophet-Model-in-Forecasting.pdf
+
+ 
+
+Read full-text
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#read
+
+Download full-text PDF
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting/fulltext/6718b88c069cb92a812c82d6/Comparative-Analysis-of-ARIMA-SARIMA-and-Prophet-Model-in-Forecasting.pdf
+
+Read full-text
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#read
+
+Download citation
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting/citation/download
+
+Copy link Link copied
+
+Read full-text
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#read
+
+Download citation
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting/citation/download
+
+Copy link Link copied
+
+Citations (23)
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#citations
+
+References (15)
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#references
+
+Figures (8)
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#figures
+
+Abstract and Figures
+
+Machine learning has become a powerful tool in forecasting, offering greater accuracy than traditional human predictions in today's data-driven world. The capability of machine learning to predict future trends has significant implications for key sectors such as finance, healthcare, and supply chain management. In this study, ARIMA/SARIMA (AutoRegressive Integrated Moving Average/Seasonal AutoRegressive Integrated Moving Average), alongside Prophet, a scalable forecasting tool developed by Facebook based on a generalized additive model, are considered. These models are applied to predict the demand for antidiabetic drugs. The records were collected by the Australian Health Insurance Commission. This dataset was sourced from Medicare Australia. The study evaluates the performance of these models based on their Mean Absolute Error (MAE), a key metric for assessing forecast accuracy. Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE) are also considered. The outcome of the comparative analysis shows that the Prophet model outperformed both ARIMA and SARIMA models, achieving an MAE of 0.74, which is significantly lower than the MAE values of 2.18 and 3.02 obtained by SARIMA and ARIMA, respectively. Prophet's superior performance shows its effectiveness in handling complex, non-linear trends and seasonal patterns often observed in real-world time series data. This research contributes to the growing knowledge of machine learning-based forecasting and shows the importance of advanced models like Prophet in optimizing business operations and driving innovation. The findings from this research offer valuable guidance for data experts, analysts, and researchers in selecting the best forecasting methods for reliable predictions.
+
+Shape and Description of Dataset. …
+
+https://www.researchgate.net/figure/Shape-and-Description-of-Dataset_fig1_385157901
+
+Train set and test split for antidiabetic drug dataset. The shaded area is the testing period. …
+
+https://www.researchgate.net/figure/Train-set-and-test-split-for-antidiabetic-drug-dataset-The-shaded-area-is-the-testing_fig2_385157901
+
+ARIMA diagnostic plot. …
+
+https://www.researchgate.net/figure/ARIMA-diagnostic-plot_fig3_385157901
+
+Forecasted Antidiabetic Drug Sales. …
+
+https://www.researchgate.net/figure/Forecasted-Antidiabetic-Drug-Sales_fig4_385157901
+
+ +3
+
+https://www.researchgate.net/figure/Actual-vs-Predicted-Drug-Distribution_fig5_385157901
+
+Actual vs. Predicted Drug Distribution. …
+
+https://www.researchgate.net/figure/Actual-vs-Predicted-Drug-Distribution_fig5_385157901
+
+Figures - available via license: 
+
+Creative Commons Attribution 4.0 International
+
+https://creativecommons.org/licenses/by/4.0/
+
+Content may be subject to copyright.
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ 
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting#read-preview
+
+Public Full-text 1
+
+Available via license: 
+
+CC BY 4.0
+
+https://www.researchgate.net/deref/https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F
+
+Content may be subject to copyright.
+
+Research & D evelopment
+
+2024, V ol. 5, No. 4, pp. 1 10-120
+
+https://doi.org/10.11648/j.rd.20240504.13
+
+Corresponding author:
+
+Received: 7 September 2024; Accepted: 24 September 2024; Published: 18 October 2024
+
+Copyright: © The Author(s), 2024. Pub lished by Science Publishing Group. This is an Open Access article, distributed
+
+under the terms of the Creative Commons Attribution 4.0 License ( http://creativecommons.org/licenses/by/4.0/), which
+
+permits unrestricted use, distribution and reproduction in any medium, provided the original work is properly cited.
+
+Research Article
+
+Comparative A nalysis of ARIMA, SA RIMA and Prophet
+
+Model in Forecasting
+
+Samuel Baffoe Kwarteng* , Poguda Aleksey Andreevich
+
+Faculty of Innovation T echnology, National Research T o msk State University, T om sk State, Russian Federation
+
+Abstract
+
+Machine learning has beco me a powerful tool in forecasting, offering greater accuracy t han traditional human predict ions in
+
+today's data-driven w orld. The capability of machine learning to predict future trends has significant implications for key sectors
+
+such as finance, healthcare, and supply chain management. In this study, ARIMA/SARIMA (AutoRegressive Integrated Moving
+
+Av erage/Seasonal AutoRe gressive Integrated Moving Average), a longside Prophet, a scalable forecasting tool developed by
+
+Facebook based on a generalized additive model, are considered. These models are applied to predict the dem and for antidiabetic
+
+drugs. The records were collected by the Australian Health Insurance Commission. This dataset was sourced from Medicare
+
+Australia. The study evaluates the per formance of these models based on their Mean Absolute Error (MAE), a key metric for
+
+assessing forecast accuracy. Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE) are also
+
+considered. The outcome of the co mparative analysis shows that the P rophet model outperformed b oth ARIMA and SARIMA
+
+models, achieving an MAE of 0.74, which is significantly lower than the MAE values of 2.18 and 3.02 obtained by SARIMA and
+
+ARIMA, respectively. Prophet's superior performance s hows its e ffectiveness in handling complex, non-linear trends and
+
+seasonal patterns often observed in real-world time series data. This research contributes t o the growing knowledge o f machine
+
+learning-based forecasting and shows the importance of advanced models like Prophet in optimizing business oper ations and
+
+driving innovation. The findings from this research offer valuable guidance for data experts, analysts, and researchers in s electing
+
+the best forecasting methods for reliable predictions.
+
+Keywords
+
+AutoRegressive Integrated Moving A verage (ARIMA), Seasonal AutoRegressive Integrated Moving A verage (SARIMA),
+
+Mean Absolute Percentage Error (MAPE), Prophet, Time Series Forecasting, Comparative Analysis
+
+Introduction
+
+In today's world, where we use data to make important d e-
+
+cisions, it is important f or businesses, researchers, and an a-
+
+lysts in different fields to be able to predict what might happen
+
+in the future. One type of data that is super useful for this is
+
+time series data. Time Series analysis assumes that future
+
+demand will be similar to past demand an d involves analyzing
+
+historical data to make predictions. Techniques used in
+
+time-series analysis include trend analysis, seasonal analysis,
+
+and moving average s. A study b y Bharatp ur, A., et al. di s-
+
+cusses the observation of a growing or decreasing pattern over
+
+time, known as a trend [1]. In contrast to conventional time
+
+series, where the mean can vary at will with respect to time, 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+ 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2F631%2Farchive%2F6310504
+
+ 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2F
+
+ 
+
+https://www.researchgate.net/deref/https%3A%2F%2Forcid.org%2F0009-0006-4126-6798
+
+ 
+
+https://www.researchgate.net/deref/https%3A%2F%2Forcid.org%2F0009-0006-4126-6798
+
+ 
+
+https://www.researchgate.net/deref/https%3A%2F%2Forcid.org%2F0009-0006-4126-6798
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+111
+
+stationary time series require that the data's mean remain
+
+constant across time. Seasonality is the term for a cycle of
+
+events. A pattern, after some time, keeps happening. Seaso n-
+
+ality can b e influenced by factors like holidays, weather
+
+changes, o r business cycles. This paper builds upon existing
+
+research i n this area, focusing on the task of predicting ant i-
+
+diabetic d rugs in Australia. It aims to co mpare the effectiv e-
+
+ness of two prominent time series forecasting models: Aut o-
+
+Regressive Integrated Movin g Average (ARIMA/S ARIMA)
+
+and the Facebook Prophet model. The A RIMA model, d e-
+
+veloped by B ox and J enkins in 1976, is used to analyze st a-
+
+tionary univariate time series data. SA RIMA model s are an
+
+extension o f the ARIMA model designed to handle seasonal
+
+or cyclic components in time series data.
+
+ARIMA/SARIMA models can model the linear and se a-
+
+sonal dependencies in the data, while the Facebook P rophet
+
+model is a novel approach that can handle multiple seasona l-
+
+ities, holidays, and other factors using a decomposable time
+
+series model. What sets P rophet apart is its abilit y to aut o-
+
+matically detect and accommodate various seasonal patterns,
+
+as well as adjust for the ef fects of holidays and special events.
+
+Moreover, it offers flexibility in incorp orating prior
+
+knowledge and dom ain expertise through user-sp ecified p a-
+
+rameters and regressors.
+
+In contrast to the intricate tuning requirements of traditional
+
+ARIMA models, the paper by T aylor, S., et al. highlighted the
+
+limitations of traditional models like ARIMA in terms of
+
+complexity and the need for expertise in tuning parameters [2].
+
+The paper also provides a comparison of the Prophet model
+
+with other popular forecasting methods, such as exponential
+
+smoothing, ARIMA, and structural time series models. The
+
+authors claim that the Prophet model is more flexible, s calable,
+
+and interpr etable than the existing methods, and that it can
+
+produce high quality forecasts for a w ide range of business
+
+problems.
+
+A study by Y enidogan, I., et al. compared two methods,
+
+PROPHET and ARIMA, for forecasting Bitcoin prices using
+
+data from May 2016 to March 2018 [3]. Additional variables
+
+were included in the models based on correlation studies
+
+between cryptocurrencies and real currencies to improve
+
+forecasting accuracy. PROPHET performed better than
+
+ARIMA, with R 2 values of 0.94 and 0.68, respectively.
+
+PROPHET had a prediction accurac y of 94.5%, which was
+
+higher than ARIMA. Th e study recommends using
+
+PROPHET for Bitcoin forecasting because it gives more
+
+accurate predictions compared to ARIMA, which had a lower
+
+precision rate of 68%. However, SAR IMA can be used in
+
+conjunction with other techniques to enhance forecasting
+
+accuracy. The authors of the do cument in [4] proposed a h y-
+
+brid model that combines SARIMA with artificial neural
+
+networks (ANNs) and fu zzy logic to address the limitations of
+
+SARIMA models in time series forecasting tasks.
+
+The findings of F. V. Ferdinand et al. [5] showed that
+
+SARIMA demonstrated superior performance in their r e-
+
+search due to its emphasis on testing for stationarity and h y-
+
+perparameter tuning. This study illustrates th e critical i m-
+
+portance of model selection.
+
+In a separate study by W ang et al. [6], the authors proposed
+
+the ARIMA, SARIMA, and P rophet models to predict daily
+
+new ca ses and cumulative confirmed cases of COVID-19 in
+
+the USA, Brazil, and India over a 30-day period. Their results
+
+indicated that for the USA, the SARIMA model had limit a-
+
+tions and ranked as the second-best option. In contrast, f or
+
+Brazil and India, the ARIMA model was second-best after the
+
+Prophet model for daily ne w cases. T his shows t hat selecting a
+
+forecasting model requires ca reful consideration of the sp e-
+
+cific needs of each ta sk, as the Prophet model does not always
+
+guarantee the best results.
+
+This pap er is structured as follows: The description of th e
+
+dataset and preprocessing is discussed in Sect ion II. Section
+
+III talks about the development of the ARIMA and SARIMA
+
+models, finding the optimal order, and the Prophet model for
+
+making predictions. The experimen tal results are analyzed in
+
+Section IV, whereas conclusions are dr awn in Section V.
+
+Materials and Methods
+
+2.1. Description of Dataset and Preprocessing
+
+A dataset ( Figure 1) contain ing a nu mber of anti-diabetic
+
+drug prescription s in Australia was used. The records were
+
+collected by the Australian Health Insurance Co mmission
+
+from year 199 1 to 2008. This dataset was sourced from
+
+Medicare Australia. In Australia, Medicare serves as the
+
+country's publicly funded universal healthcare insurance
+
+system. It is operated by Australia's social security department,
+
+which works in conjunction with the Pharmaceutical Benefits
+
+Scheme.
+
+Figure 1. Shape and Description of Dataset.
+
+Data preprocessing is imperative to ensure the accuracy o f
+
+results. Training data can be with er rors and outliers whic h
+
+can significantly impact the final m odel's efficacy. Data
+
+cleaning involves the identification and re moval of a ttributes 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+112
+
+with insufficient data or thos e lacking variance. These data
+
+points, both rows and columns, must be dropped from the
+
+training dataset. Python provides powerful tools for this task,
+
+such as the isnull () function from the pandas library to check
+
+for missing data and the dropna () function to eliminate rows
+
+or columns containing missing values.
+
+Changes that happen r egularly during seasons are usually
+
+the most important part of a seaso nal time series; an example
+
+is the "stochastic trend" - sometimes comes along with the
+
+seasonal patterns. This trend can actually aff ect how well
+
+different methods for pred iction w ork. Figure 2 displays a
+
+noticeable trend over time, it is typically not in a stable state
+
+and requires adjustments before it ca n be used for making
+
+predictions. Being able to p redict accurately in time series
+
+data that has bo th trends and seasonal patterns is important
+
+because it helps make good decisions in many different areas.
+
+Figure 2. The decomposition of the monthly number of antidiabetic drug prescriptions in Australia b etween 1991 and 2008. The first plot
+
+illustrates the observed data. The second plot demonstrates the tr end component, which exhibits a consistent increase ove r time. The third plot
+
+shows the seasonal component, which is distinctly ob served as recurring through time. Finally, the last plot represents the residuals, which
+
+signify the variations in the data that cannot be explained by the trend or the seasonal component.
+
+2.2. Time Stationary Identification
+
+In time series analysis, the identification of stationarit y is
+
+essential as the analysis relies solely on stationary data.
+
+Christophorus et al. emphasized the need to check whether the
+
+time series is stationary [7]. The Augme nted Dicke y-Fuller
+
+(ADF) test emerges as a widely used statistical tool for this
+
+purpose. When the test statistic falls below the critical value,
+
+the null hypothesis is rejected, indicating stationarity within
+
+the series. Conversely, if t he test statistic exceeds the critic al
+
+value, failing to reject the null hypothesis suggests
+
+non-stationarity. The outcomes of the ADF test are summ a-
+
+rized in Table 1.
+
+T a ble 1. Result of ADF T est for antidiabetic drug prescriptions.
+
+V alue
+
+ADF Statistics
+
+3.145185689306735
+
+p- value
+
+1.0
+
+Number of Lags Used
+
+15 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+113
+
+V alue
+
+Number of Observations
+
+188
+
+Critical V alues
+
+1%: -3.465620397124192
+
+5%: -2.8770397560752436
+
+10%: -2.5750324547306476
+
+In Figure 3, to address nonst ationary withi n the series, a
+
+differencing technique was used. Initially, the 
+
+np.d iff()
+
+function was used with a lag of 1 (n=1), effectively reducing
+
+trends and seasonality, thus rendering the series more st a-
+
+tionary. Following this initial differencing step, a further
+
+seasonal differencing was performed using a lag of 12 (n=12)
+
+to account for seasonal patterns. S ubsequently, a second ite r-
+
+ation of the Augmented Dickey-Fuller (ADF) test w as co n-
+
+ducted on the seasonally differenced series
+
+(
+
+y_diff_seasonal_diff
+
+) to confirm the effectiveness of t he
+
+differencing technique i n achieving stationarity. The asse s s-
+
+ment of the ADF statistic and its associated p-value provided a
+
+comprehensive evaluation of the stationarity characteristics of
+
+the seasonally di fferenced series. T his additional anal ysis
+
+further validated the efficacy of the differencing te chnique in
+
+enhancing the stationarity of the series.
+
+Figure 3. Augmented Dickey-Fuller Test.
+
+A rima and Sarima Model
+
+Development
+
+3.1. AutoR egressive Integrated Moving Average
+
+Model
+
+An autoregre ssive integr ated moving aver age process
+
+combines an au toreg ressive p rocess (AR(p)), in tegrati on
+
+(I(d)), and a moving av erage process (M A(q)). Peixeiro
+
+stated tha t paramete r selecti on (p, d, q) can b e challeng ing,
+
+but it offers in terpre tabilit y throug h linea r comb inations of
+
+past va lues a nd erro rs. Ho wever, hand lin g seaso nality may
+
+necessit ate additio nal adjustments. [8]. Ali Hussein et al.
+
+stated that in a non-s easona l ARIMA ( p, d, q) model, the
+
+number o r order of AR terms is denote d by p, the number or
+
+order of di fferences by d, a nd t he nu mber or o rder of MA
+
+terms b y q [9].
+
+Auto regressive Series, In Equation 1    is ca lled an aut o-
+
+regressive series of order ,  󰇛  󰇜 if it satisfies
+
+                   (1)
+
+where is   white noise and the   are parameter coeff i-
+
+cients. The next value observed in the series is a slight pe r-
+
+turbation of a sim ple function of the m ost recent observations.
+
+The Moving Av erage from Equation 2    is called a moving
+
+average process of order ,  󰇛  󰇜 if it satisfies
+
+                   (2)
+
+where   are p arameters coeff icients. When working on a
+
+time serie s model it is qui te easier to spot the difference b e-
+
+tween MA and AR series by using their Auto Correlation
+
+Functions (ACF), MA ACF cuts off sharpl y while AR ACF
+
+decays exponentially.
+
+Integrated Series has the value of   being the su m of the
+
+random values. The order of integration d is the number of
+
+differencings a series requires to be made stationary. A ra n-
+
+dom walk process is an example of I(d).
+
+For the purposes of model training and evaluatio n, the d a-
+
+taset was divided i nto two distinct s ubsets: the training set and
+
+the test set. The training set, comprising the first 168 obse r-
+
+vations of the time series data, was used to train the predictive
+
+model. This segment of the data was selected to provide an
+
+adequate historical context for the model to learn patterns and
+
+trends. The test set comprises the data that was not used fo r
+
+training, specifically the observations from index 168 o n-
+
+wards. Its purpose is to evaluate the model's performance. By
+
+holding back this data during tr aining, a fair assessment of th e
+
+model's predictions is ensured because it has not encountered
+
+this data previously. This approach enables an accurate gauge
+
+of the model's effectiveness.
+
+Figure 4. An example of MA(1) process, produced using a number
+
+generator. 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+114
+
+Figure 5. Train set and test split for antidiabetic drug dataset. The
+
+shaded area is the testing period.
+
+A list of all possible combinations of the parameters p, q, P,
+
+and Q is generated using the pro duct function from the ite r-
+
+tools module, creating the ARIM A_order_list. T he param e-
+
+ters of the final model are determined by finding the co mb i-
+
+nation with the lowest AIC value, which is 347.9 46664. The
+
+ARIMA model is created using the SARIMAX function,
+
+utilizing the training dataset and configured with an order of
+
+(12,2,10). The model is t hen fitted to the train ing d ata using
+
+the fit method. To assess whether the residuals of the model
+
+conform to a normal distribution, the Ljung-Box test is used,
+
+th is produces a p-value of 0. Hen ce, the original hypothesis
+
+(H0: residuals are normally distributed) cannot be rejected.
+
+The residuals are analyzed b y plotting ACF plots, Q-Q plots,
+
+and histograms ( Figure 6).
+
+Figure 6. ARIMA diagnostic plot.
+
+3.2. Seasonal AutoRegressive Integrated Moving
+
+A verage Model
+
+The SARIMA(p,d,q)(P,D,Q)m model expands on the
+
+ARIMA(p,d,q) model by adding seasonal parameters. The
+
+parameters in the model P, D, Q, and m. (p,d,q) correspond to
+
+their seasonal counterparts, au gmenting the m odel's capability
+
+to handle seasonal variations.
+
+p,d,q: T hese parameters have the same m ea nings as in
+
+the ARIMA(p,d,q) model, representing the autoregre s-
+
+sive, differencing, and moving average co mponent and
+
+moving respectively.
+
+P: It represents the order of the seasonal autoregres sive
+
+(AR) p rocess, indicating the lagged values in the se a-
+
+sonal component.
+
+D: This parameter denotes the seaso nal order of int e-
+
+gration, similar to d but applied to the seasonal comp o-
+
+nent.
+
+Q: It denotes the order of the seasonal moving average 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+115
+
+(MA) pr ocess, ca pturing the lagged error terms in the
+
+seasonal component.
+
+m: This parameter represents the frequency, indicating
+
+the number of observations per seasonal cycle. The
+
+length of the cycle depends on the dataset and the nature
+
+of the seasonality present.
+
+SARIMA(p,d,q)(P,D,Q)m model allows for a comprehe n-
+
+sive modeling of both non-seasonal and seasonal components
+
+in time series data, providing a powerful framework for
+
+forecasting and analysis.
+
+The model has a non-seasonal or der of (3,1,3) and a se a-
+
+sonal order of (3,1,3,12), which means it considers seasonal
+
+patterns ever y 12 time periods. The model results in Table 2
+
+indicate the following:
+
+T a ble 2. SARIMA model results.
+
+Dependent variable
+
+V alues
+
+Total number of observations used in the analy sis
+
+169
+
+Model specifications
+
+SARIMAX(3, 1, 3)x(3, 1, 3, 12), indicating a seasonal and non-seasonal o rder of
+
+(3, 1, 3) and (3, 1, 3, 12) respectively
+
+log likelihood of the model
+
+-125.920
+
+Akaike Information Criterion (AIC)
+
+277.841
+
+Bayesian Information Criterion (BIC)
+
+317.489
+
+Hannan-Quinn Information Criterion (HQIC)
+
+293.944
+
+Figure 7 shows t wo forecast models for the drug distrib u-
+
+tion: the ARIMA(12,2,10) model and the SAR I-
+
+MA(3,1,3)(3,1,3,12) model. The blue line is the actual di s-
+
+tribution o ver time, giving a basis for checking the accuracy
+
+of the models. The black dashed line is fro m the AR I-
+
+MA(12,2,10) model, an d the green dash- dot ted line is from
+
+the SARIM A(3,1,3)(3,1,3,12) model. Comparing t he model
+
+predictions to the actual distribution, both models capture
+
+some trends and patterns, but their accuracy and ability to
+
+catch all the details might differ. The shaded area marks the
+
+pe riod of comparison (from index 168 onwards), helping
+
+focus on how well the models perform during this time.
+
+Figure 7. Actual and Predicted Drug Distribution using A RIMA and
+
+SARIMA Models.
+
+3.3. Prophet Model
+
+Prophet is ideal for time series data with strong and mul tiple
+
+seasonal patterns. It can detect daily, w eekly, and yearly se a-
+
+sonality, including holidays and special events. Prophet is u s-
+
+er-frien d ly, requirin g minimal data p reproces sing, and of fers
+
+uncertain ty estimation via prediction intervals. The package is
+
+availabl e for use with Python. It a llows you forecast rapidly
+
+with min imal manua l work.
+
+These factors include y(t) which is modeled as the linear
+
+combination of:
+
+a trend g(t);
+
+a seasonal component s(t);
+
+holiday effects h(t);
+
+an error term ϵt, whi ch is normally distributed.
+
+Mathematically, this can be expressed as:
+
+ 󰇛  󰇜   󰇛  󰇜   󰇛  󰇜   󰇛  󰇜     (3)
+
+where g(t) is the trend; s(t) is the seasonal co mponent; h(t) i s
+
+the holida y e ffects; ϵt is the error term. The g(t) component,
+
+representing the trend, is accountable for the non-periodic
+
+long-term changes observed i n the time series. On the other
+
+hand, the seasonal component (s(t)) captures the periodic
+
+changes, whether they occur yearly, monthly, weekly, or daily.
+
+In real-time scenarios, holidays play a significant role in our
+
+daily lives, making the h(t) component crucial in the fun c-
+
+tioning of the model. Holiday effects tend to occur irregularly
+
+and may span over multiple days. In ca ses where there is a
+
+deviation in values th at cannot be explained by any of the
+
+three aforementioned components, the error term ϵt is r e- 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+116
+
+sponsible for it.
+
+To account for multiple seasonal perio ds, Prophet employs
+
+Fourier series to model these periodic effects. Human b e-
+
+haviors often generate time series data with mul tiple peri o-
+
+dicities. For instance, the typical five-day workweek can
+
+produce a pattern that repeats weekly, while sc hool breaks
+
+may generate a pattern recurring annually.
+
+ 󰇛  󰇜    󰇛     󰇡 
+
+ 󰇢        󰇡 
+
+ 󰇢
+
+
+
+  (4)
+
+where s(t) the seasonal component; P is the length of the
+
+seasonal period in days; N is the number of terms in the Fo u-
+
+rier series. In Russia, on Dece mber 31st, there is typically a
+
+notable surge in store attendance or e-commerce sales.
+
+Prophet provides an alternative solution, by allowing users to
+
+define a list of h olidays for a specific country. Prophet utilizes
+
+10 terms to model the y earl y seasonality and 3 terms to model
+
+the weekly seasonality. If a data point falls on a holiday date, a
+
+parameter Ki is calculated to represent the c hange in the time
+
+series at that point in time. The magnitude of this change
+
+correlates with the holiday effect: the larger the change, the
+
+more pronounced the holiday effect.
+
+Figure 8 shows the actual antidiabetic drug sales as black
+
+dots, the forecasted sales as a blue line, and the uncertainty
+
+intervals as a shaded blue area. Future time periods are for e-
+
+casted accordingly.
+
+Figure 8. Forecasted Antidiabetic Drug Sales.
+
+The plo tted graph in Figure 9 sho ws the comparison b e-
+
+tween actual a nd predicted drug distribution over time. The
+
+blue line represents the actual distribution data, while the re d
+
+line depicts the predicted distribution based on the forecast
+
+model. As shown in the graph, the model's predictions align
+
+closely with the ac tual distribution trends, indicating the e f-
+
+fectiveness of the forecasting approach.
+
+Figure 9. Actual vs. Predicted Drug Distribution. 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+117
+
+Table 3 shows the forecast with key colu mns: future dates ('d s'), forecasted values ('yhat'), and their lower ('yhat_lower') and
+
+upper ('yhat_upper') bounds considering uncertainty.
+
+T a ble 3. Forecasted V alues.
+
+ds
+
+yhat
+
+yhat_lower
+
+yhat_upper
+
+201
+
+2008- 04- 01
+
+22.195313
+
+20.914156
+
+23.543719
+
+202
+
+2008- 05- 01
+
+22.575389
+
+21.302224
+
+23.803814
+
+203
+
+2008- 06- 01
+
+22.148415
+
+20.802760
+
+23.391756
+
+204
+
+2008- 06- 02
+
+21.477172
+
+20.162868
+
+22.749761
+
+205
+
+2008- 06- 03
+
+20.848034
+
+19.475679
+
+22.144559
+
+206
+
+2008- 06- 04
+
+20.272289
+
+18.942728
+
+21.561791
+
+207
+
+2008- 06- 05
+
+19.759586
+
+18.391037
+
+21.124836
+
+208
+
+2008- 06- 06
+
+19.317742
+
+18.003627
+
+20.687164
+
+209
+
+2008- 06- 07
+
+18.952615
+
+17.711169
+
+20.339748
+
+210
+
+2008- 06- 08
+
+18.668027
+
+17.366279
+
+20.009852
+
+Results
+
+Figure 10. MAPE Evaluation.
+
+The outcomes of the models were analyzed with a specific
+
+emphasis o n the e valuation of performance metrics. Specif i-
+
+cally, the evaluatio n will use three key metrics: Mean Abs o-
+
+lute Erro r ( MAE), Roo t Mea n Squared Error (RMSE), and
+
+Mean Absolute Percentage Error (MAPE). These metrics
+
+provide valuable insights into the accuracy and reliability of
+
+each model's predictions. While MAPE is commonly used in
+
+forecasting studies, r ecent research has shown limitations
+
+associated with RMSE. Botchkarev, A. cautioned against
+
+relying solely on RMSE due to its 'disturbing characteristics',
+
+suggest ed instead the use of MAE as a more appropriate error
+
+measure [10]. A dditionally, V ogt, M. R. et al. proposed a
+
+composite metric that combines several statistical indices,
+
+including CV(RMSE), NME, and contingency coefficients, as
+
+a comprehensive p erformance measure for dynamic simul a-
+
+tions [11].
+
+The results and MAPE of each model are presented in
+
+Figure 10. T he MAPE values are represented on the y-axis, 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+118
+
+while the models are lis ted on the x-axis. For Prophet, the
+
+MAPE is 8.2%, while for ARIMA(12,2,10) and SAR I-
+
+MA(3,1,3)(3,1,3,12), the MAPE values ar e 13.62% and
+
+10.04%, respectively. The chart provides a visual comparison
+
+of the forecast error among these models.
+
+Experimental Analysis s hows that the PROPHET m odel
+
+performs better than the ARIMA and S ARIMA models. This
+
+is evident when p redicting the next 10 da ys from July 1, 2008.
+
+The results in Table 4 display the predicted values. On July 1,
+
+2008, the ARIMA model forecasted a value of 18.868517, the
+
+SARIMA model predicted 20.666992, and the PROPHET
+
+model forecasted 23.495457.
+
+T a ble 4. Comparison of the three models.
+
+ds
+
+ARIMA_predictions
+
+SARIMA predictions
+
+PROPHET predictions (yhat)
+
+233
+
+2008- 07- 01
+
+18.868517
+
+20.666992
+
+23.495457
+
+234
+
+2008- 07- 02
+
+19.079705
+
+20.665763
+
+23.615460
+
+235
+
+2008- 07- 03
+
+20.342761
+
+21.313098
+
+23.716462
+
+236
+
+2008- 07- 04
+
+19.584552
+
+22.557885
+
+23.802352
+
+237
+
+2008- 07- 05
+
+21.170749
+
+22.786816
+
+23.877175
+
+238
+
+2008- 07- 06
+
+21.869748
+
+24.273169
+
+23.944934
+
+239
+
+2008- 07- 07
+
+23.048193
+
+27.043418
+
+24.009401
+
+240
+
+2008- 07- 08
+
+16.434465
+
+17.595999
+
+24.073943
+
+241
+
+2008- 07- 09
+
+16.791910
+
+19.208757
+
+24.141377
+
+242
+
+2008- 07- 10
+
+18.201320
+
+19.747515
+
+24.213838
+
+While MAE treats all err ors equally, RMSE solves problem
+
+with larger errors more heavily d ue to the squaring of diffe r-
+
+ences. [4] MAE proves less sensitive to o utliers, makin g it a
+
+perfect choice for assessing model accuracy. In Figure 11, the
+
+Prophet Mo del achieves a lower MAE value as compared to
+
+ARIMA and SARIMA.
+
+Figure 11. MAE Evaluation.
+
+A lower MAE value signifies improved model performance, indicating predictions that closely align with actual val ues. [ 12] 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+119
+
+Figure 12. Metric Evaluation of the Model s.
+
+The evaluation of performance metrics offer valuable i n-
+
+sights into dif fere nt aspects of model performance, such as the
+
+magnitude o f erro rs, the impact of outliers, and the overall
+
+forecast accuracy.
+
+Discussion
+
+This study com pared two powerful time seri es models, the
+
+AutoR egressiv e In tegrated Mov ing A verage (ARIMA) model,
+
+the Se asonal Au toRegress ive Integ rate d Movin g Ave rage
+
+(SAR IMA) mo del, an d the Prophet model, in the context of
+
+fore cast ing antidi abetic drug sales in Austra lia. The datase t e x-
+
+hibi ted seasona lity, making it essen tial to use mo dels ca pable of
+
+captu ring se asona l compone nts for accu rate pre dicti ons.
+
+The experiment al setup involved training the models on the
+
+initial 168 observations of the dataset, with the test set co m-
+
+prising data from index 168 onwards. After the model training
+
+and testing phases, the results were analyzed and errors were
+
+recorded t o evaluate the pe rformance of the m odel.
+
+Three key metrics, Mean Absolute Error (MAE), Root
+
+Mean Squared Error (RMSE), and Mean Absolute Percentage
+
+Error (MAPE), were used to assess the accuracy and precision
+
+of the models' predictions. The findings revealed that the
+
+Prophet model exhibited superior performance by recor ding
+
+lower error values compared to both the ARIMA and
+
+SARIMA models.
+
+In the evaluation of the models, the SARIMA model
+
+emerged as the second-best performer, surpassing the ARIMA
+
+model. The SARIMA model's ability to capture seasonal
+
+components and p rovide sophisticated m odeling of ti me serie s
+
+data contributed to its enhanced predictive capabilities. This
+
+observation pro ves that SARIMA models excel i n handli ng
+
+datasets with pronounced seasonality, and finding complex
+
+temporal patterns in data. The univariate nature of the dataset
+
+aligned well with the modeling strengths of ARIMA, which
+
+typically performs better on univariate data.
+
+Conclusion
+
+The superior performance of the Prophet model across
+
+three evaluation metrics sho ws the effectiveness of the
+
+Prophet model in handling time series forec asting tasks. T he
+
+combination of advanced modeling techniques, automatic
+
+seasonal p attern detection, flexibility, scalability, uncertaint y
+
+estimation, and user-friendly interface makes Prophet the be st
+
+model amongst ARIMA a nd SARIMA in the study.
+
+Future research could explore the application of neural
+
+networks, extreme gradient boosting, as demonstrated by
+
+Nain et al. [13], Long term s hort- term algorithm, alongside
+
+the Prophet model to enhance accuracy and adaptab ility under
+
+various conditions. Also, as s uggested by Van deput that tr a-
+
+ditional forecasting key performance indicators such as
+
+MAPE, MAE, and RMSE are not always suited to assess the
+
+accuracy of a product portfolio [14]. New studies in this d i-
+
+rection could exp lore new m etrics like (Mean Absolute Scaled
+
+Error) MASE, (Root Mean Squared Scaled Er ror) RMSSE,
+
+(Weig hted Mean Absolute Scaled Error) WMASE, and
+
+(Weig hted Root Me an Squared Scaled Error) WRMSSE for
+
+evaluation to select the best predicting model.
+
+Abbreviations
+
+SARIMA
+
+Seasonal Auto Regressive Integrated
+
+Moving A verage
+
+ARIMA
+
+AutoRegressive Integrated Moving
+
+Av erage 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+Research & Development http://www.sciencepg.com/journal/rd
+
+120
+
+MA
+
+Moving A verage
+
+AR
+
+Auto Regression
+
+AIC
+
+Akaike Information Criterion
+
+MAPE
+
+Mean Absolute Percentage Error
+
+MAE
+
+Mean Absolute Error
+
+RMSE
+
+Root Mean Square Error
+
+ANN
+
+Artificial Neural Networks
+
+ADF
+
+Augmented Dickey-Fuller
+
+ACF
+
+Auto Correlation Functions
+
+SARIMAX
+
+Seasonal Autoregressive Integrated
+
+Moving A verage with Exogeno us
+
+Regressors
+
+CV(RMSE)
+
+Coefficient of the V ariation of the Root
+
+Mean Square Error
+
+NME
+
+Normalized Mean Error
+
+Author Contributions
+
+Baffoe Samuel Kwarteng: Conceptualization, Data cur a-
+
+tion, Formal analysis, Methodology, Software, Validation,
+
+Visualization, Writing – original draft, W riting – review &
+
+editing
+
+Poguda Aleksey Andreevich: Supervision, Validation,
+
+Writing – review and editing
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+References
+
+[1] Bharatpur, A. S., A LITERATURE REVIEW ON TIME S E-
+
+RIES FORECASTING METHODS. 2022.
+
+[2] T aylor, S. J. a nd B. Letham, Forecasting at Scale. PeerJ P r e-
+
+prints, 27 Sept. 2017.
+
+[3] Y enidogan, I., et al., Bitcoin Fore casting Using ARIMA and
+
+PROPHET, in 2018 3rd International Conference on C omputer
+
+Science and Engineering (UBMK). 2018. p. 621-624.
+
+[4] Khashei, M., M. Bijari, and S. R. Hejazi, Co mbining seasonal
+
+ARIMA models with computatio nal intelligence techniques for
+
+time series forecasting. Soft Computing, 2012. 16(6): p.
+
+1091-1105.
+
+[5] F. V. F erdinand, T. H. Santoso and K. V. I. Saputra, "P erfo r-
+
+mance Comparison Between Facebook P rophet and SARIMA
+
+on Indonesian Stock," 2023 IEEE International Conference on
+
+Industrial Engineering and Engineering Management (IEEM),
+
+Singapore, Singapore, 2023, pp. 1-5,
+
+https://doi.org/10.1109/IEEM58616.2023.10406940
+
+[6] W ang Y, Y an Z, W ang D, Y ang M, Li Z, Gong X, Wu D, Zhai L,
+
+Zhang W, Wang Y. Prediction and a nalysis of COVID-19 daily
+
+new cases and cumulative cases: times series forecasting and
+
+machine learning models. BMC Infect Dis. 2022 May 25;
+
+22(1): 495. https://doi.org/10.1186/s12879-022-07472-6
+
+[7] Christophorus Beneditto Aditya Satrio, W illiam Darmawan,
+
+Bellatasya Unrica Nadia, Novita Hanafiah, Time series anal y-
+
+sis and forecasting of coronavirus disease in Indonesia using
+
+ARIMA model and PROPHET, P rocedia ComputerScience,
+
+V olume 179, 2021, Pages 524-532, ISSN1877-0509,
+
+https://doi.org/10.1016/j.procs.2021.01.036
+
+[8] Peixeiro, M. S. a. S., Time Series Forecasting in Python. 15
+
+Nov. 2022.
+
+[9] Ali Hussein, Hussein, Mukhtar M. E. Mahmoud, and Haroun A.
+
+Eisa. 2023. “Performance Evaluation of ARIMA and
+
+FB-Prophet Forecasting Method s in the Context of Endemic
+
+Diseases: A Case Stu dy of Gedaref State in Sudan”. EAI E n-
+
+dorsed Transactions on Smart Cities 7(2): e1.
+
+https://doi.org/10.4108/eetsc.v7i2.3023
+
+[10] Botchkarev, A., A New Typology Design of Performance
+
+Metrics to Measure Errors in Ma chine Le arning Regre ssion
+
+Algorithms. In terdisciplinary Journal of Information,
+
+Knowledge, and Management, 2019. 14: p. 045-076.
+
+[11] V ogt, M. R., Peter & Lauster, Moritz & F uchs, Marcus &
+
+Mueller, Dirk., Selecting statistical indices for calibrating
+
+building energy models. Building and Environment. S144.
+
+https://doi.org/10.1016/j.buildenv.2018.07.052 (2018)
+
+[12] Hodson, Timothy O. (2022). Root-mean-square error (RMSE)
+
+or mean absolute error (MAE): when to use them or not. G e-
+
+oscientific Model Development. 15. 5481-5487.
+
+https://doi.org/10.5194/gmd- 15-5481-2022
+
+[13] Nain N and Behera G 2019 A Comparative Study of Big Mart
+
+Sales Prediction 4th International Conference on Computer
+
+Vision and Image Processing (Jaipur: MNIT) p 4.
+
+[14] V andeput, N. (2023, September 27). Forecast KP I: RMSE,
+
+MAE, MAPE & BiAS | T o wards Data Science. Medium.
+
+Bi ography
+
+Baffoe Samuel Kwarteng is a graduate researcher at National
+
+Research Tomsk State University in the field of Applied Artif i-
+
+cial Intelligence and Robotics.
+
+Poguda Aleksey Andreevich: a professor at the Department of
+
+Information Support of Innovative Ac tivity within the Faculty of
+
+Innovative Technologies at the National Research Tomsk State
+
+University. He is a member of th e Council of Y oung Scientists of
+
+TSU and the Leading Programmer of the Laboratory of Personal
+
+Computers and Multimedia Devices. ResearcherID:
+
+G- 5548-2014 (Aleksey Poguda)
+
+Research fields
+
+Baffoe Samuel Kwarteng: Neural netw orks, Big Data, Com puter
+
+Vision, Natural Language P rocessing, Machine Learning, Artificial
+
+Intelligence, Renewable Energy.
+
+Poguda Aleksey Andreevich: Neural networks, co mputer sec u-
+
+rity, network security, big data, semantic text analysis 
+
+https://www.researchgate.net/deref/http%3A%2F%2Fwww.sciencepg.com%2Fjournal%2Frd
+
+ 
+
+https://www.researchgate.net/deref/https%3A%2F%2Fwww.scribbr.com%2Fstatistics%2Fakaike-information-criterion%2F
+
+Citations (23)
+
+References (15)
+
+... This involved decomposing the observed values into their constituent components: trend, seasonal, and residual. Figure 2 displays this analysis, which provides a better understanding of the data structure by revealing long-term trends, seasonal cycles, and random fluctuations 
+
+(Kwarteng & Andreevich, 2024)
+
+ ....
+
+... RMSE: 51.39, MAE: 30.76), reflecting the lowest error measures. The authors credited the effectiveness of the GRU model to itsIn a comparative analysis conducted by 
+
+Kwarteng & Andreevich (2024)
+
+ , ARIMA, SARIMA, and Prophet models were employed to predict antimalarial drug demand in Australia. The dataset utilized in this research comprised time series information gathered from Medicare, Australia, spanning the period from 1991 to 2008....
+
+... The conclusions of this investigation confirm the advantage of the Prophet model in forecasting time series data, surpassing both ARIMA and SARIMA approaches. The research further recommends that the Prophet model represents the optimal selection, especially when dealing with intricate, seasonal datasets 
+
+(Kwarteng & Andreevich, 2024)
+
+ . ETS) approaches to examine user behavior and its contribution to service planning....
+
+PREDICTIVE MODELING IN ELECTROMOBILITY: A TIME SERIES ANALYSIS
+
+https://www.researchgate.net/publication/401728918_PREDICTIVE_MODELING_IN_ELECTROMOBILITY_A_TIME_SERIES_ANALYSIS
+
+Article
+
+Mar 2026
+
+Rana Bedir Urfalı
+
+https://www.researchgate.net/scientific-contributions/Rana-Bedir-Urfali-2342682217
+
+Ersin Kaya
+
+https://www.researchgate.net/scientific-contributions/Ersin-Kaya-2342688832
+
+This study analyzes electric bicycle usage in a province with time series models to forecast future trends. Electric bicycles, as an essential element of sustainable transportation, enhance urban mobility and reduce traffic congestion. Accurate demand forecasting is crucial for the operational planning and administration of e-bike sharing systems. In this study, forecasts were first made using only bicycle usage data with univariate time series models (ARIMA, Prophet, SSA). Next, multivariate approaches (SARIMAX, Multivariate Prophet, MSSA) incorporated external factors such as temperature, precipitation, and wind speed. The dataset, therefore, combined bicycle usage records with meteorological variables to capture environmental impacts on demand. Model performance was assessed using RMSE and MAE metrics. Results showed regional variations in accuracy: ARIMA performed best among univariate models in four regions, while SARIMAX and Multivariate Prophet produced superior forecasts in most regions. Furthermore, MSSA consistently outperformed SSA in 13 regions, highlighting the benefit of including external influences. Overall, the findings demonstrate that integrating weather data improves forecast precision and supports better operational strategies. This contributes to optimizing e-bike sharing services and urban transport planning, enabling more efficient resource use and greater user satisfaction.
+
+View
+
+https://www.researchgate.net/publication/401728918_PREDICTIVE_MODELING_IN_ELECTROMOBILITY_A_TIME_SERIES_ANALYSIS
+
+Show abstract
+
+... Los modelos de series temporales se han consolidado como herramientas esenciales para capturar y proyectar la dinámica poblacional. Por ejemplo, el estudio "Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting" 
+
+[2]
+
+ , demuestra cómo los modelos estadísticos tradicionales, como ARIMA y SARIMA, pueden captar tendencias y detectar cambios en el crecimiento poblacional a lo largo del tiempo, mientras que Prophet, un modelo de series temporales que integra técnicas de Machine Learning mejora la precisión al incorporar algoritmos adaptativos. Asimismo, el artículo "Vector Autoregressive Model and Analysis" [3] evidencia la utilidad de los modelos VAR para analizar la interrelación entre diversas variables demográficas en sistemas complejos....
+
+... En primer lugar, los modelos de series temporales clásicos como ARIMA y SARIMA siguen siendo fundamentales por su capacidad para representar patrones estacionales y tendencias. Comparaciones empíricas reflejan que la incorporación adecuada de componentes estacionales eleva de forma significativa la precisión de las proyecciones 
+
+[2]
+
+ . De igual modo, el modelo VAR ha demostrado eficacia al capturar la interrelación entre múltiples variables demográficas en entornos complejos [3], [5]....
+
+... Por otro lado, los modelos híbridos han adquirido prominencia al fusionar herramientas estadísticas (ARIMA, SARIMA) con algoritmos de aprendizaje automático (por ejemplo, Prophet, LSTM), permitiendo así una mayor adaptabilidad frente a alteraciones repentinas o picos irregulares. Prophet combina la estructura de las series temporales con elementos de ML para capturar tendencias, estacionalidades y hasta efectos de días festivos 
+
+[2]
+
+ , [4]. Investigaciones recientes destacan que este planteamiento híbrido posibilita una recalibración continua de parámetros, logrando proyecciones más precisas en horizontes de mediano y largo plazo [3]....
+
+Impact of social factors on population growth in Ecuador, based on time-series algorithms
+
+https://www.researchgate.net/publication/401126296_Impact_of_social_factors_on_population_growth_in_Ecuador_based_on_time-series_algorithms
+
+Conference Paper
+
+Oct 2025
+
+Winter Meza-Jiménez
+
+https://www.researchgate.net/scientific-contributions/Winter-Meza-Jimenez-2340969089
+
+ Jorge Herrera-Tapia
+
+https://www.researchgate.net/profile/Jorge-Herrera-Tapia-2
+
+ Jorge Parraga-Alava
+
+https://www.researchgate.net/profile/Jorge-Parraga-Alava
+
+ Iván García-Santillán
+
+https://www.researchgate.net/profile/Ivan-Garcia-Santillan
+
+This paper investigates the effectiveness of predictive time-series models to project population growth in Ecuador, integrating key social variables such as mortality (with and without COVID-19), marriage, divorce and net migration. Approaches such as ARIMA, SARIMA, Prophet and VAR were employed, evaluated through error metrics (MAE, RMSE and sMAPE). The results reveal that the incorporation of extraordinary events, especially the impact of COVID-19 on mortality, significantly modifies demographic projections, while the integration of all factors provides a holistic and accurate view of population evolution. These findings offer valuable analytical tools for the design of adaptive public policies and demonstrate the importance of integrative approaches in complex demographic contexts.
+
+View
+
+https://www.researchgate.net/publication/401126296_Impact_of_social_factors_on_population_growth_in_Ecuador_based_on_time-series_algorithms
+
+Show abstract
+
+... Unlike ARIMA, Prophet handles non-stationary data natively, decomposing trends, seasonality, and holidays without manual differencing (Taylor & Letham, 2018). In comparative studies, Prophet achieved an MAE of 0.74 for drug demand forecasting, outperforming ARIMA (3.02) and SARIMA (2.18) 
+
+(Kwarteng & Andreevich, 2024)
+
+ . For stock markets, Prophet accurately predicted Apple's 47% mid-2024 surge, with actual prices converging within its uncertainty bands post-June (Garlapati et al., 2021)....
+
+... Future research should explore real-time sentiment integration-Prophet's 4.8% May 2024 error for Microsoft coincided with unmodeled news shocks. Hybridizing Prophet with LSTMs could merge trend detection and sentiment responsiveness, as 
+
+Kwarteng and Andreevich (2024)
+
+ suggested for cryptocurrencies. Quantum computing and federated learning, per Arsenault et al. (2025), may also enhance computational efficiency....
+
+Artificial Intelligence Hybrid AI-Econometric Models for Forecasting Volatile US Equities: A Comparative Study of Apple and Microsoft
+
+https://www.researchgate.net/publication/401449117_Artificial_Intelligence_Hybrid_AI-Econometric_Models_for_Forecasting_Volatile_US_Equities_A_Comparative_Study_of_Apple_and_Microsoft
+
+Article
+
+Full-text available
+
+Mar 2026
+
+ Anseena Anees Sabeena
+
+https://www.researchgate.net/profile/Anseena-Anees-Sabeena
+
+Financial forecasting in the US stock market has traditionally relied on econometric models such as ARIMA, SARIMA, and GARCH, which offer interpretability and robust performance in stable environments. However, the increasing complexity and volatility of modern markets-driven by nonlinear dynamics and high-frequency trading-have exposed the limitations of these classical approaches. This research aims to evaluate and compare the predictive performance of traditional econometric models and AI-augmented methods, with a special focus on the Prophet model, in forecasting stock prices and volatility for major US firms, specifically Apple (AAPL) and Microsoft (MSFT). The study seeks to determine whether hybrid AI-econometric frameworks provide superior accuracy and risk quantification compared to standalone models. Historical daily price data (January-June 2024) from Yahoo Finance underwent preprocessing: log-return transformation, stationarity enforcement (ADF/PP tests), outlier winsorization, and volatility clustering validation. Models were trained on 80% of the data (105 observations) and tested on 20% (26 observations). Performance was measured via RMSE, MAE, AIC/BIC, and uncertainty interval accuracy. Prophet outperformed traditional models, reducing Apple's RMSE by 6% (7.02 vs. 7.46) and MAE by 8.9% (4.70 vs. 5.16) compared to AI-augmented ARIMA. For Microsoft, Prophet achieved 11% lower RMSE (9.46 vs. 10.64) and 14.4% better MAE (5.89 vs. 6.88). AI-augmented GARCH improved volatility forecasts by 19% for Apple, capturing asymmetric responses missed by classical GARCH. Hybrid models (e.g., Prophet-GARCH) demonstrated superior trend reversal detection but increased operational complexity. Integrating AI with econometric models significantly enhances forecasting accuracy and risk quantification, particularly through Prophet's uncertainty intervals and adaptability to structural breaks. While computational demands and small-sample biases remain challenges, these hybrids offer actionable insights for portfolio optimization and crisis preparedness in volatile markets.
+
+View
+
+https://www.researchgate.net/publication/401449117_Artificial_Intelligence_Hybrid_AI-Econometric_Models_for_Forecasting_Volatile_US_Equities_A_Comparative_Study_of_Apple_and_Microsoft
+
+Show abstract
+
+... Among the commonly applied methods are the Autoregressive Integrated Moving Average (ARIMA) model and its seasonal extension, the Seasonal Autoregressive Integrated Moving Average (SARIMA). While ARIMA is suitable for non-seasonal data, SARIMA incorporates seasonal lags to better capture periodic variations (Alsheheri, 2025; 
+
+Kwarteng & Andreevich, 2024)
+
+ . Although ARIMA and SARIMA models have been widely used for disease forecasting in different settings, limited research has examined their application to hypertension prediction in Nigeria-particularly in conflict-affected regions such as Borno State....
+
+... For example, Alsheheri (2025) compared ARIMA, SARIMA, and neural networks in healthcare forecasting and found SARIMA to be superior in capturing seasonal behavior. Similarly, 
+
+Kwarteng and Andreevich (2024)
+
+ evaluated ARIMA, SARIMA, and Prophet Models, reporting that SARIMA achieved the highest accuracy for seasonal datasets. Marinho et al. (2025) confirmed SARIMA's effectiveness in forecasting operational health risks....
+
+TIME SERIES MODELLING OF HYPERTENSION CASES IN BORNO STATE: A COMPARATIVE STUDY OF ARIMA AND SARIMA
+
+https://www.researchgate.net/publication/401042322_TIME_SERIES_MODELLING_OF_HYPERTENSION_CASES_IN_BORNO_STATE_A_COMPARATIVE_STUDY_OF_ARIMA_AND_SARIMA
+
+Article
+
+Full-text available
+
+Dec 2025
+
+ Alhaji Umar Abubakar
+
+https://www.researchgate.net/profile/Alhaji-Umar-Abubakar
+
+Babakura Babagana
+
+https://www.researchgate.net/scientific-contributions/Babakura-Babagana-2340694545
+
+View
+
+https://www.researchgate.net/publication/401042322_TIME_SERIES_MODELLING_OF_HYPERTENSION_CASES_IN_BORNO_STATE_A_COMPARATIVE_STUDY_OF_ARIMA_AND_SARIMA
+
+... MAE, on the other hand, averages the absolute differences between forecasted and actual values, treating all errors equally, and is often used in domains like COVID-19 forecasting [25]. MAPE expresses accuracy as a percentage, which is particularly useful for comparing performance across datasets of different scales, such as in financial forecasting [26], 
+
+[27]
+
+ ....
+
+Optimizing Time Series Forecasting for AI Job Market Dynamics: A Comparative Study of SARIMA and Prophet with Cross-Validation
+
+https://www.researchgate.net/publication/403381579_Optimizing_Time_Series_Forecasting_for_AI_Job_Market_Dynamics_A_Comparative_Study_of_SARIMA_and_Prophet_with_Cross-Validation
+
+Article
+
+Full-text available
+
+Mar 2026
+
+The rapid growth of Artificial Intelligence (AI) has led to significant shifts in the job market, making accurate forecasting essential for workforce planning and policy-making. This study aims to compare the effectiveness of two time series forecasting models, SARIMA and Prophet, in predicting AI job market trends. The primary focus was to evaluate their performance using RMSE and Time Series Cross-Validation (TSCV). The SARIMA model outperformed Prophet, particularly when capturing seasonal patterns, achieving an RMSE of 83.42, compared to Prophet's 136.01. The results demonstrate that SARIMA's parameter tuning and seasonality handling contribute to more reliable forecasts, while Prophet's flexibility offers advantages in non-linear data scenarios. The study provides valuable insights for stakeholders in adapting workforce strategies, particularly in AI-driven sectors, by recommending SARIMA for seasonal trends and Prophet for volatile, non-linear data.
+
+View
+
+https://www.researchgate.net/publication/403381579_Optimizing_Time_Series_Forecasting_for_AI_Job_Market_Dynamics_A_Comparative_Study_of_SARIMA_and_Prophet_with_Cross-Validation
+
+Show abstract
+
+Optimized Hybrid Prophet–Transformer–ESN Interpretable Framework for Solar Power Prediction with Statistical Model Validation
+
+https://www.researchgate.net/publication/403373612_Optimized_Hybrid_Prophet-Transformer-ESN_Interpretable_Framework_for_Solar_Power_Prediction_with_Statistical_Model_Validation
+
+Conference Paper
+
+Feb 2026
+
+View
+
+https://www.researchgate.net/publication/403373612_Optimized_Hybrid_Prophet-Transformer-ESN_Interpretable_Framework_for_Solar_Power_Prediction_with_Statistical_Model_Validation
+
+КЛАСИЧНІ ТА ГІБРИДНІ МЕТОДИ ПРОГНОЗУВАННЯ ДАНИХ ЛІЧИЛЬНИКІВ ЗІ СПОЖИВАННЯ РЕСУРСІВ
+
+https://www.researchgate.net/publication/402815664_KLASICNI_TA_GIBRIDNI_METODI_PROGNOZUVANNA_DANIH_LICILNIKIV_ZI_SPOZIVANNA_RESURSIV
+
+Article
+
+Full-text available
+
+Dec 2025
+
+Денис Вікторович Фуріхата
+
+https://www.researchgate.net/scientific-contributions/Denis-Viktorovic-Furihata-2287183189
+
+Т. А. ВАКАЛЮК
+
+https://www.researchgate.net/scientific-contributions/T-A-VAKALUK-2323083677
+
+Анотація. У статті проведено комплексний аналіз сучасних методів прогнозування споживання ресурсів на основі даних з лічильників, що набуває критичного значення для ефективного управління енергетичними та комунальними системами, особливо в умовах пошкодженої інфраструктури України. Досліджено три основні класи методів: традиційні статистичні моделі (ARIMA, SARIMA), евристичну модель Prophet, методи глибокого навчання (LSTM, RNN), а також гібридні підходи, що поєднують переваги різних методологій. Виявлено, що класичні моделі ARIMA/SARIMA ефективні для короткострокового прогнозування стаціонарних рядів з лінійною структурою та чіткою сезонністю, забезпечуючи високу інтерпретованість результатів та можливість роботи з обмеженими обсягами даних. Проте ці моделі демонструють суттєві обмеження при роботі з нелінійними залежностями та динамічними змінами в структурі даних, що знижує точність прогнозів у складних реальних сценаріях. Модель Prophet демонструє переваги в автоматизації процесу моделювання, врахуванні календарних ефектів і свят, однак залишає невикористаною інформацію в автокорельованих залишках, що обмежує її застосування в завданнях, де критична максимальна точність. Моделі LSTM показують найвищу точність при прогнозуванні складних нелінійних патернів завдяки механізму довгострокової пам'яті та здатності автоматично виявляти приховані залежності у даних. Експериментальні дослідження підтверджують суттєве підвищення точності порівняно з традиційними методами, особливо за наявності великих обсягів даних. Особливу увагу приділено гібридним підходам (ARIMA-LSTM, Prophet-LSTM), що поєднують інтерпретованість статистичних методів з потужністю нейромереж, забезпечуючи найвищу точність прогнозування. Результати дослідження мають практичне значення для оптимізації управління енергетичними ресурсами в умовах пошкодженої інфраструктури та можуть бути використані для розробки адаптивних систем прогнозування.
+
+View
+
+https://www.researchgate.net/publication/402815664_KLASICNI_TA_GIBRIDNI_METODI_PROGNOZUVANNA_DANIH_LICILNIKIV_ZI_SPOZIVANNA_RESURSIV
+
+Show abstract
+
+Artificial intelligence in airport operations
+
+https://www.researchgate.net/publication/401686424_Artificial_intelligence_in_airport_operations
+
+Chapter
+
+Jan 2026
+
+Paras Chawla
+
+https://www.researchgate.net/scientific-contributions/Paras-Chawla-2342492151
+
+Shubham Mahajan
+
+https://www.researchgate.net/scientific-contributions/Shubham-Mahajan-2342487353
+
+Rohit Anand
+
+https://www.researchgate.net/scientific-contributions/Rohit-Anand-2342491018
+
+View
+
+https://www.researchgate.net/publication/401686424_Artificial_intelligence_in_airport_operations
+
+Integrating the Prophet Method to Enhance SARIMA Performance in Shallot Price Forecasting
+
+https://www.researchgate.net/publication/401287387_Integrating_the_Prophet_Method_to_Enhance_SARIMA_Performance_in_Shallot_Price_Forecasting
+
+Conference Paper
+
+Dec 2025
+
+Muhammad Pandu Wirakusuma
+
+https://www.researchgate.net/scientific-contributions/Muhammad-Pandu-Wirakusuma-2341432993
+
+ Inung Wijayanto
+
+https://www.researchgate.net/profile/Inung-Wijayanto
+
+Helni Mutiarsih Jumhur
+
+https://www.researchgate.net/scientific-contributions/Helni-Mutiarsih-Jumhur-2319878442
+
+View
+
+https://www.researchgate.net/publication/401287387_Integrating_the_Prophet_Method_to_Enhance_SARIMA_Performance_in_Shallot_Price_Forecasting
+
+Peramalan Penerimaan Iuran Program Jaminan Kehilangan Pekerjaan BPJS Ketenagakerjaan Menggunakan Metode Hybrid Prophet-BiLSTM
+
+https://www.researchgate.net/publication/399978044_Peramalan_Penerimaan_Iuran_Program_Jaminan_Kehilangan_Pekerjaan_BPJS_Ketenagakerjaan_Menggunakan_Metode_Hybrid_Prophet-BiLSTM
+
+Article
+
+Full-text available
+
+Jan 2026
+
+Muhammad Nashih Ulwan
+
+https://www.researchgate.net/scientific-contributions/Muhammad-Nashih-Ulwan-2337716834
+
+Danardono
+
+https://www.researchgate.net/scientific-contributions/Danardono-2337692081
+
+Ajrul Anwar
+
+https://www.researchgate.net/scientific-contributions/Ajrul-Anwar-2337689629
+
+BPJS Ketenagakerjaan menyelenggarakan program Jaminan Kehilangan Pekerjaan (JKP) sebagai bentuk perlindungan sosial bagi pekerja yang mengalami pemutusan hubungan kerja. Fluktuasi penerimaan iuran JKP membutuhkan metode peramalan yang akurat sebagai dasar perencanaan keuangan untuk keberlanjutan program. Penelitian ini bertujuan untuk mengembangkan model peramalan penerimaan iuran JKP menggunakan pendekatan Hybrid Prophet– Bidirectional Long Short-Term Memory (BiLSTM) yang dikombinasikan melalui Linear Optimal Weighting Estimator (LOWE). Data yang digunakan berupa data bulanan iuran JKP periode Februari 2021 hingga Agustus 2025. Melalui evaluasi kinerja model menggunakan Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), dan Mean Absolute Percentage Error (MAPE), dihasilkan bahwa model Hybrid Prophet–BiLSTM memberikan performa prediksi yang lebih baik dibandingkan model Prophet dan BiLSTM secara individual, khususnya pada data uji. Peramalan iuran JKP pada periode September 2025 hingga Agustus 2026 menunjukkan pola musiman yang konsisten dengan tren historis. Temuan ini menunjukkan bahwa pendekatan Hybrid Prophet–BiLSTM dengan pembobotan LOWE dalam konteks peramalan iuran JKP, yang memberikan alternatif metode peramalan yang lebih adaptif dan akurat bagi pengambilan keputusan strategis BPJS Ketenagakerjaan.
+
+View
+
+https://www.researchgate.net/publication/399978044_Peramalan_Penerimaan_Iuran_Program_Jaminan_Kehilangan_Pekerjaan_BPJS_Ketenagakerjaan_Menggunakan_Metode_Hybrid_Prophet-BiLSTM
+
+Show abstract
+
+Show more
+
+Performance Evaluation of ARIMA and FB-Prophet Forecasting Methods in the Context of Endemic Diseases: A Case Study of Gedaref State in Sudan
+
+https://www.researchgate.net/publication/369674164_Performance_Evaluation_of_ARIMA_and_FB-Prophet_Forecasting_Methods_in_the_Context_of_Endemic_Diseases_A_Case_Study_of_Gedaref_State_in_Sudan
+
+Article
+
+Full-text available
+
+Mar 2023
+
+ Mukhtar M. E. Mahmoud
+
+https://www.researchgate.net/profile/Mukhtar_Mahmoud2
+
+Haroun A. Eisa
+
+https://www.researchgate.net/scientific-contributions/Haroun-A-Eisa-2247911513
+
+Hussein Ali Hussein
+
+https://www.researchgate.net/scientific-contributions/Hussein-Ali-Hussein-2275930902
+
+Today, artificial intelligence is a key tool for turning a city into a smart city, and advances in information and communication technology (ICT) have led to the development of smart cities with many different parts. Smart Health is one of these components and is used to improve healthcare by providing services such as disease forecasting, early diagnosis, and others. There are various machine learning algorithms available now that can help with S-Health services, but which is better for disease forecasting? Gedaref State, for example, has some of Sudan's heaviest rains, and malaria and pneumonia are widespread throughout the year. Predicting future trends for these diseases has been a major focus for researchers in order for Gedaref's administration and the state's ministry of health to design effective ways to prevent and control the development of these diseases, as well as to prepare an adequate stock of medicine. As a result, it is necessary to establish a trustworthy and accurate forecasting model to aid Gedaref's government in developing economic and medical strategies for dealing with these diseases, as well as taking action on medical resource allocation. This study uses a time series dataset collected from the state's ministry of health to estimate malaria and pneumonia as common diseases in Gedaref state, Sudan, five months later. To comprehend the overall number of cases of diseases, two forecasting methodologies, namely the ARIMA and Prophet models, are applied to the disease's dataset. The performance of the ARIMA and FB-Prophet forecasting systems in predicting malaria and pneumonia diseases in Gedaref State is compared in this study. The data was collected from the state's ministry of health between January 2017 and December 2021. The results reveal that the ARIMA technique outperforms the FB-Prophet forecasting method in both malaria (RMSE: 182.8, MAE: 141.6, MAPE: 0.0057, and MASE: 0.0537) and pneumonia (RMSE: 1400.3, MAE: 1001.4, MAPE: 0.0513, and MASE: 0.9136).
+
+View
+
+https://www.researchgate.net/publication/369674164_Performance_Evaluation_of_ARIMA_and_FB-Prophet_Forecasting_Methods_in_the_Context_of_Endemic_Diseases_A_Case_Study_of_Gedaref_State_in_Sudan
+
+Show abstract
+
+Root-mean-square error (RMSE) or mean absolute error (MAE): when to use them or not
+
+https://www.researchgate.net/publication/362110985_Root-mean-square_error_RMSE_or_mean_absolute_error_MAE_when_to_use_them_or_not
+
+Article
+
+Full-text available
+
+Jul 2022
+
+GMD
+
+https://www.researchgate.net/journal/Geoscientific-Model-Development-1991-9603
+
+ Timothy Hodson
+
+https://www.researchgate.net/profile/Timothy-Hodson-2
+
+The root-mean-squared error (RMSE) and mean absolute error (MAE) are widely used metrics for evaluating models. Yet, there remains enduring confusion over their use, such that a standard practice is to present both, leaving it to the reader to decide which is more relevant. In a recent reprise to the 200-year debate over their use, and give arguments for favoring one metric or the other. However, this comparison can present a false dichotomy. Neither metric is inherently better: RMSE is optimal for normal (Gaussian) errors, and MAE is optimal for Laplacian errors. When errors deviate from these distributions, other metrics are superior.
+
+View
+
+https://www.researchgate.net/publication/362110985_Root-mean-square_error_RMSE_or_mean_absolute_error_MAE_when_to_use_them_or_not
+
+Show abstract
+
+Prediction and analysis of COVID-19 daily new cases and cumulative cases: times series forecasting and machine learning models
+
+https://www.researchgate.net/publication/360855053_Prediction_and_analysis_of_COVID-19_daily_new_cases_and_cumulative_cases_times_series_forecasting_and_machine_learning_models
+
+Article
+
+Full-text available
+
+May 2022
+
+BMC INFECT DIS
+
+ Yanding Wang
+
+https://www.researchgate.net/profile/Yanding_Wang
+
+Zehui Yan
+
+https://www.researchgate.net/scientific-contributions/Zehui-Yan-2213379307
+
+Ding Wang
+
+https://www.researchgate.net/scientific-contributions/Ding-Wang-2222309218
+
+ Yong Wang
+
+https://www.researchgate.net/profile/Yong-Wang-140
+
+Background COVID-19 poses a severe threat to global human health, especially the USA, Brazil, and India cases continue to increase dynamically, which has a far-reaching impact on people's health, social activities, and the local economic situation. Methods The study proposed the ARIMA, SARIMA and Prophet models to predict daily new cases and cumulative confirmed cases in the USA, Brazil and India over the next 30 days based on the COVID-19 new confirmed cases and cumulative confirmed cases data set(May 1, 2020, and November 30, 2021) published by the official WHO, Three models were implemented in the R 4.1.1 software with forecast and prophet package. The performance of different models was evaluated by using root mean square error (RMSE), mean absolute error (MAE) and mean absolute percentage error (MAPE). Results Through the fitting and prediction of daily new case data, we reveal that the Prophet model has more advantages in the prediction of the COVID-19 of the USA, which could compose data components and capture periodic characteristics when the data changes significantly, while SARIMA is more likely to appear over-fitting in the USA. And the SARIMA model captured a seven-day period hidden in daily COVID-19 new cases from 3 countries. While in the prediction of new cumulative cases, the ARIMA model has a better ability to fit and predict the data with a positive growth trend in different countries(Brazil and India). Conclusions This study can shed light on understanding the outbreak trends and give an insight into the epidemiological control of these regions. Further, the prediction of the Prophet model showed sufficient accuracy in the daily COVID-19 new cases of the USA. The ARIMA model is suitable for predicting Brazil and India, which can help take precautions and policy formulation for this epidemic in other countries.
+
+View
+
+https://www.researchgate.net/publication/360855053_Prediction_and_analysis_of_COVID-19_daily_new_cases_and_cumulative_cases_times_series_forecasting_and_machine_learning_models
+
+Show abstract
+
+Time series analysis and forecasting of coronavirus disease in Indonesia using ARIMA model and PROPHET
+
+https://www.researchgate.net/publication/349488328_Time_series_analysis_and_forecasting_of_coronavirus_disease_in_Indonesia_using_ARIMA_model_and_PROPHET
+
+Article
+
+Full-text available
+
+Jan 2021
+
+Christophorus Beneditto Aditya Satrio
+
+https://www.researchgate.net/scientific-contributions/Christophorus-Beneditto-Aditya-Satrio-2190303460
+
+William Darmawan
+
+https://www.researchgate.net/scientific-contributions/William-Darmawan-2190302468
+
+Bellatasya Unrica Nadia
+
+https://www.researchgate.net/scientific-contributions/Bellatasya-Unrica-Nadia-2214677698
+
+Novita Hanafiah
+
+https://www.researchgate.net/scientific-contributions/Novita-Hanafiah-2164529487
+
+The spread of COVID-19 has caused it to be a pandemic. This has caused massive disruption to our daily lives, both directly and indirectly. We aim to utilize Machine Learning model in attempt to forecast the trend of the disease in Indonesia with finding out the approximation when normality will return. This study uses Facebook's Prophet Forecasting Model and ARIMA Forecasting Model to compare their performance and accuracy on dataset containing the confirmed cases, deaths, and recovered numbers, obtained from the Kaggle website. The forecast models are then compared to the last 2 weeks of the actual data to measure their performance against each other. The result shows that Prophet generally outperforms ARIMA, despite it being further from the actual data the more days it forecasts.
+
+View
+
+https://www.researchgate.net/publication/349488328_Time_series_analysis_and_forecasting_of_coronavirus_disease_in_Indonesia_using_ARIMA_model_and_PROPHET
+
+Show abstract
+
+Forecasting at scale
+
+https://www.researchgate.net/publication/345690978_Forecasting_at_scale
+
+Preprint
+
+Full-text available
+
+Sep 2017
+
+Sean J. Taylor
+
+https://www.researchgate.net/scientific-contributions/Sean-J-Taylor-2028354351
+
+Benjamin Letham
+
+https://www.researchgate.net/scientific-contributions/Benjamin-Letham-69823895
+
+Forecasting is a common data science task that helps organizations with capacity planning, goal setting, and anomaly detection. Despite its importance, there are serious challenges associated with producing reliable and high quality forecasts — especially when there are a variety of time series and analysts with expertise in time series modeling are relatively rare. To address these challenges, we describe a practical approach to forecasting “at scale” that combines configurable models with analyst-in-the-loop performance analysis. We propose a modular regression model with interpretable parameters that can be intuitively adjusted by analysts with domain knowledge about the time series. We describe performance analyses to compare and evaluate forecasting procedures, and automatically flag forecasts for manual review and adjustment. Tools that help analysts to use their expertise most effectively enable reliable, practical forecasting of business time series.
+
+View
+
+https://www.researchgate.net/publication/345690978_Forecasting_at_scale
+
+Show abstract
+
+A Comparative Study of Big Mart Sales Prediction
+
+https://www.researchgate.net/publication/340252000_A_Comparative_Study_of_Big_Mart_Sales_Prediction
+
+Chapter
+
+Full-text available
+
+Mar 2020
+
+ Gopal Behera
+
+https://www.researchgate.net/profile/Gopal-Behera-2
+
+ Neeta Nain
+
+https://www.researchgate.net/profile/Neeta-Nain-2
+
+Nowadays shopping malls and Big Marts keep the track of their sales data of each and every individual item for predicting future demand of the customer and update the inventory management as well. These data stores basically contain a large number of customer data and individual item attributes in a data warehouse. Further, anomalies and frequent patterns are detected by mining the data store from the data warehouse. The resultant data can be used for predicting future sales volume with the help of different machine learning techniques for the retailers like Big Mart. In this paper, we propose a predictive model using Xgboost technique for predicting the sales of a company like Big Mart and found that the model produces better performance as compared to existing models. A comparative analysis of the model with others in terms performance metrics is also explained in details.
+
+View
+
+https://www.researchgate.net/publication/340252000_A_Comparative_Study_of_Big_Mart_Sales_Prediction
+
+Show abstract
+
+A Comparative Study of Big Mart Sales Prediction
+
+https://www.researchgate.net/publication/336530068_A_Comparative_Study_of_Big_Mart_Sales_Prediction
+
+Conference Paper
+
+Full-text available
+
+Sep 2019
+
+ Gopal Behera
+
+https://www.researchgate.net/profile/Gopal-Behera-2
+
+ Neeta Nain
+
+https://www.researchgate.net/profile/Neeta-Nain-2
+
+Nowadays shopping malls and Big Marts keep the track of their sales data of each and every individual items for predicting future demand of the customer and update the inventory management as well. These data stores basically contain a large number of customer data and individual item attributes in a data warehouse. Further anomalies and frequent patterns are detected by mining the data store from the data warehouse. The resultant data can be used for predicting future sales volume with the help of different machine learning techniques for the retailers like Big Mart. In this paper, we proposed a predictive model using xgboost technique for predicting the sales of a company like Big Mart and we found our model produces better performance as compare to other model. Finally a comparative analysis of existing model with other in terms performance metrics is represented in the Table 1 and Table 2.
+
+View
+
+https://www.researchgate.net/publication/336530068_A_Comparative_Study_of_Big_Mart_Sales_Prediction
+
+Show abstract
+
+A New Typology Design of Performance Metrics to Measure Errors in Machine Learning Regression Algorithms
+
+https://www.researchgate.net/publication/330661543_A_New_Typology_Design_of_Performance_Metrics_to_Measure_Errors_in_Machine_Learning_Regression_Algorithms
+
+Article
+
+Full-text available
+
+Jan 2019
+
+ Alexei Botchkarev
+
+https://www.researchgate.net/profile/Alexei-Botchkarev
+
+Aim/Purpose The aim of this study was to analyze various performance metrics and approaches to their classification. The main goal of the study was to develop a new typology that will help to advance knowledge of metrics and facilitate their use in machine learning regression algorithms Background Performance metrics (error measures) are vital components of the evaluation frameworks in various fields. A performance metric can be defined as a logical and mathematical construct designed to measure how close are the actual results from what has been expected or predicted. A vast variety of performance metrics have been described in academic literature. The most commonly mentioned metrics in research studies are Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), etc. Knowledge about metrics properties needs to be systematized to simplify the design and use of the metrics. Methodology A qualitative study was conducted to achieve the objectives of identifying related peer-reviewed research studies, literature reviews, critical thinking and inductive reasoning. Contribution The main contribution of this paper is in ordering knowledge of performance metrics and enhancing understanding of their structure and properties by proposing a new typology, generic primary metrics mathematical formula and a visualization chart Findings Based on the analysis of the structure of numerous performance metrics, we proposed a framework of metrics which includes four (4) categories: primary metrics, extended metrics, composite metrics, and hybrid sets of metrics. The paper identified three (3) key components (dimensions) that determine the structure and properties of primary metrics: method of de-termining point distance, method of normalization, method of aggrega-tion of point distances over a data set. For each component, implementa-tion options have been identified. The suggested new typology has been shown to cover a total of over 40 commonly used primary metrics Recommendations for Practitioners Presented findings can be used to facilitate teaching performance metrics to university students and expedite metrics selection and implementation processes for practitioners Recommendations for Researchers By using the proposed typology, researchers can streamline development of new metrics with predetermined properties Impact on Society The outcomes of this study could be used for improving evaluation results in machine learning regression, forecasting and prognostics with direct or indirect positive impacts on innovation and productivity in a societal sense Future Research Future research is needed to examine the properties of the extended metrics, composite metrics, and hybrid sets of metrics. Empirical study of the metrics is needed using R Studio or Azure Machine Learning Studio, to find associations between the properties of primary metrics and their “numerical” behavior in a wide spectrum of data characteristics and business or research requirements Keywords performance metrics, error measures, accuracy measures, distance, similarity, dissimilarity, properties, typology, classification, machine learning, regression, forecasting, prognostics, prediction, evaluation, estimation, modeling
+
+View
+
+https://www.researchgate.net/publication/330661543_A_New_Typology_Design_of_Performance_Metrics_to_Measure_Errors_in_Machine_Learning_Regression_Algorithms
+
+Show abstract
+
+Bitcoin Forecasting Using ARIMA and PROPHET
+
+https://www.researchgate.net/publication/329400738_Bitcoin_Forecasting_Using_ARIMA_and_PROPHET
+
+Conference Paper
+
+Full-text available
+
+Sep 2018
+
+ Aykut Cayir
+
+https://www.researchgate.net/profile/Aykut-Cayir
+
+ Ozan Kozan
+
+https://www.researchgate.net/profile/Ozan-Kozan
+
+Tuğçe Dağ
+
+https://www.researchgate.net/scientific-contributions/Tugce-Dag-2150403142
+
+Çiğdem Arslan
+
+https://www.researchgate.net/scientific-contributions/Cigdem-Arslan-2150392758
+
+This paper presents all studies, methodology, and results about Bitcoin forecasting with PROPHET and ARIMA methods using R analytics platform. To find the most accurate forecast model, the performance metrics of PROPHET and ARIMA methods are compared on the same dataset. The dataset selected for this study starts from May 2016 and ends in March 2018, which is the interval that Bitcoin values changing significantly against the other currencies. Data is prepared for time series analysis by performing data preprocessing steps such as time stamp conversion and feature selection. Although the time series analysis has a univariate characteristics, it is aimed to include some additional variables to each model to improve the forecasting accuracy. Those additional variables are selected based on different correlation studies between cryptocurrencies and real currencies. The model selection for both ARIMA and PROPHET is done by using threefold splitting technique considering the time series characteristics of the dataset. The threefold splitting technique gave the optimum ratios for training, validation, and test sets. Finally two different models are created and compared in terms of performance metrics. Based on the extensive testing we see that PROPHET outperforms ARIMA by 0.94 to 0.68 in R 2 values.
+
+View
+
+https://www.researchgate.net/publication/329400738_Bitcoin_Forecasting_Using_ARIMA_and_PROPHET
+
+Show abstract
+
+Performance Comparison Between Facebook Prophet and SARIMA on Indonesian Stock
+
+https://www.researchgate.net/publication/377910916_Performance_Comparison_Between_Facebook_Prophet_and_SARIMA_on_Indonesian_Stock
+
+Conference Paper
+
+Dec 2023
+
+ Ferry Vincenttius Ferdinand
+
+https://www.researchgate.net/profile/Ferry-Vincenttius-Ferdinand
+
+T. H. Santoso
+
+https://www.researchgate.net/scientific-contributions/T-H-Santoso-2273024154
+
+ Kie Van Ivanky Saputra
+
+https://www.researchgate.net/profile/Kie-Van-Ivanky-Saputra
+
+View
+
+https://www.researchgate.net/publication/377910916_Performance_Comparison_Between_Facebook_Prophet_and_SARIMA_on_Indonesian_Stock
+
+Show more
+
+Recommended publications
+
+Discover more
+
+https://www.researchgate.net/search
+
+Conference Paper
+
+Analysis on the Prediction of Sales using Various Machine Learning Testing Algorithms
+
+https://www.researchgate.net/publication/359643364_Analysis_on_the_Prediction_of_Sales_using_Various_Machine_Learning_Testing_Algorithms
+
+January 2022
+
+ 
+
+Jangala Sasi Kiran
+
+https://www.researchgate.net/profile/Jangala-Sasi-Kiran
+
+P. S. V. Srinivasa Rao
+
+https://www.researchgate.net/scientific-contributions/P-S-V-Srinivasa-Rao-2194147792
+
+P. V. R. D. Prasada Rao
+
+https://www.researchgate.net/scientific-contributions/P-V-R-D-Prasada-Rao-2204977858
+
+[...]
+
+N. Divya
+
+https://www.researchgate.net/scientific-contributions/N-Divya-2220231696
+
+Read more
+
+https://www.researchgate.net/publication/359643364_Analysis_on_the_Prediction_of_Sales_using_Various_Machine_Learning_Testing_Algorithms
+
+Conference Paper
+
+Full-text available
+
+Makine Öğrenimi ile MSCI Endekslerinin Zaman Serisi Tahmini
+
+https://www.researchgate.net/publication/380977602_Makine_Ogrenimi_ile_MSCI_Endekslerinin_Zaman_Serisi_Tahmini
+
+May 2024
+
+ 
+
+Diler Türkoğlu
+
+https://www.researchgate.net/profile/Diler-Tuerkoglu
+
+Mehmet Ali Cengiz
+
+https://www.researchgate.net/scientific-contributions/Mehmet-Ali-Cengiz-2283014832
+
+Zaman serisi modellemesi, tarihsel olarak akademik araştırmaların önemli bir alanı olmuşturmakla birlikte taminleme sürecinde biyoloji, sağlık, finans ve birçok bilim dalında araştırmacılara yol göstermektedir. Geleneksel yöntemlerin yanında literatürde zaman serisi tahmini amacıyla uygulanan istatistiksel yöntemlere alternatif olarak Makine Öğrenimi yöntemleri önerilmektedir. Her iki yöntem için 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ de doğruluk ve güvenilirlik açısından gösterdikleri performansları hakkında daha çok uygulamaya ve dolayısıyla daha çok kanıta ihtiyaç duyulmaktadır. Bu motivasyonla, çalışmada MSCI Türkiye ve MSCI Almanya Endekslerinin 29.03.2009 ile 28.03.2024 tarihleri arasında 15 yıllık günlük verileriyle ARIMA, XGBoost, LSTM ve Prophet yöntemleri aracılığıyla yapılan tahminlemeler neticesinde en başarılı modeli tespit etmek amaçlanmıştır. En başarılı modelin belirlenmesinde kriter olarak, elde edilen RMSE (Kök Ortalama Kare Hatası) değerleri alınmıştır. Pyhton programı kullanılarak yapılan analizlerde MSCI Türkiye Endeksi'nde yapılan ARIMA testi sonucunda en başarılı modelin (2.1.2); MSCI Almanya için ise (3.1.3) olduğu belirlenmiştir. Bu modellerle yapılan tahminleme sonuçlarında ise MSCI Türkiye Endeksi RMSE değeri 20.89; MSCI Almanya Endeksi RMSE değeri 4,61 olarak tespit edilmiştir. Hemen ardından söz konusu endeksler XGBoost, Facebook destekli Prophet ve LSTM makine öğrenme yöntemleri ile modellenmiş ve MSCI Türkiye Endeksinde elde edilen RMSE değerleri sırasıyla 0.67, 7.46, 0.95; MSCI Almanya Endeksinde elde edilen RMSE değerleri yine sırasıyla 0.45, 2.59 ve 0.38 olarak gözlemlenmiştir. Elde edilen bulgular değerlendirildiğinde diğer tüm değişkenlerin sabit kaldığı varsayımıyla MSCI Türkiye Endeksi'nde XGBoost yöntemi en başarılı model olarak belirlenirken, MSCI Almanya Endeksi'nde LSTM Modelinin en başarılı model olarak sonuç verdiği görülmektedir. Dolayısıyla sonuçlar göz önüne alındığında makine öğrenimi metotlarının klasik yöntemlere göre daha yüksek performans gösterdiği söylenebilmektedir.
+
+View full-text
+
+https://www.researchgate.net/publication/380977602_Makine_Ogrenimi_ile_MSCI_Endekslerinin_Zaman_Serisi_Tahmini
+
+Conference Paper
+
+BREXIT Election: Forecasting a Conservative Party Victory through the Pound using ARIMA and Facebook...
+
+https://www.researchgate.net/publication/343854100_BREXIT_Election_Forecasting_a_Conservative_Party_Victory_through_the_Pound_using_ARIMA_and_Facebook's_Prophet
+
+June 2020
+
+James Usher
+
+https://www.researchgate.net/scientific-contributions/James-Usher-2131563818
+
+ 
+
+Pierpaolo Dondio
+
+https://www.researchgate.net/profile/Pierpaolo-Dondio
+
+Read more
+
+https://www.researchgate.net/publication/343854100_BREXIT_Election_Forecasting_a_Conservative_Party_Victory_through_the_Pound_using_ARIMA_and_Facebook's_Prophet
+
+Chapter
+
+UHWSF: Univariate Holt Winter's Based Store Sales Forecasting
+
+https://www.researchgate.net/publication/350984424_UHWSF_Univariate_Holt_Winter's_Based_Store_Sales_Forecasting
+
+January 2021
+
+ 
+
+Gopal Behera
+
+https://www.researchgate.net/profile/Gopal-Behera-2
+
+ 
+
+Ashok Kumar Bhoi
+
+https://www.researchgate.net/profile/Ashok-Kumar-Bhoi
+
+Ashutosh Bhoi
+
+https://www.researchgate.net/scientific-contributions/Ashutosh-Bhoi-2193395893
+
+Read more
+
+https://www.researchgate.net/publication/350984424_UHWSF_Univariate_Holt_Winter's_Based_Store_Sales_Forecasting
+
+Discover the world's research
+
+Join ResearchGate to find the people and research you need to help your work.
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=uJiA3GdIyLdWVjPysi3474KbHAGgrxLxnOkhfZLMIWZNLIiSbY6OWG1tJRn6iFmdMkEXAeVtDw7eW-CunXmsVyO2yfY1RDnn5pMze2y1g8w&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=uJiA3GdIyLdWVjPysi3474KbHAGgrxLxnOkhfZLMIWZNLIiSbY6OWG1tJRn6iFmdMkEXAeVtDw7eW-CunXmsVyO2yfY1RDnn5pMze2y1g8w&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=uJiA3GdIyLdWVjPysi3474KbHAGgrxLxnOkhfZLMIWZNLIiSbY6OWG1tJRn6iFmdMkEXAeVtDw7eW-CunXmsVyO2yfY1RDnn5pMze2y1g8w&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=uJiA3GdIyLdWVjPysi3474KbHAGgrxLxnOkhfZLMIWZNLIiSbY6OWG1tJRn6iFmdMkEXAeVtDw7eW-CunXmsVyO2yfY1RDnn5pMze2y1g8w&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=-CxQ6n8k8SLGZ2m8w_um9LfF2byAdwK3t3weQ7lNk8bc4OBdkjgPkX1z69-2BlLcIlC7k-nA96bx-DtSUZjg5p8Tg3U
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=-CxQ6n8k8SLGZ2m8w_um9LfF2byAdwK3t3weQ7lNk8bc4OBdkjgPkX1z69-2BlLcIlC7k-nA96bx-DtSUZjg5p8Tg3U
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()
+
+ 

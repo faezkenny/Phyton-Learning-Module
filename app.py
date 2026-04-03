@@ -126,6 +126,19 @@ def main() -> None:
 
     bootstrap_app("home")
 
+    import json
+    try:
+        with open('knowledge_base.json', 'r') as f:
+            kb = json.load(f)
+        st.markdown("<h2 class='section-title'>Fuzzy Logic Masterclass (NotebookLM Extraction)</h2>", unsafe_allow_html=True)
+        
+        fuzzy_module = kb["curriculum"]["intuition_engine"]
+        st.latex(fuzzy_module["math_latex"])
+        st.info(f"Thesis Insight: {fuzzy_module['viva_point']}")
+    except Exception as e:
+        st.error(f"Failed to load knowledge base: {e}")
+
+
     progress = st.session_state["progress"]
     manifest = load_manifest()
     source_count = len(manifest.get("files", {}))
