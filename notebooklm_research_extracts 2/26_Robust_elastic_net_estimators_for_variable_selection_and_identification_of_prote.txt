@@ -1,0 +1,2397 @@
+Robust elastic net estimators for variable selection and identification of proteomic biomarkers | Request PDF
+
+Home
+
+https://www.researchgate.net/directory/publications
+
+Statistical Learning
+
+https://www.researchgate.net/topic/Statistical-Learning/publications
+
+Biosignal Processing
+
+https://www.researchgate.net/topic/Biosignal-Processing/publications
+
+Dimensionality Reduction
+
+https://www.researchgate.net/topic/Dimensionality-Reduction/publications
+
+Biosignals
+
+https://www.researchgate.net/topic/Biosignals/publications
+
+Physiology
+
+https://www.researchgate.net/topic/Physiology/publications
+
+Feature Selection
+
+https://www.researchgate.net/topic/Feature-Selection/publications
+
+Article
+
+Robust elastic net estimators for variable selection and identification of proteomic biomarkers
+
+December 2019
+
+The Annals of Applied Statistics
+
+https://www.researchgate.net/journal/The-Annals-of-Applied-Statistics-1932-6157
+
+ 13(4):2065-2090
+
+DOI: 
+
+10.1214/19-AOAS1269
+
+https://doi.org/10.1214/19-AOAS1269
+
+Authors:
+
+Gabriela V Cohen
+
+https://www.researchgate.net/profile/Gabriela-Cohen-3
+
+University of British Columbia
+
+https://www.researchgate.net/institution/University-of-British-Columbia
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+Matías Salibián-Barrera
+
+https://www.researchgate.net/scientific-contributions/Matias-Salibian-Barrera-2112755575
+
+Matías Salibián-Barrera
+
+https://www.researchgate.net/scientific-contributions/Matias-Salibian-Barrera-2112755575
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+Ezequiel Smucler
+
+https://www.researchgate.net/profile/Ezequiel-Smucler
+
+Glovo
+
+ 
+
+Request full-text PDF
+
+To read the full-text of this research, you can request a copy directly from the authors.
+
+Request full-text
+
+Download citation
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers/citation/download
+
+Copy link Link copied
+
+Request full-text
+
+https://www.researchgate.net/lite.research.ResearchResourcesSummary.requestFulltext.html?publicationUid=337668636&ev=su_requestFulltext
+
+Download citation
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers/citation/download
+
+Copy link Link copied
+
+To read the full-text of this research, you can request a copy directly from the authors.
+
+Citations (40)
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers#citations
+
+References (34)
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers#references
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+No full-text available
+
+To read the full-text of this research,
+
+you can request a copy directly from the authors.
+
+Request full-text PDF
+
+Citations (40)
+
+References (34)
+
+... They also derived the asymptotic theory for consistency and robustness properties and showed that the adaptive MM-Lasso estimator enjoys oracle properties for a fixed number of covariates p under very mild conditions. Regularized robust MM-and S-estimators, known as PENSEM and PENSE, are further analyzed for the elastic-net penalty in 
+
+[21]
+
+ , [22] where robustness and oracle properties are established for a fixed number of covariates p under very mild conditions allowing for heavy-tailed errors. To ensure robustness against high-leverage points, PENSE replaces the squared-error loss of elastic net [23] with a robust M-scale estimator based on the residuals....
+
+... We now derive the influence function of the sequence of approximating estimators T (H; q t ). Returning to the definition of influence function given by equation 
+
+(21)
+
+ within the main body of the paper, we have ...
+
+... Recalling the definition of influence function by equation 
+
+(21)
+
+ in the main body of the paper, we can derive the ultimate formula for the third term by plugging in the following expressions into equation (S145)....
+
+The Adaptive τ \tau -Lasso: Its Robustness and Oracle Properties
+
+https://www.researchgate.net/publication/370127276_The_Adaptive_tau-Lasso_Its_Robustness_and_Oracle_Properties
+
+Preprint
+
+Full-text available
+
+Apr 2023
+
+Emadaldin Mozafari-Majd
+
+https://www.researchgate.net/scientific-contributions/Emadaldin-Mozafari-Majd-2154943053
+
+ Visa Koivunen
+
+https://www.researchgate.net/profile/Visa-Koivunen
+
+This paper introduces a new regularized version of the robust τ \tau -regression estimator for analyzing high-dimensional data sets subject to gross contamination in the response variables and covariates. We call the resulting estimator adaptive τ \tau -Lasso that is robust to outliers and high-leverage points and simultaneously employs adaptive ℓ 1 \ell_1 -norm penalty term to reduce the bias associated with large true regression coefficients. More specifically, this adaptive ℓ 1 \ell_1 -norm penalty term assigns a weight to each regression coefficient. For a fixed number of predictors p, we show that the adaptive τ \tau -Lasso has the oracle property with respect to variable-selection consistency and asymptotic normality for the regression vector corresponding to the true support, assuming knowledge of the true regression vector support. We then characterize its robustness via the finite-sample breakdown point and the influence function. We carry-out extensive simulations to compare the performance of the adaptive τ \tau -Lasso estimator with that of other competing regularized estimators in terms of prediction and variable selection accuracy in the presence of contamination within the response vector/regression matrix and additive heavy-tailed noise. We observe from our simulations that the class of τ \tau -Lasso estimators exhibits robustness and reliable performance in both contaminated and uncontaminated data settings, achieving the best or close-to-best for many scenarios, except for oracle estimators. However, it is worth noting that no particular estimator uniformly dominates others. We also validate our findings on robustness properties through simulation experiments.
+
+View
+
+https://www.researchgate.net/publication/370127276_The_Adaptive_tau-Lasso_Its_Robustness_and_Oracle_Properties
+
+Show abstract
+
+... Recent advances in asymptotic results for K-fold CV (Austern & Zhou, 2020;Bates et al., 2024;Li, 2023, e.g., ) are further underlining the advantages of CV which were previously noticed only empirically. While these theoretical guarantees for CV do not apply when used for penalized robust estimators with the LASSO or Elastic Net (EN) penalties, some empirical studies suggest good out-of-sample accuracy and variable selection can be achieved by utilizing CV with robust measures of the prediction accuracy (Amato et al., 2021; 
+
+Cohen Freue et al., 2019;
+
+ Filzmoser & Nordhausen, 2021;Khan et al., 2007;Loh, 2021;Maronna, 2011;Monti & Filzmoser, 2021;Ronchetti et al., 1997;Sun et al., 2019). Reproducing these benefits in practical applications, however, is difficult because CV for robust penalized estimators tends to be highly unstable (Kepplinger & Cohen Freue, 2023;She et al., 2021), particularly in the presence of outliers in the response and contamination in the predictors....
+
+... In the potential presence of outliers, however, it is commonly argued 
+
+(Cohen Freue et al., 2019;
+
+ Kepplinger, 2023;She et al., 2021;Smucler & Yohai, 2017) that robust estimators of the prediction accuracy should be used since outliers are not expected to be well predicted by the model. Common choices are the median absolute prediction error (MAPE) or the τ -size (Yohai & Zamar, 1988) of the prediction errors, given by ...
+
+Stable and Robust Hyper-Parameter Selection Via Robust Information Sharing Cross-Validation
+
+https://www.researchgate.net/publication/384155565_Stable_and_Robust_Hyper-Parameter_Selection_Via_Robust_Information_Sharing_Cross-Validation
+
+Preprint
+
+Full-text available
+
+Sep 2024
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+Siqi Wei
+
+https://www.researchgate.net/scientific-contributions/Siqi-Wei-2292919082
+
+Robust estimators for linear regression require non-convex objective functions to shield against adverse affects of outliers. This non-convexity brings challenges, particularly when combined with penalization in high-dimensional settings. Selecting hyper-parameters for the penalty based on a finite sample is a critical task. In practice, cross-validation (CV) is the prevalent strategy with good performance for convex estimators. Applied with robust estimators, however, CV often gives sub-par results due to the interplay between multiple local minima and the penalty. The best local minimum attained on the full training data may not be the minimum with the desired statistical properties. Furthermore, there may be a mismatch between this minimum and the minima attained in the CV folds. This paper introduces a novel adaptive CV strategy that tracks multiple minima for each combination of hyper-parameters and subsets of the data. A matching scheme is presented for correctly evaluating minima computed on the full training data using the best-matching minima from the CV folds. It is shown that the proposed strategy reduces the variability of the estimated performance metric, leads to smoother CV curves, and therefore substantially increases the reliability and utility of robust penalized estimators.
+
+View
+
+https://www.researchgate.net/publication/384155565_Stable_and_Robust_Hyper-Parameter_Selection_Via_Robust_Information_Sharing_Cross-Validation
+
+Show abstract
+
+... In statistics, a small but growing body of work concerns analyzing highdimensional analogs of classical robust estimators [47,78,56,10,53,23,70,71, 
+
+27]
+
+ . The basic premise is that although it is relatively straightforward to devise reasonable high-dimensional estimators, theoretical analysis may become 5934 P. Loh somewhat trickier in high dimensions [2]....
+
+... Smucler and Yohai [70] derived the asymptotic consistency of global optima when the loss function ρ is of a redescending type, meaning that ρ is eventually equal to 0. However, the results are asymptotic, and again, no guarantees are provided for the performance of local optima, which may result from the optimization algorithm proposed by the authors. Penalized S-estimators are further analyzed in Freue et al. 
+
+[27]
+
+ ....
+
+Scale calibration for high-dimensional robust regression
+
+https://www.researchgate.net/publication/357345432_Scale_calibration_for_high-dimensional_robust_regression
+
+Article
+
+Jan 2021
+
+Po-Ling Loh
+
+https://www.researchgate.net/scientific-contributions/Po-Ling-Loh-59355155
+
+View
+
+https://www.researchgate.net/publication/357345432_Scale_calibration_for_high-dimensional_robust_regression
+
+... This provides an important bridge between the latter and L 0 -constrained formulations with optimality guarantees (Insolia et al. 2020). Moreover, unlike "soft" trimming estimators which produce a general down-weighting for all points (Loh 2017;Smucler and Yohai 2017;Chang et al. 2018; 
+
+Freue et al. 2019;
+
+ Amato et al. 2021), our proposal is effective in estimating full weights for non-outlying observations. The reminder of the paper is organized as follows....
+
+... Although these are traditionally computed using heuristic approaches, the use of MIP techniques has been recently considered to effectively solve the underlying combinatorial problem with optimality guarantees (Zioutas and Avramidis 2005;Bertsimas and Mazumder 2014). Importantly, high-breakdown point estimators have also been extended to sparse high-dimensional linear models in combination with penalization methods (Alfons et al. 2013;Smucler and Yohai 2017;Kurnaz et al. 2017; 
+
+Freue et al. 2019)
+
+ . Here L 0 -constraints, which can be solved through MIP algorithms, provide optimality guarantees and desirable statistical properties for simultaneous feature selection and MSOM detection, with p allowed to increase exponentially with n (Insolia et al. 2020)....
+
+Doubly Robust Feature Selection with Mean and Variance Outlier Detection and Oracle Properties
+
+https://www.researchgate.net/publication/352684964_Doubly_Robust_Feature_Selection_with_Mean_and_Variance_Outlier_Detection_and_Oracle_Properties
+
+Preprint
+
+Full-text available
+
+Jun 2021
+
+ Luca Insolia
+
+https://www.researchgate.net/profile/Luca-Insolia
+
+Francesca Chiaromonte
+
+https://www.researchgate.net/scientific-contributions/Francesca-Chiaromonte-39212406
+
+ Runze Li
+
+https://www.researchgate.net/profile/Runze-Li
+
+ Marco Riani
+
+https://www.researchgate.net/profile/Marco-Riani
+
+We propose a general approach to handle data contaminations that might disrupt the performance of feature selection and estimation procedures for high-dimensional linear models. Specifically, we consider the co-occurrence of mean-shift and variance-inflation outliers, which can be modeled as additional fixed and random components, respectively, and evaluated independently. Our proposal performs feature selection while detecting and down-weighting variance-inflation outliers, detecting and excluding mean-shift outliers, and retaining non-outlying cases with full weights. Feature selection and mean-shift outlier detection are performed through a robust class of nonconcave penalization methods. Variance-inflation outlier detection is based on the penalization of the restricted posterior mode. The resulting approach satisfies a robust oracle property for feature selection in the presence of data contamination -- which allows the number of features to exponentially increase with the sample size -- and detects truly outlying cases of each type with asymptotic probability one. This provides an optimal trade-off between a high breakdown point and efficiency. Computationally efficient heuristic procedures are also presented. We illustrate the finite-sample performance of our proposal through an extensive simulation study and a real-world application.
+
+View
+
+https://www.researchgate.net/publication/352684964_Doubly_Robust_Feature_Selection_with_Mean_and_Variance_Outlier_Detection_and_Oracle_Properties
+
+Show abstract
+
+... The added variable plot for t-statistics is introduced in Section 4. The candlestick plot [56] provides a structured plot of the values of the C p criterion for model choice [57] in the later stages of the FS. For the robust LASSO, see Freue et al. 
+
+[58]
+
+ , Kepplinger [59]. Note that, since we have removed the outliers and found the appropriate scale, robust variable selection enables us to address the potential problem of (approximate) collinearity among the variables, because we restrict attention to a subset of variables....
+
+The Use of Modern Robust Regression Analysis with Graphics: An Example from Marketing
+
+https://www.researchgate.net/publication/387844345_The_Use_of_Modern_Robust_Regression_Analysis_with_Graphics_An_Example_from_Marketing
+
+Article
+
+Full-text available
+
+Jan 2025
+
+ Marco Riani
+
+https://www.researchgate.net/profile/Marco-Riani
+
+ Anthony Atkinson
+
+https://www.researchgate.net/profile/Anthony-Atkinson-2
+
+ Gianluca Morelli
+
+https://www.researchgate.net/profile/Gianluca-Morelli
+
+ Aldo Corbellini
+
+https://www.researchgate.net/profile/Aldo-Corbellini
+
+Routine least squares regression analyses may sometimes miss important aspects of data. To exemplify this point we analyse a set of 1171 observations from a questionnaire intended to illuminate the relationship between customer loyalty and perceptions of such factors as price and community outreach. Our analysis makes much use of graphics and data monitoring to provide a paradigmatic example of the use of modern robust statistical tools based on graphical interaction with data. We start with regression. We perform such an analysis and find significant regression on all factors. However, a variety of plots show that there are some unexplained features, which are not eliminated by response transformation. Accordingly, we turn to robust analyses, intended to give answers unaffected by the presence of data contamination. A robust analysis using a non-parametric model leads to the increased significance of transformations of the explanatory variables. These transformations provide improved insight into consumer behaviour. We provide suggestions for a structured approach to modern robust regression and give links to the software used for our data analyses.
+
+View
+
+https://www.researchgate.net/publication/387844345_The_Use_of_Modern_Robust_Regression_Analysis_with_Graphics_An_Example_from_Marketing
+
+Show abstract
+
+... Given that Candidate, Spectrum IV is neither from real data nor a reference library, a penalty (0-10; 0, no penalty for the perfect match; 10, 10 times penalty for the negative match) is given based on the similarity to the "Spectrum 0". Deconvolution on the "Spectrum 0" is performed with a penalized elastic-net regression model 
+
+71,
+
+ 72 . The purpose of this deconvolution model is to minimize the residue....
+
+MetaboAnalystR 4.0: a unified LC-MS workflow for global metabolomics
+
+https://www.researchgate.net/publication/380265175_MetaboAnalystR_40_a_unified_LC-MS_workflow_for_global_metabolomics
+
+Article
+
+Full-text available
+
+May 2024
+
+Zhiqiang Pang
+
+https://www.researchgate.net/scientific-contributions/Zhiqiang-Pang-2174552522
+
+ 徐雷 Xu Lei
+
+https://www.researchgate.net/profile/xulei-Xu-Lei
+
+ Charles Viau
+
+https://www.researchgate.net/profile/Charles-Viau
+
+ Jianguo (Jeff) Xia
+
+https://www.researchgate.net/profile/Jianguo-jeff-Xia
+
+The wide applications of liquid chromatography - mass spectrometry (LC-MS) in untargeted metabolomics demand an easy-to-use, comprehensive computational workflow to support efficient and reproducible data analysis. However, current tools were primarily developed to perform specific tasks in LC-MS based metabolomics data analysis. Here we introduce MetaboAnalystR 4.0 as a streamlined pipeline covering raw spectra processing, compound identification, statistical analysis, and functional interpretation. The key features of MetaboAnalystR 4.0 includes an auto-optimized feature detection and quantification algorithm for LC-MS1 spectra processing, efficient MS2 spectra deconvolution and compound identification for data-dependent or data-independent acquisition, and more accurate functional interpretation through integrated spectral annotation. Comprehensive validation studies using LC-MS1 and MS2 spectra obtained from standards mixtures, dilution series and clinical metabolomics samples have shown its excellent performance across a wide range of common tasks such as peak picking, spectral deconvolution, and compound identification with good computing efficiency. Together with its existing statistical analysis utilities, MetaboAnalystR 4.0 represents a significant step toward a unified, end-to-end workflow for LC-MS based global metabolomics in the open-source R environment.
+
+View
+
+https://www.researchgate.net/publication/380265175_MetaboAnalystR_40_a_unified_LC-MS_workflow_for_global_metabolomics
+
+Show abstract
+
+... In this respect, a robust solution is ENET-LTS (Kurnaz et al. 2018), that provides the trimmed version of the elastic net. In 
+
+Freue et al. (2019)
+
+ , the penalized elastic net S-estimator PENSE and its refinement, the penalized elastic net M-estimator PENSEM, provide a consistent solution to conditional outlier detection, with the relevant advantage for PENSEM to provide the most precise τ -estimate of the residual scale....
+
+ROBOUT: a conditional outlier detection methodology for high-dimensional data
+
+https://www.researchgate.net/publication/374292269_ROBOUT_a_conditional_outlier_detection_methodology_for_high-dimensional_data
+
+Article
+
+Full-text available
+
+Sep 2023
+
+STAT PAP
+
+ Matteo Farnè
+
+https://www.researchgate.net/profile/Matteo-Farne-2
+
+ Angelos T. Vouldis
+
+https://www.researchgate.net/profile/Angelos-Vouldis
+
+This paper presents a methodology, called ROBOUT, to identify outliers conditional on a high-dimensional noisy information set. In particular, ROBOUT is able to identify observations with outlying conditional mean or variance when the dataset contains multivariate outliers in or besides the predictors, multi-collinearity, and a large variable dimension compared to the sample size. ROBOUT entails a pre-processing step, a preliminary robust imputation procedure that prevents anomalous instances from corrupting predictor recovery, a selection stage of the statistically relevant predictors (through cross-validated LASSO-penalized Huber loss regression), the estimation of a robust regression model based on the selected predictors (via MM regression), and a criterion to identify conditional outliers. We conduct a comprehensive simulation study in which the proposed algorithm is tested under a wide range of perturbation scenarios. The combination formed by LASSO-penalized Huber loss and MM regression turns out to be the best in terms of conditional outlier detection under the above described perturbed conditions, also compared to existing integrated methodologies like Sparse Least Trimmed Squares and Robust Least Angle Regression. Furthermore, the proposed methodology is applied to a granular supervisory banking dataset collected by the European Central Bank, in order to model the total assets of euro area banks.
+
+View
+
+https://www.researchgate.net/publication/374292269_ROBOUT_a_conditional_outlier_detection_methodology_for_high-dimensional_data
+
+Show abstract
+
+... In this respect, a robust solution is ENET-LTS [16], that provides the trimmed version of the elastic net. In 
+
+[10]
+
+ , the penalized elastic net S-estimator PENSE and its refinement, the penalized elastic net M-estimator PENSEM, provide a consistent solution to conditional outlier detection, with the relevant advantage for PENSEM to provide the most precise τ -estimate of the residual scale....
+
+ROBOUT: a conditional outlier detection methodology for high-dimensional data
+
+https://www.researchgate.net/publication/362770493_ROBOUT_a_conditional_outlier_detection_methodology_for_high-dimensional_data
+
+Preprint
+
+Full-text available
+
+Aug 2022
+
+Matteo Farnè
+
+https://www.researchgate.net/scientific-contributions/Matteo-Farne-2281188761
+
+ Angelos T. Vouldis
+
+https://www.researchgate.net/profile/Angelos-Vouldis
+
+This paper presents a methodology, called ROBOUT, to identify outliers conditional on a high-dimensional noisy information set. In particular, ROBOUT is able to identify observations with outlying conditional mean or variance when the dataset contains leverage outliers, highly correlated variables, and a large dimension compared to the sample size. ROBOUT entails a preliminary robust imputation procedure, that prevents leverage outliers from corrupting predictor recovery, a selection stage of the statistically relevant predictors (through cross-validated LASSO-penalized Huber loss regression), the estimation of a robust regression model based on the selected predictors (via MM regression), and a criterion to identify conditional outliers. We conduct a comprehensive simulation study in which the proposed algorithm is tested under a wide range of perturbation scenarios. The combination formed by LASSO-penalized Huber loss and MM regression turns out to be the best in terms of conditional outlier detection under the above described perturbed conditions, also compared to existing integrated methodologies like SPARSE-LTS and RLARS. The proposed methodology is finally applied to a granular supervisory banking dataset collected by the European Central Bank, in order to model the total assets of euro area banks.
+
+View
+
+https://www.researchgate.net/publication/362770493_ROBOUT_a_conditional_outlier_detection_methodology_for_high-dimensional_data
+
+Show abstract
+
+... This is achieved by using the principal sensitivity components (PSCs) for EN estimator and removing the observations with most extreme PSCs from the subsamples in an iterative manner. A detailed description of initialization for PENSE can be found in Supplementary Materials of 
+
+[39]
+
+ . In addition, we used the Dual Augmented Lagrangian [40] implementation to solve the IR-LASSO, and MM-and Sestimators as in [41]....
+
+Two-Stage Robust and Sparse Distributed Statistical Inference for Large-Scale Data
+
+https://www.researchgate.net/publication/362759746_Two-Stage_Robust_and_Sparse_Distributed_Statistical_Inference_for_Large-Scale_Data
+
+Preprint
+
+Full-text available
+
+Aug 2022
+
+Emadaldin Mozafari-Majd
+
+https://www.researchgate.net/scientific-contributions/Emadaldin-Mozafari-Majd-2154943053
+
+ Visa Koivunen
+
+https://www.researchgate.net/profile/Visa-Koivunen
+
+In this paper, we address the problem of conducting statistical inference in settings involving large-scale data that may be high-dimensional and contaminated by outliers. The high volume and dimensionality of the data require distributed processing and storage solutions. We propose a two-stage distributed and robust statistical inference procedures coping with high-dimensional models by promoting sparsity. In the first stage, known as model selection, relevant predictors are locally selected by applying robust Lasso estimators to the distinct subsets of data. The variable selections from each computation node are then fused by a voting scheme to find the sparse basis for the complete data set. It identifies the relevant variables in a robust manner. In the second stage, the developed statistically robust and computationally efficient bootstrap methods are employed. The actual inference constructs confidence intervals, finds parameter estimates and quantifies standard deviation. Similar to stage 1, the results of local inference are communicated to the fusion center and combined there. By using analytical methods, we establish the favorable statistical properties of the robust and computationally efficient bootstrap methods including consistency for a fixed number of predictors, and robustness. The proposed two-stage robust and distributed inference procedures demonstrate reliable performance and robustness in variable selection, finding confidence intervals and bootstrap approximations of standard deviations even when data is high-dimensional and contaminated by outliers.
+
+View
+
+https://www.researchgate.net/publication/362759746_Two-Stage_Robust_and_Sparse_Distributed_Statistical_Inference_for_Large-Scale_Data
+
+Show abstract
+
+... The response vector is generated according to the Bernoulli distribution with mean 1/(1 + exp(−x T i β * − γ * i )) for the ith observation. The following 11 methods are included for comparison: S-estimator (Rousseeuw and Yohai, 1984), LTS (Rousseeuw, 1985), Bianco and Yohai's robust logistic regression (B-Y) (Bianco and Yohai, 1996), TLE (Hadi and Luceño, 1997), robust quasi-likelihood estimator (QLE) (Cantoni and Ronchetti, 2001), quantile lasso (QL) (Belloni and Chernozhukov, 2011), robust LARS (RLARS) (Khan et al., 2007), sparse LTS (S-LTS) (Alfons et al., 2013), sparse maximum tangent-likelihood estimator (S-MTE) (Qin et al., 2017), elasticnet LTS for classification (enetLTS) (Kurnaz et al., 2018) and PENSE 
+
+(Freue et al., 2019)
+
+ . To reduce the interference of different regularization parameter tuning schemes, and to make a fair comparison, sparsity parameters and cut-off values for the sake of outlier identification or variable selection are all chosen to yield 1.5o * or 1.5s * nonzeros using the true model....
+
+Gaining Outlier Resistance with Progressive Quantiles: Fast Algorithms and Theoretical Studies
+
+https://www.researchgate.net/publication/357115137_Gaining_Outlier_Resistance_with_Progressive_Quantiles_Fast_Algorithms_and_Theoretical_Studies
+
+Preprint
+
+Full-text available
+
+Dec 2021
+
+Yiyuan She
+
+https://www.researchgate.net/scientific-contributions/Yiyuan-She-51332426
+
+Zhifeng Wang
+
+https://www.researchgate.net/scientific-contributions/Zhifeng-Wang-2185663664
+
+Jiahui Shen
+
+https://www.researchgate.net/scientific-contributions/Jiahui-Shen-2185858989
+
+Outliers widely occur in big-data applications and may severely affect statistical estimation and inference. In this paper, a framework of outlier-resistant estimation is introduced to robustify an arbitrarily given loss function. It has a close connection to the method of trimming and includes explicit outlyingness parameters for all samples, which in turn facilitates computation, theory, and parameter tuning. To tackle the issues of nonconvexity and nonsmoothness, we develop scalable algorithms with implementation ease and guaranteed fast convergence. In particular, a new technique is proposed to alleviate the requirement on the starting point such that on regular datasets, the number of data resamplings can be substantially reduced. Based on combined statistical and computational treatments, we are able to perform nonasymptotic analysis beyond M-estimation. The obtained resistant estimators, though not necessarily globally or even locally optimal, enjoy minimax rate optimality in both low dimensions and high dimensions. Experiments in regression, classification, and neural networks show excellent performance of the proposed methodology at the occurrence of gross outliers.
+
+View
+
+https://www.researchgate.net/publication/357115137_Gaining_Outlier_Resistance_with_Progressive_Quantiles_Fast_Algorithms_and_Theoretical_Studies
+
+Show abstract
+
+... • Another way is assuming that 
+
+1
+
+ 1 +1 ∼ Uni(0, 1). This induces that ...
+
+Bayesian regularization for a nonstationary Gaussian linear mixed effects model
+
+https://www.researchgate.net/publication/356985376_Bayesian_regularization_for_a_nonstationary_Gaussian_linear_mixed_effects_model
+
+Article
+
+Full-text available
+
+Dec 2021
+
+STAT MED
+
+ Emrah Gecili
+
+https://www.researchgate.net/profile/Emrah-Gecili
+
+Sivaganasen Siva
+
+https://www.researchgate.net/scientific-contributions/Sivaganasen-Siva-2209626976
+
+ Özgür Asar
+
+https://www.researchgate.net/profile/Oezguer-Asar
+
+ Rhonda Szczesniak
+
+https://www.researchgate.net/profile/Rhonda-Szczesniak
+
+In omics experiments, estimation and variable selection can involve thousands of proteins/genes observed from a relatively small number of subjects. Many regression regularization procedures have been developed for estimation and variable selection in such high-dimensional problems. However, approaches have predominantly focused on linear regression models that ignore correlation arising from long sequences of repeated measurements on the outcome. Our work is motivated by the need to identify proteomic biomarkers that improve the prediction of rapid lung-function decline for individuals with cystic fibrosis (CF) lung disease. We extend four Bayesian penalized regression approaches for a Gaussian linear mixed effects model with nonstationary covariance structure to account for the complicated structure of longitudinal lung function data while simultaneously estimating unknown parameters and selecting important protein isoforms to improve predictive performance. Different types of shrinkage priors are evaluated to induce variable selection in a fully Bayesian framework. The approaches are studied with simulations. We apply the proposed method to real proteomics and lung-function outcome data from our motivating CF study, identifying a set of relevant clinical/demographic predictors and a proteomic biomarker for rapid decline of lung function. We also illustrate the methods on CD4 yeast cell-cycle genomic data, confirming that the proposed method identifies transcription factors that have been highlighted in the literature for their importance as cell cycle transcription factors.
+
+View
+
+https://www.researchgate.net/publication/356985376_Bayesian_regularization_for_a_nonstationary_Gaussian_linear_mixed_effects_model
+
+Show abstract
+
+... Package robustHD therefore provides researchers with access to several popular methods for robust regression and variable selection with high-dimensional data. It has been used in many benchmarking studies in the statistical literature (e.g., Chang et al., 2018; 
+
+Cohen Freue et al., 2019;
+
+ Kurnaz et al., 2018b;Smucler & Yohai, 2017), as well as in empirical research (e.g., Antczak-Orlewska et al., 2021;Stadlbauer et al., 2020)....
+
+robustHD: An R package for robust regression with high-dimensional data
+
+https://www.researchgate.net/publication/355897012_robustHD_An_R_package_for_robust_regression_with_high-dimensional_data
+
+Article
+
+Full-text available
+
+Nov 2021
+
+Andreas Alfons
+
+https://www.researchgate.net/scientific-contributions/Andreas-Alfons-2066096230
+
+View
+
+https://www.researchgate.net/publication/355897012_robustHD_An_R_package_for_robust_regression_with_high-dimensional_data
+
+... When using single omics methods, molecular signature investigations benefit from multivariate approaches with penalties for classification of features or regression. However, in the case of higher complexity multi-omics, the lasso or elastic net selection methods help to efficiently reduce data dimensionality (Bravo-Merodio et al. 2019; 
+
+Freue et al. 2019)
+
+ . Moreover, algorithms such as tree ensembles can combine different models to identify potential molecular signatures using distinct techniques (Chen et al. 2013;Toth et al. 2019;Shuwen et al. 2020;Acharjee et al. 2020)....
+
+Human disease biomarker panels through systems biology
+
+https://www.researchgate.net/publication/355277401_Human_disease_biomarker_panels_through_systems_biology
+
+Article
+
+Oct 2021
+
+Bradley J. Smith
+
+https://www.researchgate.net/scientific-contributions/Bradley-J-Smith-2125715758
+
+ Licia Costa
+
+https://www.researchgate.net/profile/Licia-Costa-4
+
+ Daniel Martins-de-Souza
+
+https://www.researchgate.net/profile/Daniel-Martins-De-Souza-2
+
+As more uses for biomarkers are sought after for an increasing number of disease targets, single-target biomarkers are slowly giving way for biomarker panels. These panels incorporate various sources of biomolecular and clinical data to guarantee a higher robustness and power of separation for a clinical test. Multifactorial diseases such as psychiatric disorders show great potential for clinical use, assisting medical professionals during the analysis of risk and predisposition, disease diagnosis and prognosis, and treatment applicability and efficacy. More specific tests are also being developed to assist in ruling out, distinguishing between, and confirming suspicions of multifactorial diseases, as well as to predict which therapy option may be the best option for a given patient's biochemical profile. As more complex datasets are entering the field, involving multi-omic approaches, systems biology has stepped in to facilitate the discovery and validation steps during biomarker panel generation. Filtering biomolecules and clinical data, pre-validating and cross-validating potential biomarkers, generating final biomarker panels, and testing the robustness and applicability of those panels are all beginning to rely on machine learning and systems biology and research in this area will only benefit from advances in these approaches.
+
+View
+
+https://www.researchgate.net/publication/355277401_Human_disease_biomarker_panels_through_systems_biology
+
+Show abstract
+
+... In this work we focus on the MSOM as it is the best developed and most common framework in relatively low Biometrics, dimensions. It operates excluding cases identified as outliers from the fit, and has previously received substantial attention in biomedical research (Alfons et al., 2013; 
+
+Freue et al., 2019)
+
+ ....
+
+Simultaneous feature selection and outlier detection with optimality guarantees
+
+https://www.researchgate.net/publication/354168460_Simultaneous_feature_selection_and_outlier_detection_with_optimality_guarantees
+
+Article
+
+Full-text available
+
+Aug 2021
+
+ Luca Insolia
+
+https://www.researchgate.net/profile/Luca-Insolia
+
+ Ana Kenney
+
+https://www.researchgate.net/profile/Ana-Kenney
+
+Francesca Chiaromonte
+
+https://www.researchgate.net/scientific-contributions/Francesca-Chiaromonte-39212406
+
+Giovanni Felici
+
+https://www.researchgate.net/scientific-contributions/Giovanni-Felici-2145922591
+
+Biomedical research is increasingly data rich, with studies comprising ever growing numbers of features. The larger a study, the higher the likelihood that a substantial portion of the features may be redundant and/or contain contamination (outlying values). This poses serious challenges, which are exacerbated in cases where the sample sizes are relatively small. Effective and efficient approaches to perform sparse estimation in the presence of outliers are critical for these studies, and have received considerable attention in the last decade. We contribute to this area considering high-dimensional regressions contaminated by multiple mean-shift outliers affecting both the response and the design matrix. We develop a general framework and use mixed-integer programming to simultaneously perform feature selection and outlier detection with provably optimal guarantees. We prove theoretical properties for our approach, i.e., a necessary and sufficient condition for the robustly strong oracle property, where the number of features can increase exponentially with the sample size; the optimal estimation of parameters; and the breakdown point of the resulting estimates. Moreover, we provide computationally efficient procedures to tune integer constraints and warm-start the algorithm. We show the superior performance of our proposal compared to existing heuristic methods through simulations and use it to study the relationships between childhood obesity and the human microbiome. This article is protected by copyright. All rights reserved
+
+View
+
+https://www.researchgate.net/publication/354168460_Simultaneous_feature_selection_and_outlier_detection_with_optimality_guarantees
+
+Show abstract
+
+... ). For deriving these result we also extend the theory pertaining to PENSE 
+
+(Cohen Freue et al. 2019)
+
+ . Leveraging a PENSE estimate, the adaptive penalty used in this work reduces the bias of coefficients of relevant predictors and screens out many irrelevant predictors....
+
+Robust Variable Selection and Estimation Via Adaptive Elastic Net S-Estimators for Linear Regression
+
+https://www.researchgate.net/publication/353066397_Robust_Variable_Selection_and_Estimation_Via_Adaptive_Elastic_Net_S-Estimators_for_Linear_Regression
+
+Preprint
+
+Full-text available
+
+Jul 2021
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+Heavy-tailed error distributions and predictors with anomalous values are ubiquitous in high-dimensional regression problems and can seriously jeopardize the validity of statistical analyses if not properly addressed. For more reliable estimation under these adverse conditions, we propose a new robust regularized estimator for simultaneous variable selection and coefficient estimation. This estimator, called adaptive PENSE, possesses the oracle property without prior knowledge of the scale of the residuals and without any moment conditions on the error distribution. The proposed estimator gives reliable results even under very heavy-tailed error distributions and aberrant contamination in the predictors or residuals. Importantly, even in these challenging settings variable selection by adaptive PENSE remains stable. Numerical studies on simulated and real data sets highlight superior finite-sample performance in a vast range of settings compared to other robust regularized estimators in the case of contaminated samples and competitiveness compared to classical regularized estimators in clean samples.
+
+View
+
+https://www.researchgate.net/publication/353066397_Robust_Variable_Selection_and_Estimation_Via_Adaptive_Elastic_Net_S-Estimators_for_Linear_Regression
+
+Show abstract
+
+... The penalization of Ridge regression is based on the L2 norm, whereas Elastic Net combines the L1 and L2 norms in the penalty term. Robust versions of the Elastic Net using S-and MM-estimation have been proposed and are implemented in the R package pense 
+
+[28]
+
+ . Furthermore, instead of using the Huber loss function to limit the influence of outliers on a particular regularized regression method, other robust loss functions, such as the quantile, Hampel's redescending, Tukey's biweight and the least trimmed squares loss functions, could be used [29]....
+
+Robust Huber-LASSO for improved prediction of protein, metabolite and gene expression levels relying on individual genotype data
+
+https://www.researchgate.net/publication/346785166_Robust_Huber-LASSO_for_improved_prediction_of_protein_metabolite_and_gene_expression_levels_relying_on_individual_genotype_data
+
+Article
+
+Full-text available
+
+Oct 2020
+
+ Heike Deutelmoser
+
+https://www.researchgate.net/profile/Heike-Deutelmoser-2
+
+ Dominique Scherer
+
+https://www.researchgate.net/profile/Dominique-Scherer-2
+
+Hermann Brenner
+
+https://www.researchgate.net/scientific-contributions/Hermann-Brenner-2116350882
+
+ Justo Lorenzo Bermejo
+
+https://www.researchgate.net/profile/Justo-Bermejo
+
+Least absolute shrinkage and selection operator (LASSO) regression is often applied to select the most promising set of single nucleotide polymorphisms (SNPs) associated with a molecular phenotype of interest. While the penalization parameter λ restricts the number of selected SNPs and the potential model overfitting, the least-squares loss function of standard LASSO regression translates into a strong dependence of statistical results on a small number of individuals with phenotypes or genotypes divergent from the majority of the study population—typically comprised of outliers and high-leverage observations. Robust methods have been developed to constrain the influence of divergent observations and generate statistical results that apply to the bulk of study data, but they have rarely been applied to genetic association studies. In this article, we review, for newcomers to the field of robust statistics, a novel version of standard LASSO that utilizes the Huber loss function. We conduct comprehensive simulations and analyze real protein, metabolite, mRNA expression and genotype data to compare the stability of penalization, the cross-iteration concordance of the model, the false-positive and true-positive rates and the prediction accuracy of standard and robust Huber-LASSO. Although the two methods showed controlled false-positive rates ≤2.1% and similar true-positive rates, robust Huber-LASSO outperformed standard LASSO in the accuracy of predicted protein, metabolite and gene expression levels using individual SNP data. The conducted simulations and real-data analyses show that robust Huber-LASSO represents a valuable alternative to standard LASSO in genetic studies of molecular phenotypes.
+
+View
+
+https://www.researchgate.net/publication/346785166_Robust_Huber-LASSO_for_improved_prediction_of_protein_metabolite_and_gene_expression_levels_relying_on_individual_genotype_data
+
+Show abstract
+
+... Robust soft penalization methods also can be cast into (1), abandoning the explicit use of φ and adopting a robust loss ρ(· ) in place of the OLS. These include MM-estimators for ridge regression (Maronna 2011), sparse-LTS (Alfons et al. 2013), bridge MM-estimators (Smucler and Yohai 2017), enet-LTS (Kurnaz et al. 2017), penalized elastic net S-estimators 
+
+(Freue et al. 2019)
+
+ , and penalized M-estimators (Loh 2017;Chang et al. 2018;Amato et al. 2020), as well as their reweighted counterparts. Indeed, through specific penalties, M-estimators can be equivalently formulated as feature selection problems (She and Owen 2011)....
+
+Simultaneous Feature Selection and Outlier Detection with Optimality Guarantees
+
+https://www.researchgate.net/publication/342915458_Simultaneous_Feature_Selection_and_Outlier_Detection_with_Optimality_Guarantees
+
+Preprint
+
+Full-text available
+
+Jul 2020
+
+ Luca Insolia
+
+https://www.researchgate.net/profile/Luca-Insolia
+
+ Ana Kenney
+
+https://www.researchgate.net/profile/Ana-Kenney
+
+Francesca Chiaromonte
+
+https://www.researchgate.net/scientific-contributions/Francesca-Chiaromonte-39212406
+
+Giovanni Felici
+
+https://www.researchgate.net/scientific-contributions/Giovanni-Felici-2145922591
+
+Sparse estimation methods capable of tolerating outliers have been broadly investigated in the last decade. We contribute to this research considering high-dimensional regression problems contaminated by multiple mean-shift outliers which affect both the response and the design matrix. We develop a general framework for this class of problems and propose the use of mixed-integer programming to simultaneously perform feature selection and outlier detection with provably optimal guarantees. We characterize the theoretical properties of our approach, i.e. a necessary and sufficient condition for the robustly strong oracle property, which allows the number of features to exponentially increase with the sample size; the optimal estimation of the parameters; and the breakdown point of the resulting estimates. Moreover, we provide computationally efficient procedures to tune integer constraints and to warm-start the algorithm. We show the superior performance of our proposal compared to existing heuristic methods through numerical simulations and an application investigating the relationships between the human microbiome and childhood obesity.
+
+View
+
+https://www.researchgate.net/publication/342915458_Simultaneous_Feature_Selection_and_Outlier_Detection_with_Optimality_Guarantees
+
+Show abstract
+
+... Specifically, in the casewise contamination framework, where a portion of the rows of Y and X are outliers, a single contaminated data point can have an arbitrarily severe effect on best subsets. The absence of robustness to casewise contamination is an important practical limitation of best subsets and raises doubts about the appropriateness of the estimator for many applications of sparse regression involving outliers, e.g., earnings forecasting (Wang et al. 2007), analytical chemistry (Smucler and Yohai 2017), and biomarker discovery 
+
+(Cohen Freue et al. 2019)
+
+ . Although robust adaptions of other sparse estimators such as the Lasso have been studied fairly intensively (Wang et al. 2007;Rosset and Zhu 2007;Lambert-Lacroix and Zwald 2011;Alfons et al. 2013;Smucler and Yohai 2017;Chang et al. 2018), a lack of similar research is available on the topic of best subsets, possibly because it had "been widely dismissed as being intractable by the greater statistical community" (Bertsimas et al. 2016, p. 814)....
+
+Robust subset selection
+
+https://www.researchgate.net/publication/341478587_Robust_subset_selection
+
+Preprint
+
+May 2020
+
+Ryan Thompson
+
+https://www.researchgate.net/scientific-contributions/Ryan-Thompson-2195254383
+
+The best subset selection (or "best subsets") estimator is a classic tool for sparse regression, and developments in mathematical optimization over the past decade have made it more computationally tractable than ever. Notwithstanding its desirable statistical properties, the best subsets estimator is susceptible to outliers and can break down in the presence of a single contaminated data point. To address this issue, we propose a robust adaption of best subsets that is highly resistant to contamination in both the response and the predictors. Our estimator generalizes the notion of subset selection to both predictors and observations, thereby achieving robustness in addition to sparsity. This procedure, which we call "robust subset selection" (or "robust subsets"), is defined by a combinatorial optimization problem for which we apply modern discrete optimization methods. We formally establish the robustness of our estimator in terms of the finite-sample breakdown point of its objective value. In support of this result, we report experiments on both synthetic and real data that demonstrate the superiority of robust subsets over best subsets in the presence of contamination. Importantly, robust subsets fares competitively across several metrics compared with popular robust adaptions of the Lasso.
+
+View
+
+https://www.researchgate.net/publication/341478587_Robust_subset_selection
+
+Show abstract
+
+Differential miRNA expression during replicative senescence of dental pulp stem cells with potential for forensic age assessment
+
+https://www.researchgate.net/publication/403008965_Differential_miRNA_expression_during_replicative_senescence_of_dental_pulp_stem_cells_with_potential_for_forensic_age_assessment
+
+Article
+
+Full-text available
+
+Mar 2026
+
+ Javier Alonso Rojas Torres
+
+https://www.researchgate.net/profile/Javier-Rojas-Torres
+
+ Luis Martínez-Durán
+
+https://www.researchgate.net/profile/Luis-Martinez-Duran-2
+
+Camila Isla-Medina
+
+https://www.researchgate.net/scientific-contributions/Camila-Isla-Medina-2324595909
+
+ Luis A Salazar
+
+https://www.researchgate.net/profile/Luis-Salazar-6
+
+Cellular aging is a complex process that complicates biological age estimation in forensic settings due to high variability. This study evaluated whether microRNAs (miRNAs) from human dental pulp stem cells (hDPSCs) can serve as predictive biomarkers of senescence. hDPSCs from four young donors were subjected to replicative exhaustion and stress-induced senescence, with eight miRNAs selected for analysis. Senescence was confirmed by morphological changes, SA-β-Gal activity, and p16^INK4a immunocytochemistry. RT-qPCR quantified miRNA expression, and predictive value was assessed by ROC curves and multivariable models. Senescence induction consistently resulted in distinct morphological and molecular changes, notably upregulation of miR-433-5p, miR-331-5p, miR-221-5p, and miR-328-5p, and downregulation of miR-205-5p, miR-455-5p, and miR-21-5p. While individual miRNAs showed moderate predictive ability, combining multiple miRNAs greatly improved discrimination of senescence. These results support the feasibility of miRNA panels as molecular markers of senescence in hDPSCs and provide a proof-of-concept framework for future studies on cellular aging in a dental matrix of forensic interest.
+
+View
+
+https://www.researchgate.net/publication/403008965_Differential_miRNA_expression_during_replicative_senescence_of_dental_pulp_stem_cells_with_potential_for_forensic_age_assessment
+
+Show abstract
+
+The adaptive robust and efficient variable selection method for the linear regression model
+
+https://www.researchgate.net/publication/398450515_The_adaptive_robust_and_efficient_variable_selection_method_for_the_linear_regression_model
+
+Article
+
+Dec 2025
+
+COMMUN STAT-THEOR M
+
+https://www.researchgate.net/journal/Communications-in-Statistics-Theory-and-Methods-1532-415X
+
+Yunlu Jiang
+
+https://www.researchgate.net/scientific-contributions/Yunlu-Jiang-2325309514
+
+Fudong Chen
+
+https://www.researchgate.net/scientific-contributions/Fudong-Chen-2325302236
+
+Xiaowen Huang
+
+https://www.researchgate.net/scientific-contributions/Xiaowen-Huang-2281763685
+
+View
+
+https://www.researchgate.net/publication/398450515_The_adaptive_robust_and_efficient_variable_selection_method_for_the_linear_regression_model
+
+Robust Multi-Model Subset Selection
+
+https://www.researchgate.net/publication/398311404_Robust_Multi-Model_Subset_Selection
+
+Article
+
+Dec 2025
+
+J COMPUT GRAPH STAT
+
+https://www.researchgate.net/journal/Journal-of-Computational-and-Graphical-Statistics-1537-2715
+
+ Anthony Christidis
+
+https://www.researchgate.net/profile/Anthony-Christidis
+
+Gabriela Cohen Freue
+
+https://www.researchgate.net/scientific-contributions/Gabriela-Cohen-Freue-2332907835
+
+View
+
+https://www.researchgate.net/publication/398311404_Robust_Multi-Model_Subset_Selection
+
+Robust multitask feature learning with adaptive Huber regressions
+
+https://www.researchgate.net/publication/395491123_Robust_multitask_feature_learning_with_adaptive_Huber_regressions
+
+Article
+
+Sep 2025
+
+CAN J STAT
+
+ Yuan Zhong
+
+https://www.researchgate.net/profile/Yuan-Zhong-16
+
+Xin Gao
+
+https://www.researchgate.net/scientific-contributions/Xin-Gao-2324809887
+
+Wei Xu
+
+https://www.researchgate.net/scientific-contributions/Wei-Xu-2068989373
+
+When data from multiple tasks have outlier contamination, existing multitask learning methods perform less efficiently. To address this issue, we propose a robust multitask feature learning method by combining the adaptive Huber regression tasks with mixed regularization. The robustification parameters can be chosen to adapt to the sample size, model dimension, and moments of the error distribution while striking a balance between unbiasedness and robustness. We consider heavy‐tailed distributions for multiple datasets that have bounded th moment for any . Our method can achieve estimation and sign recovery consistency. Additionally, we propose a robust information criterion to conduct joint inference on related tasks, which can be used for consistent model selection. Through different simulation studies and real data applications, we illustrate that the performance of the proposed model can provide smaller estimation errors and higher feature selection accuracy than the non robust multitask learning and robust single‐task methods.
+
+View
+
+https://www.researchgate.net/publication/395491123_Robust_multitask_feature_learning_with_adaptive_Huber_regressions
+
+Show abstract
+
+Information Sharing for Robust and Stable Cross-Validation
+
+https://www.researchgate.net/publication/394282730_Information_Sharing_for_Robust_and_Stable_Cross-Validation
+
+Article
+
+Aug 2025
+
+TECHNOMETRICS
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+Siqi Wei
+
+https://www.researchgate.net/scientific-contributions/Siqi-Wei-2292919082
+
+View
+
+https://www.researchgate.net/publication/394282730_Information_Sharing_for_Robust_and_Stable_Cross-Validation
+
+Homogeneity and Sparsity Pursuit Using Robust Adaptive Fused Lasso
+
+https://www.researchgate.net/publication/392848837_Homogeneity_and_Sparsity_Pursuit_Using_Robust_Adaptive_Fused_Lasso
+
+Article
+
+Jun 2025
+
+AUST NZ J STAT
+
+Le Chang
+
+https://www.researchgate.net/scientific-contributions/Le-Chang-2316607039
+
+Yanlin Shi
+
+https://www.researchgate.net/scientific-contributions/Yanlin-Shi-2316621836
+
+Fused lasso regression is a popular method for identifying homogeneous groups and sparsity patterns in regression coefficients based on either the presumed order or a more general graph structure of the covariates. However, the traditional fused lasso may yield misleading outcomes in the presence of outliers. In this paper, we propose an extension of the fused lasso, namely the robust adaptive fused lasso (RAFL), which pursues homogeneity and sparsity patterns in regression coefficients while accounting for potential outliers within the data. By using Huber's loss or Tukey's biweight loss, RAFL can resist outliers in the responses or in both the responses and the covariates. We also demonstrate that when the adaptive weights are properly chosen, the proposed RAFL achieves consistency in variable selection, consistency in grouping and asymptotic normality. Furthermore, a novel optimization algorithm, which employs the alternating direction method of multipliers, embedded with an accelerated proximal gradient algorithm, is developed to solve RAFL efficiently. Our simulation study shows that RAFL offers substantial improvements in terms of both grouping accuracy and prediction accuracy compared with the fused lasso, particularly when dealing with contaminated data. Additionally, a real analysis of cookie data demonstrates the effectiveness of RAFL.
+
+View
+
+https://www.researchgate.net/publication/392848837_Homogeneity_and_Sparsity_Pursuit_Using_Robust_Adaptive_Fused_Lasso
+
+Show abstract
+
+Robust Quaternion Elastic-Net for Hypercomplex Signal Recovery
+
+https://www.researchgate.net/publication/392006999_Robust_Quaternion_Elastic-Net_for_Hypercomplex_Signal_Recovery
+
+Article
+
+May 2025
+
+Cuiming Zou
+
+https://www.researchgate.net/scientific-contributions/Cuiming-Zou-2258637424
+
+Shiyuan Wang
+
+https://www.researchgate.net/scientific-contributions/Shiyuan-Wang-2314004392
+
+Xuan Xiao
+
+https://www.researchgate.net/scientific-contributions/Xuan-Xiao-2300674627
+
+Yiming Dong
+
+https://www.researchgate.net/scientific-contributions/Yiming-Dong-2300565909
+
+View
+
+https://www.researchgate.net/publication/392006999_Robust_Quaternion_Elastic-Net_for_Hypercomplex_Signal_Recovery
+
+The Adaptive τ-Lasso: Robustness and Oracle Properties
+
+https://www.researchgate.net/publication/391002829_The_Adaptive_t-Lasso_Robustness_and_Oracle_Properties
+
+Article
+
+Jan 2025
+
+IEEE T SIGNAL PROCES
+
+Emadaldin Mozafari-Majd
+
+https://www.researchgate.net/scientific-contributions/Emadaldin-Mozafari-Majd-2154943053
+
+ Visa Koivunen
+
+https://www.researchgate.net/profile/Visa-Koivunen
+
+This paper introduces a new regularized version of the robust τ-regression estimator for analyzing high-dimensional datasets subject to gross contamination in the response variables and covariates (explanatory variables). The resulting estimator, termed adaptive τ-Lasso, is robust to outliers and high-leverage points. It also incorporates an adaptive l 
+
+1
+
+ -norm penalty term, which enables the selection of relevant variables and reduces the bias associated with large true regression coefficients. More specifically, this adaptive l 
+
+1
+
+ -norm penalty term assigns a weight to each regression coefficient. For a fixed number of predictors p , we show that the adaptive τ-Lasso has the oracle property, ensuring both variable-selection consistency and asymptotic normality under fairly mild conditions. Asymptotic normality applies only to the entries of the regression vector corresponding to the true support, assuming knowledge of the true regression vector support. We characterize its robustness by establishing the finite-sample breakdown point and the influence function. We carry out extensive simulations and observe that the class of τ-Lasso estimators exhibits robustness and reliable performance in both contaminated and uncontaminated data settings. We also validate our theoretical findings on robustness properties through simulations. In the face of outliers and high-leverage points, the adaptive τ-Lasso and τ-Lasso estimators achieve the best performance or match the best performances of competing regularized estimators, with minimal or no loss in terms of prediction and variable selection accuracy for almost all scenarios considered in this study. Therefore, the adaptive τ-Lasso and τ-Lasso estimators provide attractive tools for a variety of sparse linear regression problems, particularly in high-dimensional settings and when the data is contaminated by outliers and high-leverage points. However, it is worth noting that no particular estimator uniformly dominates others in all considered scenarios
+
+View
+
+https://www.researchgate.net/publication/391002829_The_Adaptive_t-Lasso_Robustness_and_Oracle_Properties
+
+Show abstract
+
+The R Package Ecosystem for Robust Statistics
+
+https://www.researchgate.net/publication/387445171_The_R_Package_Ecosystem_for_Robust_Statistics
+
+Article
+
+Nov 2024
+
+Valentin Todorov
+
+https://www.researchgate.net/scientific-contributions/Valentin-Todorov-2338730627
+
+In the last few years, the number of R packages implementing different robust statistical methods have increased substantially. There are now numerous packages for computing robust multivariate location and scatter, robust multivariate analysis like principal components and discriminant analysis, robust linear models, and other algorithms dedicated to cope with outliers and other irregularities in the data. This abundance of package options may be overwhelming for both beginners and more experienced R users. Here we provide an overview of the most important 25 R packages for different tasks. As metrics for the importance of each package, we consider its maturity and history, the number of total and average monthly downloads from CRAN (The Comprehensive R Archive Network), and the number of reverse dependencies. Then we briefly describe what each of these package does. After that we elaborate on the several above‐mentioned topics of robust statistics, presenting the methodology and the implementation in R and illustrating the application on real data examples. Particular attention is paid to the robust methods and algorithms suitable for high‐dimensional data. The code for all examples is accessible on the GitHub repository https://github.com/valentint/robust‐R‐ecosystem‐WIREs .
+
+View
+
+https://www.researchgate.net/publication/387445171_The_R_Package_Ecosystem_for_Robust_Statistics
+
+Show abstract
+
+The spike‐and‐slab quantile LASSO for robust variable selection in cancer genomics studies
+
+https://www.researchgate.net/publication/383963568_The_spike-and-slab_quantile_LASSO_for_robust_variable_selection_in_cancer_genomics_studies
+
+Article
+
+Sep 2024
+
+Yuwen Liu
+
+https://www.researchgate.net/scientific-contributions/Yuwen-Liu-2217400038
+
+ Jie Ren
+
+https://www.researchgate.net/profile/Jie-Ren-64
+
+Shuangge Ma
+
+https://www.researchgate.net/scientific-contributions/Shuangge-Ma-38357131
+
+ Cen Wu
+
+https://www.researchgate.net/profile/Cen-Wu-2
+
+Data irregularity in cancer genomics studies has been widely observed in the form of outliers and heavy‐tailed distributions in the complex traits. In the past decade, robust variable selection methods have emerged as powerful alternatives to the nonrobust ones to identify important genes associated with heterogeneous disease traits and build superior predictive models. In this study, to keep the remarkable features of the quantile LASSO and fully Bayesian regularized quantile regression while overcoming their disadvantage in the analysis of high‐dimensional genomics data, we propose the spike‐and‐slab quantile LASSO through a fully Bayesian spike‐and‐slab formulation under the robust likelihood by adopting the asymmetric Laplace distribution (ALD). The proposed robust method has inherited the prominent properties of selective shrinkage and self‐adaptivity to the sparsity pattern from the spike‐and‐slab LASSO (Roc̆ková and George, J Am Stat Associat , 2018, 113(521): 431–444). Furthermore, the spike‐and‐slab quantile LASSO has a computational advantage to locate the posterior modes via soft‐thresholding rule guided Expectation‐Maximization (EM) steps in the coordinate descent framework, a phenomenon rarely observed for robust regularization with nondifferentiable loss functions. We have conducted comprehensive simulation studies with a variety of heavy‐tailed errors in both homogeneous and heterogeneous model settings to demonstrate the superiority of the spike‐and‐slab quantile LASSO over its competing methods. The advantage of the proposed method has been further demonstrated in case studies of the lung adenocarcinomas (LUAD) and skin cutaneous melanoma (SKCM) data from The Cancer Genome Atlas (TCGA).
+
+View
+
+https://www.researchgate.net/publication/383963568_The_spike-and-slab_quantile_LASSO_for_robust_variable_selection_in_cancer_genomics_studies
+
+Show abstract
+
+Regularized least weighted squares estimator in linear regression
+
+https://www.researchgate.net/publication/377260909_Regularized_least_weighted_squares_estimator_in_linear_regression
+
+Article
+
+Jan 2024
+
+ Jan Kalina
+
+https://www.researchgate.net/profile/Jan-Kalina-2
+
+View
+
+https://www.researchgate.net/publication/377260909_Regularized_least_weighted_squares_estimator_in_linear_regression
+
+Springer: An R package for bi-level variable selection of high-dimensional longitudinal data
+
+https://www.researchgate.net/publication/370222819_Springer_An_R_package_for_bi-level_variable_selection_of_high-dimensional_longitudinal_data
+
+Article
+
+Full-text available
+
+Apr 2023
+
+ Fei Zhou
+
+https://www.researchgate.net/profile/Fei-Zhou-22
+
+Yuwen Liu
+
+https://www.researchgate.net/scientific-contributions/Yuwen-Liu-2217400038
+
+ Jie Ren
+
+https://www.researchgate.net/profile/Jie-Ren-64
+
+ Cen Wu
+
+https://www.researchgate.net/profile/Cen-Wu-2
+
+In high-dimensional data analysis, the bi-level (or the sparse group) variable selection can simultaneously conduct penalization on the group level and within groups, which has been developed for continuous, binary, and survival responses in the literature. Zhou et al. (2022) (PMID: 35766061) has further extended it under the longitudinal response by proposing a quadratic inference function-based penalization method in gene–environment interaction studies. This study introduces “springer,” an R package implementing the bi-level variable selection within the QIF framework developed in Zhou et al. (2022). In addition, R package “springer” has also implemented the generalized estimating equation-based sparse group penalization method. Alternative methods focusing only on the group level or individual level have also been provided by the package. In this study, we have systematically introduced the longitudinal penalization methods implemented in the “springer” package. We demonstrate the usage of the core and supporting functions, which is followed by the numerical examples and discussions. R package “springer” is available at https://cran.r-project.org/package=springer.
+
+View
+
+https://www.researchgate.net/publication/370222819_Springer_An_R_package_for_bi-level_variable_selection_of_high-dimensional_longitudinal_data
+
+Show abstract
+
+Robust variable selection and estimation via adaptive elastic net S-estimators for linear regression
+
+https://www.researchgate.net/publication/368929159_Robust_variable_selection_and_estimation_via_adaptive_elastic_net_S-estimators_for_linear_regression
+
+Article
+
+Mar 2023
+
+COMPUT STAT DATA AN
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+View
+
+https://www.researchgate.net/publication/368929159_Robust_variable_selection_and_estimation_via_adaptive_elastic_net_S-estimators_for_linear_regression
+
+Two-Stage Robust and Sparse Distributed Statistical Inference for Large-Scale Data
+
+https://www.researchgate.net/publication/365103909_Two-Stage_Robust_and_Sparse_Distributed_Statistical_Inference_for_Large-Scale_Data
+
+Article
+
+Jan 2022
+
+Emadaldin Mozafari-Majd
+
+https://www.researchgate.net/scientific-contributions/Emadaldin-Mozafari-Majd-2154943053
+
+ Visa Koivunen
+
+https://www.researchgate.net/profile/Visa-Koivunen
+
+In this paper, we address the problem of conducting statistical inference in settings involving large-scale data that may be high-dimensional and contaminated by outliers. The high volume and dimensionality of the data require distributed processing and storage solutions. We propose a two-stage distributed and robust statistical inference procedures coping with high-dimensional models by promoting sparsity. In the first stage, known as model selection, relevant predictors are locally selected by applying robust Lasso estimators to the distinct subsets of data. The variable selections from each computation node are then fused by a voting scheme to find the sparse basis for the complete data set. It identifies the relevant variables in a robust manner. In the second stage, the developed statistically robust and computationally efficient bootstrap methods are employed. The actual inference constructs confidence intervals, finds parameter estimates and quantifies standard deviation. Similar to stage 1, the results of local inference are communicated to the fusion center and combined there. By using analytical methods, we establish the favorable statistical properties of the robust and computationally efficient bootstrap methods including consistency for a fixed number of predictors, and robustness. The proposed two-stage robust and distributed inference procedures demonstrate reliable performance and robustness in variable selection, finding confidence intervals and bootstrap approximations of standard deviations even when data is high-dimensional and contaminated by outliers.
+
+View
+
+https://www.researchgate.net/publication/365103909_Two-Stage_Robust_and_Sparse_Distributed_Statistical_Inference_for_Large-Scale_Data
+
+Show abstract
+
+Robust Prediction and Protein Selection with Adaptive PENSE
+
+https://www.researchgate.net/publication/364910209_Robust_Prediction_and_Protein_Selection_with_Adaptive_PENSE
+
+Chapter
+
+Aug 2021
+
+David Kepplinger
+
+https://www.researchgate.net/scientific-contributions/David-Kepplinger-2128510424
+
+Gabriela V. Cohen Freue
+
+https://www.researchgate.net/scientific-contributions/Gabriela-V-Cohen-Freue-2159456282
+
+Adaptive PENSE is a method that can be used to build models for predicting clinical outcomes from a small subset of a potentially large number of candidate proteins. Adaptive PENSE is designed to give reliable results under two common challenges often encountered in these kinds of studies: (1) the number of samples with known clinical outcome and proteomic data is small, while the number of candidate proteins is large and/or (2) proteomic data and the clinical outcome measurements suffer from data quality issues in a small fraction of samples. Even in the presence of these challenges, adaptive PENSE reliably identifies proteins relevant for prediction and estimates accurate predictive models. Adaptive PENSE is designed to be resilient to data quality issues in up to 50% of samples. Almost half of the samples could have aberrant values in the measured protein levels and clinical outcome values without causing severe detrimental effects to the estimated predictive model. The method is implemented as an R package and supports the user in the model selection process by automating most steps and providing diagnostic visualizations to guide the user. Users can choose among several predictive models to select the model with high prediction accuracy and an appropriate number of selected proteins.
+
+View
+
+https://www.researchgate.net/publication/364910209_Robust_Prediction_and_Protein_Selection_with_Adaptive_PENSE
+
+Show abstract
+
+Robust penalized estimators for functional linear regression
+
+https://www.researchgate.net/publication/363504015_Robust_penalized_estimators_for_functional_linear_regression
+
+Article
+
+Sep 2022
+
+J MULTIVARIATE ANAL
+
+ Ioannis Kalogridis
+
+https://www.researchgate.net/profile/Ioannis-Kalogridis
+
+ Stefan Van Aelst
+
+https://www.researchgate.net/profile/Stefan-Van-Aelst
+
+Functional data analysis is a fast evolving branch of statistics. Estimation procedures for the popular functional linear model either suffer from lack of robustness or are computationally burdensome. To address these shortcomings, a flexible family of penalized lower-rank estimators based on a bounded loss function is proposed. The proposed class of estimators is shown to be consistent and can attain high rates of convergence with respect to prediction error under weak regularity conditions. These results can be generalized to higher dimensions under similar assumptions. The finite-sample performance of the proposed family of estimators is investigated by a Monte-Carlo study which shows that these estimators reach high efficiency while offering protection against outliers. The proposed estimators compare favorably to existing approaches robust as well as non-robust alternatives. The good performance of the method is also illustrated on a complex real dataset.
+
+View
+
+https://www.researchgate.net/publication/363504015_Robust_penalized_estimators_for_functional_linear_regression
+
+Show abstract
+
+Robust Multivariate Lasso Regression with Covariance Estimation
+
+https://www.researchgate.net/publication/363144823_Robust_multivariate_lasso_regression_with_covariance_estimation
+
+Article
+
+Aug 2022
+
+ Le Chang
+
+https://www.researchgate.net/profile/Le-Chang-13
+
+ A. H. Welsh
+
+https://www.researchgate.net/profile/A-Welsh-2
+
+Multivariate regression with covariance estimation (MRCE) is a method that performs sparse estimation of multivariate regression coefficients, while taking account the covariance structure of the response variables. MRCE utilizes a penalized likelihood approach to simultaneously estimate the regression coefficients and the inverse covariance matrix so that prediction accuracy can be significantly improved. However, traditional likelihood-based methods such as MRCE can produce very misleading results in the presence of outliers. In this work, we propose an extension of MRCE, namely, a robust multivariate lasso regression with covariance estimation (RMLC) to handle potential outliers within the data. By using Huber's loss or Tukey's biweight loss, RMLC can be resistant to outliers in the responses or in both the responses and the covariates. A novel optimization algorithm that incorporates a two-fold accelerated proximal gradient (APG) algorithm is developed to solve RMLC efficiently. We also demonstrate that our proposed RMLC enjoys the oracle property. Our simulation study shows that RMLC produces very reliable results for both the regression coefficients and the correlation structure of the responses, even if the data are contaminated. A real analysis on hyperspectral data further demonstrates the utility of RMLC.
+
+View
+
+https://www.researchgate.net/publication/363144823_Robust_multivariate_lasso_regression_with_covariance_estimation
+
+Show abstract
+
+Robust subset selection
+
+https://www.researchgate.net/publication/357596134_Robust_subset_selection
+
+Article
+
+Jan 2022
+
+COMPUT STAT DATA AN
+
+Ryan Thompson
+
+https://www.researchgate.net/scientific-contributions/Ryan-Thompson-2195254383
+
+The best subset selection (or “best subsets”) estimator is a classic tool for sparse regression, and developments in mathematical optimization over the past decade have made it more computationally tractable than ever. Notwithstanding its desirable statistical properties, the best subsets estimator is susceptible to outliers and can break down in the presence of a single contaminated data point. To address this issue, a robust adaption of best subsets is proposed that is highly resistant to contamination in both the response and the predictors. The adapted estimator generalizes the notion of subset selection to both predictors and observations, thereby achieving robustness in addition to sparsity. This procedure, referred to as “robust subset selection” (or “robust subsets”), is defined by a combinatorial optimization problem for which modern discrete optimization methods are applied. The robustness of the estimator in terms of the finite-sample breakdown point of its objective value is formally established. In support of this result, experiments on synthetic and real data are reported that demonstrate the superiority of robust subsets over best subsets in the presence of contamination. Importantly, robust subsets fares competitively across several metrics compared with popular robust adaptions of continuous shrinkage estimators.
+
+View
+
+https://www.researchgate.net/publication/357596134_Robust_subset_selection
+
+Show abstract
+
+Sparse least trimmed squares regression with compositional covariates for high dimensional data
+
+https://www.researchgate.net/publication/353748386_Sparse_least_trimmed_squares_regression_with_compositional_covariates_for_high_dimensional_data
+
+Article
+
+Aug 2021
+
+ Gianna Serafina Monti
+
+https://www.researchgate.net/profile/Gianna-Monti
+
+ Peter Filzmoser
+
+https://www.researchgate.net/profile/Peter-Filzmoser
+
+Motivation High-throughput sequencing technologies generate a huge amount of data, permitting the quantification of microbiome compositions. The obtained data are essentially sparse compositional data vectors, namely vectors of bacterial gene proportions which compose the microbiome. Subsequently, the need for statistical and computational methods that consider the special nature of microbiome data has increased. A critical aspect in microbiome research is to identify microbes associated with a clinical outcome. Another crucial aspect with high-dimensional data is the detection of outlying observations, whose presence affects seriously the prediction accuracy. Results In this article we connect robustness and sparsity in the context of variable selection in regression with compositional covariates with a continuous response. The compositional character of the covariates is taken into account by a linear log-contrast model, and elastic-net regularization achieves sparsity in the regression coefficient estimates. Robustness is obtained by performing trimming in the objective function of the estimator. A reweighting step increases the efficiency of the estimator, and it also allows for diagnostics in terms of outlier identification. The numerical performance of the proposed method is evaluated via simulation studies, and its usefulness is illustrated by an application to a microbiome study with the aim to predict caffeine intake based on the human gut microbiome composition. Availability The R-package “RobZS” can be downloaded at https://github.com/giannamonti/RobZS. Supplementary information Supplementary data are available at Bioinformatics online.
+
+View
+
+https://www.researchgate.net/publication/353748386_Sparse_least_trimmed_squares_regression_with_compositional_covariates_for_high_dimensional_data
+
+Show abstract
+
+Robust regression with compositional covariates
+
+https://www.researchgate.net/publication/353276126_Robust_regression_with_compositional_covariates
+
+Article
+
+Jul 2021
+
+COMPUT STAT DATA AN
+
+ Aditya Mishra
+
+https://www.researchgate.net/profile/Aditya-Mishra-54
+
+ Christian Lorenz Müller
+
+https://www.researchgate.net/profile/Christian-Mueller-49
+
+Many biological high-throughput datasets, such as targeted amplicon-based and metagenomic sequencing data, are compositional. A common exploratory data analysis task is to infer robust statistical associations between high-dimensional microbial compositions and habitat- or host-related covariates. To address this, a general robust statistical regression framework RobRegCC (Robust Regression with Compositional Covariates) is proposed, which extends the linear log-contrast model by a mean shift formulation for capturing outliers. RobRegCC includes sparsity-promoting convex and non-convex penalties for parsimonious model estimation, a data-driven robust initialization procedure, and a novel robust cross-validation model selection scheme. The procedure is implemented in the R package robregcc. Extensive simulation studies show the RobRegCC's ability to perform simultaneous sparse log-contrast regression and outlier detection over a wide range of settings. To demonstrate the seamless applicability of the workflow to real data, the gut microbiome dataset from HIV patients are analyzed and robust associations between a sparse set of microbial species and host immune response from soluble CD14 measurements are inferred.
+
+View
+
+https://www.researchgate.net/publication/353276126_Robust_regression_with_compositional_covariates
+
+Show abstract
+
+Gaining Outlier Resistance With Progressive Quantiles: Fast Algorithms and Theoretical Studies
+
+https://www.researchgate.net/publication/346989575_Gaining_Outlier_Resistance_With_Progressive_Quantiles_Fast_Algorithms_and_Theoretical_Studies
+
+Article
+
+Nov 2020
+
+Yiyuan She
+
+https://www.researchgate.net/scientific-contributions/Yiyuan-She-51332426
+
+Zhifeng Wang
+
+https://www.researchgate.net/scientific-contributions/Zhifeng-Wang-2185663664
+
+Jiahui Shen
+
+https://www.researchgate.net/scientific-contributions/Jiahui-Shen-2185858989
+
+Outliers widely occur in big-data applications and may severely affect statistical estimation and inference. In this paper, a framework of outlier-resistant estimation is introduced to robustify an arbitrarily given loss function. It has a close connection to the method of trimming and includes explicit outlyingness parameters for all samples, which in turn facilitates computation, theory, and parameter tuning. To tackle the issues of nonconvexity and nonsmoothness, we develop scalable algorithms with implementation ease and guaranteed fast convergence. In particular, a new technique is proposed to alleviate the requirement on the starting point such that on regular datasets, the number of data resamplings can be substantially reduced. Based on combined statistical and computational treatments, we are able to perform nonasymptotic analysis beyond M-estimation. The obtained resistant estimators, though not necessarily globally or even locally optimal, enjoy minimax rate optimality in both low dimensions and high dimensions. Experiments in regression, classification, and neural networks show excellent performance of the proposed methodology at the occurrence of gross outliers.
+
+View
+
+https://www.researchgate.net/publication/346989575_Gaining_Outlier_Resistance_With_Progressive_Quantiles_Fast_Algorithms_and_Theoretical_Studies
+
+Show abstract
+
+Robust linear regression for high‐dimensional data: An overview
+
+https://www.researchgate.net/publication/342769819_Robust_linear_regression_for_high-dimensional_data_An_overview
+
+Article
+
+Full-text available
+
+Jul 2020
+
+ Peter Filzmoser
+
+https://www.researchgate.net/profile/Peter-Filzmoser
+
+ Klaus Nordhausen
+
+https://www.researchgate.net/profile/Klaus-Nordhausen
+
+Digitization as the process of converting information into numbers leads to bigger and more complex data sets, bigger also with respect to the number of measured variables. This makes it harder or impossible for the practitioner to identify outliers or observations that are inconsistent with an underlying model. Classical least‐squares based procedures can be affected by those outliers. In the regression context, this means that the parameter estimates are biased, with consequences on the validity of the statistical inference, on regression diagnostics, and on the prediction accuracy. Robust regression methods aim at assigning appropriate weights to observations that deviate from the model. While robust regression techniques are widely known in the low‐dimensional case, researchers and practitioners might still not be very familiar with developments in this direction for high‐dimensional data. Recently, different strategies have been proposed for robust regression in the high‐dimensional case, typically based on dimension reduction, on shrinkage, including sparsity, and on combinations of such techniques. A very recent concept is downweighting single cells of the data matrix rather than complete observations, with the goal to make better use of the model‐consistent information, and thus to achieve higher efficiency of the parameter estimates. This article is categorized under: • Statistical and Graphical Methods of Data Analysis > Robust Methods • Statistical and Graphical Methods of Data Analysis > Analysis of High Dimensional Data • Statistical and Graphical Methods of Data Analysis > Dimension Reduction Abstract The big data era increases the probability of data outliers, and this leads to an urgent need of robust statistical methods, as described here for the high‐dimensional regression problem.
+
+View
+
+https://www.researchgate.net/publication/342769819_Robust_linear_regression_for_high-dimensional_data_An_overview
+
+Show abstract
+
+Robust and sparse estimators for linear regression models
+
+https://www.researchgate.net/publication/280912229_Robust_and_sparse_estimators_for_linear_regression_models
+
+Article
+
+Full-text available
+
+Aug 2015
+
+COMPUT STAT DATA AN
+
+ Ezequiel Smucler
+
+https://www.researchgate.net/profile/Ezequiel-Smucler
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+Penalized regression estimators are a popular tool for the analysis of sparse and high-dimensional data sets. However, penalized regression estimators defined using an unbounded loss function can be very sensitive to the presence of outlying observations, especially high leverage outliers. Moreover, it can be particularly challenging to detect outliers in high-dimensional data sets. Thus, robust estimators for sparse and high-dimensional linear regression models are in need. In this paper, we study the robust and asymptotic properties of MM-Bridge and adaptive MM-Bridge estimators: ℓ q \ell_q -penalized MM-estimators of regression, and MM-estimators with an adaptive ℓ q \ell_q penalty. For the case of a fixed number of covariates we derive the asymptotic distribution of MM-Bridge estimators for all q > 0 q>0 . We prove that for 0 < q < 1 0<q<1 , MM-Bridge estimators can have the oracle property defined in Fan and Li (2001). We prove that adaptive MM-Bridge estimators can also have the oracle property. The advantages of our proposed estimators are demonstrated through an extensive simulation study and the analysis of a real high-dimensional data set.
+
+View
+
+https://www.researchgate.net/publication/280912229_Robust_and_sparse_estimators_for_linear_regression_models
+
+Show abstract
+
+Least Median of Squares Regression
+
+https://www.researchgate.net/publication/247151979_Least_Median_of_Squares_Regression
+
+Article
+
+Full-text available
+
+Dec 1984
+
+J AM STAT ASSOC
+
+https://www.researchgate.net/journal/Journal-of-the-American-Statistical-Association-1537-274X
+
+ Peter Rousseeuw
+
+https://www.researchgate.net/profile/Peter-Rousseeuw
+
+View
+
+https://www.researchgate.net/publication/247151979_Least_Median_of_Squares_Regression
+
+Robust Regression by Means of S-Estimators
+
+https://www.researchgate.net/publication/243632692_Robust_Regression_by_Means_of_S-Estimators
+
+Article
+
+Full-text available
+
+Jun 1984
+
+ Peter Rousseeuw
+
+https://www.researchgate.net/profile/Peter-Rousseeuw
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+There are at least two reasons why robust regression techniques are useful tools in robust time series analysis. First of all, one often wants to estimate autoregressive parameters in a robust way, and secondly, one sometimes has to fit a linear or nonlinear trend to a time series. In this paper we shall develop a class of methods for robust regression, and briefly comment on their use in time series. These new estimators are introduced because of their invulnerability to large fractions of contaminated data. We propose to call them “S-estimators” because they are based on estimators of scale.
+
+View
+
+https://www.researchgate.net/publication/243632692_Robust_Regression_by_Means_of_S-Estimators
+
+Show abstract
+
+Least Median of Squares Regression
+
+https://www.researchgate.net/publication/242464484_Least_Median_of_Squares_Regression
+
+Article
+
+Full-text available
+
+Dec 1984
+
+ Peter Rousseeuw
+
+https://www.researchgate.net/profile/Peter-Rousseeuw
+
+Classical least squares regression consists of minimizing the sum of the squared residuals. Many authors have produced more robust versions of this estimator by replacing the square by something else, such as the absolute value. In this article a different approach is introduced in which the sum is replaced by the median of the squared residuals. The resulting estimator can resist the effect of nearly 50% of contamination in the data. In the special case of simple regression, it corresponds to finding the narrowest strip covering half of the observations. Generalizations are possible to multivariate location, orthogonal regression, and hypothesis testing in linear models.
+
+View
+
+https://www.researchgate.net/publication/242464484_Least_Median_of_Squares_Regression
+
+Show abstract
+
+Sparse least trimmed squares regression for analyzing high-dimensional large data sets
+
+https://www.researchgate.net/publication/236203879_Sparse_least_trimmed_squares_regression_for_analyzing_high-dimensional_large_data_sets
+
+Article
+
+Full-text available
+
+Mar 2013
+
+ANN APPL STAT
+
+ Andreas Alfons
+
+https://www.researchgate.net/profile/Andreas-Alfons
+
+ Christophe Croux
+
+https://www.researchgate.net/profile/Christophe-Croux
+
+ Sarah Gelper
+
+https://www.researchgate.net/profile/Sarah-Gelper
+
+Sparse model estimation is a topic of high importance in modern data analysis due to the increasing availability of data sets with a large number of variables. Another common problem in applied statistics is the presence of outliers in the data. This paper combines robust regression and sparse model estimation. A robust and sparse estimator is introduced by adding an L 1 L_1 penalty on the coefficient estimates to the well-known least trimmed squares (LTS) estimator. The breakdown point of this sparse LTS estimator is derived, and a fast algorithm for its computation is proposed. In addition, the sparse LTS is applied to protein and gene expression data of the NCI-60 cancer cell panel. Both a simulation study and the real data application show that the sparse LTS has better prediction performance than its competitors in the presence of leverage points.
+
+View
+
+https://www.researchgate.net/publication/236203879_Sparse_least_trimmed_squares_regression_for_analyzing_high-dimensional_large_data_sets
+
+Show abstract
+
+Nonsingular subsampling for S-estimators with categorical predictors
+
+https://www.researchgate.net/publication/230750299_Nonsingular_subsampling_for_S-estimators_with_categorical_predictors
+
+Article
+
+Full-text available
+
+Jun 2017
+
+COMPUTATION STAT
+
+Manuel Koller
+
+https://www.researchgate.net/scientific-contributions/Manuel-Koller-70801793
+
+An integral part of many algorithms for S-estimators of linear regression is random subsampling. For problems with only continuous predictors simple random subsampling is a reliable method to generate initial coefficient estimates that can then be further refined. For data with categorical predictors, however, random subsampling often does not work, thus limiting the use of an otherwise fine estimator. This also makes the choice of estimator for robust linear regression dependent on the type of predictors, which is an unnecessary nuisance in practice. For data with categorical predictors random subsampling often generates singular subsamples. Since these subsamples cannot be used to calculate coefficient estimates, they have to be discarded. This makes random subsampling slow, especially if some levels of categorical predictors have low frequency, and renders the algorithms infeasible for such problems. This paper introduces an improved subsampling algorithm that only generates nonsingular subsamples. We call it nonsingular subsampling. For data with continuous variables it is as fast as simple random subsampling but much faster for data with categorical predictors. This is achieved by using a modified LU decomposition algorithm that combines the generation of a sample and the solving of the least squares problem.
+
+View
+
+https://www.researchgate.net/publication/230750299_Nonsingular_subsampling_for_S-estimators_with_categorical_predictors
+
+Show abstract
+
+A Fast Algorithm for S-Regression Estimates
+
+https://www.researchgate.net/publication/228840804_A_Fast_Algorithm_for_S-Regression_Estimates
+
+Article
+
+Full-text available
+
+Jun 2006
+
+ Matias Salibian-Barrera
+
+https://www.researchgate.net/profile/Matias-Salibian-Barrera
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+Equivariant high-breakdown point regression estimates are computationally expen-sive, and the corresponding algorithms become unfeasible for moderately large number of regressors. One important advance to improve the computational speed of one such estima-tor is the fast-LTS algorithm. This article proposes an analogous algorithm for computing S-estimates. The new algorithm, that we call "fast-S", is also based on a "local improve-ment" step of the resampling initial candidates. This allows for a substantial reduction of the number of candidates required to obtain a good approximation to the optimal solution. We performed a simulation study which shows that S-estimators computed with the fast-S algorithm compare favorably to the LTS-estimators computed with the fast-LTS algorithm. Key Words: AU: Please give 3–5 key words that do not appear in the title.
+
+View
+
+https://www.researchgate.net/publication/228840804_A_Fast_Algorithm_for_S-Regression_Estimates
+
+Show abstract
+
+On the Lasso and its dual
+
+https://www.researchgate.net/publication/228717697_On_the_Lasso_and_its_dual
+
+Article
+
+Full-text available
+
+Jul 2000
+
+J COMPUT GRAPH STAT
+
+https://www.researchgate.net/journal/Journal-of-Computational-and-Graphical-Statistics-1537-2715
+
+Michael R. Osborne
+
+https://www.researchgate.net/scientific-contributions/Michael-R-Osborne-65546944
+
+Brett Presnell
+
+https://www.researchgate.net/scientific-contributions/Brett-Presnell-10449313
+
+ Berwin A. Turlach
+
+https://www.researchgate.net/profile/Berwin-Turlach
+
+Proposed by Tibshirani, the least absolute shrinkage and selection operator (LASSO) estimates a vector of regression coefficients by minimizing the residual sum of squares subject to a constraint on the 1'-norm of the coefficient vector. The LASSO estimator typically has one or more zero elements and thus shares characteristics of both shrinkage estimation and variable selection. In this article we treat the LASSO as a convex pro-gramming problem and derive its dual. Consideration of the primal and dual problems together leads to important new insights into the characteristics of the LASSO estimator and to an improved method for estimating its covariance matrix. Using these results we also develop an efficient algorithm for computing LASSO estimates which is usable even in cases where the number of regressors exceeds the number of observations. An S-Plus library based on this algorithm is available from StatLib.
+
+View
+
+https://www.researchgate.net/publication/228717697_On_the_Lasso_and_its_dual
+
+Show abstract
+
+A Fast Procedure for Outlier Diagnostics in Large Regression Problems
+
+https://www.researchgate.net/publication/228558254_A_Fast_Procedure_for_Outlier_Diagnostics_in_Large_Regression_Problems
+
+Article
+
+Full-text available
+
+Jun 1999
+
+Daniel P Na
+
+https://www.researchgate.net/scientific-contributions/Daniel-P-Na-81348201
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+We propose a procedure for computing a fast approximation to regression estimates based on the minimization of a robust scale. The procedure can be applied with a large number of independent variables where the usual algorithms require an unfeasible or extremely costly computer time. Also, it can be incorporated in any high-breakdown estimation method and may improve it with just little additional computer time. The procedure minimizes the robust scale over a set of tentative parameter vectors estimated by least squares after eliminating a set of possible outliers, which are obtained as follows. We represent each observation by the vector of changes of the least squares forecasts of the observation when each of the data points is deleted. Then we obtain the sets of possible outliers as the extreme points in the principal components of these vectors, or as the set of points with large residuals. The good performance of the procedure allows identification of multiple outliers, avoiding masking effects. We investigate the procedure's efficiency for robust estimation and power as an outlier detection tool in a large real dataset and in a simulation study.
+
+View
+
+https://www.researchgate.net/publication/228558254_A_Fast_Procedure_for_Outlier_Diagnostics_in_Large_Regression_Problems
+
+Show abstract
+
+Robust Ridge Regression for High-Dimensional Data
+
+https://www.researchgate.net/publication/228427267_Robust_Ridge_Regression_for_High-Dimensional_Data
+
+Article
+
+Full-text available
+
+Feb 2011
+
+ Ricardo A. Maronna
+
+https://www.researchgate.net/profile/Ricardo-Maronna
+
+Ridge regression, being based on the minimization of a quadratic loss function, is sensitive to outliers. Current proposals for robust ridge re-gression estimators are sensitive to "bad leverage observations", cannot be employed when the number of predictors p is larger than the number of observations n; and have a low robustness when the ratio p=n is large. In this paper a ridge regression estimate based on Yohai's (1987) repeated M estimation ("MM estimation") is proposed. It is a penalized regression MM estimator, in which the quadratic loss is replaced by an average of (ri=b), where ri are the residuals and b the residual scale from an initial estimator, which is a penalized S estimator; and is a bounded function. The MM estimator can be computed for p > n and is robust for large p=n: A fast algorithm is proposed. The advantages of the proposed approach over its competitors are demonstrated through both simulated and real data.
+
+View
+
+https://www.researchgate.net/publication/228427267_Robust_Ridge_Regression_for_High-Dimensional_Data
+
+Show abstract
+
+Regularized Paths for Generalized Linear Models Via Coordinate Descent
+
+https://www.researchgate.net/publication/46515750_Regularized_Paths_for_Generalized_Linear_Models_Via_Coordinate_Descent
+
+Article
+
+Full-text available
+
+Feb 2010
+
+J STAT SOFTW
+
+ Rob Tibshirani
+
+https://www.researchgate.net/profile/Rob-Tibshirani
+
+ Trevor Hastie
+
+https://www.researchgate.net/profile/Trevor-Hastie
+
+ Jerome H. Friedman
+
+https://www.researchgate.net/profile/Jerome-Friedman
+
+We develop fast algorithms for estimation of generalized linear models with convex penalties. The models include linear regression, two-class logistic regression, and multi- nomial regression problems while the penalties include Ã¢ÂÂ_1 (the lasso), Ã¢ÂÂ_2 (ridge regression) and mixtures of the two (the elastic net). The algorithms use cyclical coordinate descent, computed along a regularization path. The methods can handle large problems and can also deal efficiently with sparse features. In comparative timings we find that the new algorithms are considerably faster than competing methods.
+
+View
+
+https://www.researchgate.net/publication/46515750_Regularized_Paths_for_Generalized_Linear_Models_Via_Coordinate_Descent
+
+Show abstract
+
+On the Adaptive Elastic-Net with a Diverging Number of Parameters
+
+https://www.researchgate.net/publication/44576313_On_the_Adaptive_Elastic-Net_with_a_Diverging_Number_of_Parameters
+
+Article
+
+Full-text available
+
+Aug 2009
+
+ANN STAT
+
+ Hui Zou
+
+https://www.researchgate.net/profile/Hui-Zou-5
+
+Hao Helen Zhang
+
+https://www.researchgate.net/scientific-contributions/Hao-Helen-Zhang-45283725
+
+We consider the problem of model selection and estimation in situations where the number of parameters diverges with the sample size. When the dimension is high, an ideal method should have the oracle property (Fan and Li, 2001; Fan and Peng, 2004) which ensures the optimal large sample performance. Furthermore, the high-dimensionality often induces the collinearity problem which should be properly handled by the ideal method. Many existing variable selection methods fail to achieve both goals simultaneously. In this paper, we propose the adaptive Elastic-Net that combines the strengths of the quadratic regularization and the adaptively weighted lasso shrinkage. Under weak regularity conditions, we establish the oracle property of the adaptive Elastic-Net. We show by simulations that the adaptive Elastic-Net deals with the collinearity problem better than the other oracle-like methods, thus enjoying much improved finite sample performance.
+
+View
+
+https://www.researchgate.net/publication/44576313_On_the_Adaptive_Elastic-Net_with_a_Diverging_Number_of_Parameters
+
+Show abstract
+
+High Breakdown-Point and High Efficiency Robust Estimates for Regression
+
+https://www.researchgate.net/publication/38360169_High_Breakdown-Point_and_High_Efficiency_Robust_Estimates_for_Regression
+
+Article
+
+Full-text available
+
+Jun 1987
+
+ANN STAT
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+A class of robust estimates for the linear model is introduced. These estimates, called MM-estimates, have simultaneously the following properties: (i) they are highly efficient when the errors have a normal distribution and (ii) their breakdown-point is 0.5. The MM-estimates are defined by a three-stage procedure. In the first stage an initial regression estimate is computed which is consistent robust and with high breakdown-point but not necessarily efficient. In the second stage an M-estimate of the errors scale is computed using residuals based on the initial estimate. Finally, in the third stage an M-estimate of the regression parameters based on a proper redescending psi-function is computed. Consistency and asymptotical normality of the MM-estimates assuming random carriers are proved. A convergent iterative numerical algorithm is given. Finally, the asymptotic biases under contamination of optimal bounded influence estimates and MM-estimates are compared.
+
+View
+
+https://www.researchgate.net/publication/38360169_High_Breakdown-Point_and_High_Efficiency_Robust_Estimates_for_Regression
+
+Show abstract
+
+Cardiac Allograft Vasculopathy Recent Developments
+
+https://www.researchgate.net/publication/5426025_Cardiac_Allograft_Vasculopathy_Recent_Developments
+
+Article
+
+Full-text available
+
+May 2008
+
+CIRCULATION
+
+ Daniel Schmauss
+
+https://www.researchgate.net/profile/Daniel-Schmauss
+
+ M. Weis
+
+https://www.researchgate.net/profile/M-Weis
+
+Cardiac allograft vasculopathy (CAV) continues to limit the long-term success of cardiac transplantation. Recent insights have underscored the fact that innate and adaptive immune responses are involved in the pathogenesis of CAV. Vascular lesions are the result of cumulative endothelial injuries induced both by alloimmune responses and by nonspecific insults (including ischemia-reperfusion injury, viral infections, and metabolic disorders) in the context of impaired repair mechanisms. Intravascular ultrasound is the most sensitive method for detection of CAV, and progressive intimal thickening in the first posttransplant year identifies patients at high risk for future cardiovascular events. Encouraging results with regard to the detection of CAV by noninvasive methods should be an incentive to apply routine noninvasive imaging during mid- to long-term follow-up. Improved immunosuppressive drugs, including mycophenolate mofetil and proliferation signal inhibitors, as well as statins (in part via immunomodulation), have beneficial effects on CAV progression, although there is still a need to confirm the impact of vasodilators in improving outcome after heart transplantation. Coronary revascularization for CAV is only palliative, with no long-term survival benefit. Three main strategies for CAV prevention are currently under investigation: inhibition of growth factors and cytokines, cell therapy, and tolerance induction. However, because individual responses to an allograft change over time, assays to monitor the recipient's immune response and individualized methods for therapeutic immune modulation are clearly needed.
+
+View
+
+https://www.researchgate.net/publication/5426025_Cardiac_Allograft_Vasculopathy_Recent_Developments
+
+Show abstract
+
+Robust Linear Model Selection Based on Least Angle Regression
+
+https://www.researchgate.net/publication/4986715_Robust_Linear_Model_Selection_Based_on_Least_Angle_Regression
+
+Article
+
+Full-text available
+
+Dec 2007
+
+J AM STAT ASSOC
+
+https://www.researchgate.net/journal/Journal-of-the-American-Statistical-Association-1537-274X
+
+ Jafar Khan
+
+https://www.researchgate.net/profile/Jafar-Khan-5
+
+ Stefan Van Aelst
+
+https://www.researchgate.net/profile/Stefan-Van-Aelst
+
+ Ruben H. Zamar
+
+https://www.researchgate.net/profile/Ruben-Zamar
+
+Because of regulation projects from control organizations such as the European solvency II reform and recent economic events, insurance companies need to consolidate their capital reserve with coherent amounts allocated to the whole company and to each line of business. The present study considers an insurance portfolio consisting of several lines of risk which are linked by a copula and aims to evaluate not only the capital allocation for the overall portfolio but also the contribution of each risk over their aggregation. We use the tail value at risk (TVaR) as risk measure. The handy form of the FGM copula permits an exact expression for the TVaR of the sum of the risks and for the TVaR-based allocations when claim amounts are exponentially distributed and distributed as a mixture of exponentials. We first examine the bivariate model and then the multivariate case. We also show how to approximate the TVaR of the aggregate risk and the contribution of each risk when using any copula.
+
+View
+
+https://www.researchgate.net/publication/4986715_Robust_Linear_Model_Selection_Based_on_Least_Angle_Regression
+
+Show abstract
+
+On Nonconcave Penalized Likelihood With Diverging Number of Parameters
+
+https://www.researchgate.net/publication/2113448_On_Nonconcave_Penalized_Likelihood_With_Diverging_Number_of_Parameters
+
+Article
+
+Full-text available
+
+Jul 2004
+
+ANN STAT
+
+ Jianqing Fan
+
+https://www.researchgate.net/profile/Jianqing-Fan
+
+ Heng Peng
+
+https://www.researchgate.net/profile/Heng-Peng-3
+
+A class of variable selection procedures for parametric models via nonconcave penalized likelihood was proposed by Fan and Li to simultaneously estimate parameters and select important variables. They demonstrated that this class of procedures has an oracle property when the number of parameters is finite. However, in most model selection problems the number of parameters should be large and grow with the sample size. In this paper some asymptotic properties of the nonconcave penalized likelihood are established for situations in which the number of parameters tends to \infty as the sample size increases. Under regularity conditions we have established an oracle property and the asymptotic normality of the penalized likelihood estimators. Furthermore, the consistency of the sandwich formula of the covariance matrix is demonstrated. Nonconcave penalized likelihood ratio statistics are discussed, and their asymptotic distributions under the null hypothesis are obtained by imposing some mild conditions on the penalty functions.
+
+View
+
+https://www.researchgate.net/publication/2113448_On_Nonconcave_Penalized_Likelihood_With_Diverging_Number_of_Parameters
+
+Show abstract
+
+Regression Shrinkage and Selection Via the Lasso
+
+https://www.researchgate.net/publication/329475599_Regression_Shrinkage_and_Selection_Via_the_Lasso
+
+Article
+
+Jan 1996
+
+J R STAT SOC B
+
+ Robert Tibshirani
+
+https://www.researchgate.net/profile/Robert-Tibshirani
+
+We propose a new method for estimation in linear models. The 'lasso' minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models. Our simulation studies suggest that the lasso enjoys some of the favourable properties of both subset selection and ridge regression. It produces interpretable models like subset selection and exhibits the stability of ridge regression. There is also an interesting relationship with recent work in adaptive function estimation by Donoho and Johnstone. The lasso idea is quite general and can be applied in a variety of statistical models: extensions to generalized regression models and tree‐based models are briefly described.
+
+View
+
+https://www.researchgate.net/publication/329475599_Regression_Shrinkage_and_Selection_Via_the_Lasso
+
+Show abstract
+
+Regularization and Variable Selection via the Elastic Nets
+
+https://www.researchgate.net/publication/312432923_Regularization_and_Variable_Selection_via_the_Elastic_Nets
+
+Article
+
+Jan 2015
+
+ Hui Zou
+
+https://www.researchgate.net/profile/Hui-Zou-5
+
+T. Hastie
+
+https://www.researchgate.net/scientific-contributions/T-Hastie-2120627377
+
+View
+
+https://www.researchgate.net/publication/312432923_Regularization_and_Variable_Selection_via_the_Elastic_Nets
+
+Regression Shrinkage and Selection via the LASSO
+
+https://www.researchgate.net/publication/304824205_Regression_Shrinkage_and_Selection_via_the_LASSO
+
+Article
+
+Jan 1996
+
+J R STAT SOC B
+
+R. J. Tibshirani
+
+https://www.researchgate.net/scientific-contributions/R-J-Tibshirani-2112097636
+
+View
+
+https://www.researchgate.net/publication/304824205_Regression_Shrinkage_and_Selection_via_the_LASSO
+
+Estimation of High Dimensional Mean Regression in the Absence of Symmetry and Light Tail Assumptions
+
+https://www.researchgate.net/publication/301312783_Estimation_of_high_dimensional_mean_regression_in_the_absence_of_symmetry_and_light_tail_assumptions
+
+Article
+
+Apr 2016
+
+ Jianqing Fan
+
+https://www.researchgate.net/profile/Jianqing-Fan
+
+Quefeng Li
+
+https://www.researchgate.net/scientific-contributions/Quefeng-Li-2049139296
+
+Yuyan Wang
+
+https://www.researchgate.net/scientific-contributions/Yuyan-Wang-2055726635
+
+Data subject to heavy-tailed errors are commonly encountered in various scientific fields. To address this problem, procedures based on quantile regression and least absolute deviation regression have been developed in recent years. These methods essentially estimate the conditional median (or quantile) function. They can be very different from the conditional mean functions, especially when distributions are asymmetric and heteroscedastic. How can we efficiently estimate the mean regression functions in ultrahigh dimensional settings with existence of only the second moment? To solve this problem, we propose a penalized Huber loss with diverging parameter to reduce biases created by the traditional Huber loss. Such a penalized robust approximate (RA) quadratic loss will be called the RA lasso. In the ultrahigh dimensional setting, where the dimensionality can grow exponentially with the sample size, our results reveal that the RA lasso estimator produces a consistent estimator at the same rate as the optimal rate under the light tail situation. We further study the computational convergence of the RA lasso and show that the composite gradient descent algorithm indeed produces a solution that admits the same optimal rate after sufficient iterations. As a by-product, we also establish the concentration inequality for estimating the population mean when there is only the second moment. We compare the RA lasso with other regularized robust estimators based on quantile regression and least absolute deviation regression. Extensive simulation studies demonstrate the satisfactory finite sample performance of the RA lasso. © 2016 The Royal Statistical Society and Blackwell Publishing Ltd.
+
+View
+
+https://www.researchgate.net/publication/301312783_Estimation_of_high_dimensional_mean_regression_in_the_absence_of_symmetry_and_light_tail_assumptions
+
+Show abstract
+
+Robust Statistics: Theory and Methods
+
+https://www.researchgate.net/publication/267467445_Robust_Statistics_Theory_and_Methods
+
+Article
+
+Jun 2006
+
+ Ricardo A. Maronna
+
+https://www.researchgate.net/profile/Ricardo-Maronna
+
+Douglas R. Martin
+
+https://www.researchgate.net/scientific-contributions/Douglas-R-Martin-2057014853
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+Time series outliers and their impactClassical estimates for AR modelsClassical estimates for ARMA modelsM-estimates of ARMA modelsGeneralized M-estimatesRobust AR estimation using robust filtersRobust model identificationRobust ARMA model estimation using robust filtersARIMA and SARIMA modelsDetecting time series outliers and level shiftsRobustness measures for time seriesOther approaches for ARMA modelsHigh-efficiency robust location estimatesRobust spectral density estimationAppendix A: heuristic derivation of the asymptotic distribution of M-estimates for ARMA modelsAppendix B: robust filter covariance recursionsAppendix C: ARMA model state-space representationProblems
+
+View
+
+https://www.researchgate.net/publication/267467445_Robust_Statistics_Theory_and_Methods
+
+Show abstract
+
+High Breakdown-Point Estimates of Regression by Means of the Minimization of an Efficient Scale
+
+https://www.researchgate.net/publication/265399081_High_Breakdown-Point_Estimates_of_Regression_by_Means_of_the_Minimization_of_an_Efficient_Scale
+
+Article
+
+Jun 1988
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+ Ruben H. Zamar
+
+https://www.researchgate.net/profile/Ruben-Zamar
+
+A new class of robust estimates, τ estimates, is introduced. The estimates have simultaneously the following properties: (a) they are qualitatively robust, (b) their breakdown point is .5, and (c) they are highly efficient for regression models with normal errors. They are defined by minimizing a new scale estimate, τ, applied to the residuals. Asymptotically, a τ estimate is equivalent to an M estimate with a ψ function given by a weighted average of two ψ functions, one corresponding to a very robust estimate and the other to a highly efficient estimate. The weights are adaptive and depend on the underlying error distribution. We prove consistency and asymptotic normality and give a convergent iterative computing algorithm. Finally, we compare the biases produced by gross error contamination in the τ estimates and optimal bounded-influence estimates.
+
+View
+
+https://www.researchgate.net/publication/265399081_High_Breakdown-Point_Estimates_of_Regression_by_Means_of_the_Minimization_of_an_Efficient_Scale
+
+Show abstract
+
+Plasma protein biosignatures for detection of cardiac allograft vasculopathy
+
+https://www.researchgate.net/publication/257066959_Plasma_protein_biosignatures_for_detection_of_cardiac_allograft_vasculopathy
+
+Article
+
+Jul 2013
+
+J HEART LUNG TRANSPL
+
+ David Lin
+
+https://www.researchgate.net/profile/David-Lin-6
+
+ Gabriela V Cohen
+
+https://www.researchgate.net/profile/Gabriela-Cohen-3
+
+ Zsuzsanna Hollander
+
+https://www.researchgate.net/profile/Zsuzsanna-Hollander
+
+McManus BM
+
+https://www.researchgate.net/scientific-contributions/McManus-BM-2031346920
+
+Background Coronary angiography remains the most widely used tool for routine screening and diagnosis of cardiac allograft vasculopathy (CAV), a major pathologic process that develops in 50% of cardiac transplant recipients beyond the first year after transplant. Given the invasiveness, expense, discomfort, and risk of complications associated with angiography, a minimally invasive alternative that is sensitive and specific would be highly desirable for monitoring CAV in patients. Methods Plasma proteomic analysis using isobaric tags for relative and absolute quantitationâ€“matrix-assisted laser desorption ionization double time-of-flight mass spectrometry was carried out on samples from 40 cardiac transplant patients (10 CAV, 9 non-significant CAV, 21 possible CAV). Presence of CAV was defined as left anterior descending artery diameter stenosis â‰¥ 40% by digital angiography and quantitatively measured by blinded expert appraisal. Moderated t-test robust-linear models for microarray data were used to identify biomarkers that are significantly differentially expressed between patient samples with CAV and with non-significant CAV. A proteomic panel for diagnosis of CAV was generated using the Elastic Net classification method. Results We identified an 18-plasma protein biomarker classifier panel that was able to classify and differentiate patients with angiographically significant CAV from those without significant CAV, with an 80% sensitivity and 89% specificity, while providing insight into the possible underlying immune and non-alloimmune contributory mechanisms of CAV. Conclusion Our results support of the potential utility of proteomic biomarker panels as a minimally invasive means to identify patients with significant, angiographically detectable coronary artery stenosis in the cardiac allograft, in the context of post-cardiac transplantation monitoring and screening for CAV. The potential biologic significance of the biomarkers identified may also help improve our understanding of CAV pathophysiology.
+
+View
+
+https://www.researchgate.net/publication/257066959_Plasma_protein_biosignatures_for_detection_of_cardiac_allograft_vasculopathy
+
+Show abstract
+
+Correcting MM estimates for “fat” data sets
+
+https://www.researchgate.net/publication/257017106_Correcting_MM_estimates_for_fat_data_sets
+
+Article
+
+Dec 2010
+
+COMPUT STAT DATA AN
+
+ Ricardo A. Maronna
+
+https://www.researchgate.net/profile/Ricardo-Maronna
+
+ Victor J. Yohai
+
+https://www.researchgate.net/profile/Victor-Yohai
+
+Regression MM estimates require the estimation of the error scale, and the determination of a constant that controls the efficiency. These two steps are based on the asymptotic results that are derived assuming that the number of predictors pp remains fixed while the number of observations nn tends to infinity, which means assuming that the ratio p/np/n is “small”. However, many high-dimensional data sets have a “large” value of p/np/n (say, ≥0.2). It is shown that the standard asymptotic results do not hold if p/np/n is large; namely that (a) the estimated scale underestimates the true error scale, and (b) that even if the scale is correctly estimated, the actual efficiency can be much lower than the nominal one. To overcome these drawbacks simple corrections for the scale and for the efficiency controlling constant are proposed, and it is demonstrated that these corrections improve on the estimate's performance under both normal and contaminated data.
+
+View
+
+https://www.researchgate.net/publication/257017106_Correcting_MM_estimates_for_fat_data_sets
+
+Show abstract
+
+The Notion of Breakdown Point
+
+https://www.researchgate.net/publication/243699082_The_Notion_of_Breakdown_Point
+
+Article
+
+Jan 1983
+
+ David Donoho
+
+https://www.researchgate.net/profile/David-Donoho
+
+Peter J. Huber
+
+https://www.researchgate.net/scientific-contributions/Peter-J-Huber-2016796633
+
+View
+
+https://www.researchgate.net/publication/243699082_The_Notion_of_Breakdown_Point
+
+Optimization and Nonsmooth Analysis
+
+https://www.researchgate.net/publication/239579195_Optimization_and_Nonsmooth_Analysis
+
+Article
+
+Jan 1987
+
+ Francis H. Clarke
+
+https://www.researchgate.net/profile/Francis-Clarke
+
+View
+
+https://www.researchgate.net/publication/239579195_Optimization_and_Nonsmooth_Analysis
+
+Zou H, Hastie T. Regularization and variable selection via the elastic net. J R Statist Soc B. 2005;67(2):301-20
+
+https://www.researchgate.net/publication/227604843_Zou_H_Hastie_T_Regularization_and_variable_selection_via_the_elastic_net_J_R_Statist_Soc_B_2005672301-20
+
+Article
+
+Apr 2005
+
+J R STAT SOC B
+
+ Hui Zou
+
+https://www.researchgate.net/profile/Hui-Zou-5
+
+ Trevor Hastie
+
+https://www.researchgate.net/profile/Trevor-Hastie
+
+We propose the elastic net, a new regularization and variable selection method. Real world data and a simulation study show that the elastic net often outperforms the lasso, while enjoying a similar sparsity of representation. In addition, the elastic net encourages a grouping effect, where strongly correlated predictors tend to be in or out of the model together. The elastic net is particularly useful when the number of predictors (p) is much bigger than the number of observations (n). By contrast, the lasso is not a very satisfactory variable selection method in the p≫n case. An algorithm called LARS-EN is proposed for computing elastic net regularization paths efficiently, much like algorithm LARS does for the lasso.
+
+View
+
+https://www.researchgate.net/publication/227604843_Zou_H_Hastie_T_Regularization_and_variable_selection_via_the_elastic_net_J_R_Statist_Soc_B_2005672301-20
+
+Show abstract
+
+The lasso problem and uniqueness
+
+https://www.researchgate.net/publication/225098694_The_lasso_problem_and_uniqueness
+
+Article
+
+Jan 2013
+
+Ryan J. Tibshirani
+
+https://www.researchgate.net/scientific-contributions/Ryan-J-Tibshirani-2045820281
+
+The lasso is a popular tool for sparse linear regression, especially for problems in which the number of variables p exceeds the number of observations n. But when p>n, the lasso criterion is not strictly convex, and hence it may not have a unique minimum. An important question is: when is the lasso solution well-defined (unique)? We review results from the literature, which show that if the predictor variables are drawn from a continuous probability distribution, then there is a unique lasso solution with probability one, regardless of the sizes of n and p. We also show that this result extends easily to ℓ 1 \ell_1 penalized minimization problems over a wide range of loss functions. A second important question is: how can we deal with the case of non-uniqueness in lasso solutions? In light of the aforementioned result, this case really only arises when some of the predictor variables are discrete, or when some post-processing has been performed on continuous predictor measurements. Though we certainly cannot claim to provide a complete answer to such a broad question, we do present progress towards understanding some aspects of non-uniqueness. First, we extend the LARS algorithm for computing the lasso solution path to cover the non-unique case, so that this path algorithm works for any predictor matrix. Next, we derive a simple method for computing the component-wise uncertainty in lasso solutions of any given problem instance, based on linear programming. Finally, we review results from the literature on some of the unifying properties of lasso solutions, and also point out particular forms of solutions that have distinctive properties.
+
+View
+
+https://www.researchgate.net/publication/225098694_The_lasso_problem_and_uniqueness
+
+Show abstract
+
+MRM-based multiplexed quantitation of 67 putative cardiovascular disease biomarkers in human plasma
+
+https://www.researchgate.net/publication/224940211_MRM-based_multiplexed_quantitation_of_67_putative_cardiovascular_disease_biomarkers_in_human_plasma
+
+Article
+
+Apr 2012
+
+PROTEOMICS
+
+https://www.researchgate.net/journal/Proteomics-1615-9861
+
+ Dominik Domanski
+
+https://www.researchgate.net/profile/Dominik-Domanski
+
+ Andrew John Percy
+
+https://www.researchgate.net/profile/Andrew-Percy
+
+Juncong Yang
+
+https://www.researchgate.net/scientific-contributions/Juncong-Yang-2163082575
+
+ Christoph Borchers
+
+https://www.researchgate.net/profile/Christoph-Borchers
+
+A highly-multiplexed MRM-based assay for determination of cardiovascular disease (CVD) status and disease classification has been developed for clinical research. A high-flow system using ultra-high performance LC and an Agilent 6490 triple quadrupole mass spectrometer, equipped with an ion funnel, provided ease of use and increased the robustness of the assay. The assay uses 135 stable isotope-labeled peptide standards for the quantitation of 67 putative biomarkers of CVD in tryptic digests of whole plasma in a 30-min assay. Eighty-five analyses of the same sample showed no loss of sensitivity (<20% CV for 134/135 peptides) and no loss of retention time accuracy (<0.5% CV for all peptides). The maximum linear dynamic range of the MRM assays ranged from 10(3) -10(5) for 106 of the assays. Excellent linear responses (r >0.98) were obtained for 117 of the 135 peptide targets with attomole level limits of quantitation (<20% CV and accuracy 80-120%) for 81 of the 135 peptides. The assay presented in this study is easy to use, robust, sensitive, and has high-throughput capabilities through short analysis time and complete automated sample preparation. It is therefore well suited for CVD biomarker validation and discovery in plasma.
+
+View
+
+https://www.researchgate.net/publication/224940211_MRM-based_multiplexed_quantitation_of_67_putative_cardiovascular_disease_biomarkers_in_human_plasma
+
+Show abstract
+
+Super-Linear Convergence of Dual Augmented-Lagrangian Algorithm for Sparsity Regularized Estimation
+
+https://www.researchgate.net/publication/45885647_Super-Linear_Convergence_of_Dual_Augmented-Lagrangian_Algorithm_forSparsity_Regularized_Estimation
+
+Article
+
+Nov 2009
+
+J MACH LEARN RES
+
+Ryota Tomioka
+
+https://www.researchgate.net/scientific-contributions/Ryota-Tomioka-15659876
+
+ Taiji Suzuki
+
+https://www.researchgate.net/profile/Taiji-Suzuki-2
+
+Masashi Sugiyama
+
+https://www.researchgate.net/scientific-contributions/Masashi-Sugiyama-10713080
+
+We analyze the convergence behaviour of a recently proposed algorithm for regularized estimation called Dual Augmented Lagrangian (DAL). Our analysis is based on a new interpretation of DAL as a proximal minimization algorithm. We theoretically show under some conditions that DAL converges super-linearly in a non-asymptotic and global sense. Due to a special modelling of sparse estimation problems in the context of machine learning, the assumptions we make are milder and more natural than those made in conventional analysis of augmented Lagrangian algorithms. In addition, the new interpretation enables us to generalize DAL to wide varieties of sparse estimation problems. We experimentally confirm our analysis in a large scale ℓ 1 \ell_1 -regularized logistic regression problem and extensively compare the efficiency of DAL algorithm to previously proposed algorithms on both synthetic and benchmark datasets.
+
+View
+
+https://www.researchgate.net/publication/45885647_Super-Linear_Convergence_of_Dual_Augmented-Lagrangian_Algorithm_forSparsity_Regularized_Estimation
+
+Show abstract
+
+Least Angle Regression
+
+https://www.researchgate.net/publication/2833559_Least_Angle_Regression
+
+Article
+
+Apr 2002
+
+ANN STAT
+
+Bradley Efron
+
+https://www.researchgate.net/scientific-contributions/Bradley-Efron-58997884
+
+ Trevor Hastie
+
+https://www.researchgate.net/profile/Trevor-Hastie
+
+Lain Johnstone
+
+https://www.researchgate.net/scientific-contributions/Lain-Johnstone-30965960
+
+ Robert Tibshirani
+
+https://www.researchgate.net/profile/Robert-Tibshirani
+
+The purpose of model selection algorithms such as All Subsets, Forward Selection, and Backward Elimination is to choose a linear model on the basis of the same set of data to which the model will be applied. Typically we have available a large collection of possible covariates from which we hope to select a parsimonious set for the eificient pre- diction of a response variable. Least Angle Regression (" LARS"), a new model selection algorithm, is a useful and less greedy version of traditional forward selection methods.
+
+View
+
+https://www.researchgate.net/publication/2833559_Least_Angle_Regression
+
+Show abstract
+
+robustHD: Robust Methods for High-Dimensional Data
+
+A Alfons
+
+ALFONS, A. (2016). robustHD: Robust Methods for High-Dimensional Data. R package version 0.5.1.
+
+Multiple Reaction Monitoring (MRM)
+
+G V Cohen Freue
+
+C H Borchers
+
+COHEN FREUE, G. V. and BORCHERS, C. H. (2012). Multiple Reaction Monitoring (MRM). Circ. Cardiovasc. Genet. 5 378.
+
+Supplement to "Robust elastic net estimators for variable selection and identification of proteomic biomarkers
+
+Jan 2019
+
+G V Cohen Freue
+
+D Kepplinger
+
+M Salibián-Barrera
+
+E Smucler
+
+COHEN FREUE, G. V, KEPPLINGER, D., SALIBIÁN-BARRERA, M. and SMUCLER, E. (2019). Supplement to "Robust elastic net estimators for variable selection and identification of proteomic biomarkers." DOI:10.1214/19-AOAS1269SUPP.
+
+Recommended publications
+
+Discover more about: 
+
+Feature Selection
+
+https://www.researchgate.net/topic/Feature-Selection
+
+Article
+
+A new genetic algorithm in proteomics: Feature selection for SELDI-TOF data
+
+https://www.researchgate.net/publication/4750193_A_new_genetic_algorithm_in_proteomics_Feature_selection_for_SELDI-TOF_data
+
+May 2008
+
+· Computational Statistics & Data Analysis
+
+ 
+
+Christelle Reynes
+
+https://www.researchgate.net/profile/Christelle-Reynes
+
+ 
+
+Robert Sabatier
+
+https://www.researchgate.net/profile/Robert-Sabatier
+
+ 
+
+Nicolas Molinari
+
+https://www.researchgate.net/profile/Nicolas-Molinari
+
+ 
+
+Sylvain Lehmann
+
+https://www.researchgate.net/profile/Sylvain-Lehmann
+
+Mass spectrometry from clinical specimens is used in order to identify biomarkers in a diagnosis. Thus, a reliable method for both feature selection and classification is required. A novel method is proposed to find biomarkers in SELDI-TOF in order to perform robust classification.The feature selection is based on a new genetic algorithm. Concerning the classification, a method which takes into 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ account the great variability on intensity by using decision stumps has been developed. Moreover, as the samples are often small, it is more appropriate to use the decision stumps simultaneously than building a complete tree. The thresholds of the decision stumps are determined in the same genetic algorithm. Finally, the method was generalized to more than two groups based on pairwise coupling. The obtained algorithm was applied on two data sets: a publicly available one containing two groups allowing a comparison with other methods from the literature and a new one containing three groups.
+
+Read more
+
+https://www.researchgate.net/publication/4750193_A_new_genetic_algorithm_in_proteomics_Feature_selection_for_SELDI-TOF_data
+
+Looking for the full-text?
+
+You can request the full-text of this article directly from the authors on ResearchGate.
+
+Request full-text
+
+Already a member? 
+
+Log in
+
+https://www.researchgate.net/login
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=bbyE0kLArUIhue4HgYq1Nq86RmTmWFNeZbE4S2V7RuhpDkr_-JHqWqdV0mvWr7Ju94_wv3BgbxK1SEwDu7jt8vPsQQ7Dnt44qx85ogmIjDs&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=bbyE0kLArUIhue4HgYq1Nq86RmTmWFNeZbE4S2V7RuhpDkr_-JHqWqdV0mvWr7Ju94_wv3BgbxK1SEwDu7jt8vPsQQ7Dnt44qx85ogmIjDs&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=bbyE0kLArUIhue4HgYq1Nq86RmTmWFNeZbE4S2V7RuhpDkr_-JHqWqdV0mvWr7Ju94_wv3BgbxK1SEwDu7jt8vPsQQ7Dnt44qx85ogmIjDs&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=bbyE0kLArUIhue4HgYq1Nq86RmTmWFNeZbE4S2V7RuhpDkr_-JHqWqdV0mvWr7Ju94_wv3BgbxK1SEwDu7jt8vPsQQ7Dnt44qx85ogmIjDs&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=lrqrQYSldWf3m40WaKK6VE__N-NLehNOVUzjR-NocFmzHprWi_PYpZ9TKxb-fjCf0Yj3rAEGLUvOZg5oHJ1mISw1cPE
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=lrqrQYSldWf3m40WaKK6VE__N-NLehNOVUzjR-NocFmzHprWi_PYpZ9TKxb-fjCf0Yj3rAEGLUvOZg5oHJ1mISw1cPE
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()

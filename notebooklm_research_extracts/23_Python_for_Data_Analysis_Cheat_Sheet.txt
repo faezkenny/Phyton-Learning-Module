@@ -1,0 +1,13 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAykfpQguCvNhDDhtndT3ffzpQ6cCJ93N1Doe_fAzyXB1g2XoiBhzdAo6v1-5e76Ak9MZthcrVrb_9pwdF6A7X-2ZvmXUZ9jou-x4QeTwjCQF-9SjDvLmJVyirDV4v_MYlugupryOA=w500-h108-v0
+
+bfef42e7-c692-4803-959e-eeb31ddd7e37
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzh6GrCCp9sz8j7xPE1-ZEuexa_lwsQDyEgwonvB7MiMqvAi7PI9FBIYW0V4Qj8wsXVGz210oGhF48iWCkUCeRkKTnyuQGnMw42PKo_HkNUznQW0fEXQ2-b0cjWi5CHK3956Or1eg=w512-h640-v0
+
+b447caf8-39b3-408d-8369-6f74c3df211d
+
+	
+
+ means	clustering,	and	principal	component	analysis	(PCA).	Additionally,	it	offers	tools	for	data	preprocessing,	model	selection,	and	evaluation.	These	features	make	it	easy	to	experiment	with	different	algorithms	and	techniques.	Some	key	features	of	scikit-learn	include	machine	learning	algorithms,	data	preprocessing,	model	selection,	and	model evaluation.	It	also	integrates	well	with	other	Python	libraries	making	it	easy	to	build	end-to-end	machine	learning	pipelines	using	a	combination	of	tools.	import	plotly.express	as	px#	plot	a	scatter	plot	fig	=	px.scatter(df,	x='col1',	y='col2')#	plot	a	histogram	fig	=	px.histogram(df,	x='col1')	from	sklearn.model_selection	import	train_test_split	from sklearn.linear_model	import	LinearRegression#	split	data	into	training	and	testing	sets	X_train,	X_test,	y_train,	y_test	=	train_test_split(X,	y,	test_size=0.2)#	create	linear	regression	model	and	further	develop	it.	to	train	the	data	model	using	LinearRegression()	=	model.fit(X_train,	y_train)#	predict	results	on	test	datasety_pred	= model.predict(X_test)#	calculate	the	average	squared	errorfrom	sklearn.metrics	import	mean_squared_errormse	=	mean_squared_error(y_test,	y_pred)I	hope	you	enjoyed	this	cheat	sheet	and	got	a	better	understanding	of	various	libraries	in	Python! 
+
+Python	data	analysis	cheat	sheet	pdf.		Excel	cheat	sheet	for	data	analysis.		

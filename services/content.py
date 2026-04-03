@@ -46,6 +46,20 @@ MODULE_INTROS = {
             "Turn a messy shipment sheet into a clean, filterable DataFrame so the rest of the thesis pipeline has reliable input."
         ),
     },
+    "command_center": {
+        "eyebrow": "Zone B: Department Managers",
+        "headline": MODULE_LABELS["command_center"],
+        "description": (
+            "Build interactive 'Swiss-Fintech' charts from live shipment data using Plotly Express and Graph Objects."
+        ),
+    },
+    "fast_calculator": {
+        "eyebrow": "Zone B: Department Managers",
+        "headline": MODULE_LABELS["fast_calculator"],
+        "description": (
+            "Process the total weight of thousands of coils in milliseconds using NumPy vectorised operations."
+        ),
+    },
     "intuition_engine": {
         "eyebrow": "Phase 2: Data Science Analyst",
         "headline": MODULE_LABELS["intuition_engine"],
@@ -100,6 +114,18 @@ MODULE_LEARNING_OBJECTIVES: dict[str, list[str]] = {
         "Filter rows by condition and sort by date to build a reliable pipeline input",
         "Explain why each cleaning step matters for the models that come later",
     ],
+    "command_center": [
+        "Import Plotly Express as px and Plotly Graph Objects as go",
+        "Choose the correct chart type for time-series, categorical, and distribution data",
+        "Customise colours, labels, and templates with keyword arguments",
+        "Pass a Plotly figure to Streamlit using st.plotly_chart()",
+    ],
+    "fast_calculator": [
+        "Understand why NumPy arrays run faster than Python loops",
+        "Apply broadcasting to calculate a surcharge across 10 000 coil weights in one line",
+        "Use np.sum(), np.mean(), and np.std() to aggregate an entire column instantly",
+        "Benchmark a Python loop against a NumPy vectorised operation",
+    ],
     "intuition_engine": [
         "Shape a triangular fuzzy membership function using three parameters a, b, and c",
         "Interpret the membership grade of an observed shipment delay as a truth score",
@@ -151,6 +177,16 @@ SOCRATIC_SEEDS = {
         "Which Pandas step cleans the data before analysis begins?",
         "What would happen if Ain forgot to convert dates into datetimes?",
         "Why does filtering rows feel like asking the warehouse manager for only the relevant boxes?",
+    ],
+    "command_center": [
+        "Which Plotly function would Ain call to draw a line chart comparing delay days over time?",
+        "What is the difference between plotly.express and plotly.graph_objects?",
+        "How does changing the template argument change the chart appearance?",
+    ],
+    "fast_calculator": [
+        "Why is np.sum(weights) faster than sum(weights) for 10 000 values?",
+        "What does broadcasting mean in NumPy and how does it apply to a surcharge calculation?",
+        "How would Ain change the code to calculate the median weight instead of the mean?",
     ],
     "intuition_engine": [
         "How do I change the color of this membership chart in Python?",
@@ -350,6 +386,78 @@ QUIZ_CONTENT = {
                 "shipment_frame.unique_rows()",
             ],
             "answer": "shipment_frame.drop_duplicates()",
+        },
+    ],
+    "command_center": [
+        {
+            "category": "Logistics Concept",
+            "prompt": "Which chart type is best for showing how quantity discrepancy changes over time?",
+            "options": ["Line chart", "Bar chart", "Scatter plot"],
+            "answer": "Line chart",
+        },
+        {
+            "category": "Logistics Concept",
+            "prompt": "When should Ain use plotly.graph_objects instead of plotly.express?",
+            "options": [
+                "To fully control individual traces, shapes, and annotations",
+                "To load data from a CSV file faster",
+                "To replace NumPy in numerical calculations",
+            ],
+            "answer": "To fully control individual traces, shapes, and annotations",
+        },
+        {
+            "category": "Python Syntax",
+            "prompt": "Which call draws an interactive line chart from a DataFrame in Plotly Express?",
+            "options": [
+                'px.line(df, x="shipment_date", y="quantity_discrepancy")',
+                'go.Line(df, x="shipment_date", y="quantity_discrepancy")',
+                'df.plot(x="shipment_date", y="quantity_discrepancy")',
+            ],
+            "answer": 'px.line(df, x="shipment_date", y="quantity_discrepancy")',
+        },
+        {
+            "category": "Python Syntax",
+            "prompt": "How do you display a Plotly figure inside a Streamlit app?",
+            "options": ["st.plotly_chart(fig)", "fig.show()", "st.chart(fig)"],
+            "answer": "st.plotly_chart(fig)",
+        },
+    ],
+    "fast_calculator": [
+        {
+            "category": "Logistics Concept",
+            "prompt": "Why does NumPy beat a Python loop for calculating total coil weight across 10 000 entries?",
+            "options": [
+                "It runs the operation in compiled C-level code on a contiguous memory block",
+                "It automatically uses more CPU cores",
+                "It skips values that are zero to save time",
+            ],
+            "answer": "It runs the operation in compiled C-level code on a contiguous memory block",
+        },
+        {
+            "category": "Logistics Concept",
+            "prompt": "What is broadcasting in NumPy?",
+            "options": [
+                "Applying a scalar operation to every element of an array without writing a loop",
+                "Sending data to multiple servers simultaneously",
+                "Converting a Python list to a NumPy array",
+            ],
+            "answer": "Applying a scalar operation to every element of an array without writing a loop",
+        },
+        {
+            "category": "Python Syntax",
+            "prompt": "Which NumPy call calculates the total weight across all coils?",
+            "options": ["np.sum(weights)", "np.total(weights)", "weights.sum_all()"],
+            "answer": "np.sum(weights)",
+        },
+        {
+            "category": "Python Syntax",
+            "prompt": "Which line applies a 5% surcharge to every coil weight using broadcasting?",
+            "options": [
+                "billable = weights * 1.05",
+                "billable = [w * 1.05 for w in weights]",
+                "billable = np.loop(weights, lambda w: w * 1.05)",
+            ],
+            "answer": "billable = weights * 1.05",
         },
     ],
     "intuition_engine": [

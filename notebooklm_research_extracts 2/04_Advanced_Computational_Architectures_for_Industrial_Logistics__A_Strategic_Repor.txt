@@ -1,0 +1,845 @@
+Advanced Computational Architectures for Industrial Logistics: A Strategic Report on Algorithmic Resilience and Supply Chain Optimization (2024-2026)
+
+The global industrial landscape has entered a period of structural instability characterized by "perpetual disruption," a state where geopolitical volatility, environmental mandates, and technological acceleration converge to challenge traditional logistical paradigms.[1, 2] In this environment, the ability to maintain resilient supply chains—particularly for critical commodities like steel coils—requires a fundamental transition from deterministic modeling to adaptive, computationally robust frameworks. This report provides an exhaustive technical analysis of the algorithmic tools and statistical methodologies necessary to navigate these challenges, specifically focusing on Python-based data science, fuzzy inference systems, robust statistical modeling for outlier rejection, and advanced time-series forecasting.
+
+Computational Foundations: Python for Industrial and Structural Engineering
+
+The adoption of Python as the primary language for industrial engineering and logistical analysis is not merely a trend but a strategic response to the increasing complexity of modern systems. Python’s utility in these contexts is derived from its simplicity, which facilitates rapid prototyping, and its extensive ecosystem of specialized libraries.[3, 4] For engineers operating in structural or control domains, Python serves as a bridge between theoretical mathematics and operational execution.[5, 6]
+
+Architectural Integration and Learning Resources
+
+Professional engineering environments often utilize the Anaconda distribution to manage the SciPy stack, frequently employing the Spyder IDE for its integrated variable explorer and debugging capabilities.[5] The transition from manual calculation to scripted analysis allows for the modeling of complex structural analysis and dynamics problems that were previously computationally prohibitive.[5]
+
+For practitioners seeking a foundational understanding of Python in an industrial context, the following technical primers and documentation provide essential guidance:
+
+Resource Title
+
+Target Application
+
+Downloadable PDF Link
+
+Introduction to Python Programming (NYU)
+
+General industrial fundamentals and logic.
+
+(https://clame.nyu.edu/browse/E038H5/311538/IntroductionToPythonProgramming.pdf)
+
+Python Manual for Structural Engineering (CalPoly)
+
+Structural analysis, dynamics, and Spyder interface.
+
+(https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1232&context=arcesp)
+
+Python for Control Engineering (Halvorsen)
+
+Automation, DAQ, and PID control implementation.
+
+Python_for_Control_Engineering.pdf
+
+https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Control%20Engineering.pdf
+
+Python for Science and Engineering (Halvorsen)
+
+Numerical mathematics and simulation theory.
+
+(
+
+https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Science%20and%20Engineering.pdf
+
+https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Science%20and%20Engineering.pdf
+
+)
+
+Python Basics: A Practical Introduction (Real Python)
+
+Core language syntax and best practices.
+
+(
+
+https://static.realpython.com/python-basics-sample-chapters.pdf
+
+https://static.realpython.com/python-basics-sample-chapters.pdf
+
+)
+
+These resources emphasize the importance of modular code design, advocating for the use of functions to encapsulate reusable blocks of code and classes to model real-world entities, such as industrial machines or logistical nodes.[3, 4]
+
+Fundamental Programming Constructs in Logistics
+
+In a logistical context, Python variables are employed to store dynamic data such as sensor readings, shipment quantities, or material specifications.[3] Control structures—namely loops and conditional statements—are then applied to these variables to direct the flow of automated decision-making processes.[3] For example, a "for" loop might iterate through a list of steel coil weights to identify those exceeding a safety threshold, while "if-else" logic determines the rerouting of a shipment based on real-time port congestion data.[3, 5]
+
+The move toward Object-Oriented Programming (OOP) allows for the creation of sophisticated digital twins.[3] A shipment class, for instance, could contain attributes such as origin, destination, and current delay status, alongside methods for calculating projected arrival times based on live shipping disruptions.[1, 3] This structured approach ensures that code remains maintainable and scalable as the complexity of the global supply chain increases.[6, 7]
+
+Data Wrangling and Advanced Cleaning: The NumPy and Pandas Ecosystem
+
+The efficacy of any predictive model in manufacturing or logistics is inherently constrained by the quality of the underlying data. Industrial datasets are frequently plagued by missing values, sensor errors, and inconsistent formatting, necessitating the use of high-performance libraries like NumPy and Pandas for rigorous data cleaning and transformation.[8, 9]
+
+High-Performance Numerical Computing with NumPy
+
+NumPy (Numerical Python) is the foundational library for numerical computing in the SciPy stack. It introduces the N-dimensional array (ndarray), which is significantly more memory-efficient and faster than standard Python lists for large-scale datasets.[8, 10] In manufacturing, NumPy is used for vectorized operations, allowing for the simultaneous calculation of metrics across millions of data points, such as calculating the mean and standard deviation of production tolerances.[8]
+
+The interoperability between NumPy and other libraries is critical; for instance, converting NumPy arrays to labeled Pandas DataFrames allows for a seamless transition from raw numerical processing to descriptive metadata-driven analysis.[10] This is particularly useful when moving from a "Thinking" phase (numerical computation) to an "Acting" phase in an AI-driven logistical pipeline.[10, 11]
+
+Structured Data Manipulation with Pandas
+
+Pandas provides high-level data structures like Series and DataFrames, designed for manipulating tabular data.[8, 12] The evolution of the library, particularly with the release of version 1.0.0, has introduced features specifically targeted at improving data integrity in industrial contexts.[13, 14]
+
+Pandas Feature
+
+Technical Description
+
+Industrial Application
+
+StringDtype
+
+An extension type dedicated to string data.
+
+Prevents mixing strings and non-strings in "Part IDs" or "Port Names."
+
+pd.NA
+
+A singleton to represent scalar missing values consistently.
+
+Standardizes missing data handling across float, int, and boolean types.
+
+BooleanDtype
+
+A boolean type that supports missing values (nullable).
+
+Tracks binary states (e.g., "Shipped") where the status may be unknown.
+
+Named Aggregation
+
+Relabeling output columns during groupby operations.
+
+Summarizes daily shipment totals with custom descriptive headers.
+
+Numba Integration
+
+Using Numba as an engine in 
+
+rolling.apply
+
+.
+
+Accelerates real-time performance monitoring for datasets > 1M rows.
+
+These advancements allow logistics analysts to handle data "vulnerabilities" more effectively.[13, 15] The introduction of 
+
+pd.NA
+
+ is particularly noteworthy as it replaces the previous reliance on 
+
+np.nan
+
+ for missing data, which often forced integer columns into float formats, potentially introducing rounding errors in shipment counts.[13]
+
+Cleaning Primers and Logistics Documentation
+
+Data cleaning is often described as the "backbone of accurate analysis".[8] In the raw industrial environment, data profiling and validation must precede any modeling.[9] The following documentation serves as a guide for implementing these cleaning workflows:
+
+Python for Data Analysis Cheat Sheet
+
+: A technical overview of NumPy and Pandas for handling missing values and data transformations.(https://cdn.prod.website-files.com/675501731b83acff51da86da/67aad0990caea2b247023f60_9355385370.pdf).[8]
+
+Official Pandas 1.0.0 Documentation
+
+: Comprehensive guide to the latest features for data integrity and high-performance operations. 
+
+Pandas_Official_1.0.pdf
+
+https://pandas.pydata.org/pandas-docs/version/1.0.0/pandas.pdf
+
+.[13]
+
+Data Analysis from Scratch with Python
+
+: A beginner's guide focusing on the practical application of cleaning tools in manufacturing and retail.(
+
+https://webweb.ams3.cdn.digitaloceanspaces.com/data/simmcdev.webweb.ai.in/MCAdigitalbook/PYTHON-20240629T072453Z-001/Data%20Analysis%20From%20Scratch%20With%20Python_%20Beginner%20Guide%20using%20Python,%20Pandas,%20NumPy,%20Scikit-Learn,%20IPython,%20TensorFlow%20and%20Matplotlib%20(%20PDFDrive%20).pdf
+
+https://webweb.ams3.cdn.digitaloceanspaces.com/data/simmcdev.webweb.ai.in/MCAdigitalbook/PYTHON-20240629T072453Z-001/Data%20Analysis%20From%20Scratch%20With%20Python_%20Beginner%20Guide%20using%20Python,%20Pandas,%20NumPy,%20Scikit-Learn,%20IPython,%20TensorFlow%20and%20Matplotlib%20(%20PDFDrive%20).pdf
+
+).[16]
+
+By utilizing these tools, organizations can mitigate the risks of "biased results" and "inaccurate conclusions" that arise from contaminated data, ultimately improving prediction accuracy for mission-critical supply chain models.[8, 17]
+
+Fuzzy Inference Systems: Scikit-Fuzzy and Vagueness Management
+
+In many logistical scenarios, decision-making relies on linguistic variables (e.g., "High Congestion," "Low Inventory") that are inherently vague. Fuzzy logic provides a mathematical framework for reasoning with these uncertainties by mapping "truthiness" to a continuum between 0 and 1.[18] Scikit-fuzzy, an extension for the SciPy stack, offers a comprehensive toolbox for implementing these systems.[18]
+
+Triangular Membership Functions (MFs)
+
+The membership function is the core of any fuzzy system, defining how a "crisp" input is mapped to a fuzzy degree of membership.[19, 20] In industrial applications, the triangular membership function (
+
+trimf
+
+) is frequently used due to its computational efficiency and intuitive parameterization.[19, 20]
+
+The function is defined by a three-element vector 
+
+[a, b, c]
+
+, where:
+
+a
+
+ is the lower bound (membership = 0).
+
+b
+
+ is the peak or center (membership = 1).
+
+c
+
+ is the upper bound (membership = 0).
+
+Mathematically, for a value 
+
+x
+
+, the membership 
+
+\mu(x)
+
+ is:
+
+ 
+
+\mu(x; a, b, c) = \begin{cases} 0 & x \le a \\ \frac{x-a}{b-a} & a < x \le b \\ \frac{c-x}{c-b} & b < x \le c \\ 0 & x > c \end{cases}
+
+For example, in an "Automotive Steel Coil" delivery system, the travel time could be fuzzified into terms like "On-Time," "Slight Delay," or "Severe Delay" using overlapping triangular MFs.[20, 21]
+
+Fuzzy Inference and Defuzzification
+
+A Fuzzy Inference System (FIS) operates by applying "IF-THEN" rules to these fuzzy sets.[18, 19] There are two primary implication rules:
+
+Mamdani Minimum
+
+: Cuts the membership function at the level of the antecedent's truth.
+
+Larsen Product
+
+: Rescales the membership function based on the truth level.[19]
+
+Once the fuzzy outputs are aggregated using techniques like the "Family Maximum" (fMax), they must be converted back into a crisp value—a process known as defuzzification.[18, 19]
+
+Defuzzification Method
+
+Mathematical Logic
+
+Best Use Case
+
+Centroid
+
+Center of gravity of the fuzzy area.
+
+Most common; balances all active rules.
+
+Bisector
+
+The vertical line that divides the area into two equal parts.
+
+When a robust central tendency is needed.
+
+Mean of Maximum (MOM)
+
+Average of all values where membership is maximal.
+
+When the highest confidence level is prioritized.
+
+SOM / LOM
+
+Smallest / Largest of Maximum.
+
+For conservative or aggressive thresholding.
+
+Technical Primers and Package Documentation
+
+For developers implementing these systems, the following documentation is authoritative:
+
+Scikit-Fuzzy API Reference
+
+: The official guide for 
+
+skfuzzy.trimf
+
+, 
+
+skfuzzy.defuzz
+
+, and Mamdani relations.(
+
+https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/
+
+https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/
+
+).[18]
+
+FCMpy: A Python Package for Fuzzy Cognitive Maps
+
+: Academic primer on generating fuzzy membership functions and applying implication rules.(https://peerj.com/articles/cs-1078.pdf).[19, 20]
+
+Adaptive Fuzzy Logic Frameworks
+
+: Research on dynamic membership functions for decision support under uncertainty. 
+
+Adaptive_Fuzzy_Logic.pdf
+
+https://journal.stiestekom.ac.id/index.php/TEKNIK/article/download/1026/735/3346
+
+.[22]
+
+Adaptive Fuzzy Inference Systems (AFIS) are emerging as a critical tool for "smart DSS" (Decision Support Systems) in Industry 5.0, where membership functions are not static but evolve in response to real-time data perturbations.[22]
+
+Robust Statistics: Huber Loss and Outlier Rejection in Supply Chains
+
+Logistics data is particularly susceptible to "gross contamination" in the form of outliers—data points that deviate markedly from the distribution.[23, 24] Standard linear models using Ordinary Least Squares (OLS) are highly sensitive to these points, as squaring the residuals gives disproportionate weight to extreme errors.[25, 26] Robust statistical methods, specifically those employing the Huber Loss function, offer a more resilient alternative.[24, 25, 26]
+
+The Mechanism of Huber Loss
+
+The Huber Loss function is a hybrid approach that provides a compromise between the efficiency of OLS (squared loss) and the robustness of LAD (Least Absolute Deviation).[24, 25] It uses a tuning constant 
+
+\delta
+
+ to define the transition point between quadratic and linear behavior.[25, 26]
+
+For a residual 
+
+e
+
+:
+
+ 
+
+L_\delta(e) = \begin{cases} \frac{1}{2}e^2 & \text{for } |e| \le \delta \\ \delta(|e| - \frac{1}{2}\delta) & \text{for } |e| > \delta \end{cases}
+
+This structure ensures that small errors are treated normally, while large errors (outliers) only incur a linear penalty, thereby down-weighting their influence on the model.[24, 26] In high-dimensional supply chain settings, this is often implemented via Iterative Reweighted Least Squares (IRLS) to automatically identify and "shun" anomalous instances.[26, 27]
+
+Robust Linear Models (RLM) and Variable Selection
+
+In the context of "Steel Coil" logistics, robust linear models are used to estimate lead times while ignoring the noise caused by temporary port strikes or sensor malfunctions.[23, 26] Modern approaches like the "Adaptive 
+
+\tau
+
+-Lasso" or "Huber-LASSO" combine robustness with variable selection, allowing researchers to identify key predictors (e.g., fuel price, port wait times) while simultaneously detecting mean-shift outliers.[23, 27]
+
+Model Type
+
+Loss Function
+
+Sensitivity to Leverage Points
+
+Breakdown Point
+
+OLS
+
+Squared (
+
+L_2
+
+)
+
+High
+
+1/n
+
+ (Extremely low)
+
+LAD
+
+Absolute (
+
+L_1
+
+)
+
+Low (on response)
+
+Low
+
+Huber
+
+Hybrid 
+
+L_1/L_2
+
+Low (with tuning)
+
+Higher (approx. 0.5 with M-est)
+
+RANSAC
+
+Subset Consensus
+
+Very Low
+
+High
+
+Academic Primers on Robust Statistics
+
+The following academic papers provide the theoretical and practical foundation for these methods:
+
+Robust M-estimation via Huber Loss (Psychometrika)
+
+: A data-driven procedure for selecting optimal tuning constants to minimize asymptotic variance. 
+
+Huber_Loss_M-estimation.pdf
+
+https://www.math.hkbu.edu.hk/~tongt/Psychometrika2025.pdf
+
+.[25]
+
+HuberAIME: Robust Approach to XAI
+
+: Details on using Huber loss to handle outliers in market prices and energy consumption models.(
+
+https://ieeexplore.ieee.org/iel8/6287639/10820123/10979913.pdf
+
+https://ieeexplore.ieee.org/iel8/6287639/10820123/10979913.pdf
+
+).[26]
+
+Outlier Detection and Variable Selection in Linear Regression (Statistica Sinica)
+
+: Research on adding mean-shift parameters to models to reflect outlier effects.(
+
+https://www3.stat.sinica.edu.tw/sstest/oldpdf/A28n222.pdf
+
+https://www3.stat.sinica.edu.tw/sstest/oldpdf/A28n222.pdf
+
+).[23]
+
+The Impact of Outliers on Linear Regression Models (Canadian OTS)
+
+: Comparative study of OLS, Huber, and RANSAC on contaminated datasets.(
+
+https://journal.canadian-ots.ca/index.php/ots/article/download/68/63/198
+
+https://journal.canadian-ots.ca/index.php/ots/article/download/68/63/198
+
+).[24]
+
+The integration of these methods into supply chain software prevents "artificial deflation" or inflation of inventory levels caused by the historical peaks of 2022, ensuring that 2024-2026 strategies are based on the underlying trend rather than noise.[28]
+
+Time Series Forecasting: ARIMA and Prophet for Quantity Discrepancy
+
+Forecasting shipment quantities and reconciling discrepancies between projected and actual arrivals is a cornerstone of logistics management. The two most prominent methodologies for these tasks are the traditional ARIMA models and the more modern, scalable Prophet model developed by Meta.[29, 30, 31]
+
+ARIMA: Autoregressive Integrated Moving Average
+
+ARIMA is a univariate statistical model that relies on the stationarity of the time series.[29, 32] It is denoted as ARIMA
+
+(p, d, q)
+
+:
+
+p
+
+ (AutoRegressive)
+
+: Correlation with past values.
+
+d
+
+ (Integrated)
+
+: Degree of differencing required to achieve stationarity.
+
+q
+
+ (Moving Average)
+
+: Correlation with past forecast errors.[29, 33]
+
+While robust for short-term linear trends, ARIMA requires significant manual tuning and struggles with non-stationary data that exhibits complex seasonality, such as the weekly and holiday-driven patterns of steel coil shipments.[29, 31, 32]
+
+Prophet: Decomposable Additive Models
+
+Prophet is designed for business applications with daily observations and strong seasonal effects.[29, 32] It decomposes a time series into three components: Trend, Seasonality, and Holidays.[29, 30]
+
+y(t) = g(t) + s(t) + h(t) + \epsilon_t
+
+Key advantages of Prophet include its "automatic seasonality detection" and its ability to handle missing data and outliers gracefully, which are frequent occurrences in shipping logs.[29, 32] In comparative studies, such as the analysis of antidiabetic drug sales, Prophet significantly outperformed ARIMA/SARIMA, achieving an MAE of 0.74 versus ARIMA's 3.02.[31, 33]
+
+Forecasting Resources and Comparative Studies
+
+The following materials provide a technical introduction and comparative analysis:
+
+Traditional Prediction Models: Prophet vs. ARIMA (Medium/Academic)
+
+: A technical primer on the mathematical models and feature sets.(
+
+https://medium.com/@tarangds/traditional-prediction-models-prophet-arima-83bc8b980ec4
+
+https://medium.com/@tarangds/traditional-prediction-models-prophet-arima-83bc8b980ec4
+
+).[29]
+
+Sales Time Series Forecasting: Walmart Store Study
+
+: A comparative analysis using Root Mean Square Error (RMSE) to evaluate model performance on high-variance retail data.(https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods).[30]
+
+Comparative Analysis of ARIMA, SARIMA, and Prophet
+
+: Research on demand planning for drugs, illustrating Prophet’s superiority in non-linear trends. 
+
+Forecasting_Comparative_Analysis.pdf
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting
+
+.[31, 33]
+
+For logistics managers, the takeaway is clear: while ARIMA remains a "standard tool" for short-term stationary forecasts, Prophet offers the flexibility and "ease of use" required for the complex, non-linear realities of global shipment quantity discrepancies.[32]
+
+Global Shipping Disruptions and Steel Coil Logistics (2024-2026)
+
+The current operational environment for shipping is defined by "perpetual disruption".[1] Geopolitical confrontations have emerged as the most severe risk over the 2024-2026 horizon, with geoeconomic fragmentation significantly impacting trade flows.[34]
+
+Maritime Security and Port Congestion
+
+Major chokepoints—specifically the Red Sea and the Strait of Hormuz—are currently facing unprecedented volatility.[2] Attacks on commercial vessels have forced a structural rethink of ocean routing, with many carriers diverting around the Cape of Good Hope, adding 10 to 14 days to sailing schedules.[2]
+
+Region / Port
+
+Disruptive Event
+
+Logistical Impact
+
+Red Sea / Bab el Mandeb
+
+Houthi missile attacks (since Nov 2023).
+
+60% drop in volume; shift to Cape of Good Hope.
+
+Strait of Hormuz
+
+Middle East escalation (Feb 2026).
+
+Slowdown in energy flows; heightened security risks.
+
+US West Coast (LA/LB)
+
+Pandemic-era hangover / Labor issues.
+
+Peak congestion time reached 700 hours in 2022.
+
+Port of Savannah
+
+Bottlenecks (2021-2022).
+
+Regional delays impacting East Coast inventories.
+
+These delays have a direct inflationary effect. IMF research published in 2026 indicates that a 100-hour shipping delay raises inflation by approximately 0.5 percentage points at its five-month peak.[15] This relationship is non-linear and varies by product; for example, footwear is more exposed to West Coast delays (54% concentration in LA) than textiles.[15]
+
+Resilience in the Steel Coil Supply Chain
+
+The hot-rolled steel coil market is projected to grow from $198.67B in 2025 to $207.56B in 2026, driven by infrastructure and automotive demand.[35] However, the sector is currently navigating significant headwinds, including 25% tariffs on US steel imports and reciprocal measures from Canada.[28]
+
+Resilience strategies are centering on three pillars:
+
+Localization and Partnership
+
+: Strengthening supply chain continuity through closer collaboration with local processors like Worthington Steel to manage volatility.[36]
+
+Decarbonization
+
+: Transitioning to Electric Arc Furnace (EAF) technology to reduce emissions and comply with emerging standards like CBAM.[37, 38]
+
+Technological Adaptation
+
+: Utilizing electric heavy goods vehicles (eHGVs) for regional coil transport.[21]
+
+A 2025 trial by AV Dawson and VEV demonstrated that a 40-tonne electric HGV could transport 19-tonne steel coils over 50km routes with a 31% battery margin, proving that decarbonized logistics are feasible for hard-to-abate sectors without disrupting just-in-time (JIT) deliveries to automotive plants like Nissan.[21]
+
+Industry Context Reports and Strategic Outlook
+
+Managers should consult these recent reports for navigating the 2026 landscape:
+
+Global Risks Report 2026 (WEF)
+
+: Analysis of the "turbulent decade" and the impact of geoeconomic confrontation.(
+
+https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf
+
+https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf
+
+).[34]
+
+State of the Industry Report 2026 (GlobalTranz)
+
+: Overview of the "soft demand environment" and the rise of agile, technology-driven 3PLs.(https://www.globaltranz.com/wp-content/uploads/sites/2/2026/01/2026-State-of-the-Industry-Report.pdf).[1]
+
+IMF Working Paper: From Ports to Prices
+
+: The 2026 study on how shipping delays translate into consumer price inflation. 
+
+IMF_Ports_to_Prices_2026.pdf
+
+https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026026-source-pdf.pdf
+
+.[15]
+
+Hot-Rolled Steel Coil Global Market Report 2026
+
+: Trends in High Strength Low Alloy (HSLA) coils and localization strategies.(
+
+https://www.giiresearch.com/report/tbrc1927962-hot-rolled-steel-coil-global-market-report.html
+
+https://www.giiresearch.com/report/tbrc1927962-hot-rolled-steel-coil-global-market-report.html
+
+).[35]
+
+AV Dawson eHGV Steel Trial Report
+
+: Real-world data on electrifying the steel coil supply chain.(
+
+https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf
+
+https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf
+
+).[21]
+
+Strategic Synthesis and Conclusion
+
+The convergence of algorithmic advancements and industrial shifts reveals a logistical landscape where "static" models are being replaced by "dynamic evolving decision engines".[22] The integration of Python-based cleaning (Pandas/NumPy) with robust statistical modeling (Huber Loss) allows for the rejection of noise that has characterized the post-2022 recovery period.[26, 28] Furthermore, the transition of forecasting from ARIMA to Prophet reflects a need for models that can automatically account for the "Permanent Uncertainty" of modern shipping routes.[2, 29]
+
+The future of logistics resilience, particularly in the steel sector, depends on the ability to merge these digital tools with physical innovations, such as eHGVs and EAF-based production.[21, 37] By adopting a data-driven, "connected proactive resilience" mindset, organizations can transform geoeconomic risks into competitive advantages, ensuring stability in an increasingly turbulent era.[34, 39] The resources provided in this report serve as the technical and strategic foundation for this transition, offering both the mathematical rigor of academic primers and the operational insight of recent industry reports.
+
+
+--------------------------------------------------------------------------------
+
+
+The 2026 State of Shipping and Logistics Report | GlobalTranz, 
+
+https://www.globaltranz.com/wp-content/uploads/sites/2/2026/01/2026-State-of-the-Industry-Report.pdf
+
+https://www.globaltranz.com/wp-content/uploads/sites/2/2026/01/2026-State-of-the-Industry-Report.pdf
+
+Logistics Report March 2026, 
+
+https://assets-eu-01.kc-usercontent.com/4192440f-b944-0135-c768-e05d36ed3e93/b697dadb-657c-4446-8adc-5e267ea02498/26_Q1%20Logistics%20Report_VF.pdf
+
+https://assets-eu-01.kc-usercontent.com/4192440f-b944-0135-c768-e05d36ed3e93/b697dadb-657c-4446-8adc-5e267ea02498/26_Q1%20Logistics%20Report_VF.pdf
+
+Introduction To Python Programming - CLaME, 
+
+https://clame.nyu.edu/browse/E038H5/311538/IntroductionToPythonProgramming.pdf
+
+https://clame.nyu.edu/browse/E038H5/311538/IntroductionToPythonProgramming.pdf
+
+Python for Control Engineering - Hans-Petter Halvorsen https://www.halvorsen.blog, 
+
+https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Control%20Engineering.pdf
+
+https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Control%20Engineering.pdf
+
+PYTHON MANUAL: A LEARNING GUIDE FOR STRUCTURAL ..., 
+
+https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1232&context=arcesp
+
+https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1232&context=arcesp
+
+Python for Science and Engineering - Hans-Petter Halvorsen https://www.halvorsen.blog, 
+
+https://www.halvorsen.blog/documents/programming/python/resources/Python%20for%20Science%20and%20Engineering.pdf
+
+https://www.halvorsen.blog/documents/programming/python/resources/Python%20for%20Science%20and%20Engineering.pdf
+
+Python Basics: A Practical Introduction to Python 3, 
+
+https://static.realpython.com/python-basics-sample-chapters.pdf
+
+https://static.realpython.com/python-basics-sample-chapters.pdf
+
+Python for Data Analysis Cheat Sheet, 
+
+https://cdn.prod.website-files.com/675501731b83acff51da86da/67aad0990caea2b247023f60_9355385370.pdf
+
+https://cdn.prod.website-files.com/675501731b83acff51da86da/67aad0990caea2b247023f60_9355385370.pdf
+
+Automated Data Pre-Processing and Visualization System. - JETIR.org, 
+
+https://www.jetir.org/papers/JETIR2404115.pdf
+
+https://www.jetir.org/papers/JETIR2404115.pdf
+
+Python Machine Learning Guide - ML Data House, 
+
+https://www.mldatahouse.com/blogs/machine-learning-guide-19.html
+
+https://www.mldatahouse.com/blogs/machine-learning-guide-19.html
+
+WHITE PAPER - ALICE Logistics, 
+
+https://www.etp-logistics.eu/wp-content/uploads/2024/05/AI-White-Paper-web.pdf
+
+https://www.etp-logistics.eu/wp-content/uploads/2024/05/AI-White-Paper-web.pdf
+
+Applied Data Science with Python – Business Intelligence for Developers [Full Book], 
+
+https://www.freecodecamp.org/news/applied-data-science-with-python-book/
+
+https://www.freecodecamp.org/news/applied-data-science-with-python-book/
+
+powerful Python data analysis toolkit - pandas, 
+
+https://pandas.pydata.org/pandas-docs/version/1.0.0/pandas.pdf
+
+https://pandas.pydata.org/pandas-docs/version/1.0.0/pandas.pdf
+
+pandas: powerful Python data analysis toolkit, Release 0.25.1, 
+
+https://pandas.pydata.org/pandas-docs/version/0.25.1/pandas.pdf
+
+https://pandas.pydata.org/pandas-docs/version/0.25.1/pandas.pdf
+
+From Ports to Prices: The Inflationary Effects of Global Supply Chain ..., 
+
+https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026026-source-pdf.pdf
+
+https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026026-source-pdf.pdf
+
+DATA ANALYSIS FROM SCRATCH WITH PYTHON | DigitalOcean, 
+
+https://webweb.ams3.cdn.digitaloceanspaces.com/data/simmcdev.webweb.ai.in/MCAdigitalbook/PYTHON-20240629T072453Z-001/Data%20Analysis%20From%20Scratch%20With%20Python_%20Beginner%20Guide%20using%20Python,%20Pandas,%20NumPy,%20Scikit-Learn,%20IPython,%20TensorFlow%20and%20Matplotlib%20(%20PDFDrive%20).pdf
+
+https://webweb.ams3.cdn.digitaloceanspaces.com/data/simmcdev.webweb.ai.in/MCAdigitalbook/PYTHON-20240629T072453Z-001/Data%20Analysis%20From%20Scratch%20With%20Python_%20Beginner%20Guide%20using%20Python,%20Pandas,%20NumPy,%20Scikit-Learn,%20IPython,%20TensorFlow%20and%20Matplotlib%20(%20PDFDrive%20).pdf
+
+Module 5 Business Data Analytics methods and tools - Bharat Skills, 
+
+https://bharatskills.gov.in/pdf/E_Books/ADIT/CM5/Module%205%20Theory%20Manual.pdf
+
+https://bharatskills.gov.in/pdf/E_Books/ADIT/CM5/Module%205%20Theory%20Manual.pdf
+
+The scikit-fuzzy Documentation - skfuzzy 0.3 docs, 
+
+https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/
+
+https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/
+
+FCMpy: a python module for constructing and analyzing fuzzy cognitive maps - PeerJ, 
+
+https://peerj.com/articles/cs-1078.pdf
+
+https://peerj.com/articles/cs-1078.pdf
+
+FCMpy: Python Module for Constructing and Analyzing Fuzzy Cognitive Maps - arXiv, 
+
+https://arxiv.org/pdf/2111.12749
+
+https://arxiv.org/pdf/2111.12749
+
+Truck pilot report September 2025 - VEV, 
+
+https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf
+
+https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf
+
+Adaptive Fuzzy Logic Integration for Optimizing Decision Support Systems under Data Uncertainty - Studi Ekonomi Modern, 
+
+https://journal.stiestekom.ac.id/index.php/TEKNIK/article/download/1026/735/3346
+
+https://journal.stiestekom.ac.id/index.php/TEKNIK/article/download/1026/735/3346
+
+FULLY EFFICIENT ROBUST ESTIMATION, OUTLIER DETECTION AND VARIABLE SELECTION VIA PENALIZED REGRESSION, 
+
+https://www3.stat.sinica.edu.tw/sstest/oldpdf/A28n222.pdf
+
+https://www3.stat.sinica.edu.tw/sstest/oldpdf/A28n222.pdf
+
+The Impact of Outliers on Linear Regression Models: Detection and ..., 
+
+https://journal.canadian-ots.ca/index.php/ots/article/download/68/63/198
+
+https://journal.canadian-ots.ca/index.php/ots/article/download/68/63/198
+
+Robust and Efficient Mediation Analysis via Huber Loss - HKBU Department of Mathematics, 
+
+https://www.math.hkbu.edu.hk/~tongt/Psychometrika2025.pdf
+
+https://www.math.hkbu.edu.hk/~tongt/Psychometrika2025.pdf
+
+HuberAIME: A Robust Approach to Explainable AI in the Presence of Outliers - IEEE Xplore, 
+
+https://ieeexplore.ieee.org/iel8/6287639/10820123/10979913.pdf
+
+https://ieeexplore.ieee.org/iel8/6287639/10820123/10979913.pdf
+
+Robust elastic net estimators for variable selection and identification of proteomic biomarkers | Request PDF - ResearchGate, 
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers
+
+https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers
+
+Market Insights - Gexpro Services, 
+
+https://gexproservices.com/wp-content/uploads/Market-Insight-Jan-2025.pdf
+
+https://gexproservices.com/wp-content/uploads/Market-Insight-Jan-2025.pdf
+
+Traditional Prediction Models: Prophet & ARIMA | by Taran Kaur - Medium, 
+
+https://medium.com/@tarangds/traditional-prediction-models-prophet-arima-83bc8b980ec4
+
+https://medium.com/@tarangds/traditional-prediction-models-prophet-arima-83bc8b980ec4
+
+(PDF) Sales Time Series Forecasting: Comparing Prophet to other ..., 
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods
+
+https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods
+
+Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting, 
+
+https://www.sciencepublishinggroup.com/article/10.11648/j.rd.20240504.13
+
+https://www.sciencepublishinggroup.com/article/10.11648/j.rd.20240504.13
+
+A Comparative Study of ARIMA, Prophet and LSTM for Time Series Prediction - urfjournals.org — Virtualmin, 
+
+https://urfjournals.org/open-access/a-comparative-study-of-arima-prophet-and-lstm-for-time-series-prediction.pdf
+
+https://urfjournals.org/open-access/a-comparative-study-of-arima-prophet-and-lstm-for-time-series-prediction.pdf
+
+(PDF) Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting, 
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting
+
+https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting
+
+Global Risks Report 2026 - World Economic Forum publications, 
+
+https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf
+
+https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf
+
+Hot-Rolled Steel Coil Global Market Report 2026, 
+
+https://www.giiresearch.com/report/tbrc1927962-hot-rolled-steel-coil-global-market-report.html
+
+https://www.giiresearch.com/report/tbrc1927962-hot-rolled-steel-coil-global-market-report.html
+
+Worthington Steel Insights, 
+
+https://www.worthingtonsteel.com/flatrolledsteel/steel-expertise/blog
+
+https://www.worthingtonsteel.com/flatrolledsteel/steel-expertise/blog
+
+Future-Ready Steel - Çolakoğlu Metalurji, 
+
+https://www.colakoglu.com.tr/uploads/file/colakoglu-sr-24-en-08.pdf
+
+https://www.colakoglu.com.tr/uploads/file/colakoglu-sr-24-en-08.pdf
+
+Sustainability Report FY2023 - BlueScope Steel, 
+
+https://www.bluescope.com/content/dam/bluescope/corporate/bluescope-com/sustainability/documents/2023_BlueScope_Report_Sustainability_Report.pdf
+
+https://www.bluescope.com/content/dam/bluescope/corporate/bluescope-com/sustainability/documents/2023_BlueScope_Report_Sustainability_Report.pdf
+
+Index of downloadable resources from LRQA, 
+
+https://www.lrqa.com/en-us/resources/
+
+https://www.lrqa.com/en-us/resources/

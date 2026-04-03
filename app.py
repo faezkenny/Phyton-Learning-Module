@@ -28,9 +28,11 @@ def render_learning_sprint_card(module_key: str, description: str, unlocked: boo
         "shipping_manifest": "pages/02_Shipping_Manifest.py",
         "quality_gate": "pages/03_Quality_Gate.py",
         "warehouse_manager": "pages/04_Warehouse_Manager.py",
-        "intuition_engine": "pages/05_Intuition_Engine.py",
-        "quality_inspector": "pages/06_Quality_Inspector.py",
-        "future_predictor": "pages/07_Future_Predictor.py",
+        "command_center": "pages/05_Command_Center.py",
+        "fast_calculator": "pages/06_Fast_Calculator.py",
+        "intuition_engine": "pages/07_Intuition_Engine.py",
+        "quality_inspector": "pages/08_Quality_Inspector.py",
+        "future_predictor": "pages/09_Future_Predictor.py",
     }[module_key]
     status_text = "Unlocked" if unlocked else "Locked"
     st.markdown(
@@ -168,9 +170,11 @@ def main() -> None:
         )
         sprint_descriptions = {
             "storage_bins": "Variables and types for single shipment facts like supplier name, coil weight, and confirmation status.",
-            "shipping_manifest": "Lists and dictionaries for storing several coils and their attributes like a logistics manifest.",
-            "quality_gate": "If/else logic and functions for repeatable safety-stock rules and shipping SOPs.",
+            "shipping_manifest": "Lists and dictionaries for storing several coils and linking supplier names to their risk levels.",
+            "quality_gate": "If/else logic and reusable functions for supply-chain SOPs like safety stock alerts.",
             "warehouse_manager": "Pandas loading, cleaning, and filtering of raw shipment tables.",
+            "command_center": "Interactive Plotly charts — line, bar, scatter, and histogram — built from live shipment data.",
+            "fast_calculator": "NumPy vectorised math for calculating the total weight of 10 000 coils in milliseconds.",
             "intuition_engine": "Interactive fuzzy membership controls with a confidence cloud and symbolic math.",
             "quality_inspector": "OLS versus Huber-weighted robust fitting on noisy steel-coil shipment data.",
             "future_predictor": "ARIMA forecasting over quantity discrepancy with disruption scenario sliders.",
@@ -243,14 +247,16 @@ def main() -> None:
 def __boot__() -> None:
     pg = st.navigation([
         st.Page(main, title="Home", icon="🏠", default=True),
-        st.Page("pages/01_Storage_Bins.py", title="Module 1: Storage bins"),
-        st.Page("pages/02_Shipping_Manifest.py", title="Module 2: Shipping Manifest"),
+        st.Page("pages/01_Storage_Bins.py", title="Module 1: Storage Bins"),
+        st.Page("pages/02_Shipping_Manifest.py", title="Module 2: The Manifest"),
         st.Page("pages/03_Quality_Gate.py", title="Module 3: Quality Gate"),
         st.Page("pages/00_Analysts_Toolbox.py", title="Analyst Toolbox"),
         st.Page("pages/04_Warehouse_Manager.py", title="Module 4: Warehouse Manager"),
-        st.Page("pages/05_Intuition_Engine.py", title="Module 5: Intuition Engine"),
-        st.Page("pages/06_Quality_Inspector.py", title="Module 6: Quality Inspector"),
-        st.Page("pages/07_Future_Predictor.py", title="Module 7: Future Predictor"),
+        st.Page("pages/05_Command_Center.py", title="Module 5: Command Center"),
+        st.Page("pages/06_Fast_Calculator.py", title="Module 6: Fast Calculator"),
+        st.Page("pages/07_Intuition_Engine.py", title="Module 7: Intuition Engine"),
+        st.Page("pages/08_Quality_Inspector.py", title="Module 8: Quality Inspector"),
+        st.Page("pages/09_Future_Predictor.py", title="Module 9: Future Predictor"),
     ])
     pg.run()
 

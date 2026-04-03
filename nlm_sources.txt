@@ -1,0 +1,242 @@
+[
+  {
+    "id": "f7e59813-3e8f-4874-8db1-3e976f3ad840",
+    "title": "(PDF) Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/385157901_Comparative_Analysis_of_ARIMA_SARIMA_and_Prophet_Model_in_Forecasting"
+  },
+  {
+    "id": "245e7143-4009-4677-bdfd-8064820c8003",
+    "title": "(PDF) Sales Time Series Forecasting: Comparing Prophet to other ...",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/392384475_Sales_Time_Series_Forecasting_Comparing_Prophet_to_other_forecasting_methods"
+  },
+  {
+    "id": "24a56594-5471-454a-bde9-2f8d4016a9ff",
+    "title": "A Comparative Study of ARIMA, Prophet and LSTM for Time Series Prediction - urfjournals.org — Virtualmin",
+    "type": "pdf",
+    "url": "https://urfjournals.org/open-access/a-comparative-study-of-arima-prophet-and-lstm-for-time-series-prediction.pdf"
+  },
+  {
+    "id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+    "title": "Adaptive Fuzzy Logic Integration for Optimizing Decision Support Systems under Data Uncertainty - Studi Ekonomi Modern",
+    "type": "pdf",
+    "url": "https://journal.stiestekom.ac.id/index.php/TEKNIK/article/download/1026/735/3346"
+  },
+  {
+    "id": "45271348-49ff-469f-8265-ee36d30ef02b",
+    "title": "Advanced Computational Architectures for Industrial Logistics: A Strategic Report on Algorithmic Resilience and Supply Chain Optimization (2024-2026)",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "b0ee86b1-7313-471e-8e8e-da62b155585e",
+    "title": "Applied Data Science with Python – Business Intelligence for Developers [Full Book]",
+    "type": "web_page",
+    "url": "https://www.freecodecamp.org/news/applied-data-science-with-python-book/"
+  },
+  {
+    "id": "43f7d794-d016-4e5b-abc0-9274216a7a96",
+    "title": "Automated Data Pre-Processing and Visualization System. - JETIR.org",
+    "type": "pdf",
+    "url": "https://www.jetir.org/papers/JETIR2404115.pdf"
+  },
+  {
+    "id": "d370809f-6e85-49ec-85cc-f7fb998af27f",
+    "title": "Comparative Analysis of ARIMA, SARIMA and Prophet Model in Forecasting",
+    "type": "web_page",
+    "url": "https://www.sciencepublishinggroup.com/article/10.11648/j.rd.20240504.13"
+  },
+  {
+    "id": "cf11ee8d-8cc3-4807-b89f-3f78ea9a0598",
+    "title": "DATA ANALYSIS FROM SCRATCH WITH PYTHON | DigitalOcean",
+    "type": "pdf",
+    "url": "https://webweb.ams3.cdn.digitaloceanspaces.com/data/simmcdev.webweb.ai.in/MCAdigitalbook/PYTHON-20240629T072453Z-001/Data%20Analysis%20From%20Scratch%20With%20Python_%20Beginner%20Guide%20using%20Python,%20Pandas,%20NumPy,%20Scikit-Learn,%20IPython,%20TensorFlow%20and%20Matplotlib%20(%20PDFDrive%20).pdf"
+  },
+  {
+    "id": "2e396b5d-1eb3-4e86-854c-e800367dab25",
+    "title": "FCMpy: Python Module for Constructing and Analyzing Fuzzy Cognitive Maps - arXiv",
+    "type": "pdf",
+    "url": "https://arxiv.org/pdf/2111.12749"
+  },
+  {
+    "id": "f3226373-300f-4f75-bc1b-cf7b5a235017",
+    "title": "FULLY EFFICIENT ROBUST ESTIMATION, OUTLIER DETECTION AND VARIABLE SELECTION VIA PENALIZED REGRESSION",
+    "type": "pdf",
+    "url": "https://www3.stat.sinica.edu.tw/sstest/oldpdf/A28n222.pdf"
+  },
+  {
+    "id": "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+    "title": "From Ports to Prices: The Inflationary Effects of Global Supply Chain ...",
+    "type": "pdf",
+    "url": "https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026026-source-pdf.pdf"
+  },
+  {
+    "id": "e257c29c-cd8d-4133-90b5-71e9ddc1d894",
+    "title": "Future-Ready Steel - Çolakoğlu Metalurji",
+    "type": "pdf",
+    "url": "https://www.colakoglu.com.tr/uploads/file/colakoglu-sr-24-en-08.pdf"
+  },
+  {
+    "id": "452ec188-1f52-4652-837b-d15f62a31654",
+    "title": "Global Risks Report 2026 - World Economic Forum publications",
+    "type": "web_page",
+    "url": "https://reports.weforum.org/docs/WEF_Global_Risks_Report_2026.pdf"
+  },
+  {
+    "id": "b4c3a6e0-da09-4fd6-bbbc-7a4d1c394257",
+    "title": "Hot-Rolled Steel Coil Global Market Report 2026",
+    "type": "web_page",
+    "url": "https://www.giiresearch.com/report/tbrc1927962-hot-rolled-steel-coil-global-market-report.html"
+  },
+  {
+    "id": "e8f21c4a-99aa-4a91-a940-0d5c38bf469c",
+    "title": "Index of downloadable resources from LRQA",
+    "type": "web_page",
+    "url": "https://www.lrqa.com/en-us/resources/"
+  },
+  {
+    "id": "89882a12-c155-4490-82e4-3c1d7db12eac",
+    "title": "Logistics Report March 2026",
+    "type": "pdf",
+    "url": "https://assets-eu-01.kc-usercontent.com/4192440f-b944-0135-c768-e05d36ed3e93/b697dadb-657c-4446-8adc-5e267ea02498/26_Q1%20Logistics%20Report_VF.pdf"
+  },
+  {
+    "id": "9b333bb3-ad8a-471a-ac30-e87aa618b6c7",
+    "title": "Market Insights - Gexpro Services",
+    "type": "pdf",
+    "url": "https://gexproservices.com/wp-content/uploads/Market-Insight-Jan-2025.pdf"
+  },
+  {
+    "id": "d2733caf-ced0-4945-979d-9778052b2525",
+    "title": "Module 5 Business Data Analytics methods and tools - Bharat Skills",
+    "type": "pdf",
+    "url": "https://bharatskills.gov.in/pdf/E_Books/ADIT/CM5/Module%205%20Theory%20Manual.pdf"
+  },
+  {
+    "id": "5eeb812c-7e62-4484-a146-1a38ccd77b13",
+    "title": "PYTHON MANUAL: A LEARNING GUIDE FOR STRUCTURAL ...",
+    "type": "pdf",
+    "url": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1232&context=arcesp"
+  },
+  {
+    "id": "0481ca0f-3495-4fc4-960e-d6f5610ad736",
+    "title": "Python Basics: A Practical Introduction to Python 3",
+    "type": "pdf",
+    "url": "https://static.realpython.com/python-basics-sample-chapters.pdf"
+  },
+  {
+    "id": "4c1f5076-17ac-43bf-a90c-188730f568ec",
+    "title": "Python Machine Learning Guide - ML Data House",
+    "type": "web_page",
+    "url": "https://www.mldatahouse.com/blogs/machine-learning-guide-19.html"
+  },
+  {
+    "id": "b1a763ec-1731-4877-a06f-efd36f54872b",
+    "title": "Python for Control Engineering - Hans-Petter Halvorsen https://www.halvorsen.blog",
+    "type": "pdf",
+    "url": "https://halvorsen.blog/documents/programming/python/resources/Python%20for%20Control%20Engineering.pdf"
+  },
+  {
+    "id": "b8365584-8964-4b11-bf50-febd1a7471f9",
+    "title": "Python for Data Analysis Cheat Sheet",
+    "type": "pdf",
+    "url": "https://cdn.prod.website-files.com/675501731b83acff51da86da/67aad0990caea2b247023f60_9355385370.pdf"
+  },
+  {
+    "id": "60170230-7079-4817-805f-27e1f0ba3da4",
+    "title": "Python for Science and Engineering - Hans-Petter Halvorsen https://www.halvorsen.blog",
+    "type": "pdf",
+    "url": "https://www.halvorsen.blog/documents/programming/python/resources/Python%20for%20Science%20and%20Engineering.pdf"
+  },
+  {
+    "id": "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+    "title": "Robust and Efficient Mediation Analysis via Huber Loss - HKBU Department of Mathematics",
+    "type": "pdf",
+    "url": "https://www.math.hkbu.edu.hk/~tongt/Psychometrika2025.pdf"
+  },
+  {
+    "id": "056880a1-adcc-4197-b6a6-777d5939d4ed",
+    "title": "Robust elastic net estimators for variable selection and identification of proteomic biomarkers | Request PDF - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/337668636_Robust_elastic_net_estimators_for_variable_selection_and_identification_of_proteomic_biomarkers"
+  },
+  {
+    "id": "7cb58da7-01b9-4302-836a-65b626944bad",
+    "title": "Sustainability Report FY2023 - BlueScope Steel",
+    "type": "pdf",
+    "url": "https://www.bluescope.com/content/dam/bluescope/corporate/bluescope-com/sustainability/documents/2023_BlueScope_Report_Sustainability_Report.pdf"
+  },
+  {
+    "id": "385bf34d-d57d-4975-8358-d29cff81f206",
+    "title": "The 2026 State of Shipping and Logistics Report | GlobalTranz",
+    "type": "pdf",
+    "url": "https://www.globaltranz.com/wp-content/uploads/sites/2/2026/01/2026-State-of-the-Industry-Report.pdf"
+  },
+  {
+    "id": "1553188c-908d-49ce-87e0-6448d721fedf",
+    "title": "The Impact of Outliers on Linear Regression Models: Detection and ...",
+    "type": "pdf",
+    "url": "https://journal.canadian-ots.ca/index.php/ots/article/download/68/63/198"
+  },
+  {
+    "id": "6d7db6a9-0953-4b98-8287-6bfd943d309e",
+    "title": "The scikit-fuzzy Documentation - skfuzzy 0.3 docs",
+    "type": "web_page",
+    "url": "https://scikit-fuzzy.readthedocs.io/_/downloads/en/latest/pdf/"
+  },
+  {
+    "id": "40612191-dd1c-4e49-ba0d-36183ca6f8bb",
+    "title": "Truck pilot report September 2025 - VEV",
+    "type": "pdf",
+    "url": "https://www.vev.com/wp-content/uploads/2026/03/AV-Dawson-Trial-Report-Final.pdf"
+  },
+  {
+    "id": "a9b63b10-2462-42c8-8e5f-0fe369b912e9",
+    "title": "WHITE PAPER - ALICE Logistics",
+    "type": "pdf",
+    "url": "https://www.etp-logistics.eu/wp-content/uploads/2024/05/AI-White-Paper-web.pdf"
+  },
+  {
+    "id": "e9484b41-70f0-401b-84c9-4c9907e54541",
+    "title": "Worthington Steel Insights",
+    "type": "web_page",
+    "url": "https://www.worthingtonsteel.com/flatrolledsteel/steel-expertise/blog"
+  },
+  {
+    "id": "bb2af12b-1b5d-441e-a852-4c323b290453",
+    "title": "https://clame.nyu.edu/browse/E038H5/311538/IntroductionToPythonProgramming.pdf",
+    "type": "web_page",
+    "url": null
+  },
+  {
+    "id": "07df8044-20ee-4894-aed0-0e4c027e44b9",
+    "title": "https://ieeexplore.ieee.org/iel8/6287639/10820123/10979913.pdf",
+    "type": "web_page",
+    "url": null
+  },
+  {
+    "id": "6911d19b-49d6-4abf-bf50-4fae1895f960",
+    "title": "https://medium.com/@tarangds/traditional-prediction-models-prophet-arima-83bc8b980ec4",
+    "type": "web_page",
+    "url": null
+  },
+  {
+    "id": "bd35ea02-cd83-4e34-9725-df0c83ffb96c",
+    "title": "https://peerj.com/articles/cs-1078.pdf",
+    "type": "web_page",
+    "url": null
+  },
+  {
+    "id": "fd5198fc-bd76-40b4-89ee-679cbc254ebc",
+    "title": "pandas: powerful Python data analysis toolkit, Release 0.25.1",
+    "type": "web_page",
+    "url": "https://pandas.pydata.org/pandas-docs/version/0.25.1/pandas.pdf"
+  },
+  {
+    "id": "940aa167-d36b-40ac-a3f9-566fd41e1e1f",
+    "title": "powerful Python data analysis toolkit - pandas",
+    "type": "web_page",
+    "url": "https://pandas.pydata.org/pandas-docs/version/1.0.0/pandas.pdf"
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "value": {
+    "answer": "**1) Math Specs: LaTeX Formulas for Fuzzy Membership and Robust Estimators**\n\n*   **Triangular Fuzzy Membership Function ($\\mu$)**: \n    The triangular membership function, which maps a \"crisp\" input to a fuzzy degree of membership, is parameterized by a three-element vector $[a, b, c]$ (representing the lower bound, peak, and upper bound) [1]. The LaTeX mathematical formulation is:\n    $$ \\mu(x; a, b, c) = \\begin{cases} 0 & x \\le a \\\\ \\frac{x-a}{b-a} & a < x \\le b \\\\ \\frac{c-x}{c-b} & b < x \\le c \\\\ 0 & x > c \\end{cases} $$ [2]\n\n*   **Huber Loss Function ($L_\\delta(e)$)**: \n    The Huber Loss function is a hybrid estimator that applies a quadratic penalty to small errors and a linear penalty to large errors, defined by a tuning constant $\\delta$ for a residual $e$:\n    $$ L_\\delta(e) = \\begin{cases} \\frac{1}{2}e^2 & \\text{for } |e| \\le \\delta \\\\ \\delta(|e| - \\frac{1}{2}\\delta) & \\text{for } |e| > \\delta \\end{cases} $$ [3]\n\n*   **M-estimators**: \n    M-estimators generalize maximum likelihood estimation by minimizing a specified general loss function $\\rho(\\cdot)$. For regression parameters (e.g., intercept and slope), the objective function is expressed as:\n    $$ (\\hat{\\beta}_1, \\hat{c})^T = \\text{argmin}_{\\beta_1,c} \\sum_{i=1}^{n} \\rho(Y_i - \\beta_1 - cX_i) $$ [4]\n\n**2) Linguistic Mapping: 'Vibe' Categories in the Coil Industry**\n\nIn industrial logistics and specifically for \"Automotive Steel Coil\" delivery systems, quantitative data is mapped to linguistic variables to handle vagueness and uncertainty [2, 5]. The categorical 'vibes' used to define these fuzzy systems include:\n*   **\"High Congestion\"** [5]\n*   **\"Low Inventory\"** [5]\n*   **\"On-Time\"** [2]\n*   **\"Slight Delay\"** [2]\n*   **\"Severe Delay\"** [2]\n\n**3) The Disruption Timeline: 3-Month Shipment Outliers**\n\nThe provided sources **do not contain** specific dates or a timeline isolating outliers within a 3-month shipment dataset. While the sources discuss general supply chain disruptions, historical peaks in early 2022, and anomalies like \"temporary port strikes or sensor malfunctions\" [6-8], they lack the granular, date-specific 3-month shipment data requested.\n\n**4) Viva Points: Defense Points Justifying the Fuzzy-Robust Method**\n\nHere are the key defense points justifying the use of adaptive fuzzy logic and robust statistical estimators over standard models:\n\n*   **Vulnerability of Standard Models (OLS):** Traditional Ordinary Least Squares (OLS) models are highly sensitive to \"gross contamination\" because squaring the residuals gives disproportionate weight to extreme errors, leading to severely biased estimates and distorted conclusions [9, 10]. \n*   **Resilience via Huber Loss:** The Huber Loss function offers an optimal compromise between OLS efficiency and Least Absolute Deviation (LAD) robustness [3]. By applying only a linear penalty to large errors, it effectively down-weights the influence of outliers (like sensor malfunctions or supply chain shocks) without discarding valid data [3, 11].\n*   **Simultaneous Variable Selection and Outlier Detection:** Advanced robust models (such as Huber-LASSO) allow researchers to simultaneously select key predictive variables (e.g., fuel prices, wait times) while detecting mean-shift outliers [6, 12]. This ensures the model learns from the underlying trend rather than the noise [6].\n*   **Adaptability to Data Drift:** Classical fuzzy inference systems rely on static, fixed membership functions, causing them to perform poorly when environmental data distributions change [13]. Adaptive Fuzzy Logic systematically solves this by dynamically tuning membership functions and rule weights in real-time based on statistical data attributes [9, 14, 15].\n*   **Proven Stability and Convergence:** Experimental simulations prove that integrating adaptive fuzzy logic with robust parameter tuning significantly improves system resilience. The adaptive model achieves a 21.4% increase in accuracy, a 28% improvement in convergence rate, and over 92% decision stability even when data uncertainty reaches levels as high as 35% [16-18].",
+    "conversation_id": "ad491610-fb5e-4c8f-bc82-695c31b2a50b",
+    "sources_used": [
+      "45271348-49ff-469f-8265-ee36d30ef02b",
+      "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+      "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+      "1553188c-908d-49ce-87e0-6448d721fedf",
+      "056880a1-adcc-4197-b6a6-777d5939d4ed",
+      "65d21dde-bf76-4c3f-af19-8b58ee7da259"
+    ],
+    "citations": {
+      "1": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "2": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "3": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "4": "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+      "5": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "6": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "7": "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+      "8": "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+      "9": "45271348-49ff-469f-8265-ee36d30ef02b",
+      "10": "1553188c-908d-49ce-87e0-6448d721fedf",
+      "11": "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+      "12": "056880a1-adcc-4197-b6a6-777d5939d4ed",
+      "13": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+      "14": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+      "15": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+      "16": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+      "17": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+      "18": "65d21dde-bf76-4c3f-af19-8b58ee7da259"
+    },
+    "references": [
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 1,
+        "cited_text": "Triangular Membership Functions (MFs) The membership function is the core of any fuzzy system, defining how a \"crisp\" input is mapped to a fuzzy degree of membership.[19, 20] In industrial applications, the triangular membership function ( trimf ) is frequently used due to its computational efficiency and intuitive parameterization.[19, 20] The function is defined by a three-element vector [a, b, c] , where: a is the lower bound (membership = 0). b is the peak or center (membership = 1). c is the upper bound (membership = 0)."
+      },
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 2,
+        "cited_text": "Mathematically, for a value x , the membership \\mu(x) is: \\mu(x; a, b, c) = \\begin{cases} 0 & x \\le a \\\\ \\frac{x-a}{b-a} & a < x \\le b \\\\ \\frac{c-x}{c-b} & b < x \\le c \\\\ 0 & x > c \\end{cases} For example, in an \"Automotive Steel Coil\" delivery system, the travel time could be fuzzified into terms like \"On-Time,\" \"Slight Delay,\" or \"Severe Delay\" using overlapping triangular MFs.[20, 21] Fuzzy Inference and Defuzzification A Fuzzy Inference System (FIS) operates by applying \"IF-THEN\" rules to these fuzzy sets.[18, 19] There are two primary implication rules:"
+      },
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 3,
+        "cited_text": "The Mechanism of Huber Loss The Huber Loss function is a hybrid approach that provides a compromise between the efficiency of OLS (squared loss) and the robustness of LAD (Least Absolute Deviation).[24, 25] It uses a tuning constant \\delta to define the transition point between quadratic and linear behavior.[25, 26] For a residual e : L_\\delta(e) = \\begin{cases} \\frac{1}{2}e^2 & \\text{for } |e| \\le \\delta \\\\ \\delta(|e| - \\frac{1}{2}\\delta) & \\text{for } |e| > \\delta \\end{cases} This structure ensures that small errors are treated normally, while large errors (outliers) only incur a linear penalty, thereby down-weighting their influence on the model.[24, 26] In high-dimensional supply chain settings, this is often implemented via Iterative Reweighted Least Squares (IRLS) to automatically identify and \"shun\" anomalous instances.[26, 27]"
+      },
+      {
+        "source_id": "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+        "citation_number": 4,
+        "cited_text": "2.1. M-regression To alleviate the effects of influential observations in the least-squares fitting, we adopt the M-regression to estimate the regression parameters, which can be regarded as a generalization of the maximum likelihood estimation as follows: (β̂1, ĉ)T = argmin β1,c n ∑ i=1 ρ(Yi−β1− cXi), (4) (β̂2,â)T = argmin β2,a n ∑ i=1 ρ(Mi−β2−aXi), (5) (β̂3, ĉ′,b̂)T = arg min β3,c′,b n ∑ i=1 ρ(Yi−β3− c′Xi−bMi), (6) where ρ(⋅) is the loss function with three properties: (i) non-negativity such that ρ(ε) ≥ 0 with ρ(0) = 0, (ii) symmetricity such that ρ(ε) = ρ(−ε), and (iii) monotonicity such that ρ(ε) ⩾ ρ(ε′) for any ∣ε∣ ⩾ ∣ε′∣."
+      },
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 5,
+        "cited_text": "By utilizing these tools, organizations can mitigate the risks of \"biased results\" and \"inaccurate conclusions\" that arise from contaminated data, ultimately improving prediction accuracy for mission-critical supply chain models.[8, 17] Fuzzy Inference Systems: Scikit-Fuzzy and Vagueness Management In many logistical scenarios, decision-making relies on linguistic variables (e.g., \"High Congestion,\" \"Low Inventory\") that are inherently vague. Fuzzy logic provides a mathematical framework for reasoning with these uncertainties by mapping \"truthiness\" to a continuum between 0 and 1.[18] Scikit-fuzzy, an extension for the SciPy stack, offers a comprehensive toolbox for implementing these systems.[18]"
+      },
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 6,
+        "cited_text": "Robust Linear Models (RLM) and Variable Selection In the context of \"Steel Coil\" logistics, robust linear models are used to estimate lead times while ignoring the noise caused by temporary port strikes or sensor malfunctions.[23, 26] Modern approaches like the \"Adaptive \\tau -Lasso\" or \"Huber-LASSO\" combine robustness with variable selection, allowing researchers to identify key predictors (e.g., fuel price, port wait times) while simultaneously detecting mean-shift outliers.[23, 27] <cited_table>",
+        "cited_table": {
+          "num_columns": 4,
+          "rows": [
+            [
+              "Model Type",
+              "Loss Function",
+              "Sensitivity to Leverage Points",
+              "Breakdown Point"
+            ],
+            [
+              "OLS",
+              "Squared (",
+              "High",
+              "1/n"
+            ],
+            [
+              "LAD",
+              "Absolute (",
+              "Low (on response)",
+              "Low"
+            ],
+            [
+              "Huber",
+              "Hybrid",
+              "Low (with tuning)",
+              "Higher (approx. 0.5 with M-est)"
+            ],
+            [
+              "RANSAC",
+              "Subset Consensus",
+              "Very Low",
+              "High"
+            ]
+          ]
+        }
+      },
+      {
+        "source_id": "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+        "citation_number": 7,
+        "cited_text": "a much more dispersed import pattern, with 36% entering through Los Angeles, 18% through Newark, 11% through Savannah, 5% through Long Beach, and 5% through Charleston. Second, shipping delays vary widely in both intensity and timing across ports. Figure 1 plots the average shipping time for vessels arriving at the major gateway regions (left panel) and the five largest US ports (right panel) from January 2017 to July 2023. 4 Relative to the pre-congestion period, West Coast ports experienced the most pronounced increase in shipping time. Average"
+      },
+      {
+        "source_id": "2baff091-9cf9-4dde-9a31-78267ef70b3d",
+        "citation_number": 8,
+        "cited_text": "shipping time in the West—about 400 hours before the pandemic—began rising in early 2021, peaked at roughly 700 hours in early 2022, and gradually returned to normal by 2023. Congestion was considerably milder in the South and the Northeast. While Northeast ports exhibit no clear congestion episode, southern ports show a modest but noticeable rise in shipping time. Among the five largest US ports, the Port of Los Angeles experienced the sharpest increase in delays, followed by Savannah, Houston, and Norfolk. The timing of peak congestion varies across ports:"
+      },
+      {
+        "source_id": "45271348-49ff-469f-8265-ee36d30ef02b",
+        "citation_number": 9,
+        "cited_text": "Adaptive Fuzzy Inference Systems (AFIS) are emerging as a critical tool for \"smart DSS\" (Decision Support Systems) in Industry 5.0, where membership functions are not static but evolve in response to real-time data perturbations.[22] Robust Statistics: Huber Loss and Outlier Rejection in Supply Chains Logistics data is particularly susceptible to \"gross contamination\" in the form of outliers—data points that deviate markedly from the distribution.[23, 24] Standard linear models using Ordinary Least Squares (OLS) are highly sensitive to these points, as squaring the residuals gives disproportionate weight to extreme errors.[25, 26] Robust statistical methods, specifically those employing the Huber Loss function, offer a more resilient alternative.[24, 25, 26]"
+      },
+      {
+        "source_id": "1553188c-908d-49ce-87e0-6448d721fedf",
+        "citation_number": 10,
+        "cited_text": "5. Discussion Linear regression is a cornerstone of statistical modeling, but its vulnerability to outliers is a well-documented limitation (Dash et al., 2023). This study quantitatively examined the effects of outliers on three regression techniques—Ordinary Least Squares (OLS), Huber Regression, and RANSAC—by comparing their performance on clean versus contaminated datasets. The discussion below elaborates on the results, linking them to theoretical expectations and relevant empirical findings in the literature. The sharp rise in Mean Squared Error (MSE) observed across all models when outliers were introduced is a clear indication of performance degradation. OLS showed an increase of 28.69 units in MSE, aligning with classical concerns that OLS, by"
+      },
+      {
+        "source_id": "b7f2f888-b8d3-4d2f-a0bf-e4d53b513748",
+        "citation_number": 11,
+        "cited_text": "3.1. Huber Loss The Huber loss, as defined in Huber (1964), is given as ρH(e) = { 1 2 e2, if ∣e∣ ≤ k, k∣e∣− 1 2 k2, if ∣e∣ > k, ψH(e) = { e, if ∣e∣ ≤ k, k× sgn(e), if ∣e∣ > k, where k > 0 is the tuning parameter. A smaller value of k produces more resistance to outliers, but at the expense of lower efficiency when the error is normal. For instance, by letting k = 1.345σ with σ being the standard deviation of the error, it will yield a 95% efficiency for the normal errors, which is also resistant to outliers with a breakdown point of 5.8%. Moreover, the standard deviation σ can be"
+      },
+      {
+        "source_id": "056880a1-adcc-4197-b6a6-777d5939d4ed",
+        "citation_number": 12,
+        "cited_text": "Article Full-text available Sep 2023 STAT PAP Matteo Farnè Angelos T. Vouldis This paper presents a methodology, called ROBOUT, to identify outliers conditional on a high-dimensional noisy information set. In particular, ROBOUT is able to identify observations with outlying conditional mean or variance when the dataset contains multivariate outliers in or besides the predictors, multi-collinearity, and a large variable dimension compared to the sample size. ROBOUT entails a pre-processing step, a preliminary robust imputation procedure that prevents anomalous instances from corrupting predictor recovery, a selection stage of the statistically relevant predictors (through cross-validated LASSO-penalized Huber loss regression), the estimation of a robust regression model based on the selected predictors (via MM regression), and a criterion to identify conditional outliers. We conduct a comprehensive simulation study in which the proposed algorithm is tested under a wide range of perturbation scenarios. The combination formed by LASSO-penalized Huber loss and MM regression turns out to be the best in terms of conditional outlier detection under the above described perturbed conditions, also compared to existing integrated methodologies like Sparse Least Trimmed Squares and Robust Least Angle Regression. Furthermore, the proposed methodology is applied to a granular supervisory banking dataset collected by the European Central Bank, in order to model the total assets of euro area banks."
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 13,
+        "cited_text": "poorly when operating at their optimum level with uncertain or imprecise information. Classic fuzzy models, although they can handle vagueness, tend to employ fixed membership functions and rule bases that limit their reaction to varying input features. (Salem et al., 2021; Zhang et al., 2021). In more intelligent fields, such as intelligent health care  (Harrisha et al., 2025) and intelligent transport systems  (Handoko et al., 2025)This stiffness leads to less accurate decisions and increased response time. As heterogeneity and dynamism increase in the environment,"
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 14,
+        "cited_text": "or dynamically changing data. Fuzzy logic techniques based on conventional methodologies may be strong at handling vagueness, but are unable to adapt their behavior in response to different data distributions on their own. This paper recommends the creation of an Adaptive Fuzzy Logic Integration Framework that dynamically updates membership functions and rule weights in response to data variation to enhance decision accuracy under uncertainty. The described framework combines Fuzzy Inference Systems (FIS)"
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 15,
+        "cited_text": "to decrease their capacity to handle dynamic or evolving patterns of data (Salem et al., 2021; Zhang et al., 2021). In situations involving uncertainty as an inherent factor, e.g., modeling the environment (Allred et al., 2021) or remote sensing under changing noise (Dozier et al., 2022)Static fuzzy frameworks perform suboptimally because they fail to adaptively adjust their decision boundaries. Adaptive Fuzzy Inference Systems (AFIS) were created to address these limitations by providing mechanisms that make membership functions and rule weights adaptive over time based on data"
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 16,
+        "cited_text": "with learning-based parameter update concepts borrowed from adaptive optimisation. The model was simulated and executed on a hybrid algorithmic platform that included gradient-based parameter tuning and iterative feedback learning. Experimental tests were conducted on uncertainty-generated data sets to compare adaptive and conventional fuzzy models in terms of ISME (Root Mean Square Error), convergence stability, and decision accuracy. Previous results show that the adaptive model achieves a 21.4% increase"
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 17,
+        "cited_text": "employed to gauge were accuracy, Root Mean Square Error (RMSE), and convergence rate, as recommended in optimization literature by (Gambella et al., 2021; Saleh et al., 2022). The technique facilitated the objective measurement of the influence of adaptivity on decisional accuracy across all uncertainty levels. b) Adaptive vs. Non-Adaptive Fuzzy Model Results Comparison It was drastically enhanced through application of the adaptive fuzzy integration model. As can be seen from Table 2, the accuracy of decision-making by the adaptive system averaged 94.2%,"
+      },
+      {
+        "source_id": "65d21dde-bf76-4c3f-af19-8b58ee7da259",
+        "citation_number": 18,
+        "cited_text": "System decision stability was subsequently challenged by sensitivity analysis under data perturbations in increments. As shown in Table 3, the adaptive fuzzy model achieved over 92% decision stability even when data uncertainty was 35%, whereas the non-adaptive fuzzy system achieved less than 78%. This substantial margin is matched by the system's potential to maintain logical coherence in the presence of noisy input data. All these results support earlier assertions by (Dozier et al., 2022; Thornton et al., 2021) that adaptive inference processes can effectively"
+      }
+    ]
+  }
+}
