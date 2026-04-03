@@ -12,7 +12,6 @@ from services.storage import initialize_session_state
 from services.ui import (
     bootstrap_app,
     configure_page,
-    enforce_unlock,
     handle_tutor_interaction,
     inject_styles,
     render_kpis,
@@ -31,7 +30,6 @@ def main() -> None:
     inject_styles()
     ensure_project_directories()
     initialize_session_state(st.session_state)
-    enforce_unlock("command_center")
 
     gemini_service = GeminiRAGService()
     kimi_service = KimiTutorService()

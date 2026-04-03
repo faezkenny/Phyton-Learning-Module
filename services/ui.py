@@ -60,7 +60,6 @@ def render_kpis(kpis: list[tuple[str, str, str]]) -> None:
         )
 
 
-def enforce_unlock(module_key: str) -> None:
     progress = st.session_state.get("progress") or load_progress()
     required_index = MODULE_UNLOCK_INDEX[module_key]
     unlocked_index = progress.get("unlocked_module_index", 1)

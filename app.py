@@ -22,7 +22,7 @@ from services.ui import (
 )
 
 
-def render_learning_sprint_card(module_key: str, description: str, unlocked: bool) -> None:
+def render_learning_sprint_card(module_key: str, description: str) -> None:
     destination = {
         "storage_bins": "pages/01_Storage_Bins.py",
         "shipping_manifest": "pages/02_Shipping_Manifest.py",
@@ -34,11 +34,10 @@ def render_learning_sprint_card(module_key: str, description: str, unlocked: boo
         "quality_inspector": "pages/08_Quality_Inspector.py",
         "future_predictor": "pages/09_Future_Predictor.py",
     }[module_key]
-    status_text = "Unlocked" if unlocked else "Locked"
     st.markdown(
         (
             "<div class='info-card'>"
-            f"<div class='card-label'>{status_text}</div>"
+            f"<div class='card-label'>Available</div>"
             f"<div class='card-value'>{MODULE_LABELS[module_key]}</div>"
             f"<div class='card-copy'>{description}</div>"
             "</div>"
@@ -145,7 +144,7 @@ def main() -> None:
     render_kpis(
         [
             ("Certification", progress["certification_level"], "Your current dashboard mastery tier."),
-            ("Modules", f"{progress.get('unlocked_module_index', 1)} / 7", "Stages unlocked so far."),
+            ("Modules", "9 / 9", "All curriculum stages available."),
             ("Data Feed", dataset_bundle.source_label, "The shipment dataset currently powering the live demos."),
         ]
     )
@@ -180,8 +179,7 @@ def main() -> None:
             "future_predictor": "ARIMA forecasting over quantity discrepancy with disruption scenario sliders.",
         }
         for module_key in MODULE_SEQUENCE:
-            unlocked = progress.get("unlocked_module_index", 1) >= MODULE_SEQUENCE.index(module_key) + 1
-            render_learning_sprint_card(module_key, sprint_descriptions[module_key], unlocked)
+            render_learning_sprint_card(module_key, sprint_descriptions[module_key])
 
         render_section_heading(
             "Tutor Workflow",
