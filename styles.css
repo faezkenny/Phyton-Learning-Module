@@ -9,6 +9,17 @@
   --border: #E2E8F0;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0F172A;
+    --surface: #1E293B;
+    --text: #F8FAFC;
+    --muted: #94A3B8;
+    --accent: #F97316;
+    --border: #334155;
+  }
+}
+
 html, body, [class*="css"] {
   font-family: "Inter", sans-serif;
 }

@@ -166,8 +166,7 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
             st.session_state["queued_tutor_prompt"] = None
 
         if sidebar_payload.get("submitted_prompt"):
-            with st.spinner("Kimi and Gemini are thinking..."):
-                pass  # spinner is shown; actual processing happens in handle_tutor_interaction
+            sidebar_payload["spinner_container"] = st.container()
 
     return sidebar_payload
 
@@ -211,19 +210,30 @@ def handle_tutor_interaction(
         return
 
     prior_history = list(st.session_state.get("chat_messages", []))
-    with st.spinner("Kimi and Gemini are analyzing the dashboard..."):
-        grounded_notes = gemini_service.retrieve_grounded_notes(
+    
+    def process_tutor():
+        g_notes = gemini_service.retrieve_grounded_notes(
             query=submitted_prompt,
             module_key=module_key,
             prompt_prefix="Retrieve the most relevant local evidence for Ain's question. Keep the answer concise and citation-friendly.",
         )
-        tutor_response = kimi_service.answer(
+        t_resp = kimi_service.answer(
             module_key=module_key,
             user_prompt=submitted_prompt,
             module_state=module_state,
-            grounded_notes=grounded_notes,
+            grounded_notes=g_notes,
             chat_history=prior_history,
         )
+        return g_notes, t_resp
+
+    spinner_container = sidebar_payload.get("spinner_container")
+    if spinner_container is not None:
+        with spinner_container:
+            with st.spinner("Kimi and Gemini are analyzing the dashboard..."):
+                grounded_notes, tutor_response = process_tutor()
+    else:
+        with st.spinner("Kimi and Gemini are analyzing the dashboard..."):
+            grounded_notes, tutor_response = process_tutor()
     st.session_state["chat_messages"].append({"role": "user", "content": submitted_prompt})
 
     if not tutor_response.get("ok"):
