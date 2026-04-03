@@ -163,7 +163,7 @@ def main() -> None:
         live_code = "# Load a shipment CSV first\nimport plotly.express as px\nfig = px.line(df, x='shipment_date', y='quantity_discrepancy')\nfig.show()"
 
     with chart_col:
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     render_section_heading("Live Python Code", "This is the exact Plotly call that drew the chart above.")
     st.code(live_code, language="python")

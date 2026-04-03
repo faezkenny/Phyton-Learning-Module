@@ -98,7 +98,7 @@ def main() -> None:
             xaxis_title="Weight (tons)",
             yaxis_title="Count",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     live_code = f"""\
 import numpy as np

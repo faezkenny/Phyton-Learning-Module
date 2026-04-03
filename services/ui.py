@@ -109,7 +109,7 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
         st.link_button(
             "Open NotebookLM Notebook",
             url="https://notebooklm.google.com/notebook/8f8d78ee-75f3-4306-a89f-911a6924c79e",
-            use_container_width=True,
+            width="stretch",
         )
         st.caption("36 papers on fuzzy logic, robust regression, forecasting, and Python.")
 
@@ -118,7 +118,7 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
         uploaded_name=st.session_state.get("uploaded_csv_name"),
     )
 
-    with st.popover("💬", use_container_width=False):
+    with st.popover("💬", width="content"):
         st.markdown("### Socratic Tutor")
         if not kimi_service.available:
             st.info("Add `MOONSHOT_API_KEY` to activate the Kimi tutor.")
@@ -144,7 +144,7 @@ def render_sidebar(module_key: str, gemini_service, kimi_service) -> dict[str, A
 
         st.caption("Suggested questions:")
         for suggestion in kimi_service.default_seed_questions(module_key)[:3]:
-            if st.button(suggestion, key=f"{module_key}-{suggestion}", use_container_width=True):
+            if st.button(suggestion, key=f"{module_key}-{suggestion}", width="stretch"):
                 sidebar_payload["submitted_prompt"] = suggestion
 
         chat_input = st.chat_input("Ask Kimi + Gemini...", key=f"chat-input-{module_key}")

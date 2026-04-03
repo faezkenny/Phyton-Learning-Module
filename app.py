@@ -227,7 +227,7 @@ def main() -> None:
         st.link_button(
             "🔗 Open Research Notebook",
             url="https://notebooklm.google.com/notebook/8f8d78ee-75f3-4306-a89f-911a6924c79e",
-            use_container_width=True,
+            width="stretch",
         )
 
     render_study_notes_panel("home", gemini_service)
