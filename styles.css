@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-/* ── Light Mode (default) ── */
+/* ── Light Mode (always) ── */
 :root {
   --background: #FFFFFF;
   --surface: #FFFFFF;
@@ -13,23 +13,6 @@
   --btn-bg: #1E293B;
   --btn-text: #FFFFFF;
   --header-bg: rgba(255, 255, 255, 0.96);
-}
-
-/* ── Dark Mode ── */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0F172A;
-    --surface: #1E293B;
-    --surface-tool: #1E293B;
-    --surface-tutorial: #0F172A;
-    --text: #F8FAFC;
-    --muted: #94A3B8;
-    --accent: #F97316;
-    --border: #334155;
-    --btn-bg: #F8FAFC;
-    --btn-text: #0F172A;
-    --header-bg: rgba(15, 23, 42, 0.92);
-  }
 }
 
 /* ── Base ── */
