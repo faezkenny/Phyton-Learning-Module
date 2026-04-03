@@ -36,9 +36,15 @@ Recommended source folders:
 ```text
 sources/shared
 sources/toolbox
-sources/fuzzy
-sources/robust
-sources/forecast
+sources/storage_bins
+sources/shipping_manifest
+sources/quality_gate
+sources/warehouse_manager
+sources/command_center
+sources/fast_calculator
+sources/intuition_engine
+sources/quality_inspector
+sources/future_predictor
 ```
 
 If no files are added yet, the app will not crash. It will explain what is missing in plain English.
@@ -66,9 +72,11 @@ The recommended sequence is:
 3. Module 2: Shipping Manifest
 4. Module 3: Quality Gate
 5. Module 4: Warehouse Manager
-6. Module 5: Intuition Engine
-7. Module 6: Quality Inspector
-8. Module 7: Future Predictor
+6. Module 5: Command Center
+7. Module 6: Fast Calculator
+8. Module 7: Intuition Engine
+9. Module 8: Quality Inspector
+10. Module 9: Future Predictor
 
 Each quiz unlocks the next sprint.
 

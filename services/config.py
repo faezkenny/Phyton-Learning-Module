@@ -52,6 +52,8 @@ SOURCE_SUBDIRECTORIES = {
     "shipping_manifest",
     "quality_gate",
     "warehouse_manager",
+    "command_center",
+    "fast_calculator",
     "intuition_engine",
     "quality_inspector",
     "future_predictor",
@@ -77,9 +79,11 @@ CERTIFICATION_LEVELS = {
     2: "Level 2: Manifest Keeper",
     3: "Level 3: Gate Operator",
     4: "Level 4: Warehouse Analyst",
-    5: "Level 5: Intuition Modeler",
-    6: "Level 6: Robust Navigator",
-    7: "Level 7: Fuzzy-Robust Architect",
+    5: "Level 5: Visual Navigator",
+    6: "Level 6: Vector Operator",
+    7: "Level 7: Intuition Modeler",
+    8: "Level 8: Robust Navigator",
+    9: "Level 9: Fuzzy-Robust Architect",
 }
 GEMINI_MODEL = "gemini-2.5-pro"
 KIMI_MODEL = "kimi-k2.5"

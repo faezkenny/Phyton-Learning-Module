@@ -56,7 +56,7 @@ def render_first_time_tutorial(progress: dict, source_count: int) -> None:
         (
             "1",
             "Follow The Curriculum",
-            "Use the left sidebar to navigate. Start at Module 1. Complete the quiz at the bottom of each page to unlock the next level.",
+            "Use the left sidebar to navigate. Start with Module 0 for orientation or jump straight into Module 1. Complete the quiz at the bottom of each page to unlock the next level.",
         ),
         (
             "2",
@@ -88,12 +88,18 @@ def render_first_time_tutorial(progress: dict, source_count: int) -> None:
                 unsafe_allow_html=True,
             )
 
-    start_column, status_column = st.columns([0.75, 1.25], gap="large")
+    start_column, orient_column, status_column = st.columns([0.75, 0.85, 1.2], gap="large")
     with start_column:
         st.page_link(
             "pages/01_Storage_Bins.py",
             label="Start Module 1",
             icon=":material/play_circle:",
+        )
+    with orient_column:
+        st.page_link(
+            "pages/00_Analysts_Toolbox.py",
+            label="Open Module 0",
+            icon=":material/explore:",
         )
     with status_column:
         if source_count == 0:
@@ -140,6 +146,7 @@ def main() -> None:
 
 
     progress = st.session_state["progress"]
+    source_count = len(st.session_state.get("manifest", {}).get("files", {}))
     dataset_bundle = sidebar_payload["dataset_bundle"]
     render_kpis(
         [
@@ -155,17 +162,17 @@ def main() -> None:
     left_column, right_column = st.columns([1.3, 0.9], gap="large")
     with left_column:
         if not progress.get("tutorial_shown", False):
-            render_first_time_tutorial(progress, 0)
+            render_first_time_tutorial(progress, source_count)
 
         if st.button("🗺️ Open Navigation Guide"):
-            render_first_time_tutorial(progress, 0)
+            render_first_time_tutorial(progress, source_count)
 
         render_section_heading(
             "Curriculum Path",
-            "Seven stages from basic Python variables all the way to ARIMA forecasting. Complete each quiz to unlock the next stage and raise your certification level.",
+            "Nine stages from basic Python variables all the way to ARIMA forecasting. Complete each quiz to unlock the next stage and raise your certification level.",
         )
         render_plain_note(
-            "Start with Module 1 and work through each stage in order. The Analyst Toolbox is available after Module 3 as a practical reference for the tools used in later stages."
+            "Use Module 0 as a low-stress orientation if Ain wants a quick map of the tools, then follow Modules 1 through 9 in order. The Plotly and NumPy stages now sit between Pandas cleaning and the later fuzzy-robust modeling modules."
         )
         sprint_descriptions = {
             "storage_bins": "Variables and types for single shipment facts like supplier name, coil weight, and confirmation status.",

@@ -4,7 +4,7 @@ NEBULOUS-CORE is a Streamlit learning dashboard and Python learning environment 
 
 - Gemini RAG over local PDFs and CSVs in `/sources`
 - Kimi `kimi-k2.5` as a Socratic tutor with Python-first explanations
-- An orientation module plus a seven-stage apprentice-to-architect curriculum
+- An orientation module plus a nine-stage apprentice-to-architect curriculum
 - Live Python code blocks, syntax breakdown panels, and mixed math-plus-syntax quizzes
 
 ## Quick Start
@@ -42,6 +42,8 @@ sources/storage_bins
 sources/shipping_manifest
 sources/quality_gate
 sources/warehouse_manager
+sources/command_center
+sources/fast_calculator
 sources/intuition_engine
 sources/quality_inspector
 sources/future_predictor

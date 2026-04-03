@@ -47,14 +47,14 @@ MODULE_INTROS = {
         ),
     },
     "command_center": {
-        "eyebrow": "Zone B: Department Managers",
+        "eyebrow": "Phase 2: Data Science Analyst",
         "headline": MODULE_LABELS["command_center"],
         "description": (
             "Build interactive 'Swiss-Fintech' charts from live shipment data using Plotly Express and Graph Objects."
         ),
     },
     "fast_calculator": {
-        "eyebrow": "Zone B: Department Managers",
+        "eyebrow": "Phase 2: Data Science Analyst",
         "headline": MODULE_LABELS["fast_calculator"],
         "description": (
             "Process the total weight of thousands of coils in milliseconds using NumPy vectorised operations."

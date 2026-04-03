@@ -140,6 +140,190 @@ def warehouse_manager_breakdown() -> list[dict[str, str]]:
     ]
 
 
+def command_center_live_code(
+    *,
+    chart_type: str,
+    color_scheme: str,
+    show_grid: bool,
+    overlay_moving_average: bool,
+) -> str:
+    chart_prefix = chart_type.split(" — ", maxsplit=1)[0].lower()
+    if chart_prefix == "line":
+        moving_average_block = ""
+        if overlay_moving_average:
+            moving_average_block = (
+                '\nshipment_frame["rolling_discrepancy"] = ('
+                '\n    shipment_frame["quantity_discrepancy"].rolling(window=7, min_periods=1).mean()'
+                "\n)"
+                '\nfigure.add_scatter(x=shipment_frame["shipment_date"], y=shipment_frame["rolling_discrepancy"], name="7-day moving average")'
+            )
+        grid_block = ""
+        if not show_grid:
+            grid_block = "\nfigure.update_layout(xaxis_showgrid=False, yaxis_showgrid=False)"
+        return dedent(
+            f"""
+            import plotly.express as px
+
+            shipment_frame = shipment_frame.sort_values("shipment_date")
+            figure = px.line(
+                shipment_frame,
+                x="shipment_date",
+                y="quantity_discrepancy",
+                color_discrete_sequence=["{color_scheme}"],
+                template="plotly_white",
+            ){moving_average_block}{grid_block}
+
+            st.plotly_chart(figure)
+            """
+        ).strip()
+    if chart_prefix == "bar":
+        grid_block = ""
+        if not show_grid:
+            grid_block = "\nfigure.update_layout(xaxis_showgrid=False, yaxis_showgrid=False)"
+        return dedent(
+            f"""
+            import plotly.express as px
+
+            supplier_summary = (
+                shipment_frame.groupby("supplier_name", as_index=False)["delay_days"]
+                .mean()
+                .sort_values("delay_days", ascending=False)
+                .head(5)
+            )
+            figure = px.bar(
+                supplier_summary,
+                x="supplier_name",
+                y="delay_days",
+                color_discrete_sequence=["{color_scheme}"],
+                template="plotly_white",
+            ){grid_block}
+
+            st.plotly_chart(figure)
+            """
+        ).strip()
+    if chart_prefix == "scatter":
+        grid_block = ""
+        if not show_grid:
+            grid_block = "\nfigure.update_layout(xaxis_showgrid=False, yaxis_showgrid=False)"
+        return dedent(
+            f"""
+            import plotly.express as px
+
+            figure = px.scatter(
+                shipment_frame,
+                x="coil_weight_tons",
+                y="delay_days",
+                color="shock_label",
+                color_discrete_map={{
+                    "Baseline shipment": "{color_scheme}",
+                    "War-related outlier": "#1E293B",
+                }},
+                template="plotly_white",
+            ){grid_block}
+
+            st.plotly_chart(figure)
+            """
+        ).strip()
+    grid_block = ""
+    if not show_grid:
+        grid_block = "\nfigure.update_layout(xaxis_showgrid=False, yaxis_showgrid=False)"
+    return dedent(
+        f"""
+        import plotly.express as px
+
+        figure = px.histogram(
+            shipment_frame,
+            x="delay_days",
+            nbins=24,
+            color_discrete_sequence=["{color_scheme}"],
+            template="plotly_white",
+        ){grid_block}
+
+        st.plotly_chart(figure)
+        """
+    ).strip()
+
+
+def command_center_breakdown(*, chart_type: str) -> list[dict[str, str]]:
+    return [
+        {
+            "title": "DataFrames",
+            "explanation": (
+                "Plotly starts with a Pandas DataFrame. Each chart maps one or more DataFrame columns to visual roles like x-axis, y-axis, colour, or hover labels."
+            ),
+            "code": 'shipment_frame[["shipment_date", "quantity_discrepancy", "delay_days"]].head()',
+        },
+        {
+            "title": "Loops / Conditionals",
+            "explanation": (
+                f"This page uses an `if/elif` decision to choose the right chart recipe for `{chart_type}`. "
+                "Python checks the selected chart type, then builds the matching figure function call."
+            ),
+            "code": 'if chart_type.startswith("Line"):\n    figure = px.line(...)\nelif chart_type.startswith("Bar"):\n    figure = px.bar(...)\nelse:\n    figure = px.histogram(...)',
+        },
+        {
+            "title": "Library Calls",
+            "explanation": (
+                "`plotly.express` builds most charts in one line, while `st.plotly_chart()` sends the finished figure to the Streamlit page."
+            ),
+            "code": 'figure = px.line(shipment_frame, x="shipment_date", y="quantity_discrepancy")\nst.plotly_chart(figure)',
+        },
+    ]
+
+
+def fast_calculator_live_code(
+    *,
+    n_coils: int,
+    base_weight: float,
+    weight_std: float,
+    surcharge_pct: float,
+    numpy_total: float,
+    mean_weight: float,
+    std_weight: float,
+) -> str:
+    return dedent(
+        f"""
+        import numpy as np
+
+        rng = np.random.default_rng(seed=42)
+        weights = rng.normal(loc={base_weight}, scale={weight_std}, size={n_coils}).clip(1.0)
+
+        surcharge = {surcharge_pct / 100:.4f}
+        billable_weights = weights * (1 + surcharge)
+
+        total_weight = np.sum(billable_weights)   # {numpy_total:,.1f}
+        mean_weight = np.mean(billable_weights)   # {mean_weight:.2f}
+        std_weight = np.std(billable_weights)     # {std_weight:.2f}
+        """
+    ).strip()
+
+
+def fast_calculator_breakdown() -> list[dict[str, str]]:
+    return [
+        {
+            "title": "Arrays",
+            "explanation": (
+                "NumPy stores the coil weights inside a dense numeric array. That gives Python a block of numbers it can pass to fast compiled code."
+            ),
+            "code": "weights = np.array([18.1, 17.6, 19.2, 18.8])",
+        },
+        {
+            "title": "Loops / Broadcasting",
+            "explanation": (
+                "Broadcasting means one scalar like `1.05` can be applied to every element of the array without writing a Python loop."
+            ),
+            "code": "billable_weights = weights * 1.05",
+        },
+        {
+            "title": "Library Calls",
+            "explanation": (
+                "`np.sum()`, `np.mean()`, and `np.std()` collapse the whole array into summary numbers that the dashboard can display instantly."
+            ),
+            "code": "total_weight = np.sum(billable_weights)\nmean_weight = np.mean(billable_weights)\nstd_weight = np.std(billable_weights)",
+        },
+    ]
+
+
 def fuzzy_live_code(
     *,
     a: float,

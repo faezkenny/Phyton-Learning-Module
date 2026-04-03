@@ -46,6 +46,28 @@ def enrich_shipment_data(dataframe: pd.DataFrame) -> pd.DataFrame:
             / enriched["ordered_quantity"].replace(0, np.nan)
         ).fillna(0.0)
         enriched["supplier_risk_score"] = np.clip(0.45 + discrepancy_ratio, 0.0, 1.0)
+    if "supplier_name" not in enriched:
+        supplier_cycle = np.array(
+            [
+                "PT Meratus",
+                "PT Cakra",
+                "PT Steel Nusantara",
+                "PT Surya Coil",
+                "PT Samudera Metal",
+            ]
+        )
+        enriched["supplier_name"] = supplier_cycle[np.arange(len(enriched)) % len(supplier_cycle)]
+    if "coil_weight_tons" not in enriched:
+        enriched["coil_weight_tons"] = np.round(
+            np.clip(
+                7.5
+                + enriched["received_quantity"].fillna(0.0) / 9.5
+                + enriched["delay_days"].fillna(0.0) * 0.18,
+                5.0,
+                32.0,
+            ),
+            2,
+        )
 
     enriched["quantity_discrepancy"] = enriched["ordered_quantity"] - enriched["received_quantity"]
     enriched["fulfillment_ratio"] = (
@@ -169,4 +191,3 @@ def load_shipment_dataset(uploaded_csv_bytes: bytes | None = None, uploaded_name
         source_path=None,
         warnings=warnings,
     )
-

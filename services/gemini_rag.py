@@ -99,6 +99,8 @@ class GeminiRAGService:
                     "shipping_manifest",
                     "quality_gate",
                     "warehouse_manager",
+                    "command_center",
+                    "fast_calculator",
                     "intuition_engine",
                     "quality_inspector",
                     "future_predictor",
@@ -133,7 +135,7 @@ class GeminiRAGService:
             manifest["status"] = "empty_sources"
             manifest["message"] = (
                 "The /sources folder is empty. Add PDFs or CSVs to sources/shared and any module folder "
-                "such as sources/storage_bins, sources/warehouse_manager, or sources/intuition_engine to enable retrieval."
+                "such as sources/storage_bins, sources/command_center, sources/fast_calculator, or sources/intuition_engine to enable retrieval."
             )
             save_manifest(manifest)
             return SyncResult(True, manifest["status"], manifest["message"], manifest["store"]["name"], 0, 0, 0)
@@ -240,6 +242,8 @@ class GeminiRAGService:
             "shipping_manifest",
             "quality_gate",
             "warehouse_manager",
+            "command_center",
+            "fast_calculator",
             "intuition_engine",
             "quality_inspector",
             "future_predictor",
@@ -278,6 +282,8 @@ class GeminiRAGService:
             "shipping_manifest": "Summarize local source material that explains Python lists and dictionaries for shipment records and manifest data.",
             "quality_gate": "Summarize local source material that explains if/else logic and Python functions for logistics decision rules.",
             "warehouse_manager": "Summarize local source material that explains Pandas data loading, cleaning, and filtering for shipment tables.",
+            "command_center": "Summarize local source material that explains Plotly chart selection, interactive figure construction, and visual storytelling for shipment analytics.",
+            "fast_calculator": "Summarize local source material that explains NumPy arrays, broadcasting, vectorized aggregation, and why they matter for logistics calculations.",
             "intuition_engine": "Summarize the local source material that explains fuzzy membership functions for shipment risk.",
             "quality_inspector": "Summarize the local source material that explains robust regression, Huber loss, and outlier resistance in logistics datasets.",
             "future_predictor": "Summarize the local source material that explains ARIMA forecasting and quantity discrepancy in shipment operations.",
