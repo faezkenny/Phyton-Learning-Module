@@ -33,6 +33,7 @@ def render_learning_sprint_card(module_key: str, description: str) -> None:
         "intuition_engine": "pages/07_Intuition_Engine.py",
         "quality_inspector": "pages/08_Quality_Inspector.py",
         "future_predictor": "pages/09_Future_Predictor.py",
+        "case_study_vault": "pages/10_Case_Study_Vault.py",
     }[module_key]
     st.markdown(
         (
@@ -184,6 +185,7 @@ def main() -> None:
             "intuition_engine": "Interactive fuzzy membership controls with a confidence cloud and symbolic math.",
             "quality_inspector": "OLS versus Huber-weighted robust fitting on noisy steel-coil shipment data.",
             "future_predictor": "ARIMA forecasting over quantity discrepancy with disruption scenario sliders.",
+            "case_study_vault": "Four cross-industry FTS case studies plus the interactive thesis Viva defense corner.",
         }
         for module_key in MODULE_SEQUENCE:
             render_learning_sprint_card(module_key, sprint_descriptions[module_key])
@@ -262,6 +264,7 @@ def __boot__() -> None:
         st.Page("pages/07_Intuition_Engine.py", title="Module 7: Intuition Engine"),
         st.Page("pages/08_Quality_Inspector.py", title="Module 8: Quality Inspector"),
         st.Page("pages/09_Future_Predictor.py", title="Module 9: Future Predictor"),
+        st.Page("pages/10_Case_Study_Vault.py", title="Module 10: Case Study Vault"),
     ])
     pg.run()
 

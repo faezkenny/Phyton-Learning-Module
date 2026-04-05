@@ -81,6 +81,14 @@ MODULE_INTROS = {
             "Forecast quantity discrepancy with ARIMA and scenario controls that mimic real logistics disruption."
         ),
     },
+    "case_study_vault": {
+        "eyebrow": "Phase 4: Thesis Consultant",
+        "headline": MODULE_LABELS["case_study_vault"],
+        "description": (
+            "Apply Fuzzy Time Series logic to four real industries — global shipping, stock markets, automotive demand, and port weather — "
+            "then defend the model's advantages and limitations exactly as Ain will in her Viva."
+        ),
+    },
 }
 
 MODULE_LEARNING_OBJECTIVES: dict[str, list[str]] = {
@@ -144,6 +152,12 @@ MODULE_LEARNING_OBJECTIVES: dict[str, list[str]] = {
         "Apply scenario sliders to simulate port strikes and demand surges",
         "Interpret confidence bands as a measure of model uncertainty around future estimates",
     ],
+    "case_study_vault": [
+        "Map the same Fuzzy Time Series logic onto four different industrial domains",
+        "Trace the defuzzification centroid x* on a live membership diagram",
+        "Explain why FTS handles linguistic uncertainty better than hard thresholds",
+        "Defend the model's data quality requirement and computational trade-offs in Viva language",
+    ],
 }
 
 SOCRATIC_SEEDS = {
@@ -202,6 +216,11 @@ SOCRATIC_SEEDS = {
         "How does Pandas turn `shipment_date` into a real time-series index?",
         "What changes in Python if I extend the forecast horizon from 14 to 30 days?",
         "Why does the ARIMA helper loop through several model orders?",
+    ],
+    "case_study_vault": [
+        "Why does the same fuzzy rule structure work for both shipping and stock markets?",
+        "Where should Ain place the defuzzification centroid when two conflicting rules activate equally?",
+        "How would Ain explain the Huber Regressor's role to a professor who has never seen robust regression?",
     ],
 }
 
@@ -581,6 +600,48 @@ QUIZ_CONTENT = {
                 "scenario_series.fit_arima(order=(1, 1, 1))",
             ],
             "answer": "ARIMA(scenario_series, order=(1, 1, 1)).fit()",
+        },
+    ],
+    "case_study_vault": [
+        {
+            "category": "Thesis Concept",
+            "prompt": "Ain's professor asks why FTS is better than a simple threshold rule like 'if delay > 5 days, flag it.' What is the strongest answer?",
+            "options": [
+                "FTS handles linguistic uncertainty — it allows partial membership so a 5.1-day delay is not treated identically to a 20-day delay",
+                "FTS is faster than if/else logic in Python",
+                "FTS removes outliers automatically so no Huber regressor is needed",
+            ],
+            "answer": "FTS handles linguistic uncertainty — it allows partial membership so a 5.1-day delay is not treated identically to a 20-day delay",
+        },
+        {
+            "category": "Defuzzification",
+            "prompt": "What does the centroid formula x* compute in defuzzification?",
+            "options": [
+                "The peak of the highest membership function",
+                "The centre of mass of the aggregated fuzzy output area",
+                "The threshold where membership grade crosses 0.5",
+            ],
+            "answer": "The centre of mass of the aggregated fuzzy output area",
+        },
+        {
+            "category": "Viva Limitation",
+            "prompt": "A Viva examiner challenges Ain: 'Your FTS model failed during the typhoon month — why?' What is the correct response?",
+            "options": [
+                "FTS does not support weather data",
+                "FTS requires clean historical data; extreme outlier months should be handled by pairing FTS with a Robust Regressor that downweights those observations",
+                "FTS accuracy depends on the speed of the computer used",
+            ],
+            "answer": "FTS requires clean historical data; extreme outlier months should be handled by pairing FTS with a Robust Regressor that downweights those observations",
+        },
+        {
+            "category": "Cross-Industry Thinking",
+            "prompt": "Ain's examiner asks: 'Why does FTS work for demand forecasting AND port weather AND stock markets?' What ties them together?",
+            "options": [
+                "All three use the same dataset, so the model transfers directly",
+                "All three involve expert reasoning in linguistic terms (low/medium/high) where hard numeric thresholds miss the uncertainty",
+                "All three are implemented in Python so the code can be reused",
+            ],
+            "answer": "All three involve expert reasoning in linguistic terms (low/medium/high) where hard numeric thresholds miss the uncertainty",
         },
     ],
 }

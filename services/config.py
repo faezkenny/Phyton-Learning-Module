@@ -31,6 +31,7 @@ MODULE_SEQUENCE = [
     "intuition_engine",
     "quality_inspector",
     "future_predictor",
+    "case_study_vault",
 ]
 MODULE_LABELS = {
     "home": "Mission Control",
@@ -44,6 +45,7 @@ MODULE_LABELS = {
     "intuition_engine": "Module 7: The Intuition Engine",
     "quality_inspector": "Module 8: The Quality Inspector",
     "future_predictor": "Module 9: The Future Predictor",
+    "case_study_vault": "Module 10: The Case Study Vault",
 }
 SOURCE_SUBDIRECTORIES = {
     "shared",
@@ -57,6 +59,7 @@ SOURCE_SUBDIRECTORIES = {
     "intuition_engine",
     "quality_inspector",
     "future_predictor",
+    "case_study_vault",
     "fuzzy",
     "robust",
     "forecast",
@@ -84,6 +87,7 @@ CERTIFICATION_LEVELS = {
     7: "Level 7: Intuition Modeler",
     8: "Level 8: Robust Navigator",
     9: "Level 9: Fuzzy-Robust Architect",
+    10: "Level 10: Thesis-Ready Consultant",
 }
 GEMINI_MODEL = "gemini-2.5-pro"
 KIMI_MODEL = "kimi-k2.5"
