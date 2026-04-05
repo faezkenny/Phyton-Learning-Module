@@ -85,8 +85,8 @@ MODULE_INTROS = {
         "eyebrow": "Phase 4: Thesis Consultant",
         "headline": MODULE_LABELS["case_study_vault"],
         "description": (
-            "Apply Fuzzy Time Series logic to four real industries — global shipping, stock markets, automotive demand, and port weather — "
-            "then defend the model's advantages and limitations exactly as Ain will in her Viva."
+            "Four industries. One rule structure. Ain picks a case study, runs the simulator, places the centroid, "
+            "then defends the model's wins and watch-outs in the Viva corner below."
         ),
     },
 }
@@ -153,10 +153,10 @@ MODULE_LEARNING_OBJECTIVES: dict[str, list[str]] = {
         "Interpret confidence bands as a measure of model uncertainty around future estimates",
     ],
     "case_study_vault": [
-        "Map the same Fuzzy Time Series logic onto four different industrial domains",
-        "Trace the defuzzification centroid x* on a live membership diagram",
-        "Explain why FTS handles linguistic uncertainty better than hard thresholds",
-        "Defend the model's data quality requirement and computational trade-offs in Viva language",
+        "Map the same fuzzy rule structure onto four different industries without rewriting the core logic",
+        "Trace how the centroid x* collapses a fuzzy cloud into one usable risk number",
+        "Explain why FTS handles vague categories better than a hard threshold",
+        "Name the three data and compute trade-offs Ain must defend in her Viva",
     ],
 }
 
@@ -218,9 +218,9 @@ SOCRATIC_SEEDS = {
         "Why does the ARIMA helper loop through several model orders?",
     ],
     "case_study_vault": [
-        "Why does the same fuzzy rule structure work for both shipping and stock markets?",
-        "Where should Ain place the defuzzification centroid when two conflicting rules activate equally?",
-        "How would Ain explain the Huber Regressor's role to a professor who has never seen robust regression?",
+        "Why does the fuzzy rule for port congestion look the same as the one for stock sentiment?",
+        "When two conflicting rules activate equally, where does the centroid land — and why is that useful?",
+        "Ain's examiner asks about FTS limitations. What is the most honest and technically sound answer?",
     ],
 }
 
@@ -605,43 +605,43 @@ QUIZ_CONTENT = {
     "case_study_vault": [
         {
             "category": "Thesis Concept",
-            "prompt": "Ain's professor asks why FTS is better than a simple threshold rule like 'if delay > 5 days, flag it.' What is the strongest answer?",
+            "prompt": "Ain's professor asks why FTS beats a simple rule like 'if delay > 5 days, flag it.' What is the strongest answer?",
             "options": [
-                "FTS handles linguistic uncertainty — it allows partial membership so a 5.1-day delay is not treated identically to a 20-day delay",
-                "FTS is faster than if/else logic in Python",
+                "FTS runs faster than if/else logic in Python",
+                "FTS allows partial membership, so a 5.1-day delay is not treated the same as a 20-day delay",
                 "FTS removes outliers automatically so no Huber regressor is needed",
             ],
-            "answer": "FTS handles linguistic uncertainty — it allows partial membership so a 5.1-day delay is not treated identically to a 20-day delay",
+            "answer": "FTS allows partial membership, so a 5.1-day delay is not treated the same as a 20-day delay",
         },
         {
             "category": "Defuzzification",
-            "prompt": "What does the centroid formula x* compute in defuzzification?",
+            "prompt": "What does the centroid formula x* actually compute?",
             "options": [
-                "The peak of the highest membership function",
-                "The centre of mass of the aggregated fuzzy output area",
                 "The threshold where membership grade crosses 0.5",
+                "The peak of the tallest membership function",
+                "The centre of mass of the aggregated fuzzy output area",
             ],
             "answer": "The centre of mass of the aggregated fuzzy output area",
         },
         {
-            "category": "Viva Limitation",
-            "prompt": "A Viva examiner challenges Ain: 'Your FTS model failed during the typhoon month — why?' What is the correct response?",
+            "category": "Viva Watch-Out",
+            "prompt": "An examiner challenges Ain: 'Your FTS model failed during the typhoon month.' What is the correct response?",
             "options": [
-                "FTS does not support weather data",
-                "FTS requires clean historical data; extreme outlier months should be handled by pairing FTS with a Robust Regressor that downweights those observations",
-                "FTS accuracy depends on the speed of the computer used",
+                "FTS accuracy depends on the processing speed of the computer used",
+                "FTS does not support weather data as an input",
+                "FTS needs clean historical data. Typhoon months are outliers — pairing FTS with a Robust Regressor downweights those rows without discarding them.",
             ],
-            "answer": "FTS requires clean historical data; extreme outlier months should be handled by pairing FTS with a Robust Regressor that downweights those observations",
+            "answer": "FTS needs clean historical data. Typhoon months are outliers — pairing FTS with a Robust Regressor downweights those rows without discarding them.",
         },
         {
-            "category": "Cross-Industry Thinking",
-            "prompt": "Ain's examiner asks: 'Why does FTS work for demand forecasting AND port weather AND stock markets?' What ties them together?",
+            "category": "Cross-Industry Transfer",
+            "prompt": "What lets Ain use the same FTS structure for shipping, stock markets, and automotive demand?",
             "options": [
-                "All three use the same dataset, so the model transfers directly",
-                "All three involve expert reasoning in linguistic terms (low/medium/high) where hard numeric thresholds miss the uncertainty",
-                "All three are implemented in Python so the code can be reused",
+                "All three run on the same shipment dataset",
+                "All three are coded in Python so the classes transfer directly",
+                "All three involve decisions where experts already reason in low / medium / high terms instead of exact numbers",
             ],
-            "answer": "All three involve expert reasoning in linguistic terms (low/medium/high) where hard numeric thresholds miss the uncertainty",
+            "answer": "All three involve decisions where experts already reason in low / medium / high terms instead of exact numbers",
         },
     ],
 }

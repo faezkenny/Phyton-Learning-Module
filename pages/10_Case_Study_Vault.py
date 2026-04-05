@@ -33,45 +33,46 @@ CASE_STUDIES = {
         "fuzzy_inputs": ["Port Congestion", "Quantity Discrepancy"],
         "fuzzy_output": "Shipment Risk Level",
         "description": (
-            "Steel coils are shipped from Indonesian mills to buyers across Asia and the Middle East. "
-            "When port congestion spikes and quantity discrepancy turns severe, the Fuzzy model classifies "
-            "the shipment as a High Risk Outlier — the same logic Ain uses in her thesis."
+            "Steel coils move from Indonesian mills to buyers across Asia and the Middle East. "
+            "When port congestion spikes and discrepancy turns severe, the fuzzy engine flags the shipment Critical Risk. "
+            "This is the same rule structure Ain runs in her thesis."
         ),
         "rule": "If Port Congestion is HIGH and Quantity Discrepancy is SEVERE → Risk Level is CRITICAL",
         "robust_note": (
-            "The Huber Regressor is applied after fuzzy classification to estimate the realistic arrival date window. "
-            "It ignores war-spike outliers (disruption index > 0.8) so the prediction is not pulled toward extreme events."
+            "The Huber Regressor estimates the realistic arrival window after fuzzy classification. "
+            "It ignores war-spike days (disruption index > 0.8) so one bad week does not pull the whole forecast off course."
         ),
     },
     "📈 Stock Market Sentiment": {
         "industry": "Bursa Malaysia / Global Tech",
         "thesis_link": "Benchmark",
         "fuzzy_inputs": ["Bullish/Bearish Sentiment", "Volume Trend"],
-        "fuzzy_output": "Next-day price direction vibe",
+        "fuzzy_output": "Next-day direction confidence",
         "description": (
-            "Traders do not know whether the next day is bullish or bearish — they know the 'vibe.' "
-            "Fuzzy Time Series captures this linguistic uncertainty better than a hard threshold like 'if price > X.'"
+            "Traders do not know if tomorrow is bullish — they know the vibe. "
+            "FTS captures that vagueness better than a hard threshold like 'if price > X, buy.' "
+            "The same membership curve that maps delay days to risk can map market sentiment to direction confidence."
         ),
         "rule": "If Sentiment is BULLISH and Volume is HIGH → Direction Confidence is STRONG UP",
         "robust_note": (
-            "Black swan events (Covid crash, flash crashes) act like war-spike outliers. A Robust regressor "
-            "downweights these so the trend estimate is not driven by a single month of panic."
+            "Flash crashes and Covid months act like war-spike outliers. "
+            "A Robust Regressor downweights those months so the baseline trend is not driven by one panic quarter."
         ),
     },
     "🏭 Automotive Demand Forecasting": {
         "industry": "Perodua-style Raw Material Buffer",
         "thesis_link": "Benchmark",
         "fuzzy_inputs": ["Market Demand Signal", "Lead Time Variability"],
-        "fuzzy_output": "Buffer Stock Recommendation",
+        "fuzzy_output": "Buffer Stock Target",
         "description": (
-            "Automotive manufacturers must decide buffer stock weeks before demand materialises. "
-            "FTS translates soft signals like 'low demand' into concrete safety stock targets "
-            "without waiting for a confirmed sales number."
+            "Automotive plants must lock in buffer stock weeks before demand confirms. "
+            "FTS turns soft signals like 'low demand' into a concrete safety stock number "
+            "without waiting for a confirmed sales figure."
         ),
-        "rule": "If Demand is LOW and Lead Time is HIGH → Buffer Stock recommendation is CONSERVATIVE INCREASE",
+        "rule": "If Demand is LOW and Lead Time is HIGH → Buffer Stock is CONSERVATIVE INCREASE",
         "robust_note": (
-            "Demand shocks (chip shortage, model launches) are treated as outliers. "
-            "The Robust regressor keeps the baseline forecast stable even when one quarter is anomalous."
+            "Chip shortages and model launches punch anomalous quarters into the data. "
+            "The Robust Regressor keeps the baseline forecast stable outside those spikes."
         ),
     },
     "🌦️ Weather & Port Operations": {
@@ -80,28 +81,27 @@ CASE_STUDIES = {
         "fuzzy_inputs": ["Temperature Band", "Sea State"],
         "fuzzy_output": "Loading Window Risk",
         "description": (
-            "Port crane operations slow or halt based on environmental conditions. "
-            "FTS captures 'moderate sea state' linguistically rather than demanding a single threshold "
-            "in wave height centimetres — because port operators already think in these terms."
+            "Port crane operators already think in 'moderate sea state' — not wave height in centimetres. "
+            "FTS borrows that vocabulary directly so the rule reads the same way the operator thinks it."
         ),
         "rule": "If Temperature is HOT and Sea State is MODERATE → Loading Window Risk is ELEVATED",
         "robust_note": (
-            "Typhoon seasons create extreme readings that skew historical models. "
-            "The Huber Regressor keeps the baseline loading rate accurate outside typhoon weeks."
+            "Typhoon months push extreme readings into the historical data. "
+            "The Huber Regressor keeps the baseline loading rate accurate outside typhoon season."
         ),
     },
 }
 
 VIVA_PROS = [
-    ("Human-Readable Rules", "Unlike deep learning black boxes, Ain can show her professors the exact logic: 'If port congestion is High AND discrepancy is Severe, the model flags Critical Risk.' It is logic the examiners can trace back to first principles."),
-    ("Uncertainty Management", "Standard regression breaks during a shipping war because the shock magnitudes were never in the training data. FTS bends — it was designed for vague, overlapping categories where hard thresholds fail."),
-    ("Linguistic Grounding", "Domain experts already speak in 'low', 'medium', 'high'. FTS inherits that vocabulary directly instead of forcing a translation between expert intuition and numeric thresholds."),
+    ("The rules are readable", "Ain can show her examiners the exact logic: if congestion is High and discrepancy is Severe, the model flags Critical Risk. Standard regression cannot do that — it just returns a number with no explanation of why."),
+    ("It bends where others snap", "Standard regression breaks during a shipping war because those spike magnitudes were never in the training data. FTS handles the vague, overlapping categories the war created — it was built for exactly this kind of mess."),
+    ("It borrows the expert's vocabulary", "Port operators already say 'moderate sea state.' Automotive planners already say 'low demand.' FTS uses those words directly instead of forcing a translation between intuition and threshold numbers."),
 ]
 
 VIVA_CONS = [
-    ("Data Quality Requirement", "FTS needs at least 60–90 days of clean, consistently formatted shipment records. If Ain's CSV has missing delay_days rows, the membership curves shift incorrectly."),
-    ("Computational Weight for Large Datasets", "Centroid defuzzification sums over the whole output universe for every prediction. For 1,000+ coil rows this is fast on modern hardware, but it is worth noting the Ryzen 3080 Ti rig's advantage when batch-processing historical data."),
-    ("Membership Design Sensitivity", "Changing the triangular vertex positions (a, b, c) changes every classification result. Ain must justify her membership boundaries in the Methodology chapter, not just choose them by feel."),
+    ("The data has to be clean first", "FTS needs at least 60–90 days of consistent records. Missing delay_days rows shift the membership curves incorrectly. The Warehouse Manager module (Module 4) is the fix for this problem before FTS enters."),
+    ("Centroid defuzzification is not free", "Summing over the whole output universe for every prediction costs compute time. It is fast enough on normal hardware, but worth naming clearly when Ain defends why a Ryzen 3080 Ti rig was used for batch processing the historical dataset."),
+    ("The membership boundaries need defending", "Changing the triangle vertices a, b, c changes every classification result. Ain must justify those choices in the Methodology chapter — not just state that they felt right."),
 ]
 
 
@@ -109,10 +109,11 @@ def _render_centroid_explorer() -> float:
     """Interactive defuzzification centroid visualiser. Returns the selected centroid x*."""
     st.markdown(
         "<div class='info-card'>"
-        "<div class='card-label'>Vibe Coder Exercise — The Market Strategist</div>"
+        "<div class='card-label'>Sprint Exercise — Place the Centroid</div>"
         "<div class='card-copy'>"
         "Scenario: Steel prices are <strong>Bullish</strong> but Shipping Lead Time is <strong>High.</strong> "
-        "Move the slider to set where the defuzzified output (the Centroid) should land on the combined fuzzy output curve."
+        "Two conflicting fuzzy rules activate at the same time. "
+        "Drag the slider to where you think the defuzzified output should land."
         "</div>"
         "</div>",
         unsafe_allow_html=True,
@@ -132,13 +133,13 @@ def _render_centroid_explorer() -> float:
     true_centroid = float(np.sum(universe * mu_agg) / np.sum(mu_agg))
 
     user_centroid = st.slider(
-        "Place the Centroid marker (x*)",
+        "Where is the balance point? (x*)",
         min_value=0.0,
         max_value=10.0,
         value=5.5,
         step=0.1,
         key="vault-centroid",
-        help="Drag until your instinct says the 'centre of mass' of the shaded area is correct.",
+        help="Think centre of mass — not the tallest peak, but where the whole shaded area would balance on a fulcrum.",
     )
 
     error = abs(user_centroid - true_centroid)
@@ -161,11 +162,11 @@ def _render_centroid_explorer() -> float:
     st.plotly_chart(fig, width="stretch")
 
     if error <= 0.5:
-        st.success(f"✅ Excellent! You placed x* = {user_centroid:.1f} (true centroid = {true_centroid:.2f}). You understand the centre-of-mass intuition.")
+        st.success(f"✅ Right. x* = {user_centroid:.1f} — true centroid is {true_centroid:.2f}. That is the centre-of-mass intuition working correctly.")
     elif error <= 1.5:
-        st.info(f"Close — you placed {user_centroid:.1f}, true centroid is {true_centroid:.2f}. Think of it as the balance point of the whole shaded area, not just the tallest peak.")
+        st.info(f"Close — you placed {user_centroid:.1f}, true centroid is {true_centroid:.2f}. The whole shaded area needs to balance, not just the tallest peak.")
     else:
-        st.warning(f"Your marker ({user_centroid:.1f}) is {error:.1f} units from the true centroid ({true_centroid:.2f}). Look at the full shaded area and find where it would balance on a fulcrum.")
+        st.warning(f"Off by {error:.1f} units. The true centroid is {true_centroid:.2f}. Look at the full shaded region and find where a fulcrum would hold it level.")
 
     return user_centroid
 
@@ -266,7 +267,7 @@ def main() -> None:
     # ── Case Study Cards ─────────────────────────────────────────────────────
     render_section_heading(
         "The Four Case Studies",
-        "Same Fuzzy Time Series logic — four different industries. Ain should be able to explain why the same tool works for all of them.",
+        "Same fuzzy rule structure, four different industries. Pick one and read the logic card.",
     )
 
     selected_case = st.selectbox(
@@ -312,7 +313,7 @@ def main() -> None:
     if selected_case.startswith("🚢"):
         render_section_heading(
             "Scenario Simulator",
-            "Move the sliders to see how the fuzzy engine classifies your shipment in real time.",
+            "Move the sliders to see how the fuzzy engine classifies the shipment in real time.",
         )
         try:
             sim_state = _render_scenario_simulator(sidebar_payload["dataset_bundle"])
@@ -328,23 +329,23 @@ def main() -> None:
 
     # ── Industry Benchmarks Table ────────────────────────────────────────────
     render_section_heading(
-        "Multi-Industry Benchmarks at a Glance",
-        "Ain can use this table in her thesis to show that FTS is a universal analytical language, not a niche logistics trick.",
+        "Four Industries, One Rule Structure",
+        "Ain can use this table in her thesis to show FTS is not a logistics trick — it is a language for vague decisions.",
     )
     table_md = (
         "| Application | Fuzzy Input | Goal |\n"
         "|:---|:---|:---|\n"
-        "| **Steel Coil Shipping** | Port Congestion / Quantity Discrepancy | Flag High Risk Outlier shipments |\n"
-        "| **Stock Market** | Bullish / Bearish Sentiment | Predict 'vibe' of Bursa Malaysia or global tech |\n"
-        "| **Automotive Demand** | Low / Medium / High Market Signal | Optimise buffer stock for raw materials |\n"
-        "| **Weather & Port Ops** | Cold / Moderate / Hot + Sea State | Model uncertainty that affects loading windows |\n"
+        "| **Steel Coil Shipping** | Port Congestion / Quantity Discrepancy | Flag Critical Risk shipments |\n"
+        "| **Stock Market** | Bullish / Bearish Sentiment | Read the direction vibe of Bursa Malaysia or global tech |\n"
+        "| **Automotive Demand** | Low / Medium / High Market Signal | Set buffer stock before demand confirms |\n"
+        "| **Weather & Port Ops** | Temperature Band / Sea State | Score the loading window risk before cranes move |\n"
     )
     st.markdown(table_md)
 
     # ── Centroid Explorer ────────────────────────────────────────────────────
     render_section_heading(
-        "Vibe Coder Exercise — Place the Centroid",
-        "Ain must understand defuzzification before she can explain it. Drag the slider; the chart will tell you how accurate your intuition is.",
+        "Place the Centroid",
+        "Two conflicting rules activate at the same time. See where Ain's instinct lands versus the actual centre of mass.",
     )
     user_centroid = _render_centroid_explorer()
     render_formula(
@@ -355,7 +356,7 @@ def main() -> None:
     # ── Viva Defense Corner ───────────────────────────────────────────────────
     render_section_heading(
         "Thesis Defense Corner",
-        "Ain's professors will probe these exact points. Master the argument before the Viva.",
+        "Three wins and three watch-outs. Ain's examiners will probe both sides.",
     )
 
     col_pro, col_con = st.columns(2, gap="large")
@@ -385,7 +386,7 @@ def main() -> None:
             )
 
     render_plain_note(
-        "The pro/con table is not a weakness list — it is a sign that Ain understands the model deeply enough to know its limits. That is exactly what examiners want to see."
+        "Knowing the limits is not a weakness in the Viva — it is proof that Ain understands the model deeply enough to deploy it safely."
     )
 
     render_study_notes_panel("case_study_vault", gemini_service)
